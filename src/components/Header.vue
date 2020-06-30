@@ -1,14 +1,15 @@
 <template>
-  <header class="flex justify-between mx-auto my-8 max-w-screen-md">
+  <header class="flex justify-between mx-auto my-8 max-w-screen-lg">
     <div class="text-3xl">
       <g-link to="/">
         <Logo />
       </g-link>
     </div>
-    <nav class="flex justify-between my-auto">
-      <g-link class="" to="/offres/">Offres</g-link>
-      <g-link class="" to="/partenaires/">Partenaires</g-link>
-      <g-link class="" to="/contact/">Contact</g-link>
+    <nav class="nav">
+      <g-link to="/presentation/">Presentation</g-link>
+      <g-link to="/offres/">Offres</g-link>
+      <g-link to="/services/">Services incubés</g-link>
+      <g-link to="/contact/">Contact</g-link>
     </nav>
   </header>
 </template>
@@ -23,8 +24,28 @@ export default {
 }
 </script>
 
-<style>
+<style lang="scss">
 header {
   font-family: "Marianne";
+}
+
+nav {
+  @apply flex my-auto text-lg;
+  
+  a {
+    @apply px-2 py-1 transition ease-linear duration-100 rounded-lg;
+
+    &:hover {
+      @apply bg-blue text-white;
+    }
+  }
+
+  a:not(:last-child) {
+    @apply mr-2;
+  }
+
+  a:last-child {
+    @apply -mr-2;
+  }
 }
 </style>

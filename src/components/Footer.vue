@@ -1,7 +1,7 @@
 <template>
-  <footer class="flex justify-center border-t-4 border-gray-200 mt-8">
+  <footer class="flex justify-center border-t-4 border-gray-200 mt-12">
     <div class="my-8 w-32">
-      <g-link to="https://anct.gouv.fr" target="_blank" title="Incubateru des Territoires">
+      <g-link to="https://agence-cohesion-territoires.gouv.fr/" target="_blank" title="Incubateru des Territoires">
         <LogoRF class="rf mt-1 mb-8" role="img" title="Logo Républiqe Française" />
         <LogoANCT class="anct" role="img" title="Logo Agence Nationale de la Cohesion des Territoires" />
       </g-link>
@@ -13,7 +13,7 @@
           <Logo class="mb-4 text-2xl" />
         </g-link>
         <p>
-          L'Incubateur des Territoires est une mission de l'<a href="https://anct.gouv.fr" target="_blank">Agence Nationale de la Cohesion des Territoires</a>.<br>
+          L'Incubateur des Territoires est une mission de l'<a href="https://agence-cohesion-territoires.gouv.fr/" target="_blank">Agence Nationale de la Cohesion des Territoires</a>.
           Le <a href="https://github.com/incubateur-territoires/incubateur.anct.gouv.fr" target="_blank">code source</a> de ce site web est disponible en licence libre.
         </p>
       </div>
@@ -22,12 +22,12 @@
         <div>
           Incubateur
           <ul>
-            <li><a href="https://twitter.com/design_gouv" target="_blank">
-              Twitter <font-awesome :icon="['fab', 'twitter']"/>
-              </a></li>
-            <li><a href="mailto:contact@" target="_blank">
-                Contact <font-awesome :icon="['fas', 'paper-plane']" transform="shrink-2"/>
+            <li><a href="mailto:incubateur@anct.gouv.fr" target="_blank">
+                <font-awesome :icon="['fas', 'paper-plane']" transform="shrink-2"/> Contact
                 </a></li>
+            <li><a href="https://github.com/incubateur-territoires" target="_blank">
+              <font-awesome :icon="['fab', 'github']"/> GitHub
+              </a></li>
             <li><g-link to="/recrutement/">Recrutement</g-link></li>
             <li><g-link to="/misc/accessibilite/">Accessibilité</g-link></li>
             <li><g-link to="/misc/donnees-personnelles/">Données personnelles</g-link></li>
@@ -81,9 +81,14 @@ export default {
 </script>
 
 <style lang="scss">
+.public a,
 li a,
 p a {
-  @apply text-blue
+  @apply text-blue;
+
+  &:hover {
+    @apply text-navy;
+  }
 }
 
 footer {

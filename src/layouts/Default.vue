@@ -19,6 +19,10 @@ export default {
 </script>
 
 <style lang="scss">
+.container {
+  @apply max-w-full;
+}
+
 body {
   font-family: -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
 }
