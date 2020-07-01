@@ -6,7 +6,6 @@
       </g-link>
     </div>
     <nav class="nav">
-      <g-link to="/presentation/">Presentation</g-link>
       <g-link to="/offres/">Offres</g-link>
       <g-link to="/services/">Services incubés</g-link>
       <g-link to="/contact/">Contact</g-link>
@@ -35,7 +34,8 @@ nav {
   a {
     @apply px-2 py-1 transition ease-linear duration-100 rounded-lg;
 
-    &:hover {
+    &:hover,
+    &:active {
       @apply bg-blue text-white;
     }
   }

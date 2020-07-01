@@ -1,5 +1,5 @@
 <template>
-  <section class="splash py-12 mb-12">
+  <section class="splash">
     <div class="flex mx-auto max-w-screen-lg text-center">
       <div class="text-3xl">
         Ensemble avec les territoires, nous créeons des service publics numériques pour résoudre les problèmes des usagers.
@@ -28,9 +28,7 @@
 
 <style lang="scss">
 .splash {
-  font-family: "Marianne";
-  color: white;
-  background-color: #273475;
+  @apply py-12 mb-12 font-marianne text-white bg-navy;
 
   .buttons {
     a {

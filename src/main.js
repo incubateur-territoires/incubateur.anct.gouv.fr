@@ -22,7 +22,8 @@ import {
   // faBars,
   } from '@fortawesome/free-solid-svg-icons'
 import {
-  faEnvelope,  
+  faEnvelope,
+  faChartBar,
   // faFilePdf,
   // faFileWord,
   // faFileAlt,
@@ -37,7 +38,8 @@ library.add(
   faTwitter,
   faPaperPlane,
   faExternalLinkAlt,
-  faEnvelope
+  faEnvelope,
+  faChartBar
 )
 
 export default function (Vue, { router, head, isClient }) {

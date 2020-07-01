@@ -15,6 +15,7 @@
         <p>
           L'Incubateur des Territoires est une mission de l'<a href="https://agence-cohesion-territoires.gouv.fr/" target="_blank">Agence Nationale de la Cohesion des Territoires</a>.
           Le <a href="https://github.com/incubateur-territoires/incubateur.anct.gouv.fr" target="_blank">code source</a> de ce site web est disponible en licence libre.
+          Le design de ce site est inspiré par le site de nos collègues à <a href="https://design.numerique.gouv.fr/">DesignGouv</a>.
         </p>
       </div>
 
@@ -37,20 +38,21 @@
         <div>
           Autres services
           <ul>
-            <li><a href="https://observatoire.numerique.gouv.fr" target="_blank">L'observatoire du numérique</a></li>
-            <li><a href="https://demarches-simplifiees.fr" target="_blank">Demarches simplifiées</a></li>
-            <li><a href="https://franceconnect.gouv.fr" target="_blank">FranceConnect</a></li>
-            <li><a href="https://voxusagers.gouv.fr" target="_blank">Voxusagers</a></li>
+            <li><a href="http://www.onpv.fr/" target="_blank">Observatoire national de la politique de la ville</a></li>
+            <li><a href="https://www.carrefourdesinnovationssociales.fr/" target="_blank">Carrefours des innovations sociales</a></li>
+            <li><a href="https://www.observatoire-des-territoires.gouv.fr/" target="_blank">Observatoire des Territoires</a></li>
+            <li><a href="https://sig.ville.gouv.fr/" target="_blank">SIG Ville</a></li>
+            <li><a href="https://urbact.eu/" target="_blank">Urbact</a></li>
           </ul>
         </div>
         <div>
           Autres univers
           <ul>
+            <li><a href="https://design.numerique.gouv.fr" target="_blank">design.numerique.gouv.fr</a></li>
             <li><a href="https://etalab.gouv.fr" target="_blank">etalab.gouv.fr</a></li>
             <li><a href="https://beta.gouv.fr" target="_blank">beta.gouv.fr</a></li>
             <li><a href="https://data.gouv.fr" target="_blank">data.gouv.fr</a></li>
             <li><a href="https://api.gouv.fr" target="_blank">api.gouv.fr</a></li>
-            <li><a href="https://design.numerique.gouv.fr" target="_blank">design.numerique.gouv.fr</a></li>
           </ul>
         </div>
       </div>
