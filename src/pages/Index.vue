@@ -9,7 +9,7 @@
         <h1 class="title">Vous êtes un agent public territorial</h1>
         
         <div class="action">
-          <p>Vous voulez déployer un de nos services numériques existante sur votre territoire ?</p>
+          <p>Vous voulez déployer un de nos services numériques existant sur votre territoire ?</p>
           
           <g-link class="button" to="/services/">
             Contacter l'équipe du service →
@@ -24,7 +24,7 @@
 
         <div class="action">
           <g-link class="button" to="https://aides-territoires.beta.gouv.fr/">
-            Découvrir les aides financiers sur Aides Territoires <font-awesome class="ml-2" :icon="['fas', 'external-link-alt']"/>
+            Découvrir les aides financières sur Aides Territoires <font-awesome class="ml-2" :icon="['fas', 'external-link-alt']"/>
           </g-link>
         </div>
       </div>
@@ -47,16 +47,16 @@
           Contactez-les si vous avez des collaborations à offrir →
         </g-link>
         
-        <p class="mt-8 text-gray-700 text-sm bg-gray-100 p-4 rounded-lg">Malheursement, nous n’offrons pas d'aides financiers aux projets associatifs. Par contre, nos startups pourraient être intéressées a collaboré avec vous ! N'hésitez pas à les contacter.</p>
+        <p class="mt-8 text-gray-700 text-sm bg-gray-100 p-4 rounded-lg">Malheureusement, nous n’offrons pas d'aides financières aux projets associatifs. Par contre, nos startups pourraient être intéressées à collaborer avec vous ! N'hésitez pas à les contacter.</p>
       </div>  
       
       <div class="public">
         <h1 class="title">Vous êtes un agent de l'ANCT</h1>
         
-        <p>Vous avez un projet dont vous pensez l'Incubatuer pourrait porter ? </p>
+        <p>Vous avez un projet que vous pensez que l'Incubateur pourrait porter ? </p>
 
         <g-link to="/contact/" class="button">
-          N'hestitez pas à nous contacter →
+          N'hésitez pas à nous contacter →
         </g-link>
       </div>
     </section>
