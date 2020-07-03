@@ -7,13 +7,22 @@
 module.exports = {
   siteName: 'Incubateur des Territoires',
   siteUrl: 'https://incubateur-territoires.github.io',
-  pathPrefix: '/incubateur.anct.gouv.fr',
   plugins: [
     {
       use: '@gridsome/source-filesystem',
       options: {
         path: 'services/*.md',
         typeName: 'Service',
+        remark: {
+          // remark options
+        }
+      }
+    },
+    {
+      use: '@gridsome/source-filesystem',
+      options: {
+        path: 'jobs/*.md',
+        typeName: 'Job',
         remark: {
           // remark options
         }

@@ -8,6 +8,7 @@
     <nav class="nav">
       <g-link to="/offres/">Offres</g-link>
       <g-link to="/services/">Services incubés</g-link>
+      <g-link to="/recrutement">Recrutement</g-link>
       <g-link to="/contact/">Contact</g-link>
     </nav>
   </header>

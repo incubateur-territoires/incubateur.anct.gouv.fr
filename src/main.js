@@ -32,7 +32,6 @@ import {
   } from '@fortawesome/free-regular-svg-icons'
 import '@fortawesome/fontawesome-svg-core/styles.css'
 
-config.autoAddCss = false;
 library.add(
   faGithub,
   faTwitter,
