@@ -2,7 +2,13 @@
   <Layout>
     <Splash />
 
-    <Annonce />
+    <div class="under-splash">
+      <g-link to="/recrutement/">
+        <span class="mr-2">🚀</span> Nous recrutons ! Voir nos offres d'emploi →
+      </g-link>
+    </div>
+
+    <Annonce class="annonce" />
 
     <section class="publics">
       <div class="public">
@@ -76,6 +82,22 @@ export default {
 </script>
 
 <style lang="scss">
+.annonce {
+  @apply mt-8 mb-24;
+}
+
+.under-splash {
+  @apply max-w-screen-md mx-auto mt-12 text-green font-semibold text-lg text-center;
+
+  a {
+    @apply border-2 inline-block py-2 px-4 rounded-full border-white;
+
+    &:hover {
+      @apply border-green;
+    }
+  }
+}
+
 .home-links a {
   margin-right: 1rem;
 }

@@ -1,13 +1,13 @@
 <template>
   <footer class="flex justify-center border-t-4 border-gray-200 mt-12">
-    <div class="my-8 w-32">
+    <div class="my-12 w-32">
       <g-link to="https://agence-cohesion-territoires.gouv.fr/" target="_blank" title="Incubateru des Territoires">
         <LogoRF class="rf mt-1 mb-8" role="img" title="Logo Républiqe Française" />
         <LogoANCT class="anct" role="img" title="Logo Agence Nationale de la Cohesion des Territoires" />
       </g-link>
     </div>
 
-    <div class="my-8 ml-12  footer-content">
+    <div class="my-12 ml-12  footer-content">
       <div class="max-w-screen-sm description">
         <g-link to="/">
           <Logo class="mb-4 text-2xl" />
@@ -36,7 +36,7 @@
           </ul>
         </div>
         <div>
-          Autres services
+          Autres services de l'ANCT
           <ul>
             <li><a href="http://www.onpv.fr/" target="_blank">Observatoire national de la politique de la ville</a></li>
             <li><a href="https://www.carrefourdesinnovationssociales.fr/" target="_blank">Carrefours des innovations sociales</a></li>

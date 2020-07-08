@@ -28,7 +28,7 @@
 
 <style lang="scss">
 .splash {
-  @apply py-12 mb-12 font-marianne text-white bg-navy;
+  @apply py-12 font-marianne text-white bg-navy;
 
   .buttons {
     a {

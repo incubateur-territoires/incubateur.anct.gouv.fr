@@ -41,11 +41,21 @@ library.add(
   faChartBar
 )
 
+
+
 export default function (Vue, { router, head, isClient }) {
   // Set default layout as a global component
   Vue.component('Layout', DefaultLayout)
   Vue.component('BasicPage', BasicPageLayout)
   Vue.component('font-awesome', FontAwesomeIcon)
+
+  // Load some other dependencies
+  const moment = require('moment')
+  require('moment/locale/fr')
+
+  Vue.use(require('vue-moment'), {
+      moment
+  })
 
   head.htmlAttrs = { lang: 'fr' }
 }

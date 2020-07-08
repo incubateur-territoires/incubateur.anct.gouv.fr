@@ -6,7 +6,14 @@
 
 module.exports = {
   siteName: 'Incubateur des Territoires',
-  siteUrl: 'https://incubateur-territoires.github.io',
+  siteUrl: 'https://incubateur.anct.gouv.fr',
+  templates: {
+    Job: [
+      {
+        path: '/recrutement/:equipe/:role',
+      }
+    ]
+  },
   plugins: [
     {
       use: '@gridsome/source-filesystem',

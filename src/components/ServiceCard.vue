@@ -1,8 +1,12 @@
 <template>
-  <div class="service-card-container">
+  <div
+    class="service-card-container"
+    @mouseover="hover = true"
+    @mouseleave="hover = false"
+  >
     <g-link :to="service.link">
       <div class="service-card">
-        <div class="title" v-html="service.title" />
+        <div class="title" v-html="service.title" /><font-awesome v-if="hover" class="icon" height="1.5rem" width="1.5rem" :icon="['fas', 'external-link-alt']"/>
         <div class="mission" v-html="service.mission" />
         <div class="icon-links">
           <!-- <div class="status" v-html="service.status" /> -->
@@ -19,6 +23,11 @@
 export default {
   props: {
     service: Object,
+  },
+  data: function () {
+    return {
+      hover: false
+    }
   },
   computed: {
     mailto: function () {
@@ -40,8 +49,12 @@ export default {
     @apply border-4 border-navy;
   }
 
+  .icon {
+    @apply inline-block text-navy ml-2 align-baseline;
+  }
+
   .title {
-    @apply font-marianne text-2xl font-bold;
+    @apply font-marianne text-2xl font-bold text-navy inline-block;
   }
 
   .mission {
@@ -53,7 +66,7 @@ export default {
   }
 
   .icon-links {
-    @apply absolute bottom-0 right-0 px-2 py-1 text-lg;
+    @apply absolute bottom-0 right-0 px-2 py-1 text-lg transition ease-linear duration-100;
 
     a:not(:first-child) {
       @apply ml-2;

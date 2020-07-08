@@ -7,8 +7,13 @@ module.exports = {
       colors: {
         blue: '#3b5fa9',
         green: '#009f79',
-        yellow: '#ffe000',
-        navy: '#273475'
+        yellow: {
+          lighter: '#FFF080',
+          default: '#ffe000',
+          dark: '#807100',
+        },
+        navy: '#273475',
+        black: '#212121'
       },
       fontFamily: {
         marianne: ["Marianne"]

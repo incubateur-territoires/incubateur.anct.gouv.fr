@@ -1,9 +1,9 @@
 ---
-roles: un ou une chargé.e de déploiement
+role: Chargé.e de déploiement
+contrat: préstataire
+equipe: Aidants Connect
 title: "Aidants Connect recrute : un.e chargé.e de déploiement"
-startup: aidantsconnect
-open: true
-posting_date: 2020-05-19
+post_ouvert: 2020-05-19
 contact: contact@aidantsconnect.beta.gouv.fr
 ---
 
