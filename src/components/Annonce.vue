@@ -1,7 +1,7 @@
 <template>
   <section class="annonce">
     <h1 class="title">Appel à intrapreneurs</h1>
-    <p class="text-center text-lg">
+    <p class="text-center sm:text-lg">
       En collaboration avec <g-link to="https://beta.gouv.fr">beta.gouv.fr</g-link>, <strong>l'Incubateur des Territoires cherche de nouveaux collaborateurs au sein des collectivités.</strong>
       <br><br>
       Avez-vous une idée de problème que vous souhaiteriez investiguer <strong>avec l’aide d'experts numériques</strong> (coach, designer, spécialiste de l’expérience utilisateur) ?
@@ -28,7 +28,7 @@
 
 <style lang="scss">
 .annonce {
-  @apply mx-auto max-w-screen-sm;
+  @apply mx-auto max-w-screen-sm px-4;
   
   .title {
     position: relative;
@@ -36,10 +36,14 @@
     left: 2rem;
     background-color: white;
     display: inline-block;
-    font-size: 2rem;
+    font-size: 1.5rem;
     font-family: "Marianne";
     font-weight: 800;
     padding: 0 .5rem;
+
+    @screen sm {
+      font-size: 2rem;
+    }
   }
 
   .outlinks {
@@ -51,10 +55,14 @@
   }
 
   .outlink {
-    @apply border-green rounded-full bg-green text-white font-semibold transition ease-linear duration-100;
-    
-    padding: .5rem 1rem;
+    @apply text-sm border-green rounded-full bg-green text-white font-semibold transition ease-linear duration-100;
+    padding: .25rem .5rem;
     border-width: 4px;
+
+    @screen sm {
+      @apply text-base;
+      padding: .5rem 1rem;
+    }
 
     &:hover {
       @apply bg-white text-green;

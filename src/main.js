@@ -10,25 +10,12 @@ import { faGithub, faTwitter } from '@fortawesome/free-brands-svg-icons'
 import {
   faPaperPlane,
   faExternalLinkAlt,
-  // faArrowDown,
-  // faArrowRight,
-  // faNewspaper,
-  // faMobileAlt,
-  // faBalanceScale,
-  // faClipboardList,
-  // faAward,
-  // faGraduationCap,
-  // faVials,
-  // faBars,
+  faBars,
+  faTimes
   } from '@fortawesome/free-solid-svg-icons'
 import {
   faEnvelope,
   faChartBar,
-  // faFilePdf,
-  // faFileWord,
-  // faFileAlt,
-  // faFileImage,
-  // faEdit,
   } from '@fortawesome/free-regular-svg-icons'
 import '@fortawesome/fontawesome-svg-core/styles.css'
 
@@ -38,9 +25,10 @@ library.add(
   faPaperPlane,
   faExternalLinkAlt,
   faEnvelope,
-  faChartBar
+  faChartBar,
+  faBars,
+  faTimes
 )
-
 
 
 export default function (Vue, { router, head, isClient }) {

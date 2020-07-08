@@ -83,11 +83,15 @@ export default {
 
 <style lang="scss">
 .annonce {
-  @apply mt-8 mb-24;
+  @apply mb-12;
+
+  @screen sm {
+    @apply mb-24;
+  }
 }
 
 .under-splash {
-  @apply max-w-screen-md mx-auto mt-12 text-green font-semibold text-lg text-center;
+  @apply max-w-screen-md mx-auto mt-6 px-4 text-green font-semibold text-center;
 
   a {
     @apply border-2 inline-block py-2 px-4 rounded-full border-white;
@@ -103,7 +107,7 @@ export default {
 }
 
 .publics {
-  @apply mx-auto max-w-screen-md my-8;
+  @apply mx-auto max-w-screen-md my-8 px-4;
 
   .public {
     @apply my-16;
@@ -113,12 +117,20 @@ export default {
     }
 
     .title {
-      @apply text-3xl mt-8 mb-6 leading-none font-bold font-marianne;
+      @apply text-2xl mt-6 mb-4 leading-none font-bold font-marianne;
+
+      @screen sm {
+        @apply text-3xl mt-8 mb-6;
+      }
     }
 
     .button {
-      @apply inline-block px-4 py-2 mt-4 border-2 border-navy text-navy font-bold rounded-full shadow-yellow text-center transition ease-linear duration-100;
+      @apply block px-4 py-2 my-4 border-2 border-navy text-navy font-bold rounded-full shadow-yellow text-center transition ease-linear duration-100;
     
+      @screen sm {
+        @apply inline-block my-2;
+      }
+
       &:hover {
         @apply bg-navy text-white;
       }

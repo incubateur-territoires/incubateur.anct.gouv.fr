@@ -1,7 +1,7 @@
 <template>
   <div class="logo">
-    <Logo class="inline-block w-16 mr-6" role="img" title="Logo Incubateur des Territoires" />
-    <div class="inline-block align-middle">
+    <Logo class="logo-icon" role="img" title="Logo Incubateur des Territoires" />
+    <div class="logo-text">
       <span class="font-bold">Incubateur</span>
       <span class="font-thin">des</span>
       <span class="font-bold">Territoires</span>
@@ -19,10 +19,31 @@ export default {
 }
 </script>
 
-<style>
+<style lang="scss">
 .logo {
-  font-size: 2rem;
-  font-family: "Marianne";
+  @apply flex items-center;
+}
+
+.logo-icon {
+  @apply inline-block w-6 mr-2;
+
+  @screen lg {
+    @apply w-16 mr-6;
+  }
+}
+
+.logo-text {
+  @apply inline-block align-middle font-marianne;
+  
+  font-size: 1.25rem;
+
+  @screen sm {
+    font-size: 1.5rem;
+  }
+
+  @screen lg {
+    font-size: 2rem;
+  }
 }
 
 .logo span:not(:first-child) {

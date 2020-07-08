@@ -1,13 +1,13 @@
 <template>
-  <footer class="flex justify-center border-t-4 border-gray-200 mt-12">
-    <div class="my-12 w-32">
-      <g-link to="https://agence-cohesion-territoires.gouv.fr/" target="_blank" title="Incubateru des Territoires">
-        <LogoRF class="rf mt-1 mb-8" role="img" title="Logo Républiqe Française" />
-        <LogoANCT class="anct" role="img" title="Logo Agence Nationale de la Cohesion des Territoires" />
+  <footer class="flex flex-col md:flex-row md:justify-center border-t-4 border-gray-200 mt-12 p-12 px-4">
+    <div class="mb-8">
+      <g-link class="flex md:flex-col items-end md:items-start w-64 md:mr-8 md:w-48" to="https://agence-cohesion-territoires.gouv.fr/" target="_blank" title="Incubateru des Territoires">
+        <LogoRF class="w-3/5 mr-8 md:mb-8" role="img" title="Logo Républiqe Française" />
+        <LogoANCT class="" role="img" title="Logo Agence Nationale de la Cohesion des Territoires" />
       </g-link>
     </div>
 
-    <div class="my-12 ml-12  footer-content">
+    <div class="footer-content">
       <div class="max-w-screen-sm description">
         <g-link to="/">
           <Logo class="mb-4 text-2xl" />
