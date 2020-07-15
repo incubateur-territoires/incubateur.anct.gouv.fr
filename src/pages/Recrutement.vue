@@ -1,9 +1,9 @@
 <template>
   <Layout>
     <div class="recrutement">
-      <div class="splash">
-        <h1>Recrutement</h1>
-      </div>
+      <PageTitle>
+        Recrutement
+      </PageTitle>
 
       <div class="job-cards">
         <JobCard v-for="{ node } in $page.jobs.edges" :key="node.id" :job="node" />
@@ -34,29 +34,23 @@
 
 <script>
 import JobCard from '~/components/JobCard.vue'
+import PageTitle from '~/components/PageTitle.vue'
 
 export default {
   metaInfo: {
     title: 'Recrutement'
   },
   components: {
-    JobCard
+    JobCard,
+    PageTitle
   }
 }
 </script>
 
 <style lang="scss">
 .recrutement {
-  .splash {
-    @apply py-8 mb-12 font-marianne text-white bg-navy;
-
-    h1 {
-      @apply text-5xl font-black mx-auto max-w-screen-md;
-    }
-  }
-
   .job-cards {
-    @apply max-w-screen-md mx-auto;
+    @apply max-w-screen-md mx-auto px-4;
   }
 
   .button {

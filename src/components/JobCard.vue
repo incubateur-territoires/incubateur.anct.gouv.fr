@@ -32,7 +32,11 @@ export default {
     @apply p-4 border-4 rounded-lg leading-none transition ease-linear duration-100;
 
     .title {
-      @apply font-marianne text-2xl font-bold my-4;
+      @apply font-marianne text-lg font-bold my-4;
+
+      @screen sm {
+        @apply text-2xl;
+      }
     }
 
     .equipe {

@@ -35,11 +35,16 @@
     bottom: -1rem;
     left: 2rem;
     background-color: white;
-    display: inline-block;
-    font-size: 1.5rem;
+    display: inline-block;    
     font-family: "Marianne";
     font-weight: 800;
     padding: 0 .5rem;
+
+    font-size: 1.25rem;
+
+    @screen xs {
+      font-size: 1.5rem;
+    }
 
     @screen sm {
       font-size: 2rem;
@@ -59,9 +64,22 @@
     padding: .25rem .5rem;
     border-width: 4px;
 
+    @screen xs {
+      @apply text-sm;
+      padding: .5rem 1rem;
+    }
+
     @screen sm {
       @apply text-base;
       padding: .5rem 1rem;
+    }
+
+    svg {
+      display: none;
+
+      @screen xs {
+        display: inline-block;
+      }
     }
 
     &:hover {

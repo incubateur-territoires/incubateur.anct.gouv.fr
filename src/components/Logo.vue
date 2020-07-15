@@ -35,7 +35,11 @@ export default {
 .logo-text {
   @apply inline-block align-middle font-marianne;
   
-  font-size: 1.25rem;
+  font-size: 1rem;
+
+  @screen xs {
+    font-size: 1.25rem;
+  }
 
   @screen sm {
     font-size: 1.5rem;

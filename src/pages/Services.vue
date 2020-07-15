@@ -1,11 +1,11 @@
 <template>
   <Layout>
     <div class="services">
-      <div class="splash">
-        <h1>Services incubés</h1>
-      </div>
+      <PageTitle>
+        Services incubés
+      </PageTitle>
 
-      <div class="services-cards">
+      <div class="px-4 services-cards">
         <ServiceCard v-for="{ node } in $page.services.edges" :key="node.id" :service="node" />
       </div>
     </div>
@@ -34,26 +34,21 @@
 
 <script>
 import ServiceCard from '~/components/ServiceCard.vue'
+import PageTitle from '~/components/PageTitle.vue'
 
 export default {
   metaInfo: {
     title: 'Services incubés'
   },
   components: {
-    ServiceCard
+    ServiceCard,
+    PageTitle
   }
 }
 </script>
 
 <style lang="scss">
 .services {
-  .splash {
-    @apply py-8 mb-12 font-marianne text-white bg-navy;
-  }
-
-  h1 {
-    @apply text-5xl font-black mx-auto max-w-screen-md;
-  }
 
   .service-cards {
     @apply mx-auto max-w-screen-md;

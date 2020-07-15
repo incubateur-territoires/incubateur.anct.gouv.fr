@@ -1,6 +1,6 @@
 <template>
   <Layout>
-    <Splash />
+    <FrontSplash />
 
     <div class="under-splash">
       <g-link to="/recrutement/">
@@ -70,12 +70,12 @@
 </template>
 
 <script>
-import Splash from '~/components/Splash.vue'
+import FrontSplash from '~/components/FrontSplash.vue'
 import Annonce from '~/components/Annonce.vue'
 
 export default {
   components: {
-    Splash,
+    FrontSplash,
     Annonce
   }
 }
@@ -111,10 +111,6 @@ export default {
 
   .public {
     @apply my-16;
-
-    .action {
-      @apply max-w-lg;
-    }
 
     .title {
       @apply text-2xl mt-6 mb-4 leading-none font-bold font-marianne;

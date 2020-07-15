@@ -1,14 +1,13 @@
 <template>
   <Layout>
     <div class="job">
-      <div class="splash">
-        <h2>{{$page.job.equipe}} recrute :</h2>
-        <h1 v-html="$page.job.role" />
-      </div>
+      <PageTitle :pretitle="`${$page.job.equipe} recrute :`">
+        {{$page.job.role}}
+      </PageTitle>
 
-      <div class="content">      
-        <div class="content" v-html="$page.job.content" />
-      
+      <div class="px-4">      
+        <PageContent v-html="$page.job.content" />
+
         <div class="buttons">
           <g-link v-if="$page.job.contact" :to="`mailto:${$page.job.contact}?subject=[Candidature] ${$page.job.equipe} - ${$page.job.role}`" class="button postuler">
             Postuler<font-awesome class="ml-2" :icon="['far', 'envelope']"/> 
@@ -34,46 +33,30 @@ query ($id: ID!) {
 }
 </page-query>
 
+<script>
+import PageTitle from '~/components/PageTitle.vue'
+import PageContent from '~/components/PageContent.vue'
+
+export default {
+  components: {
+    PageTitle,
+    PageContent
+  }
+}
+</script>
+
 <style lang="scss">
 .job {
-  .splash {
-    @apply py-12 mb-12 font-marianne text-white bg-navy;
-
-    h1 {
-      @apply text-4xl font-black mx-auto max-w-screen-md leading-tight;
-    }
-
-    h2 {
-      @apply text-2xl mx-auto max-w-screen-md mb-4;
-    }
-  }
-
-  .content {
-    @apply mx-auto max-w-screen-md;
-
-    h1,
-    h2,
-    h3,
-    h4 {
-      @apply font-marianne font-black;  
-    }
-
-    h1 { @apply text-5xl my-12; }
-    h2 { @apply text-3xl mt-6 mb-4; }
-    h3 { @apply my-4 }
-
-    p { @apply mb-4 }
-
-    ul { @apply list-disc mb-4 }
-    li { @apply ml-6 }
-  }
-
   .buttons {
-    @apply my-12
+    @apply my-12 max-w-screen-md mx-auto;
   }
 
   .retourner {
-    @apply inline-block px-4 py-2 ml-4 text-green font-semibold border-white border-2 rounded-full transition ease-linear duration-100;
+    @apply inline-block mt-4 px-4 py-2 text-green font-semibold border-white border-2 rounded-full transition ease-linear duration-100;
+
+    @screen sm {
+      @apply ml-4 mt-0;
+    }
 
     &:hover {
       @apply border-green;
