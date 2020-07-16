@@ -45,5 +45,24 @@ export default function (Vue, { router, head, isClient }) {
       moment
   })
 
+  let ROOT_PATH = 'https://incubateur.anct.gouv.fr'
+
+  // Set Head
   head.htmlAttrs = { lang: 'fr' }
+  const socialMediaMeta = [
+    // Twitter Card
+    {name: 'twitter:card', content: 'summary'},
+    {name: 'twitter:title', content: `L'Incubateur des Territoires`},
+    {name: 'twitter:description', content: `Une mission de l'Agence nationale de la cohesion des territoires`},
+    // image must be an absolute path
+    {name: 'twitter:image', content: `${ROOT_PATH}/assets/images/logoIncubateur.svg`},
+    // Facebook OpenGraph
+    {property: 'og:title', content: `L'Incubateur des Territoires`},
+    {property: 'og:site_name', content: `L'Incubateur des Territoires`},
+    {property: 'og:type', content: 'website'},
+    {property: 'og:image', content: `${ROOT_PATH}/assets/images/logoIncubateur.svg`},
+    {property: 'og:description', content: `Une mission de l'Agence nationale de la cohesion des territoires`}
+  ]
+
+  head.meta = head.meta.concat(socialMediaMeta)
 }

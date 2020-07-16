@@ -7,6 +7,7 @@
 module.exports = {
   siteName: 'Incubateur des Territoires',
   siteUrl: 'https://incubateur.anct.gouv.fr',
+  icon: './src/assets/images/logoIncubateur.svg',
   templates: {
     Job: [
       {

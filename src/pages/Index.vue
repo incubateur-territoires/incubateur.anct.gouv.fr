@@ -74,6 +74,9 @@ import FrontSplash from '~/components/FrontSplash.vue'
 import Annonce from '~/components/Annonce.vue'
 
 export default {
+  metaInfo: {
+    titleTemplate: '%s'
+  },
   components: {
     FrontSplash,
     Annonce
