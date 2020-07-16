@@ -1,6 +1,6 @@
 ---
 role: Chef.fe de projets communs numériques et gouvernance
-contrat: préstataire
+contrat: freelance
 equipe: Incubateur des Territoires
 post_ouvert: 2020-07-06
 contact: incubateur@anct.gouv.fr
