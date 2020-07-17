@@ -1,8 +1,9 @@
 <template>
-  <header class="mx-auto max-w-screen-lg font-marianne md:flex md:justify-between md:pr-4">
+  <header class="mx-auto max-w-screen-xl font-marianne md:flex md:justify-between md:pr-4">
     <div class="flex justify-between items-center px-4 my-4">
-      <div class="header-logo">
-        <g-link to="/">
+      <div>
+        <g-link class="flex" to="/">
+          <LogoRF class="h-12 md:h-24 mr-8" role="img" title="Logo Républiqe Française" />
           <Logo />
         </g-link>
       </div>
@@ -14,19 +15,22 @@
       </div>
     </div>
     <nav :class="isOpen ? 'block' : 'hidden'" class="nav md:block md:flex md:items-center">
-      <g-link to="/mission/">Mission</g-link>
-      <g-link to="/services/">Services incubés</g-link>
-      <g-link to="/recrutement">Recrutement</g-link>
+      <g-link to="/a-propos/">À propos</g-link>
+      <g-link to="/offres/">Nos offres</g-link>
+      <g-link to="/services/">Services numeriques</g-link>
+      <g-link to="/recrutements">Recrutements</g-link>
     </nav>
   </header>
 </template>
 
 <script>
 import Logo from "~/components/Logo.vue"
+import LogoRF from "~/assets/images/logoRF.svg"
 
 export default {
   components: {
-    Logo
+    Logo,
+    LogoRF
   },
   data() {
     return {
@@ -56,14 +60,14 @@ export default {
 }
 
 nav {
-  @apply text-lg pb-2;
+  @apply text-base pb-2;
 
   @screen md {
-    @apply text-base pb-0;
+    @apply text-sm pb-0;
   }
 
   @screen lg {
-    @apply text-lg;
+    @apply text-base;
   }
   
   a {

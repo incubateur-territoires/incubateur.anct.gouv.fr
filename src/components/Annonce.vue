@@ -4,10 +4,10 @@
     <p class="text-center sm:text-lg">
       En collaboration avec <g-link to="https://beta.gouv.fr">beta.gouv.fr</g-link>, <strong>l'Incubateur des Territoires cherche de nouveaux collaborateurs au sein des collectivités.</strong>
       <br><br>
-      Avez-vous une idée de problème que vous souhaiteriez investiguer <strong>avec l’aide d'experts numériques</strong> (coach, designer, spécialiste de l’expérience utilisateur) ?
+      Rencontrez-vous un problème de politique publique que vous souhaiteriez investiguer avec <strong>l’aide d'experts numériques</strong> (coach, designer, spécialiste de l’expérience utilisateur) ? 
       <br><br>
-      Postuler en envoyant un mail décrivant ce problème et un·e membre de l’équipe reviendra vers vous pour en discuter.
-      <strong>L'Incubateur offres de prendre en charge la phase d’investigation</strong> pour les collectivités.
+      Postulez en envoyant un mail décrivant ce problème et un·e membre de l’équipe reviendra vers vous pour en discuter.
+      <strong>L'Incubateur prend en charge la phase d’investigation</strong> pour le compte des collectivités territoriales.
     </p>
     <div class="outlinks">
       <g-link

@@ -7,11 +7,12 @@
 module.exports = {
   siteName: 'Incubateur des Territoires',
   siteUrl: 'https://incubateur.anct.gouv.fr',
+  siteDescription: `Une mission de l'Agence nationale de la cohesion des territoires`,
   icon: './src/assets/images/logoIncubateur.svg',
   templates: {
     Job: [
       {
-        path: '/recrutement/:equipe/:role',
+        path: '/recrutements/:equipe/:role',
       }
     ]
   },

@@ -2,7 +2,7 @@
   <section class="splash">
     <div class="flex mx-auto max-w-screen-lg text-center">
       <div class="text-xl sm:text-2xl md:text-3xl px-2">
-        Ensemble avec les territoires, nous créeons des service publics numériques pour résoudre les problèmes des usagers.
+        Ensemble avec les territoires, nous créons des service publics numériques pour résoudre les problèmes des usagers.
       </div>
     </div>
     <div class="buttons ">
@@ -14,7 +14,7 @@
 
       <div>
         <g-link to="/services/">
-          Nos services incubés
+          Nos services publics numériques
         </g-link>
       </div>
     </div>

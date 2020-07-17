@@ -2,7 +2,7 @@
   <Layout>
     <div class="offres">
       <PageTitle>
-        Mission de l'Incubateur
+        À propos
       </PageTitle>
 
       <div class="px-4">
@@ -24,7 +24,7 @@ import PageContent from '~/components/PageContent.vue'
 
 export default {
   metaInfo: {
-    title: 'Mission'
+    title: 'À propos'
   },
   components: {
     PageTitle,

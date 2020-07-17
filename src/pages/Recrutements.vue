@@ -2,7 +2,7 @@
   <Layout>
     <div class="recrutement">
       <PageTitle>
-        Recrutement
+        Recrutements
       </PageTitle>
 
       <div class="job-cards">

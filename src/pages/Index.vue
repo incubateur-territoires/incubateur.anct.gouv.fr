@@ -3,7 +3,7 @@
     <FrontSplash />
 
     <div class="under-splash">
-      <g-link to="/recrutement/">
+      <g-link to="/recrutements/">
         <span class="mr-2">🚀</span> Nous recrutons ! Voir nos offres d'emploi →
       </g-link>
     </div>

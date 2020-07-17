@@ -1,17 +1,19 @@
 <template>
   <footer class="flex flex-col md:flex-row md:justify-center border-t-4 border-gray-200 mt-12 p-12 px-4">
     <div class="mb-8">
-      <g-link class="flex md:flex-col items-end md:items-start w-64 md:mr-8 md:w-48" to="https://agence-cohesion-territoires.gouv.fr/" target="_blank" title="Incubateru des Territoires">
+      <g-link class="flex md:flex-col items-end md:items-start w-64 md:mr-12 md:w-48" to="https://agence-cohesion-territoires.gouv.fr/" target="_blank" title="Incubateru des Territoires">
         <LogoRF class="w-3/5 mr-8 md:mb-8" role="img" title="Logo Républiqe Française" />
         <LogoANCT class="" role="img" title="Logo Agence Nationale de la Cohesion des Territoires" />
       </g-link>
     </div>
 
     <div class="footer-content">
-      <div class="max-w-screen-sm description">
+      <div class="logo mb-8">
         <g-link to="/">
-          <Logo class="mb-4 text-2xl" />
+          <Logo />
         </g-link>
+      </div>
+      <div class="description">
         <p>
           L'Incubateur des Territoires est une mission de l'<a href="https://agence-cohesion-territoires.gouv.fr/" target="_blank">Agence Nationale de la Cohesion des Territoires</a>.
           Le <a href="https://github.com/incubateur-territoires/incubateur.anct.gouv.fr" target="_blank">code source</a> de ce site web est disponible en licence libre.
@@ -19,50 +21,48 @@
         </p>
       </div>
 
+      <div class="incubateur-links">
+        <a href="mailto:incubateur@anct.gouv.fr" target="_blank">
+            <font-awesome :icon="['fas', 'paper-plane']" transform="shrink-2"/> Contact
+        </a>
+        <a href="https://github.com/incubateur-territoires" target="_blank">
+          <font-awesome :icon="['fab', 'github']"/> GitHub
+        </a>
+        <g-link to="/recrutements/">Recrutements</g-link>
+        <g-link to="/misc/accessibilite/">Accessibilité</g-link>
+        <g-link to="/misc/donnees-personnelles/">Données personnelles</g-link>
+        <g-link to="/misc/mentions-legales/">Mentions légales</g-link>
+      </div>
+
       <div class="websites">
         <div>
-          Incubateur
+          Les sites du Numérique de l'ANCT
           <ul>
-            <li><a href="mailto:incubateur@anct.gouv.fr" target="_blank">
-                <font-awesome :icon="['fas', 'paper-plane']" transform="shrink-2"/> Contact
-                </a></li>
-            <li><a href="https://github.com/incubateur-territoires" target="_blank">
-              <font-awesome :icon="['fab', 'github']"/> GitHub
-              </a></li>
-            <li><g-link to="/recrutement/">Recrutement</g-link></li>
-            <li><g-link to="/misc/accessibilite/">Accessibilité</g-link></li>
-            <li><g-link to="/misc/donnees-personnelles/">Données personnelles</g-link></li>
-            <li><g-link to="/misc/mentions-legales/">Mentions légales</g-link></li>
+            <li><g-link to="https://societenumerique.gouv.fr/">Société Numérique</g-link></li>
+            <li><g-link to="https://www.amenagement-numerique.gouv.fr/">Aménagement Numérique</g-link></li>
+            <li><g-link to="https://participer.numerique-en-commun.fr">Numérique en Commun</g-link></li>
           </ul>
         </div>
         <div>
-          Autres services de l'ANCT
+          Autres incubateurs et fabriques numériques
           <ul>
-            <li><a href="http://www.onpv.fr/" target="_blank">Observatoire national de la politique de la ville</a></li>
-            <li><a href="https://www.carrefourdesinnovationssociales.fr/" target="_blank">Carrefours des innovations sociales</a></li>
-            <li><a href="https://www.observatoire-des-territoires.gouv.fr/" target="_blank">Observatoire des Territoires</a></li>
-            <li><a href="https://sig.ville.gouv.fr/" target="_blank">SIG Ville</a></li>
-            <li><a href="https://urbact.eu/" target="_blank">Urbact</a></li>
-          </ul>
-        </div>
-        <div>
-          Autres univers
-          <ul>
-            <li><a href="https://design.numerique.gouv.fr" target="_blank">design.numerique.gouv.fr</a></li>
-            <li><a href="https://etalab.gouv.fr" target="_blank">etalab.gouv.fr</a></li>
             <li><a href="https://beta.gouv.fr" target="_blank">beta.gouv.fr</a></li>
-            <li><a href="https://data.gouv.fr" target="_blank">data.gouv.fr</a></li>
-            <li><a href="https://api.gouv.fr" target="_blank">api.gouv.fr</a></li>
+            <li><a href="https://mtes-mct.github.io/numerique/" target="_blank">Fabrique numérique du MTES</a></li>
+            <li><a href="https://www.fabrique.social.gouv.fr/" target="_blank">Fabrique numérique des ministères sociaux</a></li>
+            <li><a href="https://github.com/fabnumdef" target="_blank">Fabrique numérique Défense Connect</a></li>
+            <li><a href="https://github.com/StartupsPoleEmploi/" target="_blank">Fabrique Pôle emploi</a></li>
+            <li><a href="https://beta.interieur.gouv.fr/" target="_blank">Lab du Ministère de l’Intérieur</a></li>
           </ul>
         </div>
       </div>
 
       <div class="public">
         <span>Les sites publics :</span>
-        <a href="https://elysee.fr" target="_blank">Elysee.fr</a>
+        <a href="https://legifrance.gouv.fr" target="_blank">legifrance.gouv.fr</a>
+        <a href="https://france.fr" target="_blank">france.fr</a>
+        <a href="https://cohesion-territoires.gouv.fr" target="_blank">cohesion-territoires.gouv.fr</a>
         <a href="https://gouvernement.fr" target="_blank">gouvernement.fr</a>
         <a href="https://www.service-public.fr" target="_blank">service-public.fr</a>
-        <a href="https://legifrance.gouv.fr" target="_blank">legifrance.gouv.fr</a>
       </div>
     </div>
   </footer>
@@ -83,36 +83,44 @@ export default {
 </script>
 
 <style lang="scss">
-.public a,
-li a,
-p a {
-  @apply text-blue;
 
-  &:hover {
-    @apply text-navy;
-  }
-}
 
 footer {
+  .public a,
+  .description a,
+  .websites a,
+  .incubateur-links a  {
+    @apply text-blue;
+
+    &:hover {
+      @apply text-navy;
+    }
+  }
+
   .footer-content {
+    .description {
+      @apply max-w-screen-md;
+    }
+
+    .incubateur-links {
+      @apply flex flex-wrap my-6;
+
+      a:not(:last-child) {
+        @apply mr-4;
+      }
+    }
+    
     .websites {
-      margin: 32px 0 8px 0;
-      display: flex;
-      flex-flow: row wrap;
-      justify-content: space-between;
+      @apply text-sm border-t-2 border-gray-200 flex flex-wrap pt-6;
 
       div {
-        margin-right: 48px;
-        margin-bottom: 16px;
+        @apply mb-8 mr-8;
       }
 
-      ul {
-        padding: 0;
-
-        li {
-          list-style-type: none;
-        }
-      }
+      // div {
+      //   margin-right: 48px;
+      //   margin-bottom: 16px;
+      // }
     }
   }
 
