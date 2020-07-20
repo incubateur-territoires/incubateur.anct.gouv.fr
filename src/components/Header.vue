@@ -16,7 +16,7 @@
     </div>
     <nav :class="isOpen ? 'block' : 'hidden'" class="nav md:block md:flex md:items-center">
       <g-link to="/a-propos/">À propos</g-link>
-      <g-link to="/offres/">Nos offres</g-link>
+      <!-- <g-link to="/offres/">Nos offres</g-link> -->
       <g-link to="/services/">Services numeriques</g-link>
       <g-link to="/recrutements">Recrutements</g-link>
     </nav>

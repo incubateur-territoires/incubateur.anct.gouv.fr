@@ -16,8 +16,8 @@
 </template>
 
 <page-query>
-  query Jobs ($page: Int) {
-    jobs: allJob (page: $page) {
+  query Jobs {
+    jobs: allJob (sortBy: "post_ouvert") {
       edges {
         node {
           id
@@ -38,7 +38,8 @@ import PageTitle from '~/components/PageTitle.vue'
 
 export default {
   metaInfo: {
-    title: 'Recrutement'
+    title: 'Recrutements',
+    description: `L'Incubateur des Territoires et ses startups de territoires recrute`
   },
   components: {
     JobCard,

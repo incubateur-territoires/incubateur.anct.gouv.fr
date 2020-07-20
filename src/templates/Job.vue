@@ -13,7 +13,7 @@
             Postuler<font-awesome class="ml-2" :icon="['far', 'envelope']"/> 
           </g-link>
 
-          <g-link class="retourner" to="/recrutement/">
+          <g-link class="retourner" to="/recrutements/">
             ← Retourner aux offres de recrutement
           </g-link>
         </div>
@@ -38,6 +38,10 @@ import PageTitle from '~/components/PageTitle.vue'
 import PageContent from '~/components/PageContent.vue'
 
 export default {
+  metaInfo: {
+    title: `${this.$page.job.equipe} recrute : ${$page.job.role}`,
+    description: `L'Incubateur des Territoires et ses startups de territoires recrute`
+  },
   components: {
     PageTitle,
     PageContent

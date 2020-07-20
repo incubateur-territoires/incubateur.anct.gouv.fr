@@ -5,12 +5,12 @@
         Ensemble avec les territoires, nous créons des service publics numériques pour résoudre les problèmes des usagers.
       </div>
     </div>
-    <div class="buttons ">
-      <div>
+    <div class="buttons">
+      <!-- <div>
         <g-link to="/offres/">
           Nos offres aux territoires
         </g-link>
-      </div>
+      </div> -->
 
       <div>
         <g-link to="/services/">

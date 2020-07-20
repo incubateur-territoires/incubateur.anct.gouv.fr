@@ -3,24 +3,26 @@ name: a-propos
 title: À propos
 ---
 
-## Comment resoudre des problèmes ensemble avec les élus et les agents des collectivités ?
+## Presentation
 
-### Impliquer les agents publics [changer la culture]
-    - Appel à intrapreneurs
-    - Investiguer un problème usager
-    - Former à l'approche beta.gouv
-        - des élus via un "track" dans l'Académie des Territoires (?)
-        - des agents avec le programme Alpha
+L'Incubateur des Territoires de l'Agence nationale de la cohesion des territoires a pour objectif l’émergence rapide de services numériques de qualité au service des usagers, répondant à des problèmes concrets et en suivant l’approche beta.gouv.fr. Elle vise également à accompagner la montée à l’échelle de projets territoriaux innovants et la mise en place de gouvernances partagées et de communs numériques entre collectivités territoriales et acteurs de l’économie sociale et solidaire.
 
-### Construire de nouveaux services publics numériques de territoires [service]
-    - Centrer les services publiques sur l'usager
-    - Monter des équipes interdisciplinaire pour resoudre les problèmes des usagers
-    - Évitez le solutionisme numérique
-    
-### Favoriser les mutualisations [pérennisation & impact]
-    - Identifier des problèmes communs entre territoires
-    - Favoriser une coopération inter-territoires et État-territoire
-    - Fournir des ressources pour mettre à l'échelle des communs numériques
+## Comment ?
+
+### Impliquer les agents publics
+- Appel à intrapreneurs au sein des territoires
+- Investiguer un problème d'usager main dans la main avec les agents
+- Former les agents et les élus à l'approche beta.gouv.fr
+
+### Construire de nouveaux services publics numériques de territoires
+- Centrer les services publiques numériques sur l'usager
+- Monter des équipes interdisciplinaire pour resoudre les problèmes des usagers
+- Évitez le solutionisme numérique
+
+### Favoriser les mutualisations
+- Identifier des problèmes communs entre territoires
+- Favoriser une coopération inter-territoires et État-territoire
+- Fournir des ressources pour mettre à l'échelle des communs numériques
 
 <!-- ## Comment évaluer l'impacte de nos actions ?
 

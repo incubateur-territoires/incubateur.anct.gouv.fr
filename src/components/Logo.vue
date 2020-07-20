@@ -1,11 +1,11 @@
 <template>
   <div class="logo">
     <Logo class="logo-icon" role="img" title="Logo Incubateur des Territoires" />
-    <div class="logo-text">
-      <div class="inline-block leading-none mr-1">
+    <div class="logo-text flex flex-wrap">
+      <div class="leading-none mr-1">
         <span class="font-bold">Incubateur</span>
       </div>
-      <div class="inline-block leading-none">
+      <div class="leading-none">
         <span class="font-thin mr-1">des</span>
         <span class="font-bold">Territoires</span>
       </div>
@@ -29,7 +29,7 @@ export default {
 }
 
 .logo-icon {
-  @apply inline-block w-8 mr-2;
+  @apply w-8 mr-2;
 
   @screen lg {
     @apply w-16 mr-6;
