@@ -1,5 +1,6 @@
 ---
-page: mission
+name: a-propos
+title: À propos
 ---
 
 ## Comment resoudre des problèmes ensemble avec les élus et les agents des collectivités ?

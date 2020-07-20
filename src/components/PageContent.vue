@@ -8,6 +8,14 @@
 .page-content {
   @apply mx-auto max-w-screen-md;
 
+a  {
+    @apply text-blue border-b border-blue;
+
+    &:hover {
+      @apply text-navy;
+    }
+  }
+
   h1,
   h2,
   h3,

@@ -14,7 +14,7 @@
 
 <page-query>
 query page {
-  pageContent(path: "/pages/a-propos/") {
+  pageContent(path: "/pages/offre-anct/") {
     title
     content
   }

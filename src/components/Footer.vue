@@ -22,16 +22,19 @@
       </div>
 
       <div class="incubateur-links">
-        <a href="mailto:incubateur@anct.gouv.fr" target="_blank">
+        <g-link to="mailto:incubateur@anct.gouv.fr">
             <font-awesome :icon="['fas', 'paper-plane']" transform="shrink-2"/> Contact
-        </a>
-        <a href="https://github.com/incubateur-territoires" target="_blank">
-          <font-awesome :icon="['fab', 'github']"/> GitHub
-        </a>
+        </g-link>
+        <g-link to="https://github.com/incubateur-territoires">
+          <font-awesome :icon="['fab', 'github']"/> Code
+        </g-link>
+        <g-link to="https://stats.data.gouv.fr/index.php?module=CoreHome&action=index&idSite=135&period=range&date=previous30&updated=1#?idSite=135&period=range&date=previous30&category=Dashboard_Dashboard&subcategory=1">
+          <font-awesome :icon="['far', 'chart-bar']"/> Stats
+        </g-link>
         <g-link to="/recrutements/">Recrutements</g-link>
-        <g-link to="/misc/accessibilite/">Accessibilité</g-link>
-        <g-link to="/misc/donnees-personnelles/">Données personnelles</g-link>
-        <g-link to="/misc/mentions-legales/">Mentions légales</g-link>
+        <g-link to="/accessibilite/">Accessibilité</g-link>
+        <g-link to="/donnees-personnelles/">Données personnelles</g-link>
+        <g-link to="/mentions-legales/">Mentions légales</g-link>
       </div>
 
       <div class="websites">
@@ -116,11 +119,6 @@ footer {
       div {
         @apply mb-8 mr-8;
       }
-
-      // div {
-      //   margin-right: 48px;
-      //   margin-bottom: 16px;
-      // }
     }
   }
 

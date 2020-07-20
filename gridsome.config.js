@@ -18,6 +18,13 @@ module.exports = {
   },
   plugins: [
     {
+      use: 'gridsome-plugin-matomo',
+      options: {
+        host: '//stats.data.gouv.fr',
+        siteId: 135
+      }
+    },
+    {
       use: '@gridsome/source-filesystem',
       options: {
         path: 'services/*.md',
@@ -32,6 +39,16 @@ module.exports = {
       options: {
         path: 'jobs/*.md',
         typeName: 'Job',
+        remark: {
+          // remark options
+        }
+      }
+    },
+    {
+      use: '@gridsome/source-filesystem',
+      options: {
+        path: 'pages/*.md',
+        typeName: 'PageContent',
         remark: {
           // remark options
         }

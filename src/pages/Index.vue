@@ -13,28 +13,21 @@
     <section class="publics">
       <div class="public">
         <h1 class="title">Vous êtes un agent public territorial</h1>
-        
+
         <div class="action">
-          <p>Vous voulez déployer un de nos services numériques existante sur votre territoire ?</p>
-          
-          <g-link class="button" to="/services/">
-            Contacter l'équipe du service →
+          <g-link to="https://blog.beta.gouv.fr/dinsic/2020/06/22/investigations/" class="button">
+            Postuler à l'appel d'intrapreneur de beta.gouv.fr <font-awesome class="ml-2" :icon="['fas', 'external-link-alt']"/>
           </g-link>
         </div>
 
-        <div class="action">
-          <g-link class="button">
-            S'incrire au prochain appel à intrapreneur →
-          </g-link>
-        </div>
-
-        <div class="action">
-          <g-link class="button" to="https://aides-territoires.beta.gouv.fr/">
+        <!-- <div class="action">
+          <g-link to="https://aides-territoires.beta.gouv.fr/" class="button">
             Découvrir les aides financiers sur Aides Territoires <font-awesome class="ml-2" :icon="['fas', 'external-link-alt']"/>
           </g-link>
-        </div>
+        </div> -->
       </div>
 
+    <!-- 
       <div class="public">
         <h1 class="title">Vous êtes un élu territorial</h1>
 
@@ -43,26 +36,25 @@
         <g-link class="button">
           Inscrivez-vous dans la prochaine Académie des Élus →
         </g-link>
-      </div>
+      </div> 
+    -->
 
       <div class="public">
         <h1 class="title">Vous portez un projet numérique à destination des territoires (asso, privé)</h1>
         
-        Renseignez-vous sur nos startups et les services numériques qu'ils offrent.
-        <g-link class="button">
-          Contactez-les si vous avez des collaborations à offrir →
+        <p class="mb-4">Malheureusement, nous n’offrons pas d'aides financière directe aux projets associatifs ou entrepreneuriaux. N'hésitez pas à contacter les équipes de nos Startups de Territoire si vous identifiez des pistes de collaboration.</p>
+        <g-link to="/services/" class="button">
+          Découvrez nos startups →
         </g-link>
-        
-        <p class="mt-8 text-gray-700 text-sm bg-gray-100 p-4 rounded-lg">Malheursement, nous n’offrons pas d'aides financiers aux projets associatifs. Par contre, nos startups pourraient être intéressées a collaboré avec vous ! N'hésitez pas à les contacter.</p>
       </div>  
       
       <div class="public">
         <h1 class="title">Vous êtes un agent de l'ANCT</h1>
         
-        <p>Vous avez un projet dont vous pensez l'Incubatuer pourrait porter ? </p>
+        <p class="mb-4">Vous avez un projet dont vous pensez l'Incubateur pourrait porter ? </p>
 
-        <g-link to="/contact/" class="button">
-          N'hestitez pas à nous contacter →
+        <g-link to="/offre-anct/" class="button">
+          Découvrez comment l'Incubateur peut vous aider →
         </g-link>
       </div>
     </section>

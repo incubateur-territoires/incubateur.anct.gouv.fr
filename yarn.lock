@@ -4501,6 +4501,13 @@ gray-matter@^4.0.2:
     section-matter "^1.0.0"
     strip-bom-string "^1.0.0"
 
+gridsome-plugin-matomo@^0.1.0:
+  version "0.1.0"
+  resolved "https://registry.yarnpkg.com/gridsome-plugin-matomo/-/gridsome-plugin-matomo-0.1.0.tgz#da74cf26d6350e64a5f535ff6bf6830bfe56f5c5"
+  integrity sha512-sq3/uyvsUzJzxx8P+aQ9LUFi1nEjJ0yoAeAAE8yqiKAEJRiD1KRjt8aoOPM/ffVRyfB5ZFm8Mriin4LKmJz57A==
+  dependencies:
+    vue-matomo "^3.12.0"
+
 gridsome-plugin-tailwindcss@^2.2.48:
   version "2.2.48"
   resolved "https://registry.yarnpkg.com/gridsome-plugin-tailwindcss/-/gridsome-plugin-tailwindcss-2.2.48.tgz#26acf6e70e8a2a43c54b970b72aebedb57af59fa"
@@ -10064,6 +10071,11 @@ vue-loader@^15.7.1:
     loader-utils "^1.1.0"
     vue-hot-reload-api "^2.3.0"
     vue-style-loader "^4.1.0"
+
+vue-matomo@^3.12.0:
+  version "3.12.0"
+  resolved "https://registry.yarnpkg.com/vue-matomo/-/vue-matomo-3.12.0.tgz#57bc12dd7c5fc90c6cd974105693634543567ae5"
+  integrity sha512-JiloyyLkzW/teGHd4ZhCez5iqzFAmjlD1xqPIrAZB/yiJelpyZES2kOSOSc3lmiUs2C+0BLWvOczZP2AGo+NKg==
 
 vue-meta@^2.2.2:
   version "2.3.4"
