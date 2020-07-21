@@ -16,7 +16,7 @@
 
         <div class="action">
           <g-link to="https://blog.beta.gouv.fr/dinsic/2020/06/22/investigations/" class="button">
-            Postuler à l'appel d'intrapreneur de beta.gouv.fr <font-awesome class="ml-2" :icon="['fas', 'external-link-alt']"/>
+            Postulez à l’appel à intrapreneurs de <font-awesome class="ml-2" :icon="['fas', 'external-link-alt']"/>
           </g-link>
         </div>
 
@@ -42,7 +42,7 @@
       <div class="public">
         <h1 class="title">Vous portez un projet numérique à destination des territoires (asso, privé)</h1>
         
-        <p class="mb-4">Malheureusement, nous n’offrons pas d'aides financière directe aux projets associatifs ou entrepreneuriaux. N'hésitez pas à contacter les équipes de nos Startups de Territoire si vous identifiez des pistes de collaboration.</p>
+        <p class="mb-4">Malheureusement, nous n'offrons pas d'aide financière directe aux projets associatifs ou entrepreneuriaux. N'hésitez pas à contacter les équipes de nos Startups de Territoire si vous identifiez des pistes de collaboration.</p>
         <g-link to="/services/" class="button">
           Découvrez nos startups →
         </g-link>
@@ -51,7 +51,7 @@
       <div class="public">
         <h1 class="title">Vous êtes un agent de l'ANCT</h1>
         
-        <p class="mb-4">Vous avez un projet dont vous pensez l'Incubateur pourrait porter ? </p>
+        <p class="mb-4">Vous avez un projet qui pourrait être porté par l'Incubateur ? </p>
 
         <g-link to="/offre-anct/" class="button">
           Découvrez comment l'Incubateur peut vous aider →

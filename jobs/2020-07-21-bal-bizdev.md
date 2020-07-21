@@ -6,8 +6,7 @@ post_ouvert: 2020-07-21
 contact: incubateur@anct.gouv.fr
 ---
 
-L'équipe de la startup d'Etat Base Adresses Locales recherche **un•e business développeur•se**. Il/elle aura pour mission de stimuler, encourager et appuyer le partage des bases adresses locales par les collectivités concernées. 
-
+L'équipe de la startup d'Etat Base Adresses Locales recherche **un•e business développeur•se**. Il/elle aura pour mission de stimuler, encourager et appuyer le partage des bases adresses locales par les collectivités concernées.
 
 ## Qui sommes-nous ?
 
@@ -36,6 +35,7 @@ Voici les principales missions dont le.la business développeur.se sera responsa
 - Conception et rédaction d’un guide des bonnes pratiques pour la création d’une BAL ;
 - Organisation et animation de réunion de recueil et partage de bonnes pratiques ;
 - Participation à des groupes de travail liés à l’adresse et aux besoins rencontrés pour différents services publics et services.
+- De nombreux déplacements dans les territoires sont à prévoir.
 
 ## Profil recherché
 Expérience professionnelle sur une mission similaire ou première expérience suite à un diplôme d’une grande école (Sciences Po, Grandes écoles de commerce, IEP) ou d’une faculté (Droit, IAE, etc.)

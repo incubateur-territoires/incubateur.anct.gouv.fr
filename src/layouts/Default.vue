@@ -21,6 +21,14 @@ export default {
 <style lang="scss">
 .container {
   @apply max-w-full;
+
+  .svg-inline--fa {
+    display: inline-block;
+    font-size: inherit;
+    height: 1em;
+    overflow: visible;
+    vertical-align: -0.125em;
+  }
 }
 
 body {

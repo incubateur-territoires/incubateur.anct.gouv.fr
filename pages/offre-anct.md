@@ -17,7 +17,7 @@ Cette approche se décline en général en 4 phases :
 
 Tous les six mois, un comité d’investissement détermine, en fonction des résultats du service et de son impact, s’il convient de continuer ou d’arrêter le service.
 
-## Lancer une startup d'Etat : foire aux questions
+## Lancer une startup de territoire : foire aux questions
 
 ### Dans quels cas en créer ?
 
@@ -25,7 +25,7 @@ Il s'agit d'une méthode permettant de découvrir et déployer une solution à u
 
 ### Investiguer des problèmes de politique publique
 
-Une startup d'Etat a pour vocation de tester des solutions à un problème de politique publique. 
+Une startup de territoire a pour vocation de tester des solutions à un problème de politique publique. 
 
 Elle ne partira donc pas d'un cahier des charges mais d'une fiche produit. Celle-ci comporte généralement trois parties : un problème, une piste de solution et une proposition crédible pour obtenir de premiers résultats en six mois. 
 
@@ -36,12 +36,12 @@ Elle ne partira donc pas d'un cahier des charges mais d'une fiche produit. Celle
 Cette approche conduit à ajuster le périmètre du service (territoire, fonctionnalités, etc.) plutôt que les délais. Une solution *beta* sera testée sur un territoire d'expérimentation avant d'être améliorée et déployée plus larement si les premiers retours sont positifs. Cela permet de travailler en lien direct avec les usagers et oblige à les remettre au coeur de la conception des politiques publiques.
 
 ### Combien ça coûte ? 
-Le coût moyen constaté pour les six premiers mois est de 200 000 € ce qui permet de rémunérer un développeur et un coach expérimenté. Il ne s'agit que d'un coût d'entrée : l'administration porteuse s'engage à refinancer la startup d'Etat et à augmenter son buget si l'impact est au rendez-vous. Ce mode produit s'oppose au mode projet/maintenance dominant dans les grandes DSI. 
+Le coût moyen constaté pour les six premiers mois est de 200 000 € ce qui permet de rémunérer un développeur et un coach expérimenté. Il ne s'agit que d'un coût d'entrée : l'administration porteuse s'engage à refinancer la startup de territoire et à augmenter son buget si l'impact est au rendez-vous. Ce mode produit s'oppose au mode projet/maintenance dominant dans les grandes DSI. 
 
 ### Constituer une équipe dédiée et autonome
 
-Au départ, une startup d'Etat est composée d'un agent public etc. la startup, accompagnés par un coach. L'équipe d'une startup d'Etat grossit au fur et à mesure de son évolution avec des chargés de déploiement, des juristes, des designers, etc. Cela conduit à créer une équipe dédiée - par opposition à une équipe projet avec un agent public à temps plein.
+Au départ, une startup de territoire est composée d'un agent public et d'un.e développeur.se. accompagnés par un coach. L'équipe d'une startup de territoire grossit au fur et à mesure de son évolution avec des chargés de déploiement, des juristes, des designers, etc. Cela conduit à créer une équipe dédiée avec un agent public à temps plein - par opposition à une équipe projet.
 
-**L'Incubateur des Territoires fournit un appui opérationnel aux services de l'ANCT et aux collectivités territoriales qui souhaitent lancer des startups d'Etat ou de territoire : aide au lancement, recrutement des équipes, formation, suivi de l'impact, intégration organisationnelle, mise à disposition d'outils, etc.**
+**L'Incubateur des Territoires fournit un appui opérationnel aux services de l'ANCT et aux collectivités territoriales qui souhaitent lancer des startups de territoire : aide au lancement, recrutement des équipes, formation, suivi de l'impact, intégration organisationnelle, mise à disposition d'outils, etc.**
 
 <!-- https://pad.societenumerique.gouv.fr/5E1sGboJSIWcLgR-FGaNgA?edit -->
