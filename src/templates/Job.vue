@@ -38,9 +38,11 @@ import PageTitle from '~/components/PageTitle.vue'
 import PageContent from '~/components/PageContent.vue'
 
 export default {
-  metaInfo: {
-    title: `${this.$page.job.equipe} recrute : ${$page.job.role}`,
-    description: `L'Incubateur des Territoires et ses startups de territoires recrute`
+  metaInfo() {
+    return {
+      title: `${this.$page.job.equipe} recrute : ${this.$page.job.role}`,
+      description: `L'Incubateur des Territoires et ses startups de territoires recrute`
+    }
   },
   components: {
     PageTitle,
