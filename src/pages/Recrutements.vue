@@ -17,7 +17,7 @@
 
 <page-query>
   query Jobs {
-    jobs: allJob (sortBy: "post_ouvert") {
+    jobs: allJob (sortBy: "post_ouvert", filter: { status: { nin: ["draft", "closed"] } }) {
       edges {
         node {
           id

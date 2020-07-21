@@ -54,5 +54,3 @@ Expérience professionnelle sur une mission similaire ou première expérience s
 - Partenariats (développement et suivi)
 - Animation d’ateliers de formation sur le produit
 - Gestion d’événements.
-
-Pour postuler, contactez-nous par email  : incubateur@anct.gouv.fr ! 
