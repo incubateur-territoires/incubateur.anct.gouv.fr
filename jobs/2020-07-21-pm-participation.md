@@ -1,13 +1,14 @@
 ---
-role: Designer en charge de la recherche d'usagers
+role: Designer de services pour une plateforme d’ingénierie démocratique
 equipe: Participation Citoyenne
 contrat: freelance
 post_ouvert: 2020-07-21
 contact: incubateur@anct.gouv.fr
-status: draft
 ---
 
-L’Incubateur des Territoires recrute un designer/product manager pour mener une mission recherche utilisateurs avec l’ambition de créer une startup de territoire. Cette startup vise à aider les collectivités et les acteurs territoriaux, notamment issus de territoires fragiles, à lancer, à gérer et à animer des projets de participation citoyenne. Elle a pour ambition la création d’une ingénierie innovante et partagée, se revendiquant notamment des coopérations interterritoriales et de la création de communs.
+L’Incubateur des Territoires recrute un designer/product manager pour mener une mission recherche utilisateurs avec l’ambition de créer une plateforme d’ingénierie démocratique. Cette startup de territoire vise à aider les collectivités et les acteurs territoriaux, notamment issus de territoires fragiles, à lancer, à gérer et à animer des projets de participation citoyenne. Elle a pour ambition la création d’une ingénierie innovante et partagée, se revendiquant notamment des coopérations interterritoriales et de la création de communs.
+
+## Mission
 
 Cette startup doit donc concilier une fonction d’appui aux collectivités et aux territoires et de mobilisation/activation d’un écosystème dispersé d’acteurs (professionnels et militants) se revendiquant de la participation, de la concertation, etc.
 
@@ -27,7 +28,11 @@ Quelques questions sur lesquelles l’équipe va travailler :
 
 Aucune solution potentielle n’a encore été définie. Vous aurez donc un rôle important à jouer dans l’évolution du produit. Vous rejoindrez une équipe composée de deux intrapreneurs de l’ANCT et un coach beta.gouv qui vous guidera dans la méthode d’investigation et les bonnes pratiques. Vous ferez aussi partie de la communauté de Beta.gouv.fr, dont les membres ont une connaissance profonde et nuancée du sujet du numérique et de la modernisation/transformation de l’action publique. Ils seront disponibles pour vous aider aussi !
 
-### Le rôle
+## Qui sommes-nous ?
+
+L'Incubateur des Territoires de l'Agence nationale de la cohésion des territoires a pour objectif l’émergence rapide de services numériques de qualité au service des usagers, répondant à des problèmes concrets et en suivant [l’approche beta.gouv.fr](https://beta.gouv.fr/approche/). Elle vise également à accompagner la montée à l’échelle de projets territoriaux innovants et la mise en place de gouvernances partagées et de communs numériques entre collectivités territoriales et acteurs de l’économie sociale et solidaire.
+
+## Le rôle
 
 - Aller à la rencontre des usagers : 
   - Agents publics territoriaux, élus de collectivités, tous ceux qui ont l’ambition de porter un projet de participation citoyenne au sein d’une collectivité ;
@@ -38,7 +43,7 @@ Aucune solution potentielle n’a encore été définie. Vous aurez donc un rôl
 - Définir des mesures d'impact pour déterminer si vos solutions améliorent vraiment la vie des utilisateurs ;
 - Envisager des modalités de gouvernance et d’animation pérennes du dispositif devant résulter de la startup.
 
-### Votre profil
+## Votre profil
 
 - Vous justifiez d’une formation design/produit ou d’une expérience professionnelle équivalente (designer de services, user researcher, product manager, etc.).
 - Vous avez une expérience professionnelle dans ce domaine et vous avez contribué à la conception ou au développement de plateformes collaboratives.
@@ -47,10 +52,10 @@ Aucune solution potentielle n’a encore été définie. Vous aurez donc un rôl
 -	Vous êtes à l’aise avec le mode de fonctionnement des organisations horizontales, et avez à cœur de contribuer activement au sein de ce collectif.
 
 
-### Modalités
+## Modalités
 Poste ouvert pour un indépendant ou une indépendante pour une période de 12 semaines à temps partiel (2/5e ou 3/5e), probablement renouvelée. Le télétravail est possible, mais une présence régulière à Paris est demandée pour participer aux sessions communes de tests utilisateurs ainsi qu’aux comités de pilotage. Démarrage dès que possible.
 
-### Candidater
+## Candidater
 
 Expliquez-nous pourquoi vous avez envie de nous rejoindre et envoyez-nous votre LinkedIn, CV ou GitHub, le tout à incubateur@anct.gouv.fr.
 

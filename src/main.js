@@ -49,17 +49,17 @@ export default function (Vue, { router, head, isClient }) {
   head.htmlAttrs = { lang: 'fr' }
   const socialMediaMeta = [
     // Twitter Card
-    {property: 'twitter:card', content: 'summary'},
-    {property: 'twitter:title', content: `L'Incubateur des Territoires`},
-    {property: 'twitter:description', content: `Une mission de l'Agence nationale de la cohesion des territoires`},
+    {key:'twitter:card', property: 'twitter:card', content: 'summary'},
+    {key:'twitter:title', property: 'twitter:title', content: `L'Incubateur des Territoires`},
+    {key:'twitter:description', property: 'twitter:description', content: `Une mission de l'Agence nationale de la cohesion des territoires`},
     // image must be an absolute path
-    {property: 'twitter:image', content: `${ROOT_PATH}/logoIncubateur.svg`},
+    {key:'twitter:image', property: 'twitter:image', content: `${ROOT_PATH}/logoIncubateur.svg`},
     // Facebook OpenGraph
-    {property: 'og:title', content: `L'Incubateur des Territoires`},
-    {property: 'og:site_name', content: `L'Incubateur des Territoires`},
-    {property: 'og:type', content: 'website'},
-    {property: 'og:image', content: `${ROOT_PATH}/logoIncubateur.svg`},
-    {property: 'og:description', content: `Une mission de l'Agence nationale de la cohesion des territoires`}
+    {key:'og:title', property: 'og:title', content: `L'Incubateur des Territoires`},
+    {key:'og:site_name', property: 'og:site_name', content: `L'Incubateur des Territoires`},
+    {key:'og:type', property: 'og:type', content: 'website'},
+    {key:'og:image', property: 'og:image', content: `${ROOT_PATH}/logoIncubateur.svg`},
+    {key:'og:description', property: 'og:description', content: `Une mission de l'Agence nationale de la cohesion des territoires`}
   ]
 
   head.meta = head.meta.concat(socialMediaMeta)

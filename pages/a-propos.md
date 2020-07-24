@@ -3,9 +3,7 @@ name: a-propos
 title: À propos
 ---
 
-## Présentation
-
-L'Incubateur des Territoires de l'Agence nationale de la cohésion des territoires a pour objectif l’émergence rapide de services numériques de qualité au service des usagers, répondant à des problèmes concrets et en suivant l’approche beta.gouv.fr. Elle vise également à accompagner la montée à l’échelle de projets territoriaux innovants et la mise en place de gouvernances partagées et de communs numériques entre collectivités territoriales et acteurs de l’économie sociale et solidaire.
+L'Incubateur des Territoires de l'Agence nationale de la cohésion des territoires a pour objectif l’émergence rapide de services numériques de qualité au service des usagers, répondant à des problèmes concrets et en suivant [l’approche beta.gouv.fr](https://beta.gouv.fr/approche/). Elle vise également à accompagner la montée à l’échelle de projets territoriaux innovants et la mise en place de gouvernances partagées et de communs numériques entre collectivités territoriales et acteurs de l’économie sociale et solidaire.
 
 ## Comment ?
 

@@ -6,11 +6,11 @@ post_ouvert: 2020-07-21
 contact: incubateur@anct.gouv.fr
 ---
 
-L'Incubateur des Territoires de l'ANCT recherche **un•e chef•fe de projets "communs numériques"**. Il/elle aura pour mission de développer l'offre de services de l'Incubateur des Territoires à destination des collectivités et des startups de territoires souhaitant valoriser le modèle des "communs numériques" comme méthodologie pour gouverner et pérenniser des services numériques.
+L'Incubateur des Territoires recherche **un•e chef•fe de projets communs numériques et gouvernance**. Il/elle aura pour mission de développer l'offre de services de l'Incubateur des Territoires à destination des collectivités et des startups de territoires souhaitant valoriser le modèle des "communs numériques" comme méthodologie pour gouverner et pérenniser des services numériques.
 
 ## Qui sommes-nous ?
 
-L'Incubateur des Territoires a pour objectif l’émergence rapide de services numériques au service des politiques publiques de l’ANCT et des collectivités territoriales, répondant à des problèmes concrets et en suivant l’approche beta.gouv.fr. Elle vise à accompagner la montée à l’échelle des services qui montre une forte impacte positifs envers les usagers et la mise en place de gouvernances partagées entre collectivités territoriales et acteurs de l’économie sociale et solidaire.
+L'Incubateur des Territoires de l'Agence nationale de la cohesion des territoires a pour objectif l’émergence rapide de services numériques de qualité au service des usagers, répondant à des problèmes concrets et en suivant [l’approche beta.gouv.fr](https://beta.gouv.fr/approche/). Elle vise également à accompagner la montée à l’échelle de projets territoriaux innovants et la mise en place de gouvernances partagées et de communs numériques entre collectivités territoriales et acteurs de l’économie sociale et solidaire.
 
 ## Missions
 
@@ -41,3 +41,10 @@ Expérience professionnelle sur une mission similaire ou première expérience s
 - Partenariats (développement et suivi)
 - Animation d’ateliers de formation sur le produit
 - Gestion d’événements 
+
+## Modalités
+
+- Poste ouvert pour un indépendant ou une indépendante pour un premier contrat de 6 mois renouvelable, temps partiel au 3/5 ou 4/5 par semaine. 
+- Une présence régulière à Paris est demandée pour participer aux sessions stratégiques et collaboratives. 
+- Le télétravail est possible. 
+- Démarrage début septembre 2020.

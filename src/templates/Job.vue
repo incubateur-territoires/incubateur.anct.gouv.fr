@@ -41,7 +41,15 @@ export default {
   metaInfo() {
     return {
       title: `${this.$page.job.equipe} recrute : ${this.$page.job.role}`,
-      description: `L'Incubateur des Territoires et ses startups de territoires recrute`
+      meta: [
+        // Twitter Card
+        {key:'twitter:title', property: 'twitter:title', content: `L'Incubateur des Territoires`},
+        {key:'twitter:description', property: 'twitter:description', content: `${this.$page.job.equipe} recrute : ${this.$page.job.role}`},
+        // Facebook OpenGraph
+        {key:'og:title', property: 'og:title', content: `L'Incubateur des Territoires`},
+        {key:'og:site_name', property: 'og:site_name', content: `L'Incubateur des Territoires`},
+        {key:'og:description', property: 'og:description', content: `${this.$page.job.equipe} recrute : ${this.$page.job.role}`}
+      ]
     }
   },
   components: {
