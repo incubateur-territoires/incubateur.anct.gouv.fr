@@ -23,11 +23,7 @@ L'Incubateur des Territoires a pour objectif l’émergence rapide de services n
 - Participer aux grands événements de rassemblement des associations de collectivités territoriales (Salon des Maires, etc.) ;
 - De nombreux déplacements dans les territoires sont à prévoir.
 
-## Profil recherché
-
-Expérience professionnelle sur une mission similaire ou première expérience suite à un diplôme d’une grande école (Sciences Po, Grandes écoles de commerce, IEP) ou d’une faculté (Droit, IAE, etc.)
-
-### Votre profil nous intéresse si :
+## Votre profil nous intéresse si :
 
 - Vous êtes animé·e par la volonté d’améliorer le service public.
 - Vous souhaitez promouvoir de nouveaux modèles d'innovation ouverts et collaboratifs.

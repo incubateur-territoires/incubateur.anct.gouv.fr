@@ -25,10 +25,7 @@ En vous appuyant sur ces travaux et ces dispositifs déjà existants, votre miss
 * Développer l'offre de services de l'Incubateur des Territoires pour l'accompagnement aux démarches des communs numériques
 * Créer et structurer un espace numérique de référence dédié à l'accompagnement des démarches de communs, en repartant des ressources déjà existantes, en les testant, en les optimisant et en les complétant 
 
-## Profil recherché
-Expérience professionnelle sur une mission similaire ou première expérience suite à un diplôme d’une grande école (Sciences Po, Grandes écoles de commerce, IEP) ou d’une faculté (Droit, IAE, etc.)
-
-### Votre profil nous intéresse si :
+## Votre profil nous intéresse si :
 - Vous êtes animé·e par la volonté d’améliorer le service public.
 - Vous souhaitez promouvoir de nouveaux modèles d'innovation ouverts et collaboratifs.
 - Vous savez faire preuve d’initiative et tenir vos engagements.
