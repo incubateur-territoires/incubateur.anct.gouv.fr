@@ -4,7 +4,7 @@ contrat: préstataire
 equipe: Incubateur des Territoires
 post_ouvert: 2020-07-21
 contact: incubateur@anct.gouv.fr
-status: live
+status: closed
 ---
 
 L'Incubateur des Territoires recherche **un•e chef•fe de projets communs numériques et gouvernance**. Il/elle aura pour mission de développer l'offre de services de l'Incubateur des Territoires à destination des collectivités et des startups de territoires souhaitant valoriser le modèle des "communs numériques" comme méthodologie pour gouverner et pérenniser des services numériques.

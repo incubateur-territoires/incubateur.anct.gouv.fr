@@ -4,7 +4,7 @@ contrat: préstataire
 equipe: Incubateur des Territoires
 post_ouvert: 2020-07-29
 contact: incubateur@anct.gouv.fr
-status: live
+status: closed
 ---
 
 L'Incubateur des Territoires recherche **un•e chef.fe de projets business dev et deploiement transverse**. Vous aurez pour mission de développer une offre de déploiement des services numériques à destination des collectivités territoriales. Vous identifierez les besoins communs des agents de territoires et leur proposerez des bouquets de services numériques déployables clé en main sur leurs territoires. Ces bouquets seront constitués des services numériques construits au sein de l'Incubateur des Territoires, d'autres incubateurs et fabriques de l'état, ainsi que des services associatifs. Vous partagerez avec la communauté beta.gouv.fr les besoins des usagers que vous découvrirez pendant vos échanges avec les collectivités. Vous participerez à la construction d'un guichet en ligne proposant ce bouquet de services, nommé le *Territoires Store*. 

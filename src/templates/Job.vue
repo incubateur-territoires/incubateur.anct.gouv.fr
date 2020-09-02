@@ -6,10 +6,18 @@
       </PageTitle>
 
       <div class="px-4">      
+        <div v-if="pourvu" class="notice-pourvu">
+          ❗️ Ce poste a été pourvu. <g-link to="/recrutements/">Veuillez consulter nos offres actuelles</g-link>.
+        </div>
+        
         <PageContent v-html="$page.job.content" />
 
+        <div v-if="pourvu" class="notice-pourvu">
+          ❗️ Ce poste a été pourvu. <g-link to="/recrutements/">Veuillez consulter nos offres actuelles</g-link>.
+        </div>
+
         <div class="buttons">
-          <g-link v-if="$page.job.contact" :to="`mailto:${$page.job.contact}?subject=[Candidature] ${$page.job.equipe} - ${$page.job.role}`" class="button postuler">
+          <g-link v-if="$page.job.contact && !this.pourvu" :to="`mailto:${$page.job.contact}?subject=[Candidature] ${$page.job.equipe} - ${$page.job.role}`" class="button postuler">
             Postuler<font-awesome class="ml-2" :icon="['far', 'envelope']"/> 
           </g-link>
 
@@ -29,6 +37,7 @@ query ($id: ID!) {
     role
     content
     contact
+    status
   }
 }
 </page-query>
@@ -55,12 +64,25 @@ export default {
   components: {
     PageTitle,
     PageContent
+  },
+  computed: {
+    pourvu: function () {
+      return this.$page.job.status === 'closed'
+    }
   }
 }
 </script>
 
 <style lang="scss">
 .job {
+  .notice-pourvu {
+    @apply my-12 max-w-screen-md mx-auto p-4 rounded-lg bg-yellow;
+
+    a {
+      @apply text-navy font-semibold;
+    }
+  }
+  
   .buttons {
     @apply my-12 max-w-screen-md mx-auto;
   }
