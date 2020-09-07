@@ -4,6 +4,7 @@ contrat: préstataire
 equipe: Aidants Connect
 post_ouvert: 2020-05-19
 contact: contact@aidantsconnect.beta.gouv.fr
+status: closed
 ---
 
 La Startup d’État Aidants Connect recherche un(e) "business developer" qui est en charge du déploiement, pour accompagner sa phase d’accélération et de déploiement progressif dans les territoires.
