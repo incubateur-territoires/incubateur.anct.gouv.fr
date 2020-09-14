@@ -20,7 +20,7 @@ L'Incubateur des Territoires de l'Agence nationale de la cohésion des territoir
 ### Favoriser les mutualisations
 - Identifier des problèmes communs entre territoires
 - Favoriser une coopération inter-territoires et État-territoire
-- fournir des ressources pour passer à l'échelle des communs numériques
+- Fournir des ressources pour passer à l'échelle des communs numériques
 
 <!-- ## Comment évaluer l'impacte de nos actions ?
 
