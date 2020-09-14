@@ -16,7 +16,7 @@
 
         <div class="action">
           <g-link to="https://blog.beta.gouv.fr/dinsic/2020/06/22/investigations/" class="button">
-            Postulez à l’appel à intrapreneurs de <font-awesome class="ml-2" :icon="['fas', 'external-link-alt']"/>
+            Postulez à l’appel à intrapreneurs de Beta.gouv.fr<font-awesome class="ml-2" :icon="['fas', 'external-link-alt']"/>
           </g-link>
         </div>
 
@@ -27,8 +27,8 @@
         </div> -->
       </div>
 
-    <!-- 
-      <div class="public">
+    
+      <!-- <div class="public">
         <h1 class="title">Vous êtes un élu territorial</h1>
 
         <p class="font-bold"><span class="mr-2">🙋‍♀️</span> Encourager vos agents à postuler pour le programme d'intrapreneuriat</p>
@@ -36,8 +36,8 @@
         <g-link class="button">
           Inscrivez-vous dans la prochaine Académie des Élus →
         </g-link>
-      </div> 
-    -->
+      </div>  -->
+   
 
       <div class="public">
         <h1 class="title">Vous portez un projet numérique à destination des territoires (asso, privé)</h1>
