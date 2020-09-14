@@ -16,11 +16,9 @@
           ❗️ Ce poste a été pourvu. <g-link to="/recrutements/">Veuillez consulter nos offres actuelles</g-link>.
         </div>
 
-        <div class="buttons">
-          <g-link v-if="$page.job.contact && !this.pourvu" :to="`mailto:${$page.job.contact}?subject=[Candidature] ${$page.job.equipe} - ${$page.job.role}`" class="button postuler">
-            Postuler<font-awesome class="ml-2" :icon="['far', 'envelope']"/> 
-          </g-link>
+        <CandidaterForm :poste="`${$page.job.role}`" />
 
+        <div class="buttons">
           <g-link class="retourner" to="/recrutements/">
             ← Retourner aux offres de recrutement
           </g-link>
@@ -45,6 +43,7 @@ query ($id: ID!) {
 <script>
 import PageTitle from '~/components/PageTitle.vue'
 import PageContent from '~/components/PageContent.vue'
+import CandidaterForm from '~/components/CandidaterForm.vue'
 
 export default {
   metaInfo() {
@@ -63,7 +62,8 @@ export default {
   },
   components: {
     PageTitle,
-    PageContent
+    PageContent,
+    CandidaterForm
   },
   computed: {
     pourvu: function () {
@@ -89,10 +89,6 @@ export default {
 
   .retourner {
     @apply inline-block mt-4 px-4 py-2 text-green font-semibold border-white border-2 rounded-full transition ease-linear duration-100;
-
-    @screen sm {
-      @apply ml-4 mt-0;
-    }
 
     &:hover {
       @apply border-green;

@@ -43,7 +43,7 @@
           <ul>
             <li><g-link to="https://societenumerique.gouv.fr/">Société Numérique</g-link></li>
             <li><g-link to="https://www.amenagement-numerique.gouv.fr/">Aménagement Numérique</g-link></li>
-            <li><g-link to="https://participer.numerique-en-commun.fr">Numérique en Commun</g-link></li>
+            <li><g-link to="https://numerique-en-communs.fr/">Numérique en Commun</g-link></li>
           </ul>
         </div>
         <div>
