@@ -1,10 +1,10 @@
 ---
-role: Chef.fe de produit - Plan de relance Inclusion Numérique
+role: Chef.fe de produit
 contrat: indépendant
-equipe: Incubateur des Territoires
-post_ouvert: 2020-09-14
+equipe: Plan de relance Inclusion Numérique
+post_ouvert: 2020-09-16
 contact: incubateur@anct.gouv.fr
-status: draft
+status: open
 ---
 
 La startup d’état  pilotée par la [Banque des Territoires](https://www.banquedesterritoires.fr/) et le [Programme Société Numérique](https://societenumerique.gouv.fr) qui a pour objectifs de donner à tous les moyens de saisir les opportunités du numérique, levier de l’émancipation et de favoriser la montée en compétences des 13 millions de Français éloignés du numérique.

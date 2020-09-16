@@ -4,7 +4,7 @@ equipe: Bases Adresses Locales
 contrat: freelance
 post_ouvert: 2020-07-21
 contact: incubateur@anct.gouv.fr
-status: live
+status: closed
 ---
 
 L'équipe de la startup d'Etat Bases Adresses Locales recherche **un•e business développeur•se**. Il/elle aura pour mission de stimuler, encourager et appuyer le partage des bases adresses locales par les collectivités concernées.
