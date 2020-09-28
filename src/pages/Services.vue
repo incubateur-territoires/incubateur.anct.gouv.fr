@@ -2,7 +2,7 @@
   <Layout>
     <div class="services">
       <PageTitle>
-        Services incubés
+        Services numériques
       </PageTitle>
 
       <div class="px-4 services-cards">
@@ -14,18 +14,18 @@
 
 <page-query>
   query Services ($page: Int) {
-    services: allService (page: $page) {
+    services: allStartups (page: $page, sortBy: "status", order: ASC) {
       edges {
         node {
           id
-          title
+          name
+          pitch
           status
-          link
-          repository
-          stats_url
           contact
-          mission
-          path
+          beta_url
+          repo_url
+          stats_url
+          service_url
         }
       }
     }

@@ -4,14 +4,14 @@
     @mouseover="hover = true"
     @mouseleave="hover = false"
   >
-    <g-link :to="service.link">
+    <g-link :to="service.service_url || service.beta_url">
       <div class="service-card">
-        <div class="title" v-html="service.title" /><font-awesome v-if="hover" class="icon" height="1.5rem" width="1.5rem" :icon="['fas', 'external-link-alt']"/>
-        <div class="mission" v-html="service.mission" />
+        <div class="title" v-html="service.name" /><font-awesome v-if="hover" class="icon" height="1.5rem" width="1.5rem" :icon="['fas', 'external-link-alt']"/>
+        <div class="mission" v-html="service.pitch" />
+        <div class="status" v-html="service.status" />
         <div class="icon-links">
-          <!-- <div class="status" v-html="service.status" /> -->
           <g-link v-if="service.contact" :to="mailto"><font-awesome :icon="['far', 'envelope']"/></g-link>
-          <g-link v-if="service.repository" :to="service.repository"><font-awesome :icon="['fab', 'github']"/></g-link>
+          <g-link v-if="service.repo_url" :to="service.repo_url"><font-awesome :icon="['fab', 'github']"/></g-link>
           <g-link v-if="service.stats_url" :to="service.stats_url"><font-awesome :icon="['far', 'chart-bar']"/></g-link>
         </div>
       </div>
@@ -62,7 +62,7 @@ export default {
   }
 
   .status {
-    @apply inline-block bg-gray-400 -mb-1 -ml-1 px-2 py-1 text-xs text-gray-900 rounded-lg font-medium;
+    @apply absolute bg-gray-400 top-0 right-0 mt-1 mr-1 px-2 py-1 text-xs text-gray-800 rounded-lg font-medium;
   }
 
   .icon-links {

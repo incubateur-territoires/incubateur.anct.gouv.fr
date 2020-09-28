@@ -5,9 +5,43 @@
 // Changes here require a server restart.
 // To restart press CTRL + C in terminal and run `gridsome develop`
 
+const axios = require('axios')
+
 module.exports = function (api) {
-  api.loadSource(({ addCollection }) => {
     // Use the Data Store API here: https://gridsome.org/docs/data-store-api/
+  api.loadSource(async actions => {
+    const results = await axios.get('https://beta.gouv.fr/api/v2/startups.json')
+    const startups = results.data.data
+
+    const startupOverrides = actions.getCollection('Service')
+
+    const collection = actions.addCollection({
+      typeName: 'Startups'
+    })
+
+    for (const startup of startups) {
+      if (startup.relationships.incubator.data.id === 'anct') {
+        const override = startupOverrides.getNodeById(startup.id) || {}
+        
+        const statusMap = {
+          "alumni": "partenariat passé",
+          "construction": "en construction",
+          "investigation": "en investigation"
+        }
+
+        collection.addNode({
+          id: startup.id,
+          name: startup.attributes.name,
+          pitch: startup.attributes.pitch,
+          beta_url: `https://beta.gouv.fr/startups/${startup.id}.html`,
+          service_url: startup.attributes.link,
+          repo_url: startup.attributes.repository,
+          stats_url: startup.attributes.stats_url,
+          contact: override.contact || startup.attributes.contact,
+          status: statusMap[startup.attributes.phases.slice(-1)[0].name]
+        })
+      }
+    }
   })
 
   api.createPages(({ createPage }) => {
