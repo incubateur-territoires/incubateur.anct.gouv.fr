@@ -5,4 +5,4 @@ title: Kit territoires
 
 ## Guide des services publics numériques
 
-Découvrez une trentaine de produits numériques publics et gratuits dont votre territoire pourrait bénéficier, vous permettra en tant qu’élu.e.s, directeurs ou directrices de la fonction territoriale, agents de la fonction publique, de contribuer à offrir un service de qualité ou à résoudre des problèmes de politiques liés à l’environnement, à l’emploi, aux mobilités etc éventuellement présents sur votre territoire. 
+Découvrez une trentaine de produits numériques publics et gratuits dont votre territoire pourrait bénéficier, vous permettra en tant qu’élu.e.s, directeurs ou directrices de la fonction territoriale, agents de la fonction publique, de contribuer à offrir un service de qualité ou à résoudre des problèmes de politiques liés à l’environnement, à l’emploi, aux mobilités, etc. éventuellement présentes sur votre territoire. Vous avez une question? Laissez-nous vos coordonnées et nous vous recontacterons : [formulaire de contact](https://incubateur.anct.gouv.fr/contact-territoires/).
