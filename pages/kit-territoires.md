@@ -1,6 +1,6 @@
 ---
 name: kit-territoires
-title: Kit territoires
+title: Kit territoires des Élus
 ---
 
 ## Guide des services publics numériques

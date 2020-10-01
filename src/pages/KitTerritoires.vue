@@ -11,13 +11,9 @@
       <PageContent v-html="$page.pageContent.content" />
 
       <div class="buttons">
-        <a class="button matomo_download" title="Télécharger le kit" href="/kitelus_def.pdf" target="_blank" id="downloadpdfbutton" onclick="_paq.push(['trackEvent', 'KitTerritoires', 'Download']);">Télécharger le kit</a>
-        <div class="button cursor-pointer" v-on:click="showContact = !showContact">Questions? Contactez-nous</div>
-      </div>
-
-      <div class="my-12 max-w-screen-md mx-auto" v-if="showContact">
-        <iframe class="airtable-embed airtable-dynamic-height" src="https://airtable.com/embed/shr1fmbfwYDtsKX7l?backgroundColor=orange" frameborder="0" onmousewheel="" width="100%" height="533" style="background: transparent; border: 1px solid #ccc;"></iframe>
-      </div>
+        <a class="cta matomo_download" title="Télécharger le kit" href="/kitelus_def.pdf" target="_blank" id="downloadpdfbutton" onclick="_paq.push(['trackEvent', 'KitTerritoires', 'Download']);">Télécharger le kit <font-awesome class="ml-2" :icon="['far', 'file-pdf']"/></a>
+        <g-link class="contact cursor-pointer" to="/contact-territoires/">Intéressé ? Contactez-nous</g-link>
+      </div>       
     </div>
   </Layout>
 </template>
@@ -35,30 +31,30 @@ query page {
 <style lang="scss">
 .kit-territoires {
   .buttons {
-    @apply mt-12 font-semibold;
+    @apply flex flex-col justify-center mb-6 max-w-screen-xs mt-12 font-semibold mx-auto;
 
-    .button:first-child {
-      @apply mb-4;
-
+    .cta {
+      @apply block px-4 py-2 my-4 border-2 border-navy text-navy font-bold text-lg rounded-full shadow-yellow text-center transition ease-linear duration-100;
+    
       @screen sm {
-        @apply mb-0 mr-4;
+        @apply inline-block my-2;
+      }
+
+      &:hover {
+        @apply bg-navy text-white;
       }
     }
 
-    @screen sm {
-      @apply flex justify-center mb-6;
-    }
-
-    .button {
-      @apply block text-center;
-
-      @apply py-2 px-4 bg-yellow rounded-lg text-navy border-4 border-yellow text-lg transition ease-linear duration-100;
-
+    .contact {
+      @apply block px-4 py-2 mt-4 border-2 border-transparent text-navy font-bold rounded-full text-center transition ease-linear duration-100;
+    
       &:hover {
-        @apply border-4 border-yellow bg-navy text-yellow;
+        @apply border-navy;
       }
     }
   }
+
+
 }
 </style>
 
@@ -71,19 +67,9 @@ export default {
   metaInfo: {
     title: "Kit territoires",
   },
-  data() {
-    return {
-      showContact: false
-    }
-  },
   components: {
     PageTitle,
     PageContent,
-  },
-  mounted() {
-    let recaptchaScript = document.createElement('script')
-    recaptchaScript.setAttribute('src', 'https://static.airtable.com/js/embed/embed_snippet_v1.js')
-    document.head.appendChild(recaptchaScript)
-  },
+  }
 };
 </script>

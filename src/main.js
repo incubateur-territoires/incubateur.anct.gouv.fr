@@ -15,6 +15,7 @@ import {
 import {
   faEnvelope,
   faChartBar,
+  faFilePdf
   } from '@fortawesome/free-regular-svg-icons'
 import '@fortawesome/fontawesome-svg-core/styles.css'
 
@@ -26,7 +27,8 @@ library.add(
   faEnvelope,
   faChartBar,
   faBars,
-  faTimes
+  faTimes,
+  faFilePdf
 )
 
 
