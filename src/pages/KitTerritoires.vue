@@ -65,7 +65,17 @@ import PageContent from "~/components/PageContent.vue";
 
 export default {
   metaInfo: {
-    title: "Kit territoires",
+    title: "Kit territoires des élus",
+    meta: [
+      {key: 'description', property: 'description', content: 'Guide des services publics numériques offert aux colléctivités'},
+      // Twitter Card
+      {key:'twitter:title', property: 'twitter:title', content: 'Kit territoires des élus'},
+      {key:'twitter:description', property: 'twitter:description', content: "Guide des services publics numériques offert aux colléctivités"},
+      // Facebook OpenGraph
+      {key:'og:title', property: 'og:title', content: "Kit territoires des élus"},
+      {key:'og:site_name', property: 'og:site_name', content: "Incubateur des Territoires"},
+      {key:'og:description', property: 'og:description', content: "Guide des services publics numériques offert aux colléctivités"}
+    ]
   },
   components: {
     PageTitle,

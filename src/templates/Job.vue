@@ -48,7 +48,7 @@ import CandidaterForm from '~/components/CandidaterForm.vue'
 export default {
   metaInfo() {
     return {
-      title: `${this.$page.job.equipe} recrute : ${this.$page.job.role}`,
+      title: `${this.$page.job.role}, ${this.$page.job.equipe}`,
       meta: [
         // Twitter Card
         {key:'twitter:title', property: 'twitter:title', content: `L'Incubateur des Territoires`},
