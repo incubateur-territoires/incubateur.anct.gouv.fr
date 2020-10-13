@@ -12,7 +12,7 @@ module.exports = {
   templates: {
     Job: [
       {
-        path: '/recrutements/:role',
+        path: '/recrutements/:slug',
       }
     ]
   },

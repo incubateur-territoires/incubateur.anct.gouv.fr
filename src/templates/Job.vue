@@ -16,7 +16,7 @@
           ❗️ Ce poste a été pourvu. <g-link to="/recrutements/">Veuillez consulter nos offres actuelles</g-link>.
         </div>
 
-        <CandidaterForm v-if="!pourvu" :poste="`${$page.job.role}`" />
+        <CandidaterForm v-if="!pourvu" :poste="`${$page.job.role} - ${$page.job.equipe}`" />
 
         <div class="buttons">
           <g-link class="retourner" to="/recrutements/">
