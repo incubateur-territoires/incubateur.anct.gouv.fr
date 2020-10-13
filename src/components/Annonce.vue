@@ -1,27 +1,26 @@
 <template>
   <section class="annonce">
-    <h1 class="title">Appel à intrapreneurs</h1>
+    <h1 class="title">Appel à investigations</h1>
     <p class="text-center sm:text-lg">
-      En collaboration avec <g-link to="https://beta.gouv.fr">beta.gouv.fr</g-link>, <strong>l'Incubateur des Territoires cherche de nouveaux collaborateurs au sein des collectivités.</strong>
+      Rencontrez-vous un problème de politique publique dans votre collectivité que vous souhaiteriez investiguer avec <strong>l’aide d'experts numériques</strong> ? 
       <br><br>
-      Rencontrez-vous un problème de politique publique que vous souhaiteriez investiguer avec <strong>l’aide d'experts numériques</strong> (coach, designer, spécialiste de l’expérience utilisateur) ? 
+      L'Incubateur des Territoires <strong>propose de prendre en charge un accompagnement</strong> pour investiguer des solutions à votre problème.
       <br><br>
-      Postulez en envoyant un mail décrivant ce problème et un·e membre de l’équipe reviendra vers vous pour en discuter.
-      <strong>L'Incubateur prend en charge la phase d’investigation</strong> pour le compte des collectivités territoriales.
+      Contactez-nous en décrivant ce problème et un·e membre de l’équipe reviendra vers vous pour en discuter.
     </p>
     <div class="outlinks">
       <g-link
-        to="mailto:investigations@beta.gouv.fr"
+        to="mailto:incubateur@anct.gouv.fr"
         class="outlink"
       >
-        Postuler <font-awesome class="ml-2" :icon="['far', 'envelope']"/>
+        Contactez-nous <font-awesome class="ml-2" :icon="['far', 'envelope']"/>
       </g-link>
-      <g-link
+      <!-- <g-link
         to="https://blog.beta.gouv.fr/dinsic/2020/06/22/investigations/"
         class="outlink"
       >
         En savoir plus <font-awesome class="ml-2" :icon="['fas', 'external-link-alt']"/>
-      </g-link>
+      </g-link> -->
     </div>
   </section>
 </template>
