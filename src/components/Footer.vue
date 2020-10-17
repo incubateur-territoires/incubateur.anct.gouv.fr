@@ -21,6 +21,12 @@
         </p>
       </div>
 
+      <div class="recrutements">
+        <g-link to="/recrutements/">
+          <span class="mr-2">🚀</span> Nous recrutons ! Voir nos offres d'emploi →
+        </g-link>
+      </div>
+
       <div class="incubateur-links">
         <g-link to="mailto:incubateur@anct.gouv.fr">
             <font-awesome :icon="['fas', 'paper-plane']" transform="shrink-2"/> Contact
@@ -120,6 +126,18 @@ footer {
 
       div {
         @apply mb-8 mr-8;
+      }
+    }
+  }
+
+  .recrutements {
+    @apply mt-6 text-green font-semibold -ml-4;
+
+    a {
+      @apply border-2 inline-block py-2 px-4 rounded-full border-white;
+
+      &:hover {
+        @apply border-green;
       }
     }
   }

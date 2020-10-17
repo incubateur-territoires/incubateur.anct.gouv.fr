@@ -2,7 +2,7 @@
   <Layout>
     <div>
       <PageTitle>
-        Offres
+        Offres aux acteurs publics et partenaires de collectivités
       </PageTitle>
       
       <PageContent>

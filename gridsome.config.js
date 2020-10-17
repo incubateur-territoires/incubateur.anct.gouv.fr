@@ -55,6 +55,21 @@ module.exports = {
       }
     },
     {
+      use: '@gridsome/source-strapi',
+      options: {
+        apiURL: `https://incubateur-strapi.herokuapp.com/`,
+        queryLimit: 1000, // Defaults to 100
+        contentTypes: [`fiche-de-poste`, `actualite`],
+        singleTypes: [`offres-aux-collectivites`],
+        plural: true, // pluralizes names of Content Types in API
+        // Possibility to login with a Strapi user, when content types are not publicly available (optional).
+        loginData: {
+          identifier: 'gridsome',
+          password: 'mYkAVJcf!gUWN2sE62Uk_yvg@kFRvwgK',
+        },
+      }
+    },
+    {
       use: 'gridsome-plugin-tailwindcss',
       /**
       * These are the default options. You don't need to set any options to get

@@ -31,11 +31,13 @@ library.add(
   faFilePdf
 )
 
+import vClickOutside from 'v-click-outside'
 
 export default function (Vue, { router, head, isClient }) {
   // Set default layout as a global component
   Vue.component('Layout', DefaultLayout)
   Vue.component('font-awesome', FontAwesomeIcon)
+
 
   // Load some other dependencies
   const moment = require('moment')
@@ -44,6 +46,8 @@ export default function (Vue, { router, head, isClient }) {
   Vue.use(require('vue-moment'), {
       moment
   })
+
+  Vue.use(vClickOutside)
 
   let ROOT_PATH = 'https://incubateur.anct.gouv.fr'
 

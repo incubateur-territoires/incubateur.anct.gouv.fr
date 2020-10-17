@@ -10,6 +10,12 @@ module.exports = {
       'lg': '1024px',
       'xl': '1280px',
     },
+    inset: {
+      '0': 0,
+      auto: 'auto',
+      '1/2': '50%',
+      '-1/2': '-50%'
+    },
     extend: {
       colors: {
         blue: '#3b5fa9',

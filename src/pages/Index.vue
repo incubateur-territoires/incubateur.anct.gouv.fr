@@ -2,12 +2,6 @@
   <Layout>
     <FrontSplash />
 
-    <div class="under-splash">
-      <g-link to="/recrutements/">
-        <span class="mr-2">🚀</span> Nous recrutons ! Voir nos offres d'emploi →
-      </g-link>
-    </div>
-
     <Annonce class="annonce" />
 
     <section class="publics">
@@ -19,25 +13,7 @@
             Postulez à l’appel à intrapreneurs de Beta.gouv.fr<font-awesome class="ml-2" :icon="['fas', 'external-link-alt']"/>
           </g-link>
         </div>
-
-        <!-- <div class="action">
-          <g-link to="https://aides-territoires.beta.gouv.fr/" class="button">
-            Découvrir les aides financiers sur Aides Territoires <font-awesome class="ml-2" :icon="['fas', 'external-link-alt']"/>
-          </g-link>
-        </div> -->
-      </div>
-
-    
-      <!-- <div class="public">
-        <h1 class="title">Vous êtes un élu territorial</h1>
-
-        <p class="font-bold"><span class="mr-2">🙋‍♀️</span> Encourager vos agents à postuler pour le programme d'intrapreneuriat</p>
-          
-        <g-link class="button">
-          Inscrivez-vous dans la prochaine Académie des Élus →
-        </g-link>
-      </div>  -->
-   
+      </div> 
 
       <div class="public">
         <h1 class="title">Vous portez un projet numérique à destination des territoires (asso, privé)</h1>
@@ -82,18 +58,6 @@ export default {
 
   @screen sm {
     @apply mb-24;
-  }
-}
-
-.under-splash {
-  @apply max-w-screen-md mx-auto mt-6 px-4 text-green font-semibold text-center;
-
-  a {
-    @apply border-2 inline-block py-2 px-4 rounded-full border-white;
-
-    &:hover {
-      @apply border-green;
-    }
   }
 }
 

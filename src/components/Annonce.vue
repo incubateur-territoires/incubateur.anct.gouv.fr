@@ -38,6 +38,7 @@
     font-family: "Marianne";
     font-weight: 800;
     padding: 0 .5rem;
+    z-index: 10;
 
     font-size: 1.25rem;
 

@@ -1,6 +1,7 @@
 <template>
   <div class="container">
-    <Header />    
+    <Header />
+    <NavBar /> 
     <slot />
     <Footer />
   </div>
@@ -8,11 +9,13 @@
 
 <script>
 import Header from '~/components/Header.vue'
+import NavBar from '~/components/NavBar.vue'
 import Footer from '~/components/Footer.vue'
 
 export default {
   components: {
     Header,
+    NavBar,
     Footer
   }
 }

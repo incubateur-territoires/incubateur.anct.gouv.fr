@@ -1,9 +1,9 @@
 <template>
-  <header class="mx-auto max-w-screen-xl font-marianne md:flex md:justify-between md:pr-4">
-    <div class="flex justify-between items-center px-4 my-4">
+  <header class="mx-auto mt-8 px-4 max-w-screen-md font-marianne md:flex md:flex-col">
+    <div class="flex justify-between items-center">
       <div>
-        <g-link class="flex" to="/">
-          <LogoRF class="h-12 md:h-24 mr-8" role="img" title="Logo Républiqe Française" />
+        <g-link class="relative" to="/">
+          <LogoRF class="absolute -ml-48 h-12 md:h-24" role="img" title="Logo Républiqe Française" />
           <Logo />
         </g-link>
       </div>
@@ -14,12 +14,6 @@
         </button>
       </div>
     </div>
-    <nav :class="isOpen ? 'block' : 'hidden'" class="nav md:block md:flex md:items-center">
-      <g-link to="/a-propos/">À propos</g-link>
-      <!-- <g-link to="/offres/">Nos offres</g-link> -->
-      <g-link to="/services/">Services numeriques</g-link>
-      <g-link to="/recrutements">Recrutements</g-link>
-    </nav>
   </header>
 </template>
 
@@ -57,30 +51,5 @@ export default {
  &:hover {
    @apply text-blue;
  }
-}
-
-nav {
-  @apply text-base pb-2;
-
-  @screen md {
-    @apply text-sm pb-0;
-  }
-
-  @screen lg {
-    @apply text-base;
-  }
-  
-  a {
-    @apply block px-2 mx-2 my-1 py-1 transition ease-linear duration-100 rounded-lg;
-
-    @screen md {
-      @apply mx-1;
-    }
-
-    &:hover,
-    &:active {
-      @apply bg-blue text-white;
-    }
-  }
 }
 </style>

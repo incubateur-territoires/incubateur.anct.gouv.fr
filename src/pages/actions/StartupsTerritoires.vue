@@ -2,7 +2,7 @@
   <Layout>
     <div class="services">
       <PageTitle>
-        Services numériques
+        Startups de Territoires
       </PageTitle>
 
       <div class="px-4 services-cards">
