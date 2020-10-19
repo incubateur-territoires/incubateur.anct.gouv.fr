@@ -2,7 +2,7 @@
   <Layout>
     <div class="offres">
       <PageTitle>
-        Collaborations
+        {{ $page.pageContent.title }}
       </PageTitle>
 
       <div class="px-4">
@@ -14,7 +14,7 @@
 
 <page-query>
 query page {
-  pageContent(path: "/pages/a-propos/") {
+  pageContent(id: "collaborations") {
     title
     content
   }
@@ -27,7 +27,7 @@ import PageContent from '~/components/PageContent.vue'
 
 export default {
   metaInfo: {
-    title: 'À propos'
+    title: 'Collaborations'
   },
   components: {
     PageTitle,

@@ -14,6 +14,11 @@ module.exports = {
       {
         path: '/recrutements/:equipe-:role',
       }
+    ],
+    Actualite: [
+      {
+        path: '/actualites/:title',
+      }
     ]
   },
   plugins: [
@@ -25,9 +30,15 @@ module.exports = {
       }
     },
     {
+      use: `gridsome-plugin-netlify-cms`,
+      options: {
+        publicPath: `/admin`
+      }
+    },
+    {
       use: '@gridsome/source-filesystem',
       options: {
-        path: 'services/*.md',
+        path: 'content/services/*.md',
         typeName: 'Service',
         remark: {
           // remark options
@@ -37,7 +48,7 @@ module.exports = {
     {
       use: '@gridsome/source-filesystem',
       options: {
-        path: 'jobs/*.md',
+        path: 'content/jobs/*.md',
         typeName: 'Job',
         remark: {
           // remark options
@@ -47,26 +58,21 @@ module.exports = {
     {
       use: '@gridsome/source-filesystem',
       options: {
-        path: 'pages/*.md',
-        typeName: 'PageContent',
+        path: 'content/actualites/*.md',
+        typeName: 'Actualite',
         remark: {
           // remark options
         }
       }
     },
     {
-      use: '@gridsome/source-strapi',
+      use: '@gridsome/source-filesystem',
       options: {
-        apiURL: `https://incubateur-strapi.herokuapp.com/`,
-        queryLimit: 1000, // Defaults to 100
-        contentTypes: [`fiche-de-poste`, `actualite`],
-        singleTypes: [`offres-aux-collectivites`],
-        plural: true, // pluralizes names of Content Types in API
-        // Possibility to login with a Strapi user, when content types are not publicly available (optional).
-        loginData: {
-          identifier: 'gridsome',
-          password: 'mYkAVJcf!gUWN2sE62Uk_yvg@kFRvwgK',
-        },
+        path: 'content/pages/*.md',
+        typeName: 'PageContent',
+        remark: {
+          // remark options
+        }
       }
     },
     {
@@ -88,7 +94,12 @@ module.exports = {
   ],
   transformers: {
     remark: {
-      // global remark options
+      externalLinksTarget: '_blank',
+      externalLinksRel: ['nofollow', 'noopener', 'noreferrer'],
+      anchorClassName: 'icon icon-link',
+      plugins: [
+        // ...global plugins
+      ]
     }
   },
   chainWebpack: config => {

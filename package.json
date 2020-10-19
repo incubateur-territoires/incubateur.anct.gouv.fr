@@ -6,7 +6,8 @@
     "develop": "gridsome develop",
     "explore": "gridsome explore",
     "predeploy": "yarn build",
-    "deploy": "gh-pages -d dist"
+    "deploy": "gh-pages -d dist",
+    "netlify-cms-proxy": "npx netlify-cms-proxy-server"
   },
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^1.2.29",
@@ -15,13 +16,13 @@
     "@fortawesome/free-solid-svg-icons": "^5.13.0",
     "@fortawesome/vue-fontawesome": "^0.1.10",
     "@gridsome/source-filesystem": "^0.6.2",
-    "@gridsome/source-strapi": "^0.2.0",
     "@gridsome/transformer-remark": "^0.6.0",
     "axios": "^0.20.0",
     "gh-pages": "^3.0.0",
     "gridsome": "^0.7.21",
     "gridsome-plugin-matomo": "^0.1.0",
-    "markdown-it-vue": "^1.1.4",
+    "gridsome-plugin-netlify-cms": "^1.0.9",
+    "netlify-cms": "^2.10.63",
     "v-click-outside": "^3.1.2",
     "vue-moment": "^4.1.0"
   },

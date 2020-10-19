@@ -1,24 +1,30 @@
 <template>
   <Layout>
-    <div class="offres">
+    <div class="recrutement">
       <PageTitle>
         Actualités
       </PageTitle>
 
-      <div class="px-4">
-        <PageContent v-html="$page.pageContent.content" />
+      <div class="actualites">
+        <div v-for="{ node } in $page.actualites.edges" :key="node.id" :job="node">
+          {{ node.title }}
+        </div>
       </div>
     </div>
   </Layout>
 </template>
 
 <page-query>
-query page {
-  pageContent(path: "/pages/a-propos/") {
-    title
-    content
+  query Actualites {
+    actualites: allActualite (sortBy: "date_publie") {
+      edges {
+        node {
+          id
+          title
+        }
+      }
+    }
   }
-}
 </page-query>
 
 <script>
@@ -27,7 +33,7 @@ import PageContent from '~/components/PageContent.vue'
 
 export default {
   metaInfo: {
-    title: 'À propos'
+    title: 'Actualités'
   },
   components: {
     PageTitle,

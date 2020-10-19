@@ -2,13 +2,11 @@
   <Layout>
     <div>
       <PageTitle>
-        Offres aux collectivités territoriales
+        {{ $page.pageContent.title }}
       </PageTitle>
 
       <div class="px-4">
-        <PageContent>
-          <markdown-it-vue-light :content="$page.offres.edges[0].node.contenu[0].texte" />
-        </PageContent>
+        <PageContent v-html="$page.pageContent.content" />
       </div>
     </div>
   </Layout>
@@ -16,15 +14,9 @@
 
 <page-query>
 query page {
-	offres: allStrapiOffresAuxCollectivites {
-    edges {
-      node {
-        contenu {
-          texte
-          citation
-        }
-      }
-    }
+  pageContent(id: "offres-collectivites") {
+    title
+    content
   }
 }
 </page-query>
@@ -32,18 +24,14 @@ query page {
 <script>
 import PageTitle from '~/components/PageTitle.vue'
 import PageContent from '~/components/PageContent.vue'
-import MarkdownItVueLight from 'markdown-it-vue/dist/markdown-it-vue-light.umd.min.js'
-
-const MarkdownIt = require('markdown-it')
 
 export default {
   metaInfo: {
-    title: 'À propos'
+    title: `Offre aux collectivités territoriales`
   },
   components: {
     PageTitle,
-    PageContent,
-    MarkdownItVueLight
+    PageContent
   }
 }
 </script>

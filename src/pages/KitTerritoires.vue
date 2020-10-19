@@ -20,7 +20,7 @@
 
 <page-query>
 query page {
-  pageContent(path: "/pages/kit-territoires/") {
+  pageContent(path: "/content/pages/kit-territoires/") {
     title
     content
   }
