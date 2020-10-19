@@ -10,10 +10,28 @@ public_folder: "/uploads"
 local_backend: true
 
 collections:
+  - name: "elements"
+    label: "Elements"
+    files:
+      - label: "Front Page Featured"
+        name: "front-page-featured"
+        file: "content/elements/front-page-featured.yml"
+        fields:
+          - {label: "Title", name: "title", widget: "string"}
+          - {label: "Intro", name: "intro", widget: "markdown"}
+          - {label: "Texte du lien", name: "texte_du_lien", widget: "string"}
+          - label: "Actualité"
+            name: "actualite"
+            widget: "relation"
+            collection: "actualites"
+            search_fields: ["title"]
+            value_field: "title"
+            display_fields: ["title"]
   - name: "pages"
     label: "Page"
     folder: "content/pages"
-    create: true
+    create: false
+    delete: false
     fields:
       - {label: "Title", name: "title", widget: "string"}
       - {label: "ID", name: "id", widget: "hidden"}
