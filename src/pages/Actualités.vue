@@ -7,7 +7,7 @@
 
       <div class="actualites">
         <div v-for="{ node } in $page.actualites.edges" :key="node.id" :job="node">
-          {{ node.title }}
+          <g-link :to=node.path>{{ node.title }}</g-link>
         </div>
       </div>
     </div>
@@ -20,6 +20,7 @@
       edges {
         node {
           id
+          path
           title
         }
       }
