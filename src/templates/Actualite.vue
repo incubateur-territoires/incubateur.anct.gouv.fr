@@ -18,3 +18,20 @@ query ($id: ID!) {
   }
 }
 </page-query>
+
+<script>
+import PageTitle from '~/components/PageTitle.vue'
+import PageContent from '~/components/PageContent.vue'
+
+export default {
+  metaInfo() {
+    return {
+      title: this.$page.actualite.title
+    }
+  },
+  components: {
+    PageTitle,
+    PageContent
+  }
+}
+</script>

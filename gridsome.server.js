@@ -9,6 +9,8 @@ const axios = require('axios')
 
 module.exports = function (api) {  
   // Use the Data Store API here: https://gridsome.org/docs/data-store-api/
+  
+  // Startup overrides
   api.loadSource(async actions => {
     const results = await axios.get('https://beta.gouv.fr/api/v2/startups.json')
     const startups = results.data.data

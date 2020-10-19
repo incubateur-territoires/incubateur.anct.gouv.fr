@@ -76,6 +76,16 @@ module.exports = {
       }
     },
     {
+      use: '@gridsome/source-filesystem',
+      options: {
+        path: 'content/elements/*.md',
+        typeName: 'Element',
+        remark: {
+          // remark options
+        }
+      }
+    },
+    {
       use: 'gridsome-plugin-tailwindcss',
       /**
       * These are the default options. You don't need to set any options to get

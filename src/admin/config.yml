@@ -15,18 +15,12 @@ collections:
     files:
       - label: "Front Page Featured"
         name: "front-page-featured"
-        file: "content/elements/front-page-featured.yml"
+        file: "content/elements/front-page-featured.md"
         fields:
           - {label: "Title", name: "title", widget: "string"}
-          - {label: "Intro", name: "intro", widget: "markdown"}
+          - {label: "Intro", name: "body", widget: "markdown"}
           - {label: "Texte du lien", name: "texte_du_lien", widget: "string"}
-          - label: "Actualité"
-            name: "actualite"
-            widget: "relation"
-            collection: "actualites"
-            search_fields: ["title"]
-            value_field: "title"
-            display_fields: ["title"]
+          - {label: "URL du lien", name: "url_du_lien", widget: "string"}
   - name: "pages"
     label: "Page"
     folder: "content/pages"

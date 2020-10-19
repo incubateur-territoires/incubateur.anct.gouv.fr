@@ -6,28 +6,26 @@
 
     <section class="publics">
       <div class="public">
-        <h1 class="title">Vous êtes un agent public territorial</h1>
+        <h1 class="title">Vous êtes une collectivité ?</h1>
 
         <div class="action">
-          <g-link to="https://blog.beta.gouv.fr/dinsic/2020/06/22/investigations/" class="button">
-            Postulez à l’appel à intrapreneurs de Beta.gouv.fr<font-awesome class="ml-2" :icon="['fas', 'external-link-alt']"/>
+          <g-link to="/offre/collectivites" class="button">
+            Découvrez notre offre de service →
           </g-link>
         </div>
       </div> 
 
       <div class="public">
-        <h1 class="title">Vous portez un projet numérique à destination des territoires (asso, privé)</h1>
+        <h1 class="title">Vous êtes acteurs publics ou partenaires des collectivités ?</h1>
         
-        <p class="mb-4">Malheureusement, nous n'offrons pas d'aide financière directe aux projets associatifs ou entrepreneuriaux. N'hésitez pas à contacter les équipes de nos Startups de Territoire si vous identifiez des pistes de collaboration.</p>
-        <g-link to="/services/" class="button">
-          Découvrez nos startups →
+        <p class="mb-4">L'Incubateur des Territoires peut fournir un appui opérationnel aux acteurs publics et autres partenaires des collectivités qui souhaitent développer un service public numérique avec les territoires.</p>
+        <g-link to="/offre/partenaires" class="button">
+          Découvrez nos prérequis →
         </g-link>
       </div>  
       
       <div class="public">
-        <h1 class="title">Vous êtes un agent de l'ANCT</h1>
-        
-        <p class="mb-4">Vous avez un projet qui pourrait être porté par l'Incubateur ? </p>
+        <h1 class="title">Vous êtes un agent de l'ANCT ?</h1>
 
         <g-link to="/offre-anct/" class="button">
           Découvrez comment l'Incubateur peut vous aider →
@@ -54,7 +52,7 @@ export default {
 
 <style lang="scss">
 .annonce {
-  @apply mb-12;
+  @apply my-12;
 
   @screen sm {
     @apply mb-24;

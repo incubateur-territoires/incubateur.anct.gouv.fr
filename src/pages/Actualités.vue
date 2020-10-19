@@ -5,9 +5,14 @@
         Actualités
       </PageTitle>
 
-      <div class="actualites">
-        <div v-for="{ node } in $page.actualites.edges" :key="node.id" :job="node">
-          <g-link :to=node.path>{{ node.title }}</g-link>
+      <div class="mx-auto max-w-screen-md">
+        <div 
+          v-for="{ node } in $page.actualites.edges"
+          :key="node.id"
+          :job="node"
+          class="text-xl"
+        >
+          <g-link :to=node.path>{{ node.title }} - {{ node.date_publie }}</g-link>
         </div>
       </div>
     </div>
@@ -22,6 +27,7 @@
           id
           path
           title
+          date_publie
         }
       }
     }
