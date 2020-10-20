@@ -19,7 +19,9 @@ La formation et l'accompagnement des agents sont **entièrement financés par l'
 
 ## 2. développer un service public numérique
 
-L'incubateur des territoires accompagne les collectivités dans le développement d'un service public numérique par la mise à disposition de ressources notamment de l'ingénierie de pointe en matière de numérique, d'intrapreneuriat et de design. **L'équipe dédiée et autonome qui développe ce service public numérique est appelée une startup de territoire.**
+L'incubateur des territoires accompagne les collectivités dans le développement d'un service public numérique par la mise à disposition de ressources notamment en ingénierie de pointe en matière de numérique, d'intrapreneuriat et de design.
+
+L'équipe dédiée et autonome qui développe ce service public numérique est appelée **une startup de territoire.**
 
 L'incubateur des Territoires a pour objectif de rendre opérationnelle la gestion de solutions partagées entre les collectivités. Pour cela, pendant une période appelée incubation, il facilite la mutualisation de moyens entre les parties prenantes.
 
@@ -29,7 +31,9 @@ Par ailleurs, le développement et l'étude de déploiement d'un service public 
 
 ## 3. bénéficier de services publics numériques qui ont fait leurs preuves
 
-Les collectivités peuvent choisir d'utiliser des services numériques qui ont démontré leur impact positif au sein d'autres collectivités. Les services numériques proposés ont été développés en opensource et sont déployables à moindre coût. **Le catalogue qui les rassemble est appelé Territoires Store.**
+Les collectivités peuvent choisir d'utiliser des services numériques qui ont démontré leur impact positif au sein d'autres collectivités. Ils ont été développés en opensource et sont déployables à moindre coût. 
+
+Le catalogue qui rassemble ces services publics numériques est appelé **Territoires Store.**
 
 Plus largement, l'incubateur des territoires, en partenariat avec les acteurs de la mutualisation -associations et syndicats mixtes-, vise à accompagner les collectivités dans l'appropriation des solutions numériques utiles à l'amélioration de leurs politiques et services publics locaux.
 
