@@ -4,7 +4,7 @@ id: a-propos
 ---
 L'Incubateur des Territoires de l'Agence Nationale de la Cohésion des Territoires (ANCT) a pour objectif l’émergence rapide de services numériques de qualité au service des usagers, répondant à des problèmes concrets. Elle emprunte des méthodes issues du numérique, de l'intrapreneuriat et du design. Elle vise également à accompagner la montée à l’échelle de projets innovants et la mise en place de gouvernances partagées et de communs numériques entre collectivités territoriales et partenaires de la transformation numérique des territoires.
 
-L' Incubateur des Territoires s'inscrit dans l'ambition portée par l'ANCT d'assurer un rôle de « fabrique à projets » pour permettre aux collectivités de mener à bien leurs projets.
+L'action de l'Incubateur des Territoires s'inscrit dans l'ambition portée par l'ANCT d'assurer un rôle de « fabrique à projets » pour permettre aux collectivités de mener à bien leurs projets.
 
 ## Comment ?
 
