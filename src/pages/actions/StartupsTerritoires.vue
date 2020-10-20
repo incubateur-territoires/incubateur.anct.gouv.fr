@@ -2,11 +2,27 @@
   <Layout>
     <div class="services">
       <PageTitle>
-        Startups de Territoires
+        {{ $page.pageContent.title }}
       </PageTitle>
 
-      <div class="px-4 services-cards">
-        <ServiceCard v-for="{ node } in $page.services.edges" :key="node.id" :service="node" />
+      <PageContent v-html="$page.pageContent.content" />
+
+      <div class="mx-auto max-w-screen-md">
+        <h2 class="font-marianne text-3xl mb-4 mt-6 font-semibold">
+          Startups de Territoires
+        </h2>
+        
+        <ServiceCard 
+          v-for="{ node } in $page.services.edges"
+          :key="node.id"
+          :name="node.name"
+          :pitch="node.pitch"
+          :contact="node.contact"
+          :beta_url="node.beta_url"
+          :repo_url="node.repo_url"
+          :stats_url="node.stats_url"
+          :service_url="node.service_url"
+        />
       </div>
     </div>
   </Layout>
@@ -14,7 +30,11 @@
 
 <page-query>
   query Services ($page: Int) {
-    services: allStartups (page: $page, sortBy: "status", order: ASC) {
+    pageContent(id: "startups-de-territoires") {
+      title
+      content
+    }
+    services: allStartups (page: $page, sortBy: "status", order: ASC, filter: { status: { nin: ["partenariat passé", "en investigation"]} }) {
       edges {
         node {
           id
@@ -35,6 +55,7 @@
 <script>
 import ServiceCard from '~/components/ServiceCard.vue'
 import PageTitle from '~/components/PageTitle.vue'
+import PageContent from '~/components/PageContent.vue'
 
 export default {
   metaInfo: {
@@ -42,16 +63,8 @@ export default {
   },
   components: {
     ServiceCard,
-    PageTitle
+    PageTitle,
+    PageContent
   }
 }
 </script>
-
-<style lang="scss">
-.services {
-
-  .service-cards {
-    @apply mx-auto max-w-screen-md;
-  }
-}
-</style>

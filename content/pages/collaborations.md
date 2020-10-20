@@ -4,7 +4,6 @@ id: collaborations
 ---
 Contribution aux communs numériques
 
-
 **Ambition :** Faciliter le développement de briques numériques transverses essentielles à la transformation numérique des collectivités.
 
 **A ce titre, l'incubateur :**

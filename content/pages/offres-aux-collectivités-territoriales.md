@@ -2,9 +2,9 @@
 title: Offres aux collectivités territoriales
 id: offres-collectivites
 ---
-> Les collectivités peuvent à tout moment solliciter l'Incubateur des Territoires pour :
+## Les collectivités peuvent à tout moment solliciter l'Incubateur des Territoires pour :
 
-## 1. chercher et tester une solution face à un problème
+# 1. chercher et tester une solution face à un problème
 
 L'incubateur des territoires accompagne les collectivités dans l'étude de problèmes et l'ébauche de premières solutions (numériques ou non) par une démarche d'intrapreneuriat et de design au contact des usagers. **Cette phase est appelée une investigation.**
 
@@ -17,7 +17,7 @@ La formation et l'accompagnement des agents sont **entièrement financés par l'
 * être recontacté
 * Voir des exemples
 
-## 2. développer un service public numérique
+# 2. développer un service public numérique
 
 L'incubateur des territoires accompagne les collectivités dans le développement d'un service public numérique par la mise à disposition de ressources notamment en ingénierie de pointe en matière de numérique, d'intrapreneuriat et de design.
 
@@ -29,7 +29,7 @@ Par ailleurs, le développement et l'étude de déploiement d'un service public 
 
 * être recontacté
 
-## 3. bénéficier de services publics numériques qui ont fait leurs preuves
+# 3. bénéficier de services publics numériques qui ont fait leurs preuves
 
 Les collectivités peuvent choisir d'utiliser des services numériques qui ont démontré leur impact positif au sein d'autres collectivités. Ils ont été développés en opensource et sont déployables à moindre coût. 
 

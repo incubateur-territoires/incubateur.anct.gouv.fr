@@ -23,9 +23,8 @@ a  {
     @apply font-marianne font-black;  
   }
 
-  h1 { @apply text-5xl my-12; }
-  h2 { @apply text-3xl mt-6 mb-4 leading-tight; }
-  h3 { @apply my-4 }
+  h1 { @apply text-3xl mt-6 mb-4 leading-tight; }
+  h2 { @apply my-4; }
 
   p { @apply mb-4 }
 
