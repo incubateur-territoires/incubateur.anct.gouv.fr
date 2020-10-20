@@ -10,9 +10,11 @@
           v-for="{ node } in $page.actualites.edges"
           :key="node.id"
           :job="node"
-          class="text-xl"
         >
-          <g-link :to=node.path>{{ node.title }} - {{ node.date_publie }}</g-link>
+          <g-link :to=node.path>
+            <div class="text-gray-600 text-sm">{{ $date(node.date_publie).format('[le] DD MMMM YYYY') }}</div>
+            <div class="text-3xl leading-tight font-semibold font-marianne hover:text-blue">{{ node.title }}</div>
+          </g-link>
         </div>
       </div>
     </div>

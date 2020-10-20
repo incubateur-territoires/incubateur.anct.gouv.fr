@@ -1,5 +1,5 @@
 <template>
-  <nav class="nav md:my-6 md:flex md:items-center space-x-6 text-lg font-marianne max-w-screen-md mx-auto">
+  <nav class="nav md:my-6 md:flex md:items-center space-x-6 font-marianne max-w-screen-md mx-auto z-50">
     <g-link to="/a-propos/">
       <button type="button">
         À propos
@@ -17,7 +17,7 @@
         class="space-x-2"
         @click="offresIsOpen = !offresIsOpen"
       >
-        <span>Nos offres</span>
+        <span>Offres</span>
       
         <svg class="text-gray-500 h-5 w-5 group-hover:text-gray-600 group-focus:text-gray-600 transition ease-in-out duration-150" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
           <path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd" />
@@ -50,7 +50,7 @@
                       Aux collectivités territoriales
                     </p>
                     <p class="text-sm leading-5 text-gray-500">
-                      Get a better understanding of where your traffic is coming from.
+                      Ingénierie, financements et réseau
                     </p>
                   </div>
                 </g-link>
@@ -64,7 +64,7 @@
                       Aux acteurs publics et partenaires des collectivités
                     </p>
                     <p class="text-sm leading-5 text-gray-500">
-                      Speak directly to your customers in a more meaningful way.
+                      Accompagnement de projets sur mesure
                     </p>
                   </div>
                 </g-link>
@@ -81,7 +81,7 @@
         class="space-x-2"
         @click="actionsIsOpen = !actionsIsOpen"
       >
-        <span>Nos actions</span>
+        <span>Réalisations</span>
       
         <svg class="text-gray-500 h-5 w-5 group-hover:text-gray-600 group-focus:text-gray-600 transition ease-in-out duration-150" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
           <path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd" />
@@ -114,7 +114,7 @@
                       Programme d'Investigation
                     </p>
                     <p class="text-sm leading-5 text-gray-500">
-                      Get a better understanding of where your traffic is coming from.
+                      Recherche et test de premières solutions avec les agents et au contact des usagers
                     </p>
                   </div>
                 </g-link>
@@ -128,7 +128,7 @@
                       Startups de Territoires
                     </p>
                     <p class="text-sm leading-5 text-gray-500">
-                      Speak directly to your customers in a more meaningful way.
+                      Développement de services publics numériques à fort impact
                     </p>
                   </div>
                 </g-link>
@@ -157,7 +157,7 @@
                       Collaborations
                     </p>
                     <p class="text-sm leading-5 text-gray-500">
-                      Nos engagements avec des communs numériques, des Startups d'État, et d'autres projets de l'ANCT
+                      Mise en réseau avec des communs numériques, des Startups d'État et d'autres projets de l'ANCT
                     </p>
                   </div>
                 </g-link>
@@ -167,6 +167,13 @@
         </div>
       </transition>
     </div>
+
+    <!-- <g-link  to="https://doc.incubateur.anct.gouv.fr">
+      <button class="button space-x-2">
+        <span>Ressources</span>
+        <svg class="text-gray-500 h-4 w-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"></path></svg>
+      </button>
+    </g-link> -->
 
     <g-link to="/recrutements/">
       <button class="button space-x-2">
@@ -211,23 +218,13 @@ export default {
 
 <style lang="scss">
 nav {
-  @apply text-base pb-2;
+  @apply z-20 relative;
 
-  @screen md {
-    @apply text-sm pb-0;
-  }
-
-  @screen lg {
-    @apply text-base;
-  }
-
-  // class="text-gray-500 group inline-flex items-center space-x-2 text-base leading-6 font-medium hover:text-gray-900 focus:outline-none focus:text-gray-900 transition ease-in-out duration-150"
   button {
     @apply text-gray-900 inline-flex items-center text-lg leading-6 font-medium transition ease-in-out duration-150 px-2 py-1 rounded-lg;
   
     &:hover {
       @apply bg-gray-200;
-
     }
 
     &:focus {

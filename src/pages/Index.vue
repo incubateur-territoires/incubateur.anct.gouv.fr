@@ -22,14 +22,6 @@
         <g-link to="/offre/partenaires" class="button">
           Découvrez nos prérequis →
         </g-link>
-      </div>  
-      
-      <div class="public">
-        <h1 class="title">Vous êtes un agent de l'ANCT ?</h1>
-
-        <g-link to="/offre-anct/" class="button">
-          Découvrez comment l'Incubateur peut vous aider →
-        </g-link>
       </div>
     </section>
   </Layout>
