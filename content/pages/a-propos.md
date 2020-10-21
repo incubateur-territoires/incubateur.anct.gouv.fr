@@ -2,11 +2,15 @@
 title: À propos
 id: a-propos
 ---
-L'incubateur des Territoires accompagne les collectivités et leurs partenaires dans la création et le passage à l’échelle de services publics numériques de grande qualité et à fort impact pour les usagers.
+L'Incubateur des Territoires accompagne les collectivités et leurs partenaires dans la création et le passage à l’échelle de services publics numériques de grande qualité et à fort impact pour les usagers.
 
 Plus largement, il facilite la mise en place de communs au service de la transformation numérique des territoires.
 
-L'incubateur des territoires s'inscrit dans l'ambition portée par l'Agence nationale de la cohésion des territoires (ANCT) d'assurer un rôle de « fabrique à projets » pour permettre aux collectivités de mener à bien leurs projets.
+L'Incubateur des Territoires s'inscrit dans l'ambition portée par l'Agence nationale de la cohésion des territoires (ANCT) d'assurer un rôle de « fabrique à projets » pour permettre aux collectivités de mener à bien leurs projets.
+
+<a class="cta shadow-yellow" href="https://agence-cohesion-territoires.gouv.fr/" target="_blank">
+  En savoir plus sur l'ANCT →
+</a>
 
 # Comment ?
 

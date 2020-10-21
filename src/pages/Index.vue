@@ -6,7 +6,7 @@
 
     <section class="publics">
       <div class="public">
-        <h1 class="title">Vous êtes une collectivité ?</h1>
+        <h1 class="title">Vous êtes une collectivité territoriale ?</h1>
 
         <div class="action">
           <g-link to="/offre/collectivites" class="button">

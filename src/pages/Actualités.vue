@@ -1,6 +1,6 @@
 <template>
   <Layout>
-    <div class="recrutement">
+    <div class="mb-24">
       <PageTitle>
         Actualités
       </PageTitle>
@@ -13,7 +13,7 @@
         >
           <g-link :to=node.path>
             <div class="text-gray-600 text-sm">{{ $date(node.date_publie).format('[le] DD MMMM YYYY') }}</div>
-            <div class="text-3xl leading-tight font-semibold font-marianne hover:text-blue">{{ node.title }}</div>
+            <div class="text-navy text-3xl leading-tight font-semibold font-marianne hover:underline">{{ node.title }}</div>
           </g-link>
         </div>
       </div>
