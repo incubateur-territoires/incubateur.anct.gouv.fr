@@ -32,6 +32,10 @@
     @apply p-4 rounded-lg bg-gray-200;
   }
 
+  blockquote {
+    @apply pl-4 border-l-4 border-blue;
+  }
+
   h1,
   h2,
   h3,

@@ -9,7 +9,7 @@
 
       <div class="mx-auto max-w-screen-md">
         <h2 class="font-marianne text-3xl mb-4 mt-6 font-semibold">
-          Startups de Territoires
+          Startups de Territoires incubées
         </h2>
         
         <ServiceCard 
