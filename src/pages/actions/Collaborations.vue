@@ -6,10 +6,7 @@
       </PageTitle>
 
       <div class="px-4">
-        <PageContent>
-          <p>L'Incubateur s'engage à faciliter le développement de briques numériques transverses 
-          essentielles à la transformation numérique des collectivités au déla de ses programmes d'Investigation et Startups de Territoires.</p>
-        </PageContent>
+        <PageContent v-html="$page.pageContent.content" />
       </div>
 
       <div class="mx-auto max-w-screen-md">
@@ -26,7 +23,7 @@
         />
 
         <ServiceCard 
-          name="Base Addresse Locale"
+          name="Bases Adresses Locales"
           pitch="Transmettre les adresses de votre commune à la base addresse nationale"
           contact="adresse@data.gouv.fr"
           repo_url="https://github.com/etalab/adresse.data.gouv.fr"

@@ -59,7 +59,7 @@ import PageContent from '~/components/PageContent.vue'
 
 export default {
   metaInfo: {
-    title: 'Services incubés'
+    title: 'Startups de Territoires'
   },
   components: {
     ServiceCard,

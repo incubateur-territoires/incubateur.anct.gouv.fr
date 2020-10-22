@@ -13,7 +13,7 @@ Les agents engagés dans le processus consacrent a minima une journée par semai
 
 La formation et l'accompagnement des agents sont **entièrement financés par l'ANCT** qui met à disposition un coach et un designer pour chaque problème étudié.
 
-<a href="/contact-territoires/" class="cta">Être recontacté au sujet du Programme d'Investigation →</a>
+<a href="/contact-territoires/?prefill_Sujets=lancer un Programme d'Investigation au sein de ma collectivité" class="cta">Être recontacté au sujet du Programme d'Investigation →</a>
 <a href="/actions/programme-investigation/" class="cta">Voir des investigations en cours →</a>
 
 # Développer un service public numérique
@@ -26,8 +26,8 @@ L'Incubateur des Territoires a pour objectif de rendre opérationnelle la gestio
 
 Par ailleurs, le développement et l'étude de déploiement d'un service public numérique peut être cofinancé par l'ANCT ou d'autres partenaires.
 
-<a href="/contact-territoires/" class="cta">Être recontacté au sujet des Startups de Territoires →</a>
-<a href="/actions/programme-investigation/" class="cta">Voir des Startups de Territoires incubées →</a>
+<a href="/contact-territoires/?prefill_Sujets=en savoir plus sur le programme des Startups de Territoires" class="cta">Être recontacté au sujet des Startups de Territoires →</a>
+<a href="/actions/startups-territoires/" class="cta">Voir des Startups de Territoires incubées →</a>
 
 # Bénéficier de services publics numériques qui ont fait leurs preuves
 
@@ -37,4 +37,4 @@ Le catalogue qui rassemble ces services publics numériques est appelé **Territ
 
 Plus largement, l'Incubateur des Territoires, en partenariat avec les acteurs de la mutualisation -associations et syndicats mixtes-, vise à accompagner les collectivités dans l'appropriation des solutions numériques utiles à l'amélioration de leurs politiques et services publics locaux.
 
-<a href="https://territoires.store" target="_blank" class="cta">Découvrir les services disponibles →</a>
+<a href="https://territoires.store" target="_blank" class="cta">Découvrir les services disponibles ↗︎</a>
