@@ -27,7 +27,7 @@
         />
         
         <h2 class="font-marianne text-3xl mb-4 mt-6 font-semibold">
-          Investigation passé
+          Investigation passée
         </h2>
 
         <ServiceCard

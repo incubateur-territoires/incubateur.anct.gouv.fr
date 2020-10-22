@@ -46,7 +46,13 @@
   h1 { @apply text-3xl mt-8 mb-4 leading-tight; }
   h2 { @apply my-4; }
 
-  p { @apply mb-4 }
+  p { 
+    @apply mb-4;
+
+    &:last-child {
+      @apply mb-0;
+    }
+  }
 
   ul { @apply list-disc mb-4 }
   li { @apply ml-6 }

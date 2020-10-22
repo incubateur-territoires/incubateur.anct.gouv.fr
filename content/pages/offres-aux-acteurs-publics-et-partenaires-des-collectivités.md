@@ -8,7 +8,11 @@ id: offres-partenaires
 
   <p>Il peut proposer un accompagnement méthodologique pour chercher, tester, développer et déployer une solution face à un problème. Il peut aider au lancement, au recrutement des équipes, à la formation, au suivi de l'impact, ou encore mettre à la mise à disposition des outils, etc.</p>
 
-  <p>Vous avez un projet qui pourrait être accompagné par l'Incubateur ? Quelques prérequis sont nécessaires pour que l'accompagnement soit pertinent :</p>
+  <a href="/contact-territoires/" class="cta shadow-yellow">Être recontacté pour plus d'info →</a>
+</div>
+
+<div class="font-semibold font-marianne text-xl leading-tight mt-12 mb-8">
+Vous avez un projet qui pourrait être accompagné par l'Incubateur ? Quelques prérequis sont nécessaires pour que l'accompagnement soit pertinent :
 </div>
 
 ## Vous avez identifié un problème précis partagé par plusieurs collectivités
@@ -36,3 +40,7 @@ id: offres-partenaires
 ## Vous acceptez qu'une équipe dédiée travaille sur le projet en autonomie
 
 > Au départ, l'équipe dédiée est composée d'un agent public et d'un.e développeur.se. accompagnés par un coach. Elle grossit au fur et à mesure de son évolution avec des chargés de déploiement, des juristes, des designers, etc. Cela conduit à créer une équipe dédiée avec un agent public à temps plein - par opposition à une équipe projet.
+
+<div class="mt-8">
+  <a href="/contact-territoires/" class="cta shadow-yellow">Être recontacté pour plus d'info →</a>
+</div>
