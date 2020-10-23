@@ -1,34 +1,37 @@
 <template>
   <section class="annonce">
-    <h1 class="title">Appel à investigations</h1>
-    <p class="text-center sm:text-lg">
-      Rencontrez-vous un problème de politique publique dans votre collectivité que vous souhaiteriez investiguer avec <strong>l’aide d'experts numériques</strong> ? 
-      <br><br>
-      L'Incubateur des Territoires <strong>propose de prendre en charge un accompagnement</strong> pour investiguer des solutions à votre problème.
-      <br><br>
-      Contactez-nous en décrivant ce problème et un·e membre de l’équipe reviendra vers vous pour en discuter.
-    </p>
+    <h1 class="title">{{$static.element.title}}</h1>
+    <div class="pt-8 px-8 pb-10 border-4 rounded-lg border-green sm:text-lg" v-html="$static.element.content" />
     <div class="outlinks">
       <g-link
-        to="mailto:incubateur@anct.gouv.fr"
+        :to="$static.element.url_du_lien"
         class="outlink"
       >
-        Contactez-nous <font-awesome class="ml-2" :icon="['far', 'envelope']"/>
+        {{$static.element.texte_du_lien}} →
       </g-link>
-      <!-- <g-link
-        to="https://blog.beta.gouv.fr/dinsic/2020/06/22/investigations/"
-        class="outlink"
-      >
-        En savoir plus <font-awesome class="ml-2" :icon="['fas', 'external-link-alt']"/>
-      </g-link> -->
     </div>
   </section>
 </template>
 
+<static-query>
+query element {
+  element(path: "/content/elements/front-page-featured") {
+    title
+    content
+    texte_du_lien
+    url_du_lien
+  }
+}
+</static-query>
+
 <style lang="scss">
 .annonce {
-  @apply mx-auto max-w-screen-sm px-4;
+  @apply mx-auto max-w-screen-md px-4;
   
+  p {
+    @apply mb-4
+  }
+
   .title {
     position: relative;
     bottom: -1rem;
@@ -38,6 +41,8 @@
     font-family: "Marianne";
     font-weight: 800;
     padding: 0 .5rem;
+    z-index: 10;
+    max-width: calc(100% - 2rem);
 
     font-size: 1.25rem;
 
@@ -88,11 +93,6 @@
     &:not(:last-child) {
       @apply mr-4;
     }
-  }
-
-  p {
-    @apply pt-8 px-8 pb-10 border-4 border-green; 
-    border-radius: 2rem;
   }
 }
 </style>

@@ -1,6 +1,12 @@
 <template>
   <div class="container">
-    <Header />    
+    <Header 
+      :showMobileNav="showMobileNav"
+      @toggle-mobile-nav="toggleMobileNav"
+    />
+    <NavBar
+      :hideMobileNav="!showMobileNav"
+    />
     <slot />
     <Footer />
   </div>
@@ -8,12 +14,24 @@
 
 <script>
 import Header from '~/components/Header.vue'
+import NavBar from '~/components/NavBar.vue'
 import Footer from '~/components/Footer.vue'
 
 export default {
   components: {
     Header,
+    NavBar,
     Footer
+  },
+  data() {
+    return {
+      showMobileNav: false
+    }
+  },
+  methods: {
+    toggleMobileNav() {
+      this.showMobileNav = !this.showMobileNav
+    }
   }
 }
 </script>

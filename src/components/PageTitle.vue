@@ -1,6 +1,8 @@
 <template>
   <div class="page-title">
-    <h2 v-if="$props.pretitle" v-html="$props.pretitle" />
+    <h2 v-if="$props.pretitle">
+      {{$props.pretitle}}
+    </h2>
     <h1><slot /></h1>
   </div>
 </template>

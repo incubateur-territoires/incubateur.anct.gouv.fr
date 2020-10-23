@@ -14,6 +14,11 @@ module.exports = {
       {
         path: '/recrutements/:equipe-:role',
       }
+    ],
+    Actualite: [
+      {
+        path: '/actualites/:title',
+      }
     ]
   },
   plugins: [
@@ -25,9 +30,15 @@ module.exports = {
       }
     },
     {
+      use: `gridsome-plugin-netlify-cms`,
+      options: {
+        publicPath: `/admin`
+      }
+    },
+    {
       use: '@gridsome/source-filesystem',
       options: {
-        path: 'services/*.md',
+        path: 'content/services/*.md',
         typeName: 'Service',
         remark: {
           // remark options
@@ -37,7 +48,7 @@ module.exports = {
     {
       use: '@gridsome/source-filesystem',
       options: {
-        path: 'jobs/*.md',
+        path: 'content/jobs/*.md',
         typeName: 'Job',
         remark: {
           // remark options
@@ -47,8 +58,28 @@ module.exports = {
     {
       use: '@gridsome/source-filesystem',
       options: {
-        path: 'pages/*.md',
+        path: 'content/actualites/*.md',
+        typeName: 'Actualite',
+        remark: {
+          // remark options
+        }
+      }
+    },
+    {
+      use: '@gridsome/source-filesystem',
+      options: {
+        path: 'content/pages/*.md',
         typeName: 'PageContent',
+        remark: {
+          // remark options
+        }
+      }
+    },
+    {
+      use: '@gridsome/source-filesystem',
+      options: {
+        path: 'content/elements/*.md',
+        typeName: 'Element',
         remark: {
           // remark options
         }
@@ -73,7 +104,12 @@ module.exports = {
   ],
   transformers: {
     remark: {
-      // global remark options
+      externalLinksTarget: '_blank',
+      externalLinksRel: ['nofollow', 'noopener', 'noreferrer'],
+      anchorClassName: 'icon icon-link',
+      plugins: [
+        // ...global plugins
+      ]
     }
   },
   chainWebpack: config => {

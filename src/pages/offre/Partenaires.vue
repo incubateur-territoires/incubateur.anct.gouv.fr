@@ -2,18 +2,24 @@
   <Layout>
     <div>
       <PageTitle>
-        Offres
+        {{ $page.pageContent.title }}
       </PageTitle>
       
-      <PageContent>
-        <h2>Nos offres aux collectivités territoriales</h2>
-        <p></p>
-
-        <h2>Nos offres aux startups de territoires</h2>
-      </PageContent>
+      <div class="px-4">
+        <PageContent v-html="$page.pageContent.content" />
+      </div>
     </div>
   </Layout>
 </template>
+
+<page-query>
+query page {
+  pageContent(id: "offres-partenaires") {
+    title
+    content
+  }
+}
+</page-query>
 
 <script>
 import PageTitle from '~/components/PageTitle.vue'
@@ -21,7 +27,7 @@ import PageContent from '~/components/PageContent.vue'
 
 export default {
   metaInfo: {
-    title: 'Offres'
+    title: 'Offres aux acteurs publics et partenaires de collectivités'
   },
   components: {
     PageTitle,

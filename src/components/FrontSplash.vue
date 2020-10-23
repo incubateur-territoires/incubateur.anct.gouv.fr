@@ -6,15 +6,9 @@
       </div>
     </div>
     <div class="buttons">
-      <!-- <div>
-        <g-link to="/offres/">
-          Nos offres aux territoires
-        </g-link>
-      </div> -->
-
       <div>
-        <g-link to="/services/">
-          Nos services publics numériques
+        <g-link to="/offre/collectivites">
+          Nos offres aux collectivités
         </g-link>
       </div>
     </div>

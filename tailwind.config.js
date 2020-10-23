@@ -11,6 +11,12 @@ module.exports = {
       'xl': '1280px',
     },
     extend: {
+      inset: {
+        '1/2': '50%',
+        '-1/2': '-50%',
+        '-40': '-10rem',
+        '-32': '-8rem'
+      },
       colors: {
         blue: '#3b5fa9',
         green: '#009f79',

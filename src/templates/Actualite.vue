@@ -1,20 +1,20 @@
 <template>
   <Layout>
-    <div class="offres">
+    <div class="actualite">
       <PageTitle>
-        {{ $page.pageContent.title }}
+        {{$page.actualite.title}}
       </PageTitle>
 
       <div class="px-4">
-        <PageContent v-html="$page.pageContent.content" />
+        <PageContent v-html="$page.actualite.content" />
       </div>
     </div>
   </Layout>
 </template>
 
 <page-query>
-query page {
-  pageContent(path: "/content/pages/offre-anct/") {
+query ($id: ID!) {
+  actualite(id: $id) {
     title
     content
   }
@@ -26,8 +26,10 @@ import PageTitle from '~/components/PageTitle.vue'
 import PageContent from '~/components/PageContent.vue'
 
 export default {
-  metaInfo: {
-    title: 'À propos'
+  metaInfo() {
+    return {
+      title: this.$page.actualite.title
+    }
   },
   components: {
     PageTitle,

@@ -1,10 +1,13 @@
 ---
-role: Chef.fe de produit 
-contrat: indépendant
-equipe: Commun orientation
-post_ouvert: 2020-10-13
 contact: incubateur@anct.gouv.fr
+poste_ouvert: 2020-10-12T21:46:08.684Z
+poste_ferme: 2020-10-26T22:46:08.716Z
 status: open
+contrat: indépendant
+role: Chef.fe de produit
+equipe: Commun orientation
+poste_pourvu: false
+post_ouvert: 2020-10-13
 ---
 
 L'Incubateur des Territoires lance une nouvelle **Startup de Territoire** avec pour objectif de mieux orienter les usagers vers les services de l'Etat et des collectivités territoriales. Ce service a l'ambition de réduire le nombre de personnes qui ne parviennent pas à trouver la bonne réponse ou le bon service pour résoudre leur problème ou répondre à leur besoin. Vous serez le premier membre de l'équipe dédiée au produit et donc sera responsable de porter la vision et le développement du produit.

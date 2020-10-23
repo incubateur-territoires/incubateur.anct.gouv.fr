@@ -1,25 +1,17 @@
 <template>
-  <header class="mx-auto max-w-screen-xl font-marianne md:flex md:justify-between md:pr-4">
-    <div class="flex justify-between items-center px-4 my-4">
-      <div>
-        <g-link class="flex" to="/">
-          <LogoRF class="h-12 md:h-24 mr-8" role="img" title="Logo Républiqe Française" />
-          <Logo />
-        </g-link>
+  <header class="mx-auto my-4 lg:mt-8 lg:mb-0 px-4 max-w-screen-md font-marianne md:flex md:flex-col">
+    <div class="flex justify-between items-center">
+      <div class="relative">
+        <LogoRF class="hidden absolute lg:block lg:h-24 lg:-left-32 xl:-left-40" role="img" title="Logo Républiqe Française" />
+        <g-link to="/"><Logo /></g-link>
       </div>
       <div class="md:hidden">
-        <button @click="isOpen = !isOpen" type="button" class="burger" >
-          <font-awesome v-if="!isOpen" :icon="['fas', 'bars']" />
-          <font-awesome v-if="isOpen" :icon="['fas', 'times']" />
+        <button @click="$emit('toggle-mobile-nav')" type="button" class="burger" >
+          <font-awesome v-if="!showMobileNav" :icon="['fas', 'bars']" />
+          <font-awesome v-if="showMobileNav" :icon="['fas', 'times']" />
         </button>
       </div>
     </div>
-    <nav :class="isOpen ? 'block' : 'hidden'" class="nav md:block md:flex md:items-center">
-      <g-link to="/a-propos/">À propos</g-link>
-      <!-- <g-link to="/offres/">Nos offres</g-link> -->
-      <g-link to="/services/">Services numeriques</g-link>
-      <g-link to="/recrutements">Recrutements</g-link>
-    </nav>
   </header>
 </template>
 
@@ -36,6 +28,9 @@ export default {
     return {
       isOpen: false
     }
+  },
+  props: {
+    showMobileNav: Boolean
   }
 }
 </script>
@@ -57,30 +52,5 @@ export default {
  &:hover {
    @apply text-blue;
  }
-}
-
-nav {
-  @apply text-base pb-2;
-
-  @screen md {
-    @apply text-sm pb-0;
-  }
-
-  @screen lg {
-    @apply text-base;
-  }
-  
-  a {
-    @apply block px-2 mx-2 my-1 py-1 transition ease-linear duration-100 rounded-lg;
-
-    @screen md {
-      @apply mx-1;
-    }
-
-    &:hover,
-    &:active {
-      @apply bg-blue text-white;
-    }
-  }
 }
 </style>
