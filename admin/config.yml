@@ -1,0 +1,70 @@
+backend:
+  name: github
+  branch: develop
+  repo: incubateur-territoires/incubateur.anct.gouv.fr
+
+media_folder: "static/uploads"
+public_folder: "/uploads"
+
+# when using the default proxy server port
+local_backend: true
+
+collections:
+  - name: "elements"
+    label: "Elements"
+    files:
+      - label: "Front Page Featured"
+        name: "front-page-featured"
+        file: "content/elements/front-page-featured.md"
+        fields:
+          - {label: "Title", name: "title", widget: "string"}
+          - {label: "Intro", name: "body", widget: "markdown"}
+          - {label: "Texte du lien", name: "texte_du_lien", widget: "string"}
+          - {label: "URL du lien", name: "url_du_lien", widget: "string"}
+  - name: "pages"
+    label: "Page"
+    folder: "content/pages"
+    create: false
+    delete: false
+    fields:
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "ID", name: "id", widget: "hidden"}
+      - {label: "Body", name: "body", widget: "markdown"}
+  - name: "actualites"
+    label: "Actualite"
+    folder: "content/actualites"
+    create: true
+    fields:
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Date publié", name: "date_publie", widget: "date"}
+      - {label: "Body", name: "body", widget: "markdown"}
+  - name: "jobs"
+    label: "Job"
+    folder: "content/jobs"
+    create: true
+    summary: "{{role}} - {{equipe}}"
+    sortable_fields: ['role', 'equipe']
+    fields:
+      - {label: "Role", name: "role", widget: "string"}
+      - {label: "Équipe", name: "equipe", widget: "string"}
+      - {label: "Contact", name: "contact", widget: "string"}
+      - {label: "Poste ouvert le", name: "poste_ouvert", widget: "date"}
+      - {label: "Poste ferme le", name: "poste_ferme", widget: "date"}
+      - {label: "Poste pourvu", name: "poste_pourvu", widget: "boolean", required: false}
+      - {label: "Body", name: "body", widget: "markdown"}
+  # - name: "services"
+  #   label: "Service"
+  #   folder: "content/services"
+  #   create: true
+  #   slug: "{{service}}"
+  #   fields:
+  #     - {label: "Service", name: "service", widget: "string"}
+  #     - {label: "Contact", name: "contact", widget: "string"}
+  #     - {label: "URL", name: "url", widget: "string", required: false}
+  #     - {label: "Action", name: "action", widget: "string"}
+  #     - label: "Thématique"
+  #       name: "thematique"
+  #       widget: "select"
+  #       multiple: true
+  #       options: ["Mobilité", "Déchets", "Logement", "Démarches administratives", "Aides pour collectivités", "Accessibilité", "Emploi et Entreprise", "Données", "Urbanisme", "Solidarité", "Agriculture"]
+  #       default: []
