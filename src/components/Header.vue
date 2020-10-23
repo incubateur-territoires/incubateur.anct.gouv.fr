@@ -1,16 +1,14 @@
 <template>
-  <header class="mx-auto mt-8 px-4 max-w-screen-md font-marianne md:flex md:flex-col">
+  <header class="mx-auto my-4 lg:mt-8 lg:mb-0 px-4 max-w-screen-md font-marianne md:flex md:flex-col">
     <div class="flex justify-between items-center">
-      <div>
-        <g-link class="relative" to="/">
-          <LogoRF class="absolute -ml-48 h-12 md:h-24" role="img" title="Logo Républiqe Française" />
-          <Logo />
-        </g-link>
+      <div class="relative">
+        <LogoRF class="hidden absolute lg:block lg:h-24 lg:-left-32 xl:-left-40" role="img" title="Logo Républiqe Française" />
+        <g-link to="/"><Logo /></g-link>
       </div>
       <div class="md:hidden">
-        <button @click="isOpen = !isOpen" type="button" class="burger" >
-          <font-awesome v-if="!isOpen" :icon="['fas', 'bars']" />
-          <font-awesome v-if="isOpen" :icon="['fas', 'times']" />
+        <button @click="$emit('toggle-mobile-nav')" type="button" class="burger" >
+          <font-awesome v-if="!showMobileNav" :icon="['fas', 'bars']" />
+          <font-awesome v-if="showMobileNav" :icon="['fas', 'times']" />
         </button>
       </div>
     </div>
@@ -30,6 +28,9 @@ export default {
     return {
       isOpen: false
     }
+  },
+  props: {
+    showMobileNav: Boolean
   }
 }
 </script>

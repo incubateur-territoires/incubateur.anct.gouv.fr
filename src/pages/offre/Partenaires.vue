@@ -5,7 +5,9 @@
         {{ $page.pageContent.title }}
       </PageTitle>
       
-      <PageContent v-html="$page.pageContent.content" />
+      <div class="px-4">
+        <PageContent v-html="$page.pageContent.content" />
+      </div>
     </div>
   </Layout>
 </template>

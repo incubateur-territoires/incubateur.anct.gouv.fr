@@ -1,7 +1,12 @@
 <template>
   <div class="container">
-    <Header />
-    <NavBar /> 
+    <Header 
+      :showMobileNav="showMobileNav"
+      @toggle-mobile-nav="toggleMobileNav"
+    />
+    <NavBar
+      :hideMobileNav="!showMobileNav"
+    />
     <slot />
     <Footer />
   </div>
@@ -17,6 +22,16 @@ export default {
     Header,
     NavBar,
     Footer
+  },
+  data() {
+    return {
+      showMobileNav: false
+    }
+  },
+  methods: {
+    toggleMobileNav() {
+      this.showMobileNav = !this.showMobileNav
+    }
   }
 }
 </script>

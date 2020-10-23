@@ -1,5 +1,5 @@
 <template>
-  <nav class="nav md:my-6 md:flex md:items-center space-x-6 font-marianne max-w-screen-md mx-auto z-50">
+  <nav :class="hideMobileNav && 'hidden'" class="nav flex flex-col mt-6 mb-4 md:space-x-6 md:block md:flex-row md:items-center px-4 font-marianne max-w-screen-md mx-auto z-50">
     <g-link to="/a-propos/">
       <button type="button">
         À propos
@@ -11,7 +11,7 @@
       </button>
     </g-link>
     
-    <div class="relative">        
+    <div class="relative inline-block">        
       <button 
         type="button"
         class="space-x-2"
@@ -26,20 +26,20 @@
 
       <transition
         enter-active-class="transition ease-out duration-200"
-        enter-class="opacity-0 translate-y-1"
-        enter-to-class="opacity-100 translate-y-0"
+        enter-class="opacity-0 md:translate-y-1"
+        enter-to-class="opacity-100 md:translate-y-0"
         leave-active-class="transition ease-in duration-150"
-        leave-class="opacity-100 translate-y-0"
-        leave-to-class="opacity-0 translate-y-1"
+        leave-class="opacity-100 md:translate-y-0"
+        leave-to-class="opacity-0 md:translate-y-1"
       >
         <div
           v-if="offresIsOpen"
           v-click-outside="onClickOutsideOffres"
-          class="absolute -ml-4 mt-3 transform px-2 w-screen max-w-md sm:px-0 lg:ml-0 lg:left-1/2 lg:-translate-x-1/2"
+          class="relative md:absolute -ml-4 md:mt-3 transform px-2 md:w-screen md:max-w-md md:ml-0 md:left-1/2 md:-translate-x-1/2"
         >
-          <div class="rounded-lg shadow-lg">
-            <div class="rounded-lg shadow-xs overflow-hidden">
-              <div class="z-20 relative grid gap-6 bg-white px-5 py-6 sm:gap-8 sm:p-8">
+          <div class="md:rounded-lg md:shadow-lg">
+            <div class="md:rounded-lg md:shadow-xs overflow-hidden">
+              <div class="z-20 relative grid gap-4 bg-white px-5 py-6 md:gap-8 md:p-8">
                 <g-link to="/offre/collectivites/" class="-m-3 p-3 flex items-start space-x-4 rounded-lg hover:bg-gray-200 transition ease-in-out duration-150">
                   <!-- Heroicon name: library -->
                   <svg class="flex-shrink-0 h-6 w-6 text-blue" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -49,7 +49,7 @@
                     <p class="text-base leading-6 font-medium text-gray-900">
                       Aux collectivités territoriales
                     </p>
-                    <p class="text-sm leading-5 text-gray-500">
+                    <p class="hidden md:block text-sm leading-5 text-gray-500">
                       Ingénierie, financements et réseau
                     </p>
                   </div>
@@ -63,7 +63,7 @@
                     <p class="text-base leading-6 font-medium text-gray-900">
                       Aux acteurs publics et partenaires des collectivités
                     </p>
-                    <p class="text-sm leading-5 text-gray-500">
+                    <p class="hidden md:block text-sm leading-5 text-gray-500">
                       Accompagnement de projets sur mesure
                     </p>
                   </div>
@@ -75,7 +75,7 @@
       </transition>
     </div>
 
-    <div class="relative">        
+    <div class="relative inline-block">        
       <button 
         type="button"
         class="space-x-2"
@@ -90,20 +90,20 @@
 
       <transition
         enter-active-class="transition ease-out duration-200"
-        enter-class="opacity-0 translate-y-1"
-        enter-to-class="opacity-100 translate-y-0"
+        enter-class="opacity-0 md:translate-y-1"
+        enter-to-class="opacity-100 md:translate-y-0"
         leave-active-class="transition ease-in duration-150"
-        leave-class="opacity-100 translate-y-0"
-        leave-to-class="opacity-0 translate-y-1"
+        leave-class="opacity-100 md:translate-y-0"
+        leave-to-class="opacity-0 md:translate-y-1"
       >
         <div 
           v-if="actionsIsOpen"
           v-click-outside="onClickOutsideActions"
-          class="absolute -ml-4 mt-3 transform px-2 w-screen max-w-md sm:px-0 lg:ml-0 lg:left-1/2 lg:-translate-x-1/2"
+          class="relative md:absolute -ml-4 md:mt-3 transform px-2 md:w-screen md:max-w-md md:ml-0 md:left-1/2 md:-translate-x-1/2"
         >
-          <div class="rounded-lg shadow-lg">
-            <div class="rounded-lg shadow-xs overflow-hidden">
-              <div class="z-20 relative grid gap-6 bg-white px-5 py-6 sm:gap-8 sm:p-8">
+          <div class="md:rounded-lg md:shadow-lg">
+            <div class="md:rounded-lg md:shadow-xs overflow-hidden">
+              <div class="z-20 relative grid gap-4 bg-white px-5 py-6 md:gap-8 md:p-8">
                 <g-link to="/actions/programme-investigation/" class="-m-3 p-3 flex items-start space-x-4 rounded-lg hover:bg-gray-200 transition ease-in-out duration-150">
                   <!-- Heroicon name: light-bulb -->
                   <svg class="flex-shrink-0 h-6 w-6 text-blue" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -113,7 +113,7 @@
                     <p class="text-base leading-6 font-medium text-gray-900">
                       Programme d'Investigation
                     </p>
-                    <p class="text-sm leading-5 text-gray-500">
+                    <p class="hidden md:block text-sm leading-5 text-gray-500">
                       Recherche et test de premières solutions avec les agents et au contact des usagers
                     </p>
                   </div>
@@ -127,7 +127,7 @@
                     <p class="text-base leading-6 font-medium text-gray-900">
                       Startups de Territoires
                     </p>
-                    <p class="text-sm leading-5 text-gray-500">
+                    <p class="hidden md:block text-sm leading-5 text-gray-500">
                       Développement de services publics numériques à fort impact
                     </p>
                   </div>
@@ -142,7 +142,7 @@
                       <span>Territoires Store</span>
                       <svg class="text-gray-500 h-4 w-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"></path></svg>
                     </p>
-                    <p class="text-sm leading-5 text-gray-500">
+                    <p class="hidden md:block text-sm leading-5 text-gray-500">
                       Le catalogue des services publics numériques
                     </p>
                   </div>
@@ -156,7 +156,7 @@
                     <p class="text-base leading-6 font-medium text-gray-900">
                       Collaborations
                     </p>
-                    <p class="text-sm leading-5 text-gray-500">
+                    <p class="hidden md:block text-sm leading-5 text-gray-500">
                       Mise en réseau avec des communs numériques, des Startups d'État et d'autres projets de l'ANCT
                     </p>
                   </div>
@@ -168,7 +168,7 @@
       </transition>
     </div>
 
-    <!-- <g-link  to="https://doc.incubateur.anct.gouv.fr">
+    <!-- <g-link  to="https://ressources.incubateur.anct.gouv.fr">
       <button class="button space-x-2">
         <span>Ressources</span>
         <svg class="text-gray-500 h-4 w-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"></path></svg>
@@ -212,6 +212,9 @@ export default {
     onClickOutsideActions() {
       this.actionsIsOpen = false
     }
+  },
+  props: {
+    hideMobileNav: Boolean
   }
 }
 </script>

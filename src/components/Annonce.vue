@@ -42,6 +42,7 @@ query element {
     font-weight: 800;
     padding: 0 .5rem;
     z-index: 10;
+    max-width: calc(100% - 2rem);
 
     font-size: 1.25rem;
 

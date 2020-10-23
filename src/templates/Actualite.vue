@@ -5,7 +5,9 @@
         {{$page.actualite.title}}
       </PageTitle>
 
-      <PageContent v-html="$page.actualite.content" />
+      <div class="px-4">
+        <PageContent v-html="$page.actualite.content" />
+      </div>
     </div>
   </Layout>
 </template>

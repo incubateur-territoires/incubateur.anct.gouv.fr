@@ -5,24 +5,26 @@
         {{ $page.pageContent.title }}
       </PageTitle>
 
-      <PageContent v-html="$page.pageContent.content" />
+      <div class="px-4">
+        <PageContent v-html="$page.pageContent.content" />
 
-      <div class="mx-auto max-w-screen-md">
-        <h2 class="font-marianne text-3xl mb-4 mt-6 font-semibold">
-          Startups de Territoires incubées
-        </h2>
-        
-        <ServiceCard 
-          v-for="{ node } in $page.services.edges"
-          :key="node.id"
-          :name="node.name"
-          :pitch="node.pitch"
-          :contact="node.contact"
-          :beta_url="node.beta_url"
-          :repo_url="node.repo_url"
-          :stats_url="node.stats_url"
-          :service_url="node.service_url"
-        />
+        <div class="mx-auto max-w-screen-md">
+          <h2 class="font-marianne text-3xl mb-4 mt-6 font-semibold">
+            Startups de Territoires incubées
+          </h2>
+          
+          <ServiceCard 
+            v-for="{ node } in $page.services.edges"
+            :key="node.id"
+            :name="node.name"
+            :pitch="node.pitch"
+            :contact="node.contact"
+            :beta_url="node.beta_url"
+            :repo_url="node.repo_url"
+            :stats_url="node.stats_url"
+            :service_url="node.service_url"
+          />
+        </div>
       </div>
     </div>
   </Layout>

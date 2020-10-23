@@ -7,38 +7,38 @@
 
       <div class="px-4">
         <PageContent v-html="$page.pageContent.content" />
-      </div>
 
-      <div class="mx-auto max-w-screen-md">
-        <h2 class="font-marianne text-3xl mb-4 mt-6 font-semibold">
-          Communs numérqiues
-        </h2>
+        <div class="mx-auto max-w-screen-md">
+          <h2 class="font-marianne text-3xl mb-4 mt-6 font-semibold">
+            Communs numérqiues
+          </h2>
 
-        <ServiceCard 
-          name="OpenFisca"
-          pitch="Transformer le code législatif en code logiciel"
-          contact="contact@openfisca.org"
-          repo_url="https://github.com/openfisca"
-          service_url="https://openfisca.org/fr/"
-        />
+          <ServiceCard 
+            name="OpenFisca"
+            pitch="Transformer le code législatif en code logiciel"
+            contact="contact@openfisca.org"
+            repo_url="https://github.com/openfisca"
+            service_url="https://openfisca.org/fr/"
+          />
 
-        <ServiceCard 
-          name="Bases Adresses Locales"
-          pitch="Transmettre les adresses de votre commune à la base addresse nationale"
-          contact="adresse@data.gouv.fr"
-          repo_url="https://github.com/etalab/adresse.data.gouv.fr"
-          service_url="https://adresse.data.gouv.fr/bases-locales"
-        />
+          <ServiceCard 
+            name="Bases Adresses Locales"
+            pitch="Transmettre les adresses de votre commune à la base addresse nationale"
+            contact="adresse@data.gouv.fr"
+            repo_url="https://github.com/etalab/adresse.data.gouv.fr"
+            service_url="https://adresse.data.gouv.fr/bases-locales"
+          />
 
-        <!-- <h2 class="font-marianne text-3xl mb-4 mt-6 font-semibold">
-          Startups d'État
-        </h2> -->
+          <!-- <h2 class="font-marianne text-3xl mb-4 mt-6 font-semibold">
+            Startups d'État
+          </h2> -->
 
-        <!-- <ServiceCard 
-          name="Ambassadeurs Numériques France Service"
-          pitch="Transformer le code législatif en code logiciel"
-          contact="contact@openfisca.org"
-        /> -->
+          <!-- <ServiceCard 
+            name="Ambassadeurs Numériques France Service"
+            pitch="Transformer le code législatif en code logiciel"
+            contact="contact@openfisca.org"
+          /> -->
+        </div>
       </div>
     </div>
   </Layout>
