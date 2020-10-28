@@ -8,7 +8,7 @@
         </h1>
         <div class="details">
           <div class="date">
-            {{ $date(job.post_ouvert).fromNow() }}
+            {{ $date(job.poste_ouvert).fromNow() }}
           </div> 
           <div>•</div>
           <div class="contrat" v-html="job.contrat" />

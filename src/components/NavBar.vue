@@ -178,7 +178,7 @@
     <g-link to="/recrutements/">
       <button class="button space-x-2">
         <span>Recrutements</span>
-        <div class="bg-green text-sm text-white h-6 w-6 text-center font-bold rounded-full">{{$static.jobs.totalCount}}</div>
+        <div class="bg-green text-sm text-white h-6 w-6 text-center font-bold rounded-full">{{jobCount}}</div>
       </button>
     </g-link>
   </nav>
@@ -186,8 +186,12 @@
 
 <static-query>
 query {
-	jobs: allJob(filter: { status: { nin: ["draft", "closed"] } }) {
-    totalCount
+	jobs: allJob(filter: { poste_pourvu: { ne: true } }) {
+    edges {
+      node {
+        poste_ferme
+      }
+    }
   }
 }
 </static-query>
@@ -215,6 +219,12 @@ export default {
   },
   props: {
     hideMobileNav: Boolean
+  },
+  computed: {
+    jobCount() {
+      const openJobs = this.$static.jobs.edges.filter(e => this.$date().isBefore(e.node.poste_ferme))
+      return openJobs.length
+    }
   }
 }
 </script>

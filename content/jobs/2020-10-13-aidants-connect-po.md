@@ -1,10 +1,11 @@
 ---
-role: Chef.fe de produit 
-contrat: indépendant
-equipe: Aidants Connect
-post_ouvert: 2020-10-13
 contact: incubateur@anct.gouv.fr
+poste_ouvert: 2020-10-12T13:56:39.601Z
+poste_ferme: 2020-11-13T14:56:39.644Z
 status: open
+contrat: indépendant
+role: Chef.fe de produit
+equipe: Aidants Connect
 ---
 
 **Aidants Connect** est désormais un produit de l'Incubateur des Territoires.

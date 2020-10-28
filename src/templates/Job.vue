@@ -9,14 +9,20 @@
         <div v-if="pourvu" class="notice-pourvu">
           ❗️ Ce poste a été pourvu. <g-link to="/recrutements/">Veuillez consulter nos offres actuelles</g-link>.
         </div>
+        <div v-if="ferme" class="notice-pourvu">
+          ⚠️ Ce poste n'accepte plus de candidatures. <g-link to="/recrutements/">Veuillez consulter nos offres actuelles</g-link>.
+        </div>
         
         <PageContent v-html="$page.job.content" />
 
         <div v-if="pourvu" class="notice-pourvu">
           ❗️ Ce poste a été pourvu. <g-link to="/recrutements/">Veuillez consulter nos offres actuelles</g-link>.
         </div>
+        <div v-if="ferme" class="notice-pourvu">
+          ⚠️ Ce poste n'accepte plus de candidatures. <g-link to="/recrutements/">Veuillez consulter nos offres actuelles</g-link>.
+        </div>
 
-        <CandidaterForm v-if="!pourvu" :poste="`${$page.job.role} - ${$page.job.equipe}`" />
+        <CandidaterForm v-if="showCandidaterForm" :poste="`${$page.job.role} - ${$page.job.equipe}`" />
 
         <div class="buttons">
           <g-link class="retourner" to="/recrutements/">
@@ -35,7 +41,8 @@ query ($id: ID!) {
     role
     content
     contact
-    status
+    poste_ferme
+    poste_pourvu
   }
 }
 </page-query>
@@ -67,7 +74,15 @@ export default {
   },
   computed: {
     pourvu: function () {
-      return this.$page.job.status === 'closed'
+      return !!this.$page.job.poste_pourvu
+    },
+    ferme: function () {
+      return this.$date().isAfter(this.$date(this.$page.job.poste_ferme)) && !this.pourvu
+    },
+    showCandidaterForm () {
+      if (this.pourvu) { return false; }
+      if (this.ferme) { return false; }
+      return true;
     }
   }
 }

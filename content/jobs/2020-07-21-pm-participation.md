@@ -5,6 +5,7 @@ contrat: freelance
 post_ouvert: 2020-07-21
 contact: incubateur@anct.gouv.fr
 status: closed
+poste_pourvu: true
 ---
 
 L’Incubateur des Territoires recrute un designer/product manager pour mener une mission recherche utilisateurs avec l’ambition de créer une plateforme d’ingénierie démocratique. Cette startup de territoire vise à aider les collectivités et les acteurs territoriaux, notamment issus de territoires fragiles, à lancer, à gérer et à animer des projets de participation citoyenne. Elle a pour ambition la création d’une ingénierie innovante et partagée, se revendiquant notamment des coopérations interterritoriales et de la création de communs.

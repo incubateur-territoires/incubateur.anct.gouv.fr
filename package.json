@@ -7,7 +7,7 @@
     "explore": "gridsome explore",
     "predeploy": "yarn build",
     "deploy": "gh-pages -d dist",
-    "netlify-cms-proxy": "npx netlify-cms-proxy-server"
+    "netlify-proxy": "npx netlify-cms-proxy-server"
   },
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^1.2.29",

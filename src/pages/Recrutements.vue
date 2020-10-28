@@ -6,7 +6,7 @@
       </PageTitle>
 
       <div class="job-cards">
-        <JobCard v-for="{ node } in $page.jobs.edges" :key="node.id" :job="node" />
+        <JobCard v-for="{ node } in jobs" :key="node.id" :job="node" />
         <g-link to="https://beta.gouv.fr/recrutement/" class="button">
           Consulter toutes les offres de la communauté Beta.gouv.fr <font-awesome class="ml-2" :icon="['fas', 'external-link-alt']"/>
         </g-link>
@@ -16,20 +16,22 @@
 </template>
 
 <page-query>
-  query Jobs {
-    jobs: allJob (sortBy: "post_ouvert", filter: { status: { nin: ["draft", "closed"] } }) {
-      edges {
-        node {
-          id
-          path
-          role
-          equipe
-          post_ouvert
-          contrat
-        }
+query {
+  jobs: allJob (sortBy: "poste_ouvert", filter: { poste_pourvu: { ne: true } }) {
+    edges {
+      node {
+        id
+        path
+        role
+        equipe
+        poste_ouvert
+        poste_ferme
+        poste_pourvu
+        contrat
       }
     }
   }
+}
 </page-query>
 
 <script>
@@ -44,6 +46,11 @@ export default {
   components: {
     JobCard,
     PageTitle
+  },
+  computed: {
+    jobs() {
+      return this.$page.jobs.edges.filter(e => this.$date().isBefore(e.node.poste_ferme))
+    }
   }
 }
 </script>
