@@ -13,6 +13,19 @@
           <Logo />
         </g-link>
       </div>
+
+      <div class="incubateur-links inline-block mb-8 px-4 py-1 space-x-4 bg-gray-200 rounded-full">
+        <g-link to="/contact-territoires/">
+            <font-awesome :icon="['fas', 'paper-plane']" transform="shrink-2"/> Contact
+        </g-link>
+        <g-link to="https://twitter.com/IncubateurT">
+          <font-awesome :icon="['fab', 'twitter']"/> Twitter
+        </g-link>
+        <g-link to="https://www.linkedin.com/showcase/anct-incubateur-des-territoires">
+          <font-awesome :icon="['fab', 'linkedin']"/> LinkedIn
+        </g-link>
+      </div>
+
       <div class="description">
         <p>
           L'Incubateur des Territoires est une mission de l'<a href="https://agence-cohesion-territoires.gouv.fr/" target="_blank">Agence Nationale de la Cohesion des Territoires</a>.
@@ -21,19 +34,13 @@
         </p>
       </div>
 
-      <div class="recrutements">
+      <div class="recrutements my-4">
         <g-link to="/recrutements/">
           <span class="mr-2">🚀</span> Nous recrutons ! Voir nos offres d'emploi →
         </g-link>
       </div>
 
-      <div class="incubateur-links">
-        <g-link to="mailto:incubateur@anct.gouv.fr">
-            <font-awesome :icon="['fas', 'paper-plane']" transform="shrink-2"/> Contact
-        </g-link>
-        <g-link to="https://twitter.com/IncubateurT">
-          <font-awesome :icon="['fab', 'twitter']"/> Twitter
-        </g-link>
+      <div class="incubateur-links flex flex-wrap my-2 space-x-4">
         <g-link to="https://github.com/incubateur-territoires">
           <font-awesome :icon="['fab', 'github']"/> Code
         </g-link>
@@ -112,14 +119,6 @@ footer {
     .description {
       @apply max-w-screen-md;
     }
-
-    .incubateur-links {
-      @apply flex flex-wrap my-6;
-
-      a:not(:last-child) {
-        @apply mr-4;
-      }
-    }
     
     .websites {
       @apply text-sm border-t-2 border-gray-200 flex flex-wrap pt-6;
@@ -131,7 +130,7 @@ footer {
   }
 
   .recrutements {
-    @apply mt-6 text-green font-semibold -ml-4;
+    @apply text-green font-semibold -ml-4;
 
     a {
       @apply border-2 inline-block py-2 px-4 rounded-full border-white;

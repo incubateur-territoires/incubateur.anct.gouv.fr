@@ -6,19 +6,26 @@ import vClickOutside from 'v-click-outside'
 
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
 import { config, library } from '@fortawesome/fontawesome-svg-core'
-import { faGithub, faTwitter } from '@fortawesome/free-brands-svg-icons'
+import '@fortawesome/fontawesome-svg-core/styles.css'
+
+import { 
+  faGithub,
+  faTwitter,
+  faLinkedin
+} from '@fortawesome/free-brands-svg-icons'
+
 import {
   faPaperPlane,
   faExternalLinkAlt,
   faBars,
   faTimes
-  } from '@fortawesome/free-solid-svg-icons'
+} from '@fortawesome/free-solid-svg-icons'
+
 import {
   faEnvelope,
   faChartBar,
   faFilePdf
-  } from '@fortawesome/free-regular-svg-icons'
-import '@fortawesome/fontawesome-svg-core/styles.css'
+} from '@fortawesome/free-regular-svg-icons'
 
 library.add(
   faGithub,
@@ -29,7 +36,8 @@ library.add(
   faChartBar,
   faBars,
   faTimes,
-  faFilePdf
+  faFilePdf,
+  faLinkedin
 )
 
 //Plugins

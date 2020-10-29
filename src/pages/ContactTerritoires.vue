@@ -1,7 +1,7 @@
 <template>
   <Layout>
     <div class="contact">
-      <PageTitle>Demande de renseignements</PageTitle>
+      <PageTitle>Contact l'équipe de l'incubateur</PageTitle>
     </div>
 
     <div class="my-12 max-w-screen-md mx-auto">
@@ -16,7 +16,7 @@ import PageContent from "~/components/PageContent.vue";
 
 export default {
   metaInfo: {
-    title: "Demande de renseignements",
+    title: "Contact",
   },
   components: {
     PageTitle,
