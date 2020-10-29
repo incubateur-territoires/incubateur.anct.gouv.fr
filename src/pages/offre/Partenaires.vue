@@ -26,8 +26,16 @@ import PageTitle from '~/components/PageTitle.vue'
 import PageContent from '~/components/PageContent.vue'
 
 export default {
-  metaInfo: {
-    title: 'Offres aux acteurs publics et partenaires de collectivités'
+  metaInfo() {
+    return {
+      title: `Offres aux acteurs publics et partenaires de collectivités`,
+      meta: [
+        // Twitter
+        {key:'twitter:image', property: 'twitter:image', content: `https://incubateur.anct.gouv.fr/og-image-offre-partenaires.png`},
+        // OpenGraph
+        {key:'og:image', property: 'og:image', content: `https://incubateur.anct.gouv.fr/og-image-offre-partenaires.png`},
+      ]
+    }
   },
   components: {
     PageTitle,

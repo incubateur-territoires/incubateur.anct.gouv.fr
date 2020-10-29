@@ -34,6 +34,7 @@ import Annonce from '~/components/Annonce.vue'
 export default {
   metaInfo() {
     return {
+      title: `Incubateur des Territoires`,
       titleTemplate: '%s',
       meta: [
         // Twitter

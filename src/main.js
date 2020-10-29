@@ -60,12 +60,12 @@ export default function (Vue, { router, head, isClient }) {
     {key:'twitter:title', property: 'twitter:title', content: `L'Incubateur des Territoires`},
     {key:'twitter:description', property: 'twitter:description', content: `Une mission de l'Agence nationale de la cohesion des territoires`},
     // image must be an absolute path
-    {key:'twitter:image', property: 'twitter:image', content: `${ROOT_PATH}/logoIncubateur.svg`},
+    {key:'twitter:image', property: 'twitter:image', content: `${ROOT_PATH}/og-image-front.png`},
     // Facebook OpenGraph
     {key:'og:title', property: 'og:title', content: `L'Incubateur des Territoires`},
     {key:'og:site_name', property: 'og:site_name', content: `L'Incubateur des Territoires`},
     {key:'og:type', property: 'og:type', content: 'website'},
-    {key:'og:image', property: 'og:image', content: `${ROOT_PATH}/logoIncubateur.svg`},
+    {key:'og:image', property: 'og:image', content: `${ROOT_PATH}/og-image-front.png`},
     {key:'og:description', property: 'og:description', content: `Une mission de l'Agence nationale de la cohesion des territoires`}
   ]
 

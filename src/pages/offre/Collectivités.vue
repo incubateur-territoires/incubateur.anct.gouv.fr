@@ -35,8 +35,16 @@ import PageTitle from '~/components/PageTitle.vue'
 import PageContent from '~/components/PageContent.vue'
 
 export default {
-  metaInfo: {
-    title: `Offre aux collectivités territoriales`
+  metaInfo() {
+    return {
+      title: `Offre aux collectivités territoriales`,
+      meta: [
+        // Twitter
+        {key:'twitter:image', property: 'twitter:image', content: `https://incubateur.anct.gouv.fr/og-image-offre-collectivites.png`},
+        // OpenGraph
+        {key:'og:image', property: 'og:image', content: `https://incubateur.anct.gouv.fr/og-image-offre-collectivites.png`},
+      ]
+    }
   },
   components: {
     PageTitle,
