@@ -10,7 +10,7 @@
 
         <div class="mx-auto max-w-screen-md">
           <h2 class="font-marianne text-3xl mb-4 mt-6 font-semibold">
-            Communs numérqiues
+            Communs numériques
           </h2>
 
           <ServiceCard 
