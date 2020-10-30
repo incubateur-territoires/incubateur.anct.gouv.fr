@@ -40,8 +40,13 @@ export default {
       title: `Offre aux collectivités territoriales`,
       meta: [
         // Twitter
+        {key:'twitter:title', property: 'twitter:title', content: `Offre aux collectivités territoriales`},
+        {key:'twitter:description', property: 'twitter:description', content: `Les collectivités peuvent à tout moment solliciter l'Incubateur des Territoires`},
         {key:'twitter:image', property: 'twitter:image', content: `https://incubateur.anct.gouv.fr/og-image-offre-collectivites.png`},
         // OpenGraph
+        {key:'og:title', property: 'og:title', content: `Offre aux collectivités territoriales`},
+        {key:'og:site_name', property: 'og:site_name', content: `Incubateur des Territoires`},
+        {key:'og:description', property: 'og:description', content: `Les collectivités peuvent à tout moment solliciter l'Incubateur des Territoires`},
         {key:'og:image', property: 'og:image', content: `https://incubateur.anct.gouv.fr/og-image-offre-collectivites.png`},
       ]
     }

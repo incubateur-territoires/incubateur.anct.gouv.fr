@@ -38,8 +38,13 @@ export default {
       titleTemplate: '%s',
       meta: [
         // Twitter
+        {key:'twitter:title', property: 'twitter:title', content: `Incubateur des Territoires`},
+        {key:'twitter:description', property: 'twitter:description', content: `Ensemble avec les territoires, nous créons des services publics numériques pour résoudre les problèmes des usagers.`},
         {key:'twitter:image', property: 'twitter:image', content: `https://incubateur.anct.gouv.fr/og-image-front.png`},
         // OpenGraph
+        {key:'og:title', property: 'og:title', content: `Incubateur des Territoires`},
+        {key:'og:site_name', property: 'og:site_name', content: `Incubateur des Territoires`},
+        {key:'og:description', property: 'og:description', content: `Ensemble avec les territoires, nous créons des services publics numériques pour résoudre les problèmes des usagers.`},
         {key:'og:image', property: 'og:image', content: `https://incubateur.anct.gouv.fr/og-image-front.png`},
       ]
     }
