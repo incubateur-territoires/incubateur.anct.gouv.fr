@@ -23,7 +23,7 @@
 
           <ServiceCard 
             name="Bases Adresses Locales"
-            pitch="Transmettre les adresses de votre commune à la base addresse nationale"
+            pitch="Transmettre les adresses de votre commune à la Base Adresse Nationale"
             contact="adresse@data.gouv.fr"
             repo_url="https://github.com/etalab/adresse.data.gouv.fr"
             service_url="https://adresse.data.gouv.fr/bases-locales"
