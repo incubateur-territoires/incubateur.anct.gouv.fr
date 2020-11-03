@@ -1,7 +1,7 @@
 ---
 role: Développeur.se
 equipe: Aidants Connect
-contact: aidants.connect@beta.gouv.fr
+contact: aidantsconnect@beta.gouv.fr
 poste_ouvert: 2020-11-03T11:06:40.248Z
 poste_ferme: 2020-11-17T11:06:40.298Z
 ---
@@ -58,6 +58,6 @@ Poste ouvert pour un indépendant ou une indépendante pour un premier contrat d
 
 ## Candidater
 
-Expliquez-nous pourquoi vous avez envie de nous rejoindre et envoyez-nous votre LinkedIn, CV ou GitHub, le tout à [aidants.connect@beta.gouv.fr](mailto:aidants.connect@beta.gouv.fr).
+Expliquez-nous pourquoi vous avez envie de nous rejoindre et envoyez-nous votre LinkedIn, CV ou GitHub, le tout à [aidants.connect@beta.gouv.fr](mailto:aidantsconnect@beta.gouv.fr).
 
 À bientôt !
