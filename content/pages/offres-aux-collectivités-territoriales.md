@@ -2,7 +2,7 @@
 title: Offres aux collectivités territoriales
 id: offres-collectivites
 ---
-* # Chercher et tester une solution face à un problème
+# Chercher et tester une solution face à un problème
 
 L'Incubateur des Territoires accompagne les collectivités dans l'étude de problèmes et l'ébauche de premières solutions (numériques ou non) par une démarche d'intrapreneuriat et de design au contact des usagers. **Cette phase est appelée une investigation.**
 
@@ -15,7 +15,7 @@ La formation et l'accompagnement des agents sont **entièrement financés par l'
 <a href="/contact-territoires/?prefill_Sujets=lancer un Programme d'Investigation au sein de ma collectivité" class="cta">Être recontacté au sujet du Programme d'Investigation →</a>
 <a href="/actions/programme-investigation/" class="cta">Voir des investigations en cours →</a>
 
-* # Développer un service public numérique
+# Développer un service public numérique
 
 L'Incubateur des Territoires accompagne les collectivités dans le développement d'un service public numérique par la mise à disposition de ressources notamment en ingénierie de pointe en matière de numérique, d'intrapreneuriat et de design.
 
@@ -28,7 +28,7 @@ Par ailleurs, le développement et l'étude de déploiement d'un service public 
 <a href="/contact-territoires/?prefill_Sujets=en savoir plus sur le programme des Startups de Territoires" class="cta">Être recontacté au sujet des Startups de Territoires →</a>
 <a href="/actions/startups-territoires/" class="cta">Voir des Startups de Territoires incubées →</a>
 
-* # Bénéficier de services publics numériques qui ont fait leurs preuves
+# Bénéficier de services publics numériques qui ont fait leurs preuves
 
 Les collectivités peuvent choisir d'utiliser des services numériques qui ont démontré leur impact positif au sein d'autres collectivités. Ils ont été développés en open source et sont déployables à moindre coût. 
 
