@@ -1,5 +1,5 @@
 ---
-role: Développeur.se
+role: Un ou une développeur.se
 equipe: Aidants Connect
 contact: aidantsconnect@beta.gouv.fr
 poste_ouvert: 2020-11-03T11:06:40.248Z
