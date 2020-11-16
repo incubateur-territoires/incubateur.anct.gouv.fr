@@ -2,13 +2,13 @@
 title: Offres aux acteurs publics et partenaires des collectivités
 id: offres-partenaires
 ---
-
 <div class="callout">
   <p>L'Incubateur des Territoires peut fournir un appui opérationnel aux acteurs publics et autres partenaires des collectivités qui souhaitent créer un service public numérique.</p>
 
-  <p>Il peut proposer un accompagnement méthodologique pour chercher, tester, développer et déployer une solution face à un problème. Il peut aider au lancement, au recrutement des équipes, à la formation, au suivi de l'impact, ou encore mettre à la mise à disposition des outils, etc.</p>
+  <p>Il peut proposer un accompagnement méthodologique pour chercher, tester, développer et déployer une solution face à un problème. Il peut aider au lancement, au recrutement des équipes, à la formation, au suivi de l'impact, ou encore mettre à disposition des outils, etc.</p>
 
   <a href="/contact-territoires/" class="cta shadow-yellow">Être recontacté pour plus d'info →</a>
+
 </div>
 
 <div class="font-semibold font-marianne text-xl leading-tight mt-12 mb-8">
@@ -30,7 +30,7 @@ Vous avez un projet qui pourrait être accompagné par l'Incubateur ? Quelques p
 ## Vous êtes prêt à évaluer l'impact de la solution tout au long de son développement et déploiement
 
 > La mesure de l'impact est essentielle : elle permet à l'équipe de prendre les bonnes décisions en matière d'évolution du service et de déploiement et fournit une base objective aux financeurs pour décider du refinancement du service.
-
+>
 > Concrètement, tous les services numériques doivent suivre leur impact sur une page stats dédiée. Cette mesure d'impact peut être qualitative dans un premier temps (témoignages d'utilisateurs, etc.) puis quantitative (taux d'usage du service par les utilisateurs finaux, etc.).
 
 ## Vous avez déjà une enveloppe financière dédiée à la résolution de ce problème
