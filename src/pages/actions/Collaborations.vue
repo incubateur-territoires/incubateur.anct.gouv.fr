@@ -10,7 +10,7 @@
 
         <div class="mx-auto max-w-screen-md">
           <h2 class="font-marianne text-3xl mb-4 mt-6 font-semibold">
-            Communs numérqiues
+            Communs numériques
           </h2>
 
           <ServiceCard 
@@ -23,7 +23,7 @@
 
           <ServiceCard 
             name="Bases Adresses Locales"
-            pitch="Transmettre les adresses de votre commune à la base addresse nationale"
+            pitch="Transmettre les adresses de votre commune à la Base Adresse Nationale"
             contact="adresse@data.gouv.fr"
             repo_url="https://github.com/etalab/adresse.data.gouv.fr"
             service_url="https://adresse.data.gouv.fr/bases-locales"
