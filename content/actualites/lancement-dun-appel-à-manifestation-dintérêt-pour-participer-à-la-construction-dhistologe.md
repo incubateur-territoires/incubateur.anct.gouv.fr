@@ -3,7 +3,7 @@ title: Lancement d'un appel à manifestation d'intérêt pour participer à la
   construction d'Histologe
 date_publie: 2020-11-16T16:09:05.254Z
 ---
-Histologe est un service public numérique permettant de repérer les problèmes d’habitabilité et de lutter contre le mal-logement. 
+**[Histologe](https://histologe.agglo-pau.fr/)** est un service public numérique permettant de repérer les problèmes d’habitabilité et de lutter contre le mal-logement. 
 
 Aujourd'hui, environ 4 millions de personnes touchées par le mal-logement et près de 7 millions de personnes sont touchées par la précarité énergétique. 
 
@@ -16,12 +16,12 @@ Concrètement, c'est une application numérique accessible depuis un smartphone,
 
 C'est un service qui a été lancé par l'Agglomération de Pau Béarn Pyrénées et qui a vocation à s'adresser à n'importe quelle collectivité territoriale souhaitant s'emparer de cette problématique.
 
-[En savoir plus sur le service](https://histologe.agglo-pau.fr/)
-
 **Vous êtes une collectivité intéressée par ce service public numérique ? Vous souhaitez participer à sa construction ?** 
 
 <a class="cta shadow-yellow" href="https://incubateur.anct.gouv.fr/pdf/AMI_Histologe_112020.pdf">
  Consultez l'appel à manifestation d'intérêt →
 </a>
+
+
 
 Contactez l'Incubateur des Territoires pour toute.s question.s : **contactincubateur@anct.gouv.fr**
