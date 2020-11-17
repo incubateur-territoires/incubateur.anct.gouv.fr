@@ -2,6 +2,9 @@
 title: Offres aux collectivités territoriales
 id: offres-collectivites
 ---
+<a class="cta shadow-yellow" href="https://incubateur.anct.gouv.fr/pdf/Plaquette_Incubateur_nov2020.pdf">
+ Télécharger la synthèse au format pdf →
+</a>
 
 # Chercher et tester une solution face à un problème
 
