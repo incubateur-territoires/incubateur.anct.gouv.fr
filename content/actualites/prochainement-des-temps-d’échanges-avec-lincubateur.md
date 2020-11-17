@@ -12,6 +12,7 @@ Au mois de novembre 2020, l’Incubateur des Territoires présente son offre de 
 
 > Pour mettre en perspective les enjeux et les solutions, les collectivités territoriales peuvent désormais être accompagnées dans leur démarche de création et le passage à l’échelle de leurs services publics numériques. Cette mission, c'est celle de l'Incubateur des Territoires.
 
+
 Organisé dans le cadre du [Mois de l'Innovation Publique](https://app.livestorm.co/ditp-1/ditp-anct-innovation-territoriale), en partenariat avec la DITP, le webinaire permettra en 45 min :
 
 * de découvrir les services de l’Incubateur des Territoires, et notamment son offre d'Investigation.
