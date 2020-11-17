@@ -1,6 +1,6 @@
 backend:
   name: github
-  branch: develop
+  branch: master
   repo: incubateur-territoires/incubateur.anct.gouv.fr
 
 media_folder: "static/uploads"

@@ -22,6 +22,6 @@ C'est un service qui a été lancé par l'Agglomération de Pau Béarn Pyrénée
  Consultez l'appel à manifestation d'intérêt →
 </a>
 
-
-
-Contactez l'Incubateur des Territoires pour toute.s question.s : **contactincubateur@anct.gouv.fr**
+<p class="mt-4">
+Contactez l'Incubateur des Territoires pour toute.s question.s : <strong><a href="mailto:contactincubateur@anct.gouv.fr">contactincubateur@anct.gouv.fr</a></strong>
+</p>
