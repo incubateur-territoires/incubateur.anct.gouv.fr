@@ -28,7 +28,14 @@ import PageContent from '~/components/PageContent.vue'
 export default {
   metaInfo() {
     return {
-      title: this.$page.actualite.title
+      title: this.$page.actualite.title,
+      meta: [
+        // Twitter Card
+        {key:'twitter:title', property: 'twitter:title', content: this.$page.actualite.title},
+        // Facebook OpenGraph
+        {key:'og:title', property: 'og:title', content: this.$page.actualite.title},
+        {key:'og:site_name', property: 'og:site_name', content: `L'Incubateur des Territoires`},
+      ]
     }
   },
   components: {
