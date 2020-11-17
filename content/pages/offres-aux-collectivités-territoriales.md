@@ -2,10 +2,6 @@
 title: Offres aux collectivités territoriales
 id: offres-collectivites
 ---
-<a class="cta shadow-yellow" href="https://incubateur.anct.gouv.fr/pdf/Plaquette_Incubateur_nov2020.pdf">
- Télécharger la synthèse au format pdf →
-</a>
-
 # Chercher et tester une solution face à un problème
 
 L'Incubateur des Territoires accompagne les collectivités dans l'étude de problèmes et l'ébauche de premières solutions (numériques ou non) par une démarche d'intrapreneuriat et de design au contact des usagers. **Cette phase est appelée une investigation.**
