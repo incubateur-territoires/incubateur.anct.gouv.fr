@@ -16,12 +16,16 @@ Concrètement, c'est une application numérique accessible depuis un smartphone,
 
 C'est un service qui a été lancé par l'Agglomération de Pau Béarn Pyrénées et qui a vocation à s'adresser à n'importe quelle collectivité territoriale souhaitant s'emparer de cette problématique.
 
-**Vous êtes une collectivité intéressée par ce service public numérique ? Vous souhaitez participer à sa construction ?** 
+### **Vous êtes une collectivité intéressée par ce service public numérique ? Vous souhaitez participer à sa construction ?** 
 
 <a class="cta shadow-yellow" href="https://incubateur.anct.gouv.fr/pdf/AMI_Histologe_112020.pdf">
  Consultez l'appel à manifestation d'intérêt →
 </a>
 
+<<<<<<< HEAD
 <p class="mt-4">
 Contactez l'Incubateur des Territoires pour toute.s question.s : <strong><a href="mailto:contactincubateur@anct.gouv.fr">contactincubateur@anct.gouv.fr</a></strong>
 </p>
+=======
+Contactez l'Incubateur des Territoires pour toute.s question.s : **contactincubateur@anct.gouv.fr**
+>>>>>>> Update Actualite “lancement-dun-appel-à-manifestation-dintérêt-pour-participer-à-la-construction-dhistologe”
