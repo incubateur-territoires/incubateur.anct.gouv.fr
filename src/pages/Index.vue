@@ -9,6 +9,15 @@
         <h1 class="title">Vous êtes une collectivité territoriale ?</h1>
 
         <div class="action">
+          <p>
+            Deux vendredis par mois de 14h30 à 15h30, l'Incubateur des Territoires propose aux collectivités de découvrir son offre d'accompagnement pour la création et le déploiement de services publics numériques.
+          </p>
+          <div class="action">
+            <g-link to="https://app.livestorm.co/incubateur-des-territoires/le-rdv-des-territoires-avec-lincubateur" class="button">
+              Participez au rendez-vous des Territoires →
+            </g-link>
+          </div>
+          
           <g-link to="/offre/collectivites" class="button">
             Découvrez notre offre de service →
           </g-link>
