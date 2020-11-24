@@ -5,6 +5,10 @@
         {{ $page.pageContent.title }}
       </PageTitle>
 
+      <div class="max-w-screen-md mx-auto my-8">
+        
+      </div>
+
       <div class="px-4">
         <div class="p-4 rounded-lg bg-gray-200 max-w-screen-md mx-auto">
           Les collectivités peuvent à tout moment solliciter l'Incubateur des Territoires pour :
@@ -13,12 +17,11 @@
             <a href="#développer-un-service-public-numérique" class="flex-1 bg-navy p-4 rounded-lg hover:bg-blue">Développer un service public numérique</a>
             <a href="#bénéficier-de-services-publics-numériques-qui-ont-fait-leurs-preuves" class="flex-1 bg-navy p-4 rounded-lg hover:bg-blue">Bénéficier de services publics numériques qui ont fait leurs preuves</a>
           </div>
-        </div>
 
-        <div class="max-w-screen-md mx-auto my-8">
-          <g-link to="/pdf/Plaquette_Incubateur_nov2020.pdf" class="cta shadow-yellow">
-            <font-awesome class="ml-2" :icon="['far', 'file-pdf']"/> Télécharger la plaquette de l'incubateur 
-          </g-link>
+          <div class="mt-8">
+            Deux vendredis par mois de 14h30 à 15h30, l'Incubateur des Territoires propose aux collectivités de découvrir son offre d'accompagnement pour la création et le déploiement de services publics numériques.
+            <iframe class="mt-4" height="150" width="100%" frameborder="0" src="https://app.livestorm.co/incubateur-des-territoires/upcoming?limit=1" title="Incubateur des Territoires events | Livestorm"></iframe>
+          </div>
         </div>
 
         <div class="max-w-screen-md mx-auto my-8">
