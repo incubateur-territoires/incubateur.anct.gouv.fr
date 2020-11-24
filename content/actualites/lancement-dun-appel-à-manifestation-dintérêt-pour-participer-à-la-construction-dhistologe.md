@@ -16,7 +16,7 @@ Concrètement, c'est une application numérique accessible depuis un smartphone,
 
 C'est un service qui a été lancé par l'Agglomération de Pau Béarn Pyrénées et qui a vocation à s'adresser à n'importe quelle collectivité territoriale souhaitant s'emparer de cette problématique.
 
-**Vous êtes une collectivité intéressée par ce service public numérique ? Vous souhaitez participer à sa construction ?** 
+### **Vous êtes une collectivité intéressée par ce service public numérique ? Vous souhaitez participer à sa construction ?** 
 
 <a class="cta shadow-yellow" href="https://incubateur.anct.gouv.fr/pdf/AMI_Histologe_112020.pdf">
  Consultez l'appel à manifestation d'intérêt →

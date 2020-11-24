@@ -40,10 +40,30 @@ module.exports = function (api) {
           repo_url: startup.attributes.repository,
           stats_url: startup.attributes.stats_url,
           contact: override.contact || startup.attributes.contact,
-          status: statusMap[startup.attributes.phases.slice(-1)[0].name]
+          status: statusMap[startup.attributes.phases.slice(-1)[0].name],
+          startup_etat: !!override.startup_etat
         })
       }
     }
+
+    const startupIds = startups.map(s => s.id)
+    const overrideIds = startupOverrides.data().map(d => d.id)
+
+    overrideIds.filter(s => !startupIds.includes(s)).forEach(id => {
+      const startup = startupOverrides.getNodeById(id)
+      collection.addNode({
+        id: startup.id,
+        name: startup.name,
+        pitch: startup.pitch,
+        beta_url: `https://beta.gouv.fr/startups/${startup.id}.html`,
+        service_url: startup.service_url,
+        repo_url: startup.repo_url,
+        stats_url: startup.stats_url,
+        contact: startup.contact,
+        status: startup.status,
+        startup_etat: !!startup.startup_etat
+      })
+    });
   })
 
   api.createPages(({ createPage }) => {

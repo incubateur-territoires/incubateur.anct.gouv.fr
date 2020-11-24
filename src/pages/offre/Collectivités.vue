@@ -13,7 +13,12 @@
             <a href="#développer-un-service-public-numérique" class="flex-1 bg-navy p-4 rounded-lg hover:bg-blue">Développer un service public numérique</a>
             <a href="#bénéficier-de-services-publics-numériques-qui-ont-fait-leurs-preuves" class="flex-1 bg-navy p-4 rounded-lg hover:bg-blue">Bénéficier de services publics numériques qui ont fait leurs preuves</a>
           </div>
-        </div> 
+
+          <div class="mt-8">
+            Deux vendredis par mois de 14h30 à 15h30, l'Incubateur des Territoires propose aux collectivités de découvrir son offre d'accompagnement pour la création et le déploiement de services publics numériques.
+            <iframe class="mt-4" height="150" width="100%" frameborder="0" src="https://app.livestorm.co/incubateur-des-territoires/upcoming?limit=1" title="Incubateur des Territoires events | Livestorm"></iframe>
+          </div>
+        </div>
 
         <div class="max-w-screen-md mx-auto my-8">
           <a href="/pdf/Plaquette_Incubateur_nov2020.pdf" target="_blank" class="cta shadow-yellow">
@@ -77,3 +82,17 @@ export default {
   }
 }
 </script>
+
+<style lang="scss" scoped>
+  a.cta {
+    @apply block px-4 py-2 my-4 border-2 border-navy text-navy font-bold rounded-full text-center transition ease-linear duration-100;
+
+    @screen sm {
+      @apply inline-block my-2;
+    }
+
+    &:hover {
+      @apply bg-navy text-white;
+    }
+  }
+</style>

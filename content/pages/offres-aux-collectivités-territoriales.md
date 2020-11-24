@@ -2,6 +2,7 @@
 title: Offres aux collectivités territoriales
 id: offres-collectivites
 ---
+
 # Chercher et tester une solution face à un problème
 
 L'Incubateur des Territoires accompagne les collectivités dans l'étude de problèmes et l'ébauche de premières solutions (numériques ou non) par une démarche d'intrapreneuriat et de design au contact des usagers. **Cette phase est appelée une investigation.**

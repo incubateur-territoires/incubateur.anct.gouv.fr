@@ -6,6 +6,13 @@
       </PageTitle>
 
       <div class="job-cards">
+        <div
+          v-if="jobs.length === 0"
+          class="mb-8 p-4 rounded-lg bg-gray-200"
+        >
+          L'incubateur n'a actuellement aucun poste ouvert. Reviens consulter le site, car nous et nos startups recrutent souvent.
+        </div>
+        
         <JobCard v-for="{ node } in jobs" :key="node.id" :job="node" />
         <g-link to="https://beta.gouv.fr/recrutement/" class="button">
           Consulter toutes les offres de la communauté Beta.gouv.fr <font-awesome class="ml-2" :icon="['fas', 'external-link-alt']"/>

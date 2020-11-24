@@ -11,7 +11,8 @@ import '@fortawesome/fontawesome-svg-core/styles.css'
 import { 
   faGithub,
   faTwitter,
-  faLinkedin
+  faLinkedin,
+  faYoutube
 } from '@fortawesome/free-brands-svg-icons'
 
 import {
@@ -37,7 +38,8 @@ library.add(
   faBars,
   faTimes,
   faFilePdf,
-  faLinkedin
+  faLinkedin,
+  faYoutube
 )
 
 //Plugins
