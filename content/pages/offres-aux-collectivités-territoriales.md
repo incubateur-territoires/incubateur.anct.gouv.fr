@@ -2,6 +2,9 @@
 title: Offres aux collectivités territoriales
 id: offres-collectivites
 ---
+
+<iframe width="100%" height="400" frameborder="0" src="https://app.livestorm.co/incubateur-des-territoires/upcoming?limit=3" title="Incubateur des Territoires events | Livestorm"></iframe>
+
 # Chercher et tester une solution face à un problème
 
 L'Incubateur des Territoires accompagne les collectivités dans l'étude de problèmes et l'ébauche de premières solutions (numériques ou non) par une démarche d'intrapreneuriat et de design au contact des usagers. **Cette phase est appelée une investigation.**
