@@ -5,6 +5,10 @@
         {{ $page.pageContent.title }}
       </PageTitle>
 
+      <div class="max-w-screen-md mx-auto my-8">
+        
+      </div>
+
       <div class="px-4">
         <div class="p-4 rounded-lg bg-gray-200 max-w-screen-md mx-auto">
           Les collectivités peuvent à tout moment solliciter l'Incubateur des Territoires pour :
