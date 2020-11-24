@@ -1,8 +1,8 @@
 ---
-title: Découvrez l'Incubateur en webinar
-texte_du_lien: S'inscrire au webinar
-url_du_lien: https://app.livestorm.co/incubateur-des-territoires/creer-des-services-publics-numeriques-a-fort-impact/
+title: Appel à manifestation d'intérêt
+texte_du_lien: En savoir plus
+url_du_lien: /actualites/lancement-d-un-appel-a-manifestation-d-interet-pour-participer-a-la-construction-d-histologe/
 ---
-L'incubateur présente son offre aux collectivités, avec plusieurs interventions de nos partenaires, dont **Céline Faivre**, directrice générale adjointe, Numérique, Achat, Juridique, Région Bretagne, et **François Mengin Lecreulx**, Directeur général des services de la Ville de Pau et de l’Agglomération Pau Béarn Pyrénées.
+**[Histologe](https://histologe.agglo-pau.fr/)** est un service public numérique permettant de repérer les problèmes d’habitabilité et de lutter contre le mal-logement. C'est un service qui a été lancé par l'Agglomération de Pau Béarn Pyrénées et qui a vocation à s'adresser à n'importe quelle collectivité territoriale souhaitant s'emparer de cette problématique.
 
-En 45 minutes, le webinaire permettra de découvrir les services de l’Incubateur des Territoires, notamment son offre d'Investigation, et d’échanger avec deux représentants de collectivités et des partenaires qui ont rejoint la démarche.
+Vous êtes une collectivité intéressée par ce service public numérique ?
