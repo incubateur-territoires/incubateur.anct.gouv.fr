@@ -125,7 +125,7 @@
                   </svg>
                   <div class="space-y-1">
                     <p class="text-base leading-6 font-medium text-gray-900">
-                      Startups de Territoires
+                      Startups de Territoires et d'États
                     </p>
                     <p class="hidden md:block text-sm leading-5 text-gray-500">
                       Développement de services publics numériques à fort impact
@@ -157,7 +157,7 @@
                       Collaborations
                     </p>
                     <p class="hidden md:block text-sm leading-5 text-gray-500">
-                      Mise en réseau avec des communs numériques, des Startups d'État et d'autres projets de l'ANCT
+                      Mise en réseau avec des communs numériques et d'autres projets de l'ANCT
                     </p>
                   </div>
                 </g-link>

@@ -24,6 +24,9 @@
         <g-link to="https://www.linkedin.com/showcase/anct-incubateur-des-territoires">
           <font-awesome :icon="['fab', 'linkedin']"/> LinkedIn
         </g-link>
+        <g-link to="https://www.youtube.com/channel/UC5p_RyLWLYXjvsOZxtnQAdQ">
+          <font-awesome :icon="['fab', 'youtube']"/> YouTube
+        </g-link>
       </div>
 
       <div class="description">

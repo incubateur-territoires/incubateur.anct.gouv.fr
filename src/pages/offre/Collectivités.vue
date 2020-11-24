@@ -13,7 +13,13 @@
             <a href="#développer-un-service-public-numérique" class="flex-1 bg-navy p-4 rounded-lg hover:bg-blue">Développer un service public numérique</a>
             <a href="#bénéficier-de-services-publics-numériques-qui-ont-fait-leurs-preuves" class="flex-1 bg-navy p-4 rounded-lg hover:bg-blue">Bénéficier de services publics numériques qui ont fait leurs preuves</a>
           </div>
-        </div> 
+        </div>
+
+        <div class="max-w-screen-md mx-auto my-8">
+          <g-link to="/pdf/Plaquette_Incubateur_nov2020.pdf" class="cta shadow-yellow">
+            <font-awesome class="ml-2" :icon="['far', 'file-pdf']"/> Télécharger la plaquette de l'incubateur 
+          </g-link>
+        </div>
 
         <div class="max-w-screen-md mx-auto my-8">
           <a href="/pdf/Plaquette_Incubateur_nov2020.pdf" target="_blank" class="cta shadow-yellow">
@@ -77,3 +83,17 @@ export default {
   }
 }
 </script>
+
+<style lang="scss" scoped>
+  a.cta {
+    @apply block px-4 py-2 my-4 border-2 border-navy text-navy font-bold rounded-full text-center transition ease-linear duration-100;
+
+    @screen sm {
+      @apply inline-block my-2;
+    }
+
+    &:hover {
+      @apply bg-navy text-white;
+    }
+  }
+</style>
