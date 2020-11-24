@@ -25,9 +25,9 @@
           </div>
 
           <div class="action">
-            <g-link to="/pdf/Plaquette_Incubateur_nov2020.pdf" class="button">
+            <a href="/pdf/Plaquette_Incubateur_nov2020.pdf" target="_blank" class="button">
               Télécharger l’offre en une page <font-awesome class="ml-2" :icon="['far', 'file-pdf']"/>
-            </g-link>
+            </a>
           </div>
         </div>
       </div> 

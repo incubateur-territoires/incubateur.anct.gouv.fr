@@ -16,9 +16,9 @@
         </div> 
 
         <div class="max-w-screen-md mx-auto my-8">
-          <g-link to="/pdf/Plaquette_Incubateur_nov2020.pdf" class="cta shadow-yellow">
+          <a href="/pdf/Plaquette_Incubateur_nov2020.pdf" target="_blank" class="cta shadow-yellow">
             <font-awesome class="ml-2" :icon="['far', 'file-pdf']"/> Télécharger la plaquette de l'incubateur 
-          </g-link>
+          </a>
         </div>
 
         <PageContent v-html="$page.pageContent.content" />
@@ -35,6 +35,20 @@ query page {
   }
 }
 </page-query>
+
+<style lang="scss" scoped>
+  a.cta {
+    @apply block px-4 py-2 my-4 border-2 border-navy text-navy font-bold rounded-full text-center transition ease-linear duration-100;
+
+    @screen sm {
+      @apply inline-block my-2;
+    }
+
+    &:hover {
+      @apply bg-navy text-white;
+    }
+  }
+</style>
 
 <script>
 import PageTitle from '~/components/PageTitle.vue'
