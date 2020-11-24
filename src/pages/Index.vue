@@ -9,7 +9,7 @@
         <h1 class="title">Vous êtes une collectivité territoriale ?</h1>
 
         <div class="action">
-          <p>
+          <p class="my-4">
             Deux vendredis par mois de 14h30 à 15h30, l'Incubateur des Territoires propose aux collectivités de découvrir son offre d'accompagnement pour la création et le déploiement de services publics numériques.
           </p>
           <div class="action">
@@ -18,9 +18,17 @@
             </g-link>
           </div>
           
-          <g-link to="/offre/collectivites" class="button">
-            Découvrez notre offre de service →
-          </g-link>
+          <div class="action">
+            <g-link to="/offre/collectivites" class="button">
+              Découvrez notre offre de service →
+            </g-link>
+          </div>
+
+          <div class="action">
+            <g-link to="/pdf/Plaquette_Incubateur_nov2020.pdf" class="button">
+              Télécharger l’offre en une page <font-awesome class="ml-2" :icon="['far', 'file-pdf']"/>
+            </g-link>
+          </div>
         </div>
       </div> 
 

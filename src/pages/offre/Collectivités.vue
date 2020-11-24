@@ -15,6 +15,12 @@
           </div>
         </div> 
 
+        <div class="max-w-screen-md mx-auto my-8">
+          <g-link to="/pdf/Plaquette_Incubateur_nov2020.pdf" class="cta shadow-yellow">
+            <font-awesome class="ml-2" :icon="['far', 'file-pdf']"/> Télécharger la plaquette de l'incubateur 
+          </g-link>
+        </div>
+
         <PageContent v-html="$page.pageContent.content" />
       </div>
     </div>
