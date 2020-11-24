@@ -17,6 +17,7 @@
     "@fortawesome/vue-fontawesome": "^0.1.10",
     "@gridsome/source-filesystem": "^0.6.2",
     "@gridsome/transformer-remark": "^0.6.0",
+    "autoprefixer": "^9.8.6",
     "axios": "^0.20.0",
     "dayjs": "^1.9.3",
     "gh-pages": "^3.0.0",
@@ -24,7 +25,8 @@
     "gridsome-plugin-matomo": "^0.1.0",
     "gridsome-plugin-netlify-cms": "^1.0.9",
     "netlify-cms": "^2.10.63",
-    "postcss": "^8.1.10",
+    "postcss": "^7.0.35",
+    "tailwindcss": "npm:@tailwindcss/postcss7-compat@^2.0.1",
     "v-click-outside": "^3.1.2"
   },
   "devDependencies": {
