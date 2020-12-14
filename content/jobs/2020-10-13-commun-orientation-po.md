@@ -1,8 +1,7 @@
 ---
 contact: incubateur@anct.gouv.fr
-poste_ouvert: 2020-10-12T21:46:08.684Z
-poste_ferme: 2020-10-27T22:46:08.716Z
-status: open
+poste_ouvert: 2020-12-14
+poste_ferme: 2021-01-11
 contrat: indépendant
 role: Chef.fe de produit
 equipe: Commun orientation
