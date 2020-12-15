@@ -6,7 +6,7 @@
         src="~/assets/images/france-relance-vert.png"
         class=" h-48 w-48"
       />
-      <h1 class="ml-8">Tranformation numérique des collectivitiés territoriales</h1>
+      <h1 class="ml-8">Tranformation numérique des collectivités territoriales</h1>
     </div>
     <div class="mx-auto max-w-screen-lg space-x-4 mt-8 text-lg">
       <g-link to="/relance/" class="nav-button">

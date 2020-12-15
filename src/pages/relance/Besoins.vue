@@ -4,14 +4,24 @@
       <PageTitle />
 
       <div class="px-4">
+        <PageContent class="mb-8" v-html="$page.pageContent.content" />
+        
         <div class="mx-auto max-w-screen-md">
-          <iframe class="airtable-embed airtable-dynamic-height" src="https://airtable.com/embed/shr1ATOVu75SVi1AP?backgroundColor=blue" frameborder="0" onmousewheel="" width="100%" height="533" style="background: transparent;"></iframe>
+          <iframe class="airtable-embed airtable-dynamic-height" src="https://airtable.com/embed/shr1ATOVu75SVi1AP?backgroundColor=blue" frameborder="0" onmousewheel="" width="100%" height="533" style="background: transparent; border: 1px solid #ccc;"></iframe>
         </div>
       </div>
     </div>
   </Layout>
 </template>
 
+<page-query>
+query page {
+  pageContent(id: "formulaire-besoins") {
+    title
+    content
+  }
+}
+</page-query>
 
 <script>
 import PageTitle from '~/components/relance/PageTitle.vue'
