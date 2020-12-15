@@ -1,5 +1,15 @@
 <template>
   <div class="container">
+    <g-link v-if="relancePath" to="/relance/" class="bg-green-relance block text-white font-medium text-lg py-4 hover:underline">
+      <div class="mx-auto max-w-screen-md px-4 flex flex-wrap items-center">
+        <g-image
+          alt="logo france relance"
+          src="~/assets/images/france-relance-vert.png"
+          class="h-12 w-12 mr-4"
+        />
+        Tranformation numérique des collectivités territoriales →
+      </div>
+    </g-link>
     <Header 
       :showMobileNav="showMobileNav"
       @toggle-mobile-nav="toggleMobileNav"
@@ -26,6 +36,11 @@ export default {
   data() {
     return {
       showMobileNav: false
+    }
+  },
+  computed: {
+    relancePath() {
+      return !this.$route.path.includes("relance")
     }
   },
   methods: {
