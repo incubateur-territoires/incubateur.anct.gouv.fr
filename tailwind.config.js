@@ -19,14 +19,17 @@ module.exports = {
       },
       colors: {
         blue: '#3b5fa9',
-        green: '#009f79',
+        green: {
+          DEFAULT: '#009f79',
+          relance: '#2fac66'
+        },
         yellow: {
           light: '#FFF080',
           DEFAULT: '#ffe000',
           dark: '#807100',
         },
         navy: '#273475',
-        black: '#212121'
+        black: '#212121',
       },
       fontFamily: {
         marianne: ["Marianne"]
