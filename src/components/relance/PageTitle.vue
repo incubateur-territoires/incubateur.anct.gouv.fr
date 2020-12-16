@@ -10,7 +10,7 @@
     </div>
     <div class="mx-auto max-w-screen-lg space-x-4 mt-8 text-lg">
       <g-link to="/relance/" class="nav-button">
-        À propos la relance
+        À propos de la relance
       </g-link>
       <g-link to="/relance/besoins/" class="nav-button">
         Répondre à l'enquête des besoins
