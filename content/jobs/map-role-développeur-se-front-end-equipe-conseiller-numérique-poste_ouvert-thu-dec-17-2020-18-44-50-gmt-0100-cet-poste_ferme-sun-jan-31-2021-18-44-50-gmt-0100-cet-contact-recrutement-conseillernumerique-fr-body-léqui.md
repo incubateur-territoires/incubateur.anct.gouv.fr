@@ -48,11 +48,9 @@ En lien avec le développeur actuel :
 Expertise minimum de 2 ans en tant que développeur Angular, JavaScript moderne (ES2021, Babel...), CSS moderne (Sass, Less, CSS-in-JS : Styled Component, CSS modules...).
 Vous savez travailler en équipe et vous voulez co-construire l’outil en plaçant la culture produit au coeur du travail.
 Vous portez un intérêt aux projets open source et aux politiques publiques en matière de formation et d’emploi.
-
-## Compétences appréciées
+### Compétences appréciées : 
 Développement d'une librairie de composants UI
-Contributeur de projets open source
-Python, Django
+Contributeur de projets open source Python, Django
 Expériences dans le secteur du recrutement ou dans le secteur public
 
 ## Modalités de travail
