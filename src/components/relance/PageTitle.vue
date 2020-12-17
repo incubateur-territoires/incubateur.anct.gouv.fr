@@ -4,19 +4,25 @@
       <g-image
         alt="logo france relance"
         src="~/assets/images/france-relance-vert.png"
-        class=" h-48 w-48"
+        class="h-32 w-32 sm:h-48 sm:w-48"
       />
       <h1 class="ml-8">Tranformation numérique des collectivités territoriales</h1>
     </div>
-    <div class="mx-auto max-w-screen-lg space-x-4 mt-8 text-lg">
+    <div class="mx-auto max-w-screen-lg flex flex-col lg:flex-row lg:space-x-1 mt-8">
       <g-link to="/relance/" class="nav-button">
-        À propos de la relance
+        À propos
       </g-link>
       <g-link to="/relance/besoins/" class="nav-button">
         Répondre à l'enquête des besoins
       </g-link>
+      <g-link to="/relance/besoins/liste" class="nav-button">
+        Besoins identifiés
+      </g-link>
       <g-link to="/relance/solutions/" class="nav-button">
-        Déposer un produit numérique
+        Proposer une solution
+      </g-link>
+      <g-link to="/relance/solutions/liste" class="nav-button">
+        Solutions proposées
       </g-link>
     </div>
   </div>
@@ -24,10 +30,14 @@
 
 <style lang="scss" scoped>
 .nav-button {
-  @apply px-4 py-2 rounded-full border-2 border-transparent;
+  @apply p-1;
+  
+  @screen lg {
+    @apply px-4 py-2 rounded-full border-2 border-transparent;
 
-  &:hover {
-    @apply border-white;
+    &:hover {
+      @apply border-white;
+    }
   }
 }
 

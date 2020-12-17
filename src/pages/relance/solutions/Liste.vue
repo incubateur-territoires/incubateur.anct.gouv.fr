@@ -4,7 +4,16 @@
       <PageTitle />
 
       <div class="px-4">
-        <div class="mx-auto max-w-screen-md">
+        <div class="mx-auto max-w-screen-md">          
+          <div class="mb-8">
+            <h1 class="text-5xl block font-marianne font-bold">
+              Solutions proposées
+            </h1>
+            <g-link to="/relance/besoins/liste" class="text-gray-800 hover:underline">
+              voir les besoins identifiés →
+            </g-link>
+          </div>
+
           <div v-if="loading">
             <svg class="mx-auto" 
              version="1.1" id="loader-1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
@@ -24,9 +33,17 @@
                 </path>
             </svg>
           </div>
-          <div class="flex space-x-4">
-            <div v-for="(besoin, idx) in besoins" :key="idx" class="px-6 py-4 border-4 border-gray-200 rounded-lg flex-1">
-              {{ besoin.Nom }}
+          <div v-if="!loading">
+            <div class="flex flex-col space-y-4">
+              <div v-for="(solution, idx) in solutions" :key="idx" class="px-6 py-4 border-4 border-gray-200 rounded-lg flex-1">
+                <h1 class="text-2xl font-medium mb-4 block">{{ solution.Titre }}</h1>
+                <p class="block whitespace-pre-wrap my-4">{{ solution.Description }}</p>
+                <div class="space-x-2 space-y-2">
+                  <div v-for="(type, idx) in solution.Typology" :key="idx" class="px-2 py-1 bg-navy text-white text-sm rounded-full uppercase font-medium text-center inline-block">
+                    {{ type }}
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </div>
@@ -63,16 +80,16 @@ export default {
   methods: {
     fetchData () {
       this.error = null
-      this.besoins = []
+      this.solutions = []
       this.loading = true
 
-      var besoins = [];
+      var solutions = [];
 
-      this.$airtable('Besoins').select({ pageSize: 100, maxRecords: 100, offset: 0 }).eachPage(
+      this.$airtable('Solutions proposées').select({ pageSize: 100, maxRecords: 100, offset: 0 }).eachPage(
         (records, fetchNextPage) => {
           // This function (`page`) will get called for each page of records.
           records.forEach(function(record) {
-            besoins.push(record.fields)
+            solutions.push(record.fields)
           });
 
           // To fetch the next page of records, call `fetchNextPage`.
@@ -82,7 +99,7 @@ export default {
         },
         (err) => {
           this.loading = false;
-          this.besoins = besoins;
+          this.solutions = solutions;
 
           if (err) { console.error(err); return; }
         }

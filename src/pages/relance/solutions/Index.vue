@@ -4,6 +4,12 @@
       <PageTitle />
 
       <div class="px-4">
+        <div class="mx-auto max-w-screen-md">
+          <h1 class="text-5xl block font-marianne font-bold">
+            Proposer une solution
+          </h1>
+        </div>
+        
         <PageContent class="mb-8" v-html="$page.pageContent.content" />
 
         <div class="mx-auto max-w-screen-md">
