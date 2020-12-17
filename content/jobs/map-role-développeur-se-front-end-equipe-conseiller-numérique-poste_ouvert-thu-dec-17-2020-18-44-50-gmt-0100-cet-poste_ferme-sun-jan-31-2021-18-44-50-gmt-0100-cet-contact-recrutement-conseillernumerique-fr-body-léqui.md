@@ -22,7 +22,6 @@ Incubée au sein de l’incubateur des territoires (membre de beta.gouv), la sta
 
 
 ## Le poste proposé
-Poste ouvert le 01/02/2021
 En tant que développeur Front Angular, vous rejoindrez notre petite équipe sous la tutelle du développeur actuel afin de construire, implémenter et améliorer l’architecture front des produits Conseiller Numérique.
 Il vous sera demandé de participer aux conceptions et de développer l’interface utilisateur (site publique, inscription, espace client, backoffice) en lien avec le développeur actuel et l’ux designer.
 Vous pourrez également participer au développement de la CI, aux mises en productions et au développement du backend (Django) en fonction de vos intérêts.
@@ -31,7 +30,6 @@ Vous pourrez également participer au développement de la CI, aux mises en prod
 
 Front : Typescript, SCSS, Angular,Bootstrap, Yarn
 Back : Python, Django, Django Rest Framework
-
 
 ## Missions
 En lien avec le développeur actuel :
