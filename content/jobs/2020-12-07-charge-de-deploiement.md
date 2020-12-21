@@ -1,11 +1,11 @@
 ---
-role: Chargé.e de déploiement
-contrat: indépendant
-equipe: Incubateur des Territoires
-poste_ouvert: 2020-12-07
-poste_ferme: 2020-12-21
 contact: incubateur@anct.gouv.fr
+poste_ouvert: 2020-12-07
+poste_ferme: 2021-01-03T23:00:00.000Z
 status: open
+contrat: indépendant
+role: Chargé.e de déploiement
+equipe: Incubateur des Territoires
 poste_pourvu: false
 ---
 
