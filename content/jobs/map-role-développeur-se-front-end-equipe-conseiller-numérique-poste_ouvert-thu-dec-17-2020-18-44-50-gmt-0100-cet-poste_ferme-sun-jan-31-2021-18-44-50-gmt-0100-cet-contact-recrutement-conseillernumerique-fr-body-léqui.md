@@ -62,5 +62,3 @@ Vous aurez un statut de freelance ou d’auto-entrepreneur‧se.
 Le rythme de travail est de 5 jours par semaine, Le télétravail est la norme mais une présence ponctuelle dans les locaux à l’incubateur des Territoires à Paris est souhaitable lors d’ateliers et/ou réunions une fois par semaine  (test utilisateur, démonstration, rétrospective et planification). L’équipe suit une méthode agile avec des phases de retours fréquents de ses utilisateurs finaux.
 
 **Date de début  souhaitée : janvier 2021**
-
-Pour candidater, vous pouvez envoyer une candidature (en précisant votre TJM) à l'adresse : lauren.michel@anct.gouv.fr.
