@@ -1,7 +1,7 @@
 ---
 role: Développeur.se front-end
 equipe: Conseiller Numérique
-contact: recrutement@conseillernumerique.fr
+contact: lauren.michel@anct.gouv.fr
 poste_ouvert: 2020-12-17T17:44:50.495Z
 poste_ferme: 2021-01-31T17:44:50.517Z
 ---
@@ -20,8 +20,8 @@ De plus, la startup est incubée au sein de l’incubateur des territoires à S�
 Conseillers numériques est une plateforme en ligne conçue pour mettre en relation des candidats avec des structures accueillantes, publiques et privées. Son objectif est de former et d’accompagner 4000 conseillers au métier de conseiller numérique.
 Incubée au sein de l’incubateur des territoires (membre de beta.gouv), la startup a connu une forte croissance dès son lancement sur le territoire national le 17 novembre 2020, avec 9 900 candidats et 1 052 structures inscrits sur la plateforme.Le produit est disponible à : https://www.conseiller-numerique.gouv.fr
 
-
 ## Le poste proposé
+
 En tant que développeur Front Angular, vous rejoindrez notre petite équipe sous la tutelle du développeur actuel afin de construire, implémenter et améliorer l’architecture front des produits Conseiller Numérique.
 Il vous sera demandé de participer aux conceptions et de développer l’interface utilisateur (site publique, inscription, espace client, backoffice) en lien avec le développeur actuel et l’ux designer.
 Vous pourrez également participer au développement de la CI, aux mises en productions et au développement du backend (Django) en fonction de vos intérêts.
@@ -32,7 +32,9 @@ Front : Typescript, SCSS, Angular,Bootstrap, Yarn
 Back : Python, Django, Django Rest Framework
 
 ## Missions
+
 En lien avec le développeur actuel :
+
 * Développer et maintenir les composants de notre application.
 * Apporter votre expertise front
 * Participer aux conceptions technico-fonctionnelles des user stories avec le reste de l’équipe (Dev, PO, UX).
@@ -43,24 +45,22 @@ En lien avec le développeur actuel :
 * Participation à l’amélioration continue du produit
 
 ## Profil
+
 Expertise minimum de 2 ans en tant que développeur Angular, JavaScript moderne (ES2021, Babel...), CSS moderne (Sass, Less, CSS-in-JS : Styled Component, CSS modules...).
 Vous savez travailler en équipe et vous voulez co-construire l’outil en plaçant la culture produit au coeur du travail.
 Vous portez un intérêt aux projets open source et aux politiques publiques en matière de formation et d’emploi.
-### Compétences appréciées : 
+
+### Compétences appréciées :
+
 Développement d'une librairie de composants UI
 Contributeur de projets open source Python, Django
 Expériences dans le secteur du recrutement ou dans le secteur public
 
 ## Modalités de travail
+
 Vous aurez un statut de freelance ou d’auto-entrepreneur‧se.
 Le rythme de travail est de 5 jours par semaine, Le télétravail est la norme mais une présence ponctuelle dans les locaux à l’incubateur des Territoires à Paris est souhaitable lors d’ateliers et/ou réunions une fois par semaine  (test utilisateur, démonstration, rétrospective et planification). L’équipe suit une méthode agile avec des phases de retours fréquents de ses utilisateurs finaux.
 
 **Date de début  souhaitée : janvier 2021**
 
-Pour candidater, vous pouvez envoyer une candidature (en précisant votre TJM) à l'adresse : recrutement@conseillernumerique.fr
-
-
-
-
-
-
+Pour candidater, vous pouvez envoyer une candidature (en précisant votre TJM) à l'adresse : lauren.michel@anct.gouv.fr.
