@@ -5,7 +5,7 @@ contact: lauren.michel@anct.gouv.fr
 poste_ouvert: 2020-12-21T15:25:25.046Z
 poste_ferme: 2021-01-31T15:25:25.078Z
 ---
-<https://conseiller-numerique.gouv.fr>L'équipe Conseiller Numérique recrute **un.e chargé.e de déploiement.**
+L'équipe Conseiller Numérique recrute **un.e chargé.e de déploiement.**
 
 ## L’environnement du poste et l’équipe
 
