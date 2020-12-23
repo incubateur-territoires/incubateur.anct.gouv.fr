@@ -3,7 +3,8 @@ role: Développeur.se principal.e
 equipe: Conseiller Numérique
 contact: lauren.michel@anct.gouv.fr
 poste_ouvert: 2020-12-21T13:05:12.078Z
-poste_ferme: 2021-01-31T13:05:12.106Z
+poste_ferme: 2020-12-23T13:05:12.106Z
+poste_pourvu: true
 ---
 L'équipe Conseillers Numériques recrute **un.e développeur.se principal.e**.
 
