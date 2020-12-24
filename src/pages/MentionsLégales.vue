@@ -8,11 +8,11 @@
       <h2>Éditeur</h2>
       <p>
         Ce site est édité par l'équipe de l'Incubateur des Territoires, 
-        une mission de l'Agence nationale de la cohesion des territoires.
+        une mission de l'Agence Nationale de la Cohésion des Territoires.
       </p>
       <h3>Contact</h3>
       <p>
-        Agence nationale de la cohésion des territoires<br>
+        Agence Nationale de la Cohésion des Territoires<br>
         Mission incubateur de services numériques <br>
         20, avenue de Ségur<br>
         TSA 10717<br>
@@ -23,12 +23,12 @@
 
       <h3>Directeur de publication</h3>
       <p>
-        Laurent Rojey, Directeur général délégué du numérique
+        Laurent Rojey, Directeur général délégué au numérique
       </p>
 
       <h2>Informations techniques</h2>
       <p>
-        Ce site est conçu et développé par l'équipe de l'Incubateur des Territories. De nouvelles fonctionnalités sont ajoutées en continue. 
+        Ce site est conçu et développé par l'équipe de l'Incubateur des Territories. De nouvelles fonctionnalités sont ajoutées en continu.
       </p>
 
       <p>
@@ -75,7 +75,7 @@
         <li>Une grande liberté de réutilisation des informations :</li>
         <li>Une licence ouverte, libre et gratuite, qui apporte la sécurité juridique nécessaire aux producteurs et aux réutilisateurs des données publiques ;</li>
         <li>Une licence qui promeut la réutilisation la plus large en autorisant la reproduction, la redistribution, l’adaptation et l’exploitation commerciale des données</li>
-        <li>Une licence qui s’inscrit dans un contexte international en étant compatible avec les standards des licences Open Data éveloppées à l’étranger et notamment celles du gouvernement britannique (Open Government Licence) ainsi que les autres standards internationaux (ODC-BY, CC-BY 2.0).</li>
+        <li>Une licence qui s’inscrit dans un contexte international en étant compatible avec les standards des licences Open Data développées à l’étranger et notamment celles du gouvernement britannique (Open Government Licence) ainsi que les autres standards internationaux (ODC-BY, CC-BY 2.0).</li>
         <li>Une exigence forte de transparence de la donnée et de qualité des sources en rendant obligatoire la mention de la paternité.</li>
         <li>Une opportunité de mutualisation pour les autres données publiques en mettant en place un standard réutilisable par les collectivités territoriales qui souhaiteraient se lancer dans l’ouverture des données publiques.</li>
       </ul>

@@ -28,7 +28,7 @@ import PageContent from '~/components/PageContent.vue'
 export default {
   metaInfo() {
     return {
-      title: `Offres aux acteurs publics et partenaires de collectivités`,
+      title: `Offre aux acteurs publics et partenaires de collectivités`,
       meta: [
         // Twitter
         {key:'twitter:title', property: 'twitter:title', content: `Offres aux acteurs publics et partenaires de collectivités`},

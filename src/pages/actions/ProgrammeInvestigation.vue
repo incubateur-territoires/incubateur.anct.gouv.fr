@@ -10,7 +10,7 @@
 
         <div class="mx-auto max-w-screen-md">
           <h2 class="font-marianne text-3xl mb-4 mt-6 font-semibold">
-            Investigation en cours
+            Investigations en cours
           </h2>
           
           <ServiceCard
@@ -26,7 +26,7 @@
           />
           
           <h2 class="font-marianne text-3xl mb-4 mt-6 font-semibold">
-            Investigation passée
+            Investigations passées
           </h2>
 
           <ServiceCard

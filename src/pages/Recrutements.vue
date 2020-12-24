@@ -10,7 +10,7 @@
           v-if="jobs.length === 0"
           class="mb-8 p-4 rounded-lg bg-gray-200"
         >
-          L'incubateur n'a actuellement aucun poste ouvert. Reviens consulter le site, car nous et nos startups recrutent souvent.
+          L'incubateur n'a actuellement aucun poste ouvert. Revenez consulter le site, car les équipes de l'Incubateur recrutent régulièrement.
         </div>
         
         <JobCard v-for="{ node } in jobs" :key="node.id" :job="node" />
