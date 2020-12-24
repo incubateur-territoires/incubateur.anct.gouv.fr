@@ -26,14 +26,14 @@
 
           <div class="action">
             <a href="/pdf/Plaquette_Incubateur_nov2020.pdf" target="_blank" class="button">
-              Télécharger l’offre en une page <font-awesome class="ml-2" :icon="['far', 'file-pdf']"/>
+              Téléchargez l’offre en une page <font-awesome class="ml-2" :icon="['far', 'file-pdf']"/>
             </a>
           </div>
         </div>
       </div> 
 
       <div class="public">
-        <h1 class="title">Vous êtes acteurs publics ou partenaires des collectivités ?</h1>
+        <h1 class="title">Vous êtes un acteur public ou un partenaire des collectivités ?</h1>
         
         <p class="mb-4">L'Incubateur des Territoires peut fournir un appui opérationnel aux acteurs publics et autres partenaires des collectivités qui souhaitent développer un service public numérique avec les territoires.</p>
         <g-link to="/offre/partenaires" class="button">
