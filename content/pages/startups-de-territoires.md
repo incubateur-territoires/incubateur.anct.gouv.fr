@@ -8,4 +8,6 @@ A ce titre, l'incubateur peut fournir un appui méthodologique, faciliter le rec
 
 L'équipe autonome dédiée à la création de ce service, constituée d'experts métiers, de développeurs et de designers, s'appelle une **startup de territoire**.
 
+Lorsqu'il s'agit d'une équipe dédiée à la création d'un service numérique dans le cadre d'une politique publique nationale pilotée par l'ANCT, on parle de **startup d'Etat**.
+
 <a href="/contact-territoires/?prefill_Sujets=en savoir plus sur le programme des Startups de Territoires" class="cta">Être recontacté au sujet des Startups de Territoires →</a>

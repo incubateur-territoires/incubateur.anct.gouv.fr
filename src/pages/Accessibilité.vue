@@ -5,9 +5,9 @@
     </PageTitle>
 
     <PageContent>
-      <h2>Identité du Declarant</h2>
+      <h2>Identité du déclarant</h2>
       <p>
-        Agence nationale de la cohésion des territoires<br>
+        Agence Nationale de la Cohésion des Territoires<br>
         Mission incubateur de services numériques <br>
         20, avenue de Ségur<br>
         TSA 10717<br>
@@ -21,12 +21,12 @@
 
       <h2>Droit à compensation</h2>
       <p>
-        Dans l’attente d’une mise en conformité totale, vous pouvez obtenir une version accessible des documents ou des informations qui y seraient contenues en envoyant un courriel à <g-link to="mailto:incubateur@anct.gouv.fr">incubateur@anct.gouv.fr</g-link> en indiquant le nom du document concerné et/ou les informations que vous souhaiteriez obtenir. Les informations demandées vous seront transmises dans les plus bref délais.
+        Dans l’attente d’une mise en conformité totale, vous pouvez obtenir une version accessible des documents ou des informations qui y seraient contenues en envoyant un courriel à <g-link to="mailto:contactincubateur@anct.gouv.fr">contactincubateur@anct.gouv.fr</g-link> en indiquant le nom du document concerné et/ou les informations que vous souhaiteriez obtenir. Les informations demandées vous seront transmises dans les plus bref délais.
       </p>
 
       <h2>Amélioration et contact</h2>
       <p>
-        Vous pouvez nous aider à améliorer l’accessibilité du site en nous signalant les problèmes éventuels que vous rencontrez. Pour ce faire, envoyez-nous un courriel à <g-link to="mailto:incubateur@anct.gouv.fr">incubateur@anct.gouv.fr</g-link>.  
+        Vous pouvez nous aider à améliorer l’accessibilité du site en nous signalant les problèmes éventuels que vous rencontrez. Pour ce faire, envoyez-nous un courriel à <g-link to="mailto:contactincubateur@anct.gouv.fr">contactincubateur@anct.gouv.fr</g-link>.
       </p>
 
       <h2>Défenseur des droits</h2>

@@ -1,7 +1,7 @@
 <template>
   <Layout>
     <div class="contact">
-      <PageTitle>Contact l'équipe de l'incubateur</PageTitle>
+      <PageTitle>Contactez l'équipe de l'incubateur</PageTitle>
     </div>
 
     <div class="my-12 max-w-screen-md mx-auto">
