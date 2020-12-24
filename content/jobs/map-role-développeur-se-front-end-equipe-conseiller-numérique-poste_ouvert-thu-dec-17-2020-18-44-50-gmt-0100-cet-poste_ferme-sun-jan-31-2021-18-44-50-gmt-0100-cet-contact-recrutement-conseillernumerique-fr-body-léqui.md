@@ -3,7 +3,8 @@ role: Développeur.se front-end
 equipe: Conseiller Numérique
 contact: lauren.michel@anct.gouv.fr
 poste_ouvert: 2020-12-17T17:44:50.495Z
-poste_ferme: 2021-01-31T17:44:50.517Z
+poste_ferme: 2020-12-24T17:44:50.517Z
+poste_pourvu: true
 ---
 L'équipe Conseillers Numériques recherche un.e développeur.se front-end.
 
