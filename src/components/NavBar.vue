@@ -125,7 +125,7 @@
                   </svg>
                   <div class="space-y-1">
                     <p class="text-base leading-6 font-medium text-gray-900">
-                      Startups de Territoires et d'États
+                      Startups de Territoires et d'État
                     </p>
                     <p class="hidden md:block text-sm leading-5 text-gray-500">
                       Développement de services publics numériques à fort impact
