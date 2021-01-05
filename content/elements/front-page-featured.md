@@ -1,8 +1,8 @@
 ---
 title: Appel à manifestation d'intérêt
 texte_du_lien: En savoir plus
-url_du_lien: /actualites/lancement-d-un-appel-a-manifestation-d-interet-pour-participer-a-la-construction-d-histologe/
+url_du_lien: /actualites/appel-a-manifestation-d-interet-pour-participer-a-la-construction-du-produit-commun-orientation/
 ---
-**[Histologe](https://histologe.agglo-pau.fr/)** est un service public numérique permettant de repérer les problèmes d’habitabilité et de lutter contre le mal-logement. C'est un service qui a été lancé par l'Agglomération de Pau Béarn Pyrénées et qui a vocation à s'adresser à n'importe quelle collectivité territoriale souhaitant s'emparer de cette problématique.
+La Startup de Territoires **Commun orientation** vise à mettre en place un service numérique ayant notamment pour mission de développer et de déployer un outil numérique permettant à l'usager de trouver rapidement la bonne administration et le bon service à contacter au regard de sa problématique ou recherche.
 
 Vous êtes une collectivité intéressée par ce service public numérique ?
