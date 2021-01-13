@@ -8,7 +8,7 @@
       />
       <h1 class="ml-8">Tranformation numérique des collectivités territoriales</h1>
     </div>
-    <div class="mx-auto max-w-screen-lg flex flex-col lg:flex-row lg:space-x-1 mt-8">
+    <!-- <div class="mx-auto max-w-screen-lg flex flex-col lg:flex-row lg:space-x-1 mt-8">
       <g-link to="/relance/" class="nav-button">
         À propos
       </g-link>
@@ -24,7 +24,7 @@
       <g-link to="/relance/solutions/liste" class="nav-button">
         Solutions proposées
       </g-link>
-    </div>
+    </div> -->
   </div>
 </template>
 
