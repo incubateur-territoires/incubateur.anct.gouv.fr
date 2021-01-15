@@ -3,145 +3,90 @@
     <div>
       <PageTitle />
       
+      <div class="px-4 py-2 bg-gray-100 mx-auto max-w-screen-md text-lg rounded-lg">
+        Vous êtes une <span class="font-bold">collectivité territoriale</span> ou un <span class="font-bold">groupement de collectivités</span> ? : construisons ensemble des solutions numériques qui répondent à vos besoins
+      </div>
+
       <div class="px-4">
         <PageContent v-html="$page.pageContent.content" />
       </div>
 
       <div class="mx-auto max-w-screen-md calendrier">
-        <div class="phase selected">
-          <div class="titre">Phase 1 : recueil des besoins et des solutions</div>
+        <h1 class="font-marianne font-black text-3xl">
+          Calendrier
+        </h1>
+
+        <div class="phase">
+          <div class="titre">1. Recueil des besoins et des solutions</div>
           <div class="dates">fin janvier / mi-mars 2021</div>
           <div class="content" v-if="phase === 1">
-            <p class="mt-4">
-              Pour en savoir plus : participez au webinaire <g-link>"Co-développer des services numériques publics à fort impact ?"</g-link>
+            <p class="my-4 px-4 py-2 bg-gray-100 border-l-4 border-navy text-sm">
+              Pour en savoir plus : participez au <g-link to="https://app.livestorm.co/incubateur-des-territoires/le-rdv-des-territoires-avec-lincubateur">RDV des Territoires</g-link>
             </p>
-            
-            <div class="block">
-              <h2>Vous êtes une <span class="font-black">collectivité territoriale</span> ou un <span class="font-black">groupement de collectivités</span> ?</h2>
-              <p>
-                Partagez vos besoins en création ou utilisation de services numériques pour qu'elle puisse être accompagnée et financée
-              </p>
-              <g-link class="button">
-                Partager des besoins
-              </g-link>
-            </div>
 
-            <div class="block">
-              <h2>Vous êtes une <span class="font-black">collectivité</span> ou un <span class="font-black">groupement avec un ou des territoires en zones rurales et montagnes, quartiers prioritaires de la politique de la ville</span>, ou une <g-link class="font-black">“Petite Ville de Demain”</g-link> et vous avez besoin d’un accompagnement pour identifier vos besoins ?</h2>
-              <p>
-                Candidatez pour participer à un programme national d'investigations. Ce programme finance l'accompagnement de collectivités territoriales et de leur groupement pour investiguer des problématiques, concevoir et tester des premières solutions 
-              </p>
-              <g-link class="button">
-                Candidater au programme national d’investigations
-              </g-link>
-            </div>
-
-            <div class="block">
-              <h2>Vous êtes une collectivité territoriale, un groupement ou un partenaire des collectivités ?</h2>
-              <p>
-                Partagez des services numériques qui pourraient être accompagnés pour être développés en libre et passer à l'échelle du plus grand nombre de collectivités intéressées.  
-              </p>
-              <g-link class="button">
-                Partager des solutions
-              </g-link>
-            </div>
+            <ul class="mb-8">
+              <li><g-link>Partagez vos besoins</g-link> en création ou utilisation de services numériques pour qu'elle puisse être accompagnée et financée</li>
+              <div class="my-4 p-4 bg-gray-100">
+                <div class="leading-tight mb-2">Vous êtes en <span class="font-bold">zones rurales</span> et <span class="font-bold">montagnes</span>, <span class="font-bold">quartiers prioritaires de la politique de la ville</span>, ou une <span class="font-bold">“Petite Ville de Demain”</span> ?</div>
+                <p><g-link>Candidatez pour participer à un programme national d'investigations</g-link>. Ce programme finance l'accompagnement de collectivités territoriales et de leur groupement pour investiguer des problématiques, concevoir et tester des premières solutions</p>
+              </div>
+              
+              <li>
+                <g-link>Partagez des services numériques</g-link> qui pourraient être accompagnés pour être développés en libre et passer à l'échelle du plus grand nombre de collectivités intéressées.
+              </li>
+              <div class="my-4 p-2 bg-gray-100 flex items-center">
+                <!-- <svg class="w-6 h-6 text-navy" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4m0 4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg> -->
+                <div class="ml-2">
+                  Vous êtes un <span class="font-bold">partenaire des collectivités</span> ? 
+                  <p class="mt-2">Nous vous invitons également à <g-link>partager vos services numériques existantes</g-link> pour les collectivés.</p>
+                </div>
+              </div>
+            </ul>
           </div>
         </div>
 
         <div class="phase">
-          <div class="titre">Phase 2 : vote pour les propositions</div>
+          <div class="titre">2. Vote pour les propositions</div>
           <div class="dates">mi-mars / mi-avril 2021</div>
           <div class="content">
-            <p>
+            <p class="my-4 px-4 py-2 bg-gray-100 border-l-4 border-navy text-sm">
               En amont de cette phase et à l’issue de la précédente, l’équipe de l’Incubateur des Territoires fusionne des propositions similaires et dans la mesure du possible réalise le chiffrage du coût de développement des solutions numériques en réponse aux besoins les plus prégnants. 
             </p>
-            
-            <h2>Vous êtes une collectivité ou un groupement de collectivités ?</h2>
 
             <ul>
               <li>
-                Votez pour les besoins que vous estimez les plus partagés afin que des solutions soient développées en priorité.<br>
-                <g-link class="button">
-                  Votez pour des besoins prioritaires
-                </g-link>
+                <g-link>Votez pour les besoins proposées</g-link> que vous estimez les plus partagés afin que des solutions soient développées en priorité.<br>
               </li>
               <li>
-                Votez pour des solutions proposées afin que leur développement en libre et/ou leur déploiement soit financé au sein de votre territoire.
-                <g-link class="button">
-                  Votez pour des solutions prioritaires
-                </g-link>
+                <g-link>Votez pour des solutions proposées</g-link> afin que leur développement en libre et/ou leur déploiement soit financé au sein de votre territoire.
               </li>
             </ul>
-          
           </div>
         </div>
 
         <div class="phase">
-          <div class="titre">Phase 3 : expression d’intérêt à devenir “territoire référent” pour les solutions retenues et conventionnement avec d’autres parties prenantes</div>
+          <div class="titre">3. Expression d’intérêt à devenir “territoire référent” pour les solutions retenues et conventionnement avec d’autres parties prenantes</div>
           <div class="dates">mi-avril / fin mai 2021</div>
           <div class="content">
-            <h2>Vous êtes une collectivité ou un groupement de collectivités ?</h2>
-            <p>Exprimez votre intérêt pour être associé comme “territoire référent” au développement d’une solution parmi celles les plus plébiscitées. A ce titre, vous serez consulté lors de la phase de conception et vous bénéficierez en premier du déploiement du service.</p>
-            <g-link class="button">Télécharger la note d’engagement</g-link>
-
-            <h2>Vous êtes une collectivité territoriale, un groupement ou un partenaire des collectivités dont la solution existante a été retenue pour être développée et passée à l’échelle ?</h2>
-            <g-link class="button">Télécharger la convention</g-link>
+            <p class="my-4 px-4 py-2 bg-gray-100 border-l-4 border-navy text-sm">Exprimez votre intérêt pour être associé comme “territoire référent” au développement d’une solution parmi celles les plus plébiscitées. A ce titre, vous serez consulté lors de la phase de conception et vous bénéficierez en premier du déploiement du service.</p>
+            <ul>
+              <li><g-link>Télécharger la note d’engagement</g-link> pour devenir un territoire référent.</li> 
+              <li>Votre solution existante a été retenue pour être développée et passée à l’échelle ? <g-link>Télécharger la convention</g-link></li>
+            </ul>  
           </div>
         </div>
 
         <div class="phase">
-          <div class="titre">Phase 4 : lancement des projets lauréats</div>
+          <div class="titre">4. Lancement des projets lauréats</div>
           <div class="dates">à partir de fin mai 2021</div>
           <div class="content">
-            <p>Les solutions sont développées en lien avec les territoires référents. Les territoires référents sont consultés lors de la conception des solutions et bénéficient en priorité du déploiement du service.</p>
-            <p>Retrouvez <g-link>ici</g-link> l’ensemble des axes du plan de relance dédiés à la transformation numérique des collectivités territoriales</p>
+            <p class="my-4 px-4 py-2 bg-gray-100 border-l-4 border-navy text-sm">Les solutions sont développées en lien avec les territoires référents. Les territoires référents sont consultés lors de la conception des solutions et bénéficient en priorité du déploiement du service.</p>
+            <ul>
+              <li><g-link>Retrouvez l’ensemble des axes du plan de relance dédiés à la transformation numérique des collectivités territoriales</g-link></li>
+            </ul>
           </div>
         </div>
       </div>
-
-      <!-- <div class="px-4">
-        <PageContent v-html="$page.faq.content" />
-      </div> -->
-
-      <!-- <div class="mx-auto max-w-screen-lg p-8 rounded-xl my-16 bg-gray-100">
-        <h2 class="text-center font-marianne font-bold text-4xl mb-8">
-          Participer avec ma collectivité
-        </h2>
-
-        <div class="flex space-x-14">
-          <div class="">
-            <g-image
-              src="~/assets/images/loudspeaker.png"
-              alt="loud speaker"
-            />
-            <h1 class="block text-2xl leading-tight mb-4">
-              Enquête nationale des besoins numériques
-            </h1>
-            <p class="mb-6">
-              Dites-nous quels sont les problèmes et besoins de votre collectivité pour passer le cap de la transformation digitale
-            </p>
-            <g-link to="/relance/besoins" class="button">
-              Répondre
-            </g-link>
-          </div>
-          
-          <div class="">
-            <g-image
-              src="~/assets/images/launch.png"
-              alt="rocket launch"
-            />
-            <h1 class="block text-2xl leading-tight mb-4">
-              Accélerer un produit numérique existant
-            </h1>
-            <p class="mb-6">
-              Votre collectivité utilise un outil numérique quit mériterait un soutient financier de la part de l'état ?
-            </p>
-            <g-link to="/relance/solutions" class="button">
-              Déposer un dossier
-            </g-link>
-          </div>
-        </div>
-      </div> -->
     </div>
   </Layout>
 </template>
@@ -149,10 +94,6 @@
 <page-query>
 query page {
   pageContent(id: "relance") {
-    title
-    content
-  }
-  faq: pageContent(id: "relance-faq") {
     title
     content
   }
@@ -194,18 +135,22 @@ export default {
 
 <style lang="scss" scoped>
 
-p {
+li {
+  @apply ml-4 list-disc;
+
+  &.second {
+    @apply ml-6 mt-1 list-none bg-gray-100 p-3;
+  }
+}
+
+p, h2, ul {
   a {
-    @apply text-blue underline;
+    @apply text-green-relance border-b-2 border-green-relance;
   }
 }
 
 h2 {
-  @apply font-marianne font-semibold mt-4 mb-2 text-2xl leading-snug text-gray-900;
-
-  a {
-    @apply text-blue underline;
-  }
+  @apply mt-4 mb-2 text-xl leading-snug text-gray-900;
 }
 
 .button {
@@ -224,11 +169,12 @@ h2 {
   }
   
   .phase {
-    @apply my-8 py-4 px-4 rounded-lg bg-gray-100;
+    @apply my-8;
+    // p-4 -mx-4 rounded-lg bg-gray-100;
   }
 
   .titre {
-    @apply text-3xl font-semibold font-marianne text-navy;
+    @apply text-2xl font-semibold font-marianne text-navy;
   }
 
   .dates {
