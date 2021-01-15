@@ -110,13 +110,13 @@ export default {
       title: `France Relance: Transformation numérique des collectivités territoriales`,
       meta: [
         // Twitter
-        {key:'twitter:title', property: 'twitter:title', content: `Tranformation numérique des collectivitiés territoriales`},
-        {key:'twitter:description', property: 'twitter:description', content: `France Relance`},
+        {key:'twitter:title', property: 'twitter:title', content: `France Relance : Tranformation numérique des collectivitiés territoriales`},
+        {key:'twitter:description', property: 'twitter:description', content: `l’État consacre une enveloppe de 30 millions d’euros pour aider les collectivités territoriales à résoudre les principaux problèmes qu’elles rencontrent en matière d’outillage numérique.`},
         {key:'twitter:image', property: 'twitter:image', content: `https://incubateur.anct.gouv.fr/og-france-relance.png`},
         // OpenGraph
-        {key:'og:title', property: 'og:title', content: `Tranformation numérique des collectivitiés territoriales`},
+        {key:'og:title', property: 'og:title', content: `France Relance : Tranformation numérique des collectivitiés territoriales`},
         {key:'og:site_name', property: 'og:site_name', content: `Incubateur des Territoires`},
-        {key:'og:description', property: 'og:description', content: `France Relance`},
+        {key:'og:description', property: 'og:description', content: `l’État consacre une enveloppe de 30 millions d’euros pour aider les collectivités territoriales à résoudre les principaux problèmes qu’elles rencontrent en matière d’outillage numérique.`},
         {key:'og:image', property: 'og:image', content: `https://incubateur.anct.gouv.fr/og-france-relance.png`},
       ]
     }
