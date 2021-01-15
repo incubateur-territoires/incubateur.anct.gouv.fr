@@ -45,20 +45,12 @@ library.add(
 //Plugins
 import '@/plugins/Dayjs'
 
-import Airtable from 'airtable'
-const airtableBase = new Airtable({apiKey: 'keyE4ET5FDlzjQL04'}).base('appJP7rwXMMOOPUOy')
-
-// apiKey: 'keyE4ET5FDlzjQL04', // required
-// base: 'appJP7rwXMMOOPUOy', // required
-
 export default function (Vue, { router, head, isClient }) {
   // Set default layout as a global component
   Vue.component('Layout', DefaultLayout)
   Vue.component('font-awesome', FontAwesomeIcon)
 
   Vue.use(vClickOutside)
-
-  Object.defineProperty(Vue.prototype, '$airtable', { value: airtableBase });
 
   let ROOT_PATH = 'https://incubateur.anct.gouv.fr'
 
