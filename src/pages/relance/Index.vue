@@ -27,7 +27,7 @@
             <ul class="mb-8">
               <li><g-link>Partagez vos besoins</g-link> en création ou utilisation de services numériques pour qu'elle puisse être accompagnée et financée</li>
               <div class="my-4 p-4 bg-gray-100">
-                <div class="leading-tight mb-2">Vous êtes en <span class="font-bold">zone rurale</span>, de <span class="font-bold">montagnes</span>, <span class="font-bold">en quartier prioritaire de la politique de la ville</span>, en coeur de ville ou une <span class="font-bold">“Petite Ville de Demain”</span> ?</div>
+                <div class="leading-tight mb-2">Vous êtes en <span class="font-bold">zone rurale</span>, de <span class="font-bold">montagne</span>, <span class="font-bold">en quartier prioritaire de la politique de la ville</span>, en coeur de ville ou une <span class="font-bold">“Petite Ville de Demain”</span> ?</div>
                 <p><g-link>Candidatez pour participer à un programme national d'investigations</g-link>. Ce programme finance un accompagnement spécifique pour ces collectivités ou groupements afin d'identifier leurs besoins via l’investigation de problématiques, la conception et le test de premières solutions.</p>
               </div>
               

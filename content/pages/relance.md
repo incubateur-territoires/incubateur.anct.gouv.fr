@@ -11,7 +11,7 @@ Pour cela, il est proposé aux collectivités d’expérimenter **une nouvelle m
 À ce titre, l’Incubateur des Territoires de l’ANCT lance une consultation nationale auprès des collectivités territoriales, de leurs groupements et de leurs partenaires avec un double objectif :
 
 - **Identifier les besoins de nouveaux services numériques** pour lesquels un soutien est nécessaire afin de les co-construire ;
-    - _ex : signaler des problèmes de mal-logement, organiser un conseil municipal en ligne, faciliter l’orientation des usagers vers les services compétents de la collectivité, mettre en relation des agriculteurs locaux avec les habitants etc._
+    - _ex : signaler des problèmes de mal-logement, faciliter l’orientation des usagers vers les services compétents de la collectivité, mettre en relation des agriculteurs locaux avec les habitants etc._
 
 - **Identifier des services numériques qui ont déjà fait leurs preuves** pour accompagner et financer leur développement en code ouvert et leur passage à l’échelle du plus grand nombre de collectivités intéressées. 
     - _ex : outil de signalement des routes endommagées, outil de gestion de la relation usagers, outil permettant la mise à disposition d’équipements publics (gymnase, cours de tennis, salles de classe, etc.) pour l’usage des habitants etc._
