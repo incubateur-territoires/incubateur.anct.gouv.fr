@@ -7,7 +7,7 @@ id: offres-partenaires
 
   <p>Il peut proposer un accompagnement méthodologique pour chercher, tester, développer et déployer une solution face à un problème. Il peut aider au lancement, au recrutement des équipes, à la formation, au suivi de l'impact, ou encore mettre à disposition des outils, etc.</p>
 
-  <a href="/contact-territoires/" class="cta shadow-yellow">Être recontacté pour plus d'infos →</a>
+  <a href="mailto:contactincubateur@anct.gouv.fr" class="cta shadow-yellow">Contactez-nous pour plus d'infos →</a>
 
 </div>
 
@@ -42,5 +42,5 @@ Vous avez un projet qui pourrait être accompagné par l'Incubateur ? Quelques p
 > Au départ, l'équipe dédiée est composée d'un agent public et d'un.e développeur.se. accompagnés par un coach. Elle grossit au fur et à mesure de son évolution avec des chargés de déploiement, des juristes, des designers, etc. Cela conduit à créer une équipe dédiée avec un agent public référent - par opposition à une équipe projet.
 
 <div class="mt-8">
-  <a href="/contact-territoires/" class="cta shadow-yellow">Être recontacté pour plus d'info →</a>
+  <a href="mailto:contactincubateur@anct.gouv.fr" class="cta shadow-yellow">Contactez-nous pour plus d'infos →</a>
 </div>

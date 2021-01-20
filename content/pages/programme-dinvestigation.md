@@ -6,4 +6,4 @@ Le **Programme d'Investigation** encourage et accompagne une dynamique d'innovat
 
 Sur une période de 9 à 12 semaines, chaque équipe d'agents publics territoriaux est accompagnée par un coach et un designer. L'accompagnement, appelé Investigation, est entièrement financé par l'ANCT.
 
-<a href="/contact-territoires/?prefill_Sujets=lancer un Programme d'Investigation au sein de ma collectivité" class="cta">Être recontacté au sujet du Programme d'Investigation →</a>
+<a href="mailto:contactincubateur@anct.gouv.fr" class="cta">Contactez-nous au sujet du Programme d'Investigation →</a>
