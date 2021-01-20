@@ -3,12 +3,29 @@
     <div>
       <PageTitle>Tranformation numérique des collectivités territoriales</PageTitle>
       
-      <div class="px-4 py-2 bg-gray-100 mx-auto max-w-screen-md text-lg rounded-lg">
-        Vous êtes une <span class="font-bold">collectivité territoriale</span> ou un <span class="font-bold">groupement de collectivités</span> ? Construisons ensemble des services numériques qui répondent à vos besoins
-      </div>
+      <!-- <div class="px-4 py-2 bg-gray-100 mx-auto max-w-screen-md text-lg rounded-lg">
+        Vous êtes une <span class="font-bold">collectivité territoriale</span> ou un <span class="font-bold">groupement de collectivités</span> ?
+      </div> -->
 
       <div class="px-4">
         <PageContent v-html="$page.pageContent.content" />
+
+        <ul class="mx-auto max-w-screen-md my-8 text-lg">          
+          <g-link class="button mb-8" to="https://mon.incubateur.anct.gouv.fr/processes/transformation-numerique">
+            Participer à la consultation →
+          </g-link>
+          
+          <li>
+            <g-link to="https://mon.incubateur.anct.gouv.fr/processes/transformation-numerique/f/1/">Pour partager mes besoins</g-link> en création ou utilisation de services numériques pour qu'elle puisse être accompagnée et financée
+          </li>
+          <li>
+            <g-link to="https://mon.incubateur.anct.gouv.fr/processes/transformation-numerique/f/2/">Pour partager des services numériques</g-link> existants et nécessitant un financement 
+          </li>
+        </ul>
+
+        <p class="mx-auto max-w-screen-md my-4 px-4 py-2 bg-gray-100 border-l-4 border-navy text-lg">
+          Pour en savoir plus : participez au <g-link to="https://app.livestorm.co/incubateur-des-territoires/le-rdv-des-territoires-avec-lincubateur">RDV des Territoires</g-link>
+        </p>
       </div>
 
       <div class="mx-auto max-w-screen-md calendrier">
@@ -17,28 +34,41 @@
         </h1>
 
         <div class="phase">
-          <div class="titre">1. Recueil des besoins et des services existants</div>
-          <div class="dates">fin janvier / mi-mars 2021</div>
-          <div class="content" v-if="phase === 1">
+          <div
+            class="rounded-lg hover:bg-gray-100 cursor-pointer pt-2 pb-2 pr-2 -m-2 flex"
+            @click="showEtape1 = !showEtape1"
+          >
+            <div class="text-gray-500 mt-1 mr-2">
+              <svg :class="{ 'transform rotate-90' : showEtape1 }" class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="M9 5l7 7-7 7"></path></svg>
+            </div>
+            <div>
+              <div class="titre">Étape 1 : Recueil des besoins et des services existants</div>
+              <div class="dates">le 25 janvier au 15 mars 2021</div>
+            </div>
+          </div>
+          <div
+            class="content"
+            v-if="showEtape1"
+          >
             <p class="my-4 px-4 py-2 bg-gray-100 border-l-4 border-navy text-sm">
               Pour en savoir plus : participez au <g-link to="https://app.livestorm.co/incubateur-des-territoires/le-rdv-des-territoires-avec-lincubateur">RDV des Territoires</g-link>
             </p>
 
             <ul class="mb-8">
-              <li><g-link>Partagez vos besoins</g-link> en création ou utilisation de services numériques pour qu'elle puisse être accompagnée et financée</li>
+              <li><g-link to="https://mon.incubateur.anct.gouv.fr/processes/transformation-numerique/f/1/">Partagez vos besoins</g-link> en création ou utilisation de services numériques pour qu'elle puisse être accompagnée et financée</li>
               <div class="my-4 p-4 bg-gray-100">
                 <div class="leading-tight mb-2">Vous êtes en <span class="font-bold">zone rurale</span>, de <span class="font-bold">montagne</span>, <span class="font-bold">en quartier prioritaire de la politique de la ville</span>, en coeur de ville ou une <span class="font-bold">“Petite Ville de Demain”</span> ?</div>
-                <p><g-link>Candidatez pour participer à un programme national d'investigations</g-link>. Ce programme finance un accompagnement spécifique pour ces collectivités ou groupements afin d'identifier leurs besoins via l’investigation de problématiques, la conception et le test de premières solutions.</p>
+                <p><g-link to="/relance/investigations/">Candidatez pour participer à un programme national d'investigations</g-link>. Ce programme finance un accompagnement spécifique pour ces collectivités ou groupements afin d'identifier leurs besoins via l’investigation de problématiques, la conception et le test de premières solutions.</p>
               </div>
               
               <li>
-                <g-link>Partagez des services numériques</g-link> qui ont déjà fait leurs preuves pour accompagner et financer leur développement en code ouvert et leur passage à l’échelle du plus grand nombre de collectivités intéressées.
+                <g-link to="https://mon.incubateur.anct.gouv.fr/processes/transformation-numerique/f/2/">Partagez des services numériques</g-link> qui ont déjà fait leurs preuves pour accompagner et financer leur développement en code ouvert et leur passage à l’échelle du plus grand nombre de collectivités intéressées.
               </li>
               <div class="my-4 p-2 bg-gray-100 flex items-center">
                 <!-- <svg class="w-6 h-6 text-navy" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4m0 4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg> -->
                 <div class="ml-2">
                   Vous êtes un <span class="font-bold">partenaire des collectivités</span> ? 
-                  <p class="mt-2">Nous vous invitons également à <g-link>partager les services numériques existants</g-link> pour les collectivités que vous souhaiteriez accélérer.</p>
+                  <p class="mt-2">Nous vous invitons également à <g-link to="https://mon.incubateur.anct.gouv.fr/processes/transformation-numerique/f/2/">partager les services numériques existants</g-link> pour les collectivités que vous souhaiteriez accélérer.</p>
                 </div>
               </div>
             </ul>
@@ -46,43 +76,84 @@
         </div>
 
         <div class="phase">
-          <div class="titre">2. Vote pour les propositions</div>
-          <div class="dates">mi-mars / mi-avril 2021</div>
-          <div class="content">
+          <div
+            class="rounded-lg hover:bg-gray-100 cursor-pointer pt-2 pb-2 pr-2 -m-2 flex"
+            @click="showEtape2 = !showEtape2"
+          >
+            <div class="text-gray-500 mt-1 mr-2">
+              <svg :class="{ 'transform rotate-90' : showEtape2 }" class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="M9 5l7 7-7 7"></path></svg>
+            </div>
+            <div>
+              <div class="titre">Étape 2 : Vote pour les propositions</div>
+              <div class="dates">le 15 mars au 15 avril 2021</div>
+            </div>
+          </div>
+          <div
+            class="content"
+            v-if="showEtape2"
+          >
             <p class="my-4 px-4 py-2 bg-gray-100 border-l-4 border-navy text-sm">
               En amont de cette phase et à l’issue de la précédente, l’équipe de l’Incubateur des Territoires fusionne les propositions similaires et évalue dans la mesure du possible le coût de développement et de déploiement des services numériques en réponse aux besoins les plus prégnants.
             </p>
 
             <ul>
               <li>
-                <g-link>Votez pour les besoins proposés</g-link> que vous estimez les plus partagés afin que des services numériques soient construits en priorité.<br>
+                <g-link class="disabled">Votez pour les besoins proposés</g-link> que vous estimez les plus partagés afin que des services numériques soient construits en priorité.<br>
               </li>
               <li>
-                <g-link>Votez pour des numériques proposés</g-link> afin que leur développement en code ouvert ou leur déploiement soit financé en priorité.
+                <g-link class="disabled">Votez pour des numériques proposés</g-link> afin que leur développement en code ouvert ou leur déploiement soit financé en priorité.
               </li>
             </ul>
           </div>
         </div>
 
         <div class="phase">
-          <div class="titre">3. Expression d’intérêt à devenir “territoire référent” pour les services numériques retenus</div>
-          <div class="dates">mi-avril / fin mai 2021</div>
-          <div class="content">
+          <div
+            class="rounded-lg hover:bg-gray-100 cursor-pointer pt-2 pb-2 pr-2 -m-2 flex"
+            @click="showEtape3 = !showEtape3"
+          >
+            <div class="text-gray-500 mt-1 mr-2">
+              <svg :class="{ 'transform rotate-90' : showEtape3 }" class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="M9 5l7 7-7 7"></path></svg>
+            </div>
+            <div>
+              <div class="titre">Étape 3 : Expression d’intérêt à devenir “territoire référent” pour les services numériques retenus</div>
+              <div class="dates">le 15 avril au 31 mai 2021</div>
+            </div>
+          </div>
+          <div 
+            class="content"
+            v-if="showEtape3"
+          >
             <p class="my-4 px-4 py-2 bg-gray-100 border-l-4 border-navy text-sm">Exprimez votre intérêt pour être “territoire référent” c'est-à-dire participer au pilotage des services retenus et à bénéficier en premier du déploiement.</p>
             <ul>
-              <li><g-link>Télécharger la note d’engagement</g-link> pour devenir un territoire référent.</li> 
-              <li>Votre solution existante a été retenue pour être développée et passée à l’échelle ? <g-link>Télécharger la convention</g-link></li>
+              <li><g-link class="disabled">Télécharger la note d’engagement</g-link> pour devenir un territoire référent.</li> 
+              <li>Votre solution existante a été retenue pour être développée et passée à l’échelle ?<br><g-link class="disabled">Télécharger la convention</g-link></li>
             </ul>  
           </div>
         </div>
 
         <div class="phase">
-          <div class="titre">4.Développement et déploiement des services numériques lauréats</div>
-          <div class="dates">à partir de fin mai 2021</div>
-          <div class="content">
+          <div
+            class="rounded-lg hover:bg-gray-100 cursor-pointer pt-2 pb-2 pr-2 -m-2 flex"
+            @click="showEtape4 = !showEtape4"
+          >
+            <div class="text-gray-500 mt-1 mr-2">
+              <svg :class="{ 'transform rotate-90' : showEtape4 }" class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="M9 5l7 7-7 7"></path></svg>
+            </div>
+            <div>
+              <div class="titre">
+                Étape 4 : Développement et déploiement des services numériques lauréats
+              </div>
+              <div class="dates">à partir du 1er juin 2021</div>
+            </div>
+          </div>
+          <div
+            class="content"
+            v-if="showEtape4"
+          >
             <p class="my-4 px-4 py-2 bg-gray-100 border-l-4 border-navy text-sm">Les services retenus sont déployés ou développés en lien avec les territoires référents. Les territoires référents sont consultés lors de la conception des services et bénéficient en priorité du déploiement du service.</p>
             <ul>
-              <li><g-link>Retrouvez ici l’ensemble des axes du plan de relance dédiés à la transformation numérique des collectivités territoriales</g-link></li>
+              <li><g-link class="disabled">Retrouvez ici l’ensemble des axes du plan de relance dédiés à la transformation numérique des collectivités territoriales</g-link></li>
             </ul>
           </div>
         </div>
@@ -127,7 +198,10 @@ export default {
   },
   data() {
     return {
-      phase: 1
+      showEtape1: false,
+      showEtape2: false,
+      showEtape3: false,
+      showEtape4: false
     }
   }
 }
@@ -146,6 +220,13 @@ li {
 p, h2, ul {
   a {
     @apply text-green-relance border-b-2 border-green-relance;
+
+    &.disabled {
+      @apply text-gray-400 border-gray-400 cursor-not-allowed;
+    }
+    &.disabled::after {
+      content: " [À VENIR]"
+    }
   }
 }
 
@@ -158,6 +239,14 @@ h2 {
 
   &:hover {
     @apply text-green-relance bg-white;
+  }
+}
+
+.button {
+  @apply inline-block px-4 py-2 border-2 border-green bg-white text-green font-bold rounded-full text-center transition ease-linear duration-100;
+
+  &:hover {
+    @apply bg-green text-white;
   }
 }
 

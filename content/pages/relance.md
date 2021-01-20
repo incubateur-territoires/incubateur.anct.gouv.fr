@@ -2,9 +2,9 @@
 title: France Relance
 id: relance
 ---
-# Une nouvelle méthode pour une nouvelle ambition
+# Construisons ensemble des services numériques qui répondent à vos besoins
 
-Dans le cadre du plan France Relance, l’État consacre une enveloppe de **30 millions d’euros** pour co-construire avec les collectivités territoriales des services numériques répondant à des problèmes et besoins concrets des territoires.
+Dans le cadre du plan France Relance, l’État consacre une enveloppe de **30 millions d’euros** pour co-construire avec les **collectivités territoriales** et les **groupements de collectivités** des services numériques répondant à des problèmes et besoins concrets des territoires.
 
 Pour cela, il est proposé aux collectivités d’expérimenter **une nouvelle méthode de coopération** qui rompt avec la logique d’appels à projets. Il s’agit de partir des besoins des territoires pour développer des services numériques avec et pour le plus grand nombre d'entre eux. 
 

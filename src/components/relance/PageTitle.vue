@@ -8,9 +8,9 @@
       />
       <h1 class="ml-8"><slot /></h1>
     </div>
-    <div class="mx-auto max-w-screen-lg flex flex-col lg:flex-row lg:space-x-1 mt-8">
+    <!-- <div class="mx-auto max-w-screen-lg flex flex-col lg:flex-row lg:space-x-1 mt-8">
       <g-link to="/relance/" class="nav-button">
-        À propos du relance
+        À propos de la relance
       </g-link>
       <g-link to="/relance/investigations/" class="nav-button">
         Programme national d'investigations
@@ -18,7 +18,7 @@
       <g-link to="https://mon.incubateur.anct.gouv.fr" class="nav-button">
         Répondre à l'enquête ↗︎
       </g-link>
-      <!-- <g-link to="/relance/besoins/liste" class="nav-button">
+      <g-link to="/relance/besoins/liste" class="nav-button">
         Besoins identifiés
       </g-link>
       <g-link to="/relance/solutions/" class="nav-button">
@@ -26,8 +26,8 @@
       </g-link>
       <g-link to="/relance/solutions/liste" class="nav-button">
         Solutions proposées
-      </g-link> -->
-    </div>
+      </g-link>
+    </div> -->
   </div>
 </template>
 

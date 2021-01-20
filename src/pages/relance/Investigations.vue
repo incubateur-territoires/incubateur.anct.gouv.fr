@@ -3,17 +3,25 @@
     <div>
       <PageTitle>Programme national d'investigations</PageTitle>
 
-      <div class="px-4 py-2 bg-gray-100 mx-auto max-w-screen-md text-lg rounded-lg">
-        L'Incubateur des Territoires finance et accompagne des programmes d’investigations au sein des collectivités qui consistent à cerner des problématiques ainsi qu’à concevoir et tester des premières solutions. Afin de générer des synergies entre les différentes collectivités qui explorent des problématiques similaires et d’identifier des solutions à mutualiser et à financer dans le cadre du plan de relance, l’Incubateur des Territoires lance un programme national d’investigations.
+      <div class="mb-4 mx-auto max-w-screen-md text-2xl font-marianne">
+        Vous êtes en <span class="font-bold">zone rurale</span>, de <span class="font-bold">montagne</span>, <span class="font-bold">en quartier prioritaire de la politique de la ville</span>, en coeur de ville ou une <span class="font-bold">“Petite Ville de Demain”</span> ?
       </div>
       
       <div class="mx-auto max-w-screen-md">
-        <h1>Qu’est-ce que le programme national d’investigations ? </h1>
-        <p>À travers le programme national d'investigations, l’Incubateur des Territoires propose aux collectivités territoriales d'explorer des problématiques de politique publique avec pour objectifs de cerner des problèmes concrets puis de concevoir des premières solutions et de tester l'appétence pour celles-ci des publics cibles, qu'il s'agisse d'habitants, d'entreprises, d'associations ou encore d'agents publics. Le programme est conçu pour créer une dynamique à la fois au sein des collectivités partenaires et à l’échelle du réseau qu’elles constitueront.</p>
-        <p>L’appel à candidatures est ouvert aux collectivités et à leurs groupements jusqu’au lundi 15 mars minuit. Il est possible de candidater par email à l’adresse contactincubateur@anct.gouv.fr.</p>
-        <ul>
+        <p class="mb-4">L'Incubateur des Territoires de l’Agence Nationale de la Cohésion des Territoires (ANCT) construit, avec les collectivités territoriales et leurs partenaires, des services publics numériques. Un service public numérique est développé en logiciel libre, son impact est mesuré en permanence pour ajuster sa proposition de valeur en fonction des besoins réellement exprimés par ses utilisateurs (agents publics, élus locaux, habitants, entreprises, associations...). Les services numériques peuvent répondre à une multitude de problématiques rencontrées par les collectivités territoriales. A titre d’exemple, ils concernent aujourd’hui tant la lutte contre le gaspillage alimentaire dans les cantines que la prise en charge du mal logement, ou encore le covoiturage en espace rural ou de montagne.</p>
+        <p class="mb-4">Dans ce cadre, l'Incubateur des Territoires finance et accompagne des programmes d’investigations. Ils consistent à détecter des problématiques rencontrées par les collectivités territoriales ainsi qu’à concevoir et tester rapidement des premières pistes de service qui sauraient y répondre efficacement. Afin de générer des synergies entre les différentes collectivités qui rencontrent des problématiques similaires et d’identifier des services à financer dans le cadre du Plan de relance, l’Incubateur des Territoires lance un programme national d’investigations.</p>
+        
+        <p class="my-4 px-4 py-2 bg-gray-100 border-l-4 border-navy text-sm">
+          Les collectivités et leurs groupements intéressés par ce programme peuvent candidater d’ici le <strong>15 mars 2021</strong>.  L’équipe de l’Incubateur des Territoires est disponible pour échanger avec vous à ce sujet.
+        </p>
+
+        <g-link class="button my-4" to="https://mon.incubateur.anct.gouv.fr/processes/transformation-numerique">
+          Être recontacté →
+        </g-link>
+        
+        <!-- <ul>
           <li><a href="#faq">Foire à questions</a></li>
-        </ul>
+        </ul> -->
       </div>
     </div>
 
@@ -61,6 +69,14 @@ export default {
 p, h2, ul {
   a {
     @apply text-green-relance border-b-2 border-green-relance;
+  }
+}
+
+.button {
+  @apply inline-block px-4 py-2 border-2 border-green bg-white text-green font-bold rounded-full text-center transition ease-linear duration-100;
+
+  &:hover {
+    @apply bg-green text-white;
   }
 }
 </style>

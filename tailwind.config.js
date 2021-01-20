@@ -40,7 +40,10 @@ module.exports = {
     },
   },
   variants: {
-    backgroundColor: ['hover']
+    backgroundColor: ['hover'],
+    extend: {
+      opacity: ['disabled']
+    }
   },
   plugins: [],
 }
