@@ -14,8 +14,8 @@
           Les collectivités et leurs groupements intéressés par ce programme peuvent candidater d’ici le <strong>15 mars 2021</strong>.  L’équipe de l’Incubateur des Territoires est disponible pour échanger avec vous à ce sujet.
         </p>
 
-        <g-link class="button my-4" to="https://mon.incubateur.anct.gouv.fr/processes/transformation-numerique">
-          Être recontacté →
+        <g-link class="button my-4" to="https://airtable.com/shrLx1W28BkkjE9xf">
+          Candidater au programme national d'investigations →
         </g-link>
       </div>
     </div>
@@ -74,7 +74,7 @@
           class="content etapes"
           v-if="faq2"
         >
-          <h2>Étape 1</h2>
+          <h2>Étape 1 : Préparation</h2>
           <h3>1 mois</h3>
           <ul>
             <li><strong>Ma Direction Générale des Services lance un Appel à candidatures</strong> auprès des agents de la collectivité territoriale pour participer au programme ;</li>
@@ -83,20 +83,20 @@
             <li><strong>Les agents volontaires, au contact des usagers, identifient les problématiques</strong> récurrentes rencontrées au sein de ma collectivité.</li>
           </ul>
 
-          <h2>Étape 2</h2>
+          <h2>Étape 2 : Sélection des investigations</h2>
           <h3>2 semaines</h3>
           <ul>
             <li><strong>Ma collectivité sélectionne des problématiques prioritaires</strong> avec l’aide de l’Incubateur des Territoires ;</li>
             <li><strong>Ma collectivité constitue des équipes d’investigation</strong> composées d’un ou plusieurs agents publics pour chaque problématique prioritaire. Si pertinent, des “équipes intercollectivités” sont créées sur proposition de l’Incubateur des Territoires aux collectivités qui souhaitent investiguer une problématique identique. A défaut, des équipes pourront être exclusivement composées des agents de mon administration;</li>
           </ul>
 
-          <h2>Étape 3</h2>
+          <h2>Étape 3 : Lancement des investigations</h2>
           <h3>1 journée</h3>
           <ul>
             <li><strong>Le référent de ma collectivité lance, avec le référent de l’incubateur des Territoires, le programme lors d’une journée de formation</strong> des agents mobilisés au sein de mon administration - un, deux ou trois par problématiques étudiées. Cette journée pourra être mutualisée avec le lancement du programme dans d’autres collectivités.</li>
           </ul>
 
-          <h2>Étape 4</h2>
+          <h2>Étape 4 : Investigations en cours</h2>
           <h3>3 mois</h3>
           <ul>
             <li><strong>Un coach en entrepreneuriat numérique et un designer</strong> de l’Incubateur des Territoires accompagnent les agents de ma collectivité pour concevoir et tester une solution numérique ou non ;</li>
@@ -106,7 +106,7 @@
             <li><strong>Les équipes testent et améliorent les prototypes</strong>, puis valident ou non l’appétence des usagers pour le service.</li>
           </ul>
 
-          <h2>Étape 5</h2>
+          <h2>Étape 5 : Comité de décision suite aux investigations</h2>
           <h3>2 heures</h3>
           <ul>
             <li><strong>Les équipes d’investigation documentent</strong> les différents enseignements tirées des investigations ;</li>
@@ -174,7 +174,7 @@
       </div>
 
       <g-link class="button retourner mt-8" to="/relance/">
-        ← Retourner au Plan de Relance
+        ← Découvrir d'autres actions de l'Incubateur en lien avec le plan de relance
       </g-link>
     </div>
   </Layout>
