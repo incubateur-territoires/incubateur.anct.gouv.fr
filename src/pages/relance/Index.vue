@@ -20,7 +20,7 @@
           </g-link>
           
           <li>
-            <g-link to="https://mon.incubateur.anct.gouv.fr/processes/transformation-numerique/f/1/">Pour partager mes besoins</g-link> en création ou utilisation de services numériques pour qu'elle puisse être accompagnée et financée
+            <g-link to="https://mon.incubateur.anct.gouv.fr/processes/transformation-numerique/f/3/">Pour partager mes besoins</g-link> en création ou utilisation de services numériques pour qu'elle puisse être accompagnée et financée
           </li>
           <li>
             <g-link to="https://mon.incubateur.anct.gouv.fr/processes/transformation-numerique/f/2/">Pour partager des services numériques</g-link> existants et nécessitant un financement 
@@ -58,7 +58,7 @@
               v-if="showEtape1"
             >
               <ul class="mb-8 mt-4">
-                <li><g-link to="https://mon.incubateur.anct.gouv.fr/processes/transformation-numerique/f/1/">Partagez vos besoins</g-link> en création ou utilisation de services numériques pour qu'elle puisse être accompagnée et financée</li>              
+                <li><g-link to="https://mon.incubateur.anct.gouv.fr/processes/transformation-numerique/f/3/">Partagez vos besoins</g-link> en création ou utilisation de services numériques pour qu'elle puisse être accompagnée et financée</li>              
                 <li>
                   <g-link to="https://mon.incubateur.anct.gouv.fr/processes/transformation-numerique/f/2/">Partagez des services numériques</g-link> qui ont déjà fait leurs preuves pour accompagner et financer leur développement en code ouvert et leur passage à l’échelle du plus grand nombre de collectivités intéressées.
                 </li>
