@@ -235,14 +235,6 @@ h2 {
 }
 
 .button {
-  @apply inline-block px-3 py-1 mt-4 border-2 border-green-relance bg-green-relance text-white font-semibold rounded-full text-center transition ease-linear duration-100;
-
-  &:hover {
-    @apply text-green-relance bg-white;
-  }
-}
-
-.button {
   @apply inline-block px-4 py-2 border-2 border-green bg-white text-green font-bold rounded-full text-center transition ease-linear duration-100;
 
   &:hover {
