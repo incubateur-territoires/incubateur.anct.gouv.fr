@@ -93,7 +93,9 @@
             v-if="showEtape2"
           >
             <p class="my-4 px-4 py-2 bg-gray-100 border-l-4 border-navy text-sm">
-              En amont de cette phase et à l’issue de la précédente, l’équipe de l’Incubateur des Territoires fusionne les propositions similaires et évalue dans la mesure du possible le coût de développement et de déploiement des services numériques en réponse aux besoins les plus prégnants.
+              En amont de cette phase et à l’issue de la précédente, l’équipe de l’Incubateur des Territoires fusionne les propositions similaires et évalue dans la mesure du possible le coût de développement et de déploiement des services numériques en réponse aux besoins les plus prégnants.<br>
+              <br>
+              Pour en savoir plus : participez au <g-link to="https://app.livestorm.co/incubateur-des-territoires/le-rdv-des-territoires-avec-lincubateur">RDV des Territoires</g-link>
             </p>
 
             <ul>

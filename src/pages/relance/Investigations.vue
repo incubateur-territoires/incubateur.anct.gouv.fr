@@ -172,6 +172,10 @@
           </ul>
         </div>
       </div>
+
+      <g-link class="button retourner mt-8" to="/relance/">
+        ← Retourner au Plan de Relance
+      </g-link>
     </div>
   </Layout>
 </template>
@@ -230,6 +234,14 @@ li {
 
 .button {
   @apply inline-block px-4 py-2 border-2 border-green bg-white text-green font-bold rounded-full text-center transition ease-linear duration-100;
+
+  &.retourner {
+    @apply border-transparent;
+
+    &:hover {
+      @apply border-green bg-transparent text-green;
+    }
+  }
 
   &:hover {
     @apply bg-green text-white;
