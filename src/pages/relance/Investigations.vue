@@ -208,12 +208,7 @@ export default {
       faq4: false,
       faq5: false
     }
-  },
-  mounted() {
-    let recaptchaScript = document.createElement('script')
-    recaptchaScript.setAttribute('src', 'https://static.airtable.com/js/embed/embed_snippet_v1.js')
-    document.head.appendChild(recaptchaScript)
-  },
+  }
 };
 </script>
 

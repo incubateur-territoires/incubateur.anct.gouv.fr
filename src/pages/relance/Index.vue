@@ -2,10 +2,6 @@
   <Layout>
     <div>
       <PageTitle>Tranformation numérique des collectivités territoriales</PageTitle>
-      
-      <!-- <div class="px-4 py-2 bg-gray-100 mx-auto max-w-screen-md text-lg rounded-lg">
-        Vous êtes une <span class="font-bold">collectivité territoriale</span> ou un <span class="font-bold">groupement de collectivités</span> ?
-      </div> -->
 
       <div class="px-4">
         <PageContent v-html="$page.pageContent.content" />
