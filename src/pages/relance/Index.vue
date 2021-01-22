@@ -5,16 +5,20 @@
 
       <div class="px-4">
         <PageContent v-html="$page.pageContent.content" />
+      </div>
 
+      </div>
         <p class="mx-auto max-w-screen-md my-4 px-4 py-2 bg-gray-100 border-l-4 border-navy text-lg">
           Pour en savoir plus : participez au <g-link to="https://app.livestorm.co/incubateur-des-territoires/le-rdv-des-territoires-avec-lincubateur">RDV des Territoires</g-link>
         </p>
 
-        <ul class="mx-auto max-w-screen-md my-8 text-lg">          
-          <g-link class="button mb-8" to="https://mon.incubateur.anct.gouv.fr/processes/transformation-numerique">
+        <div class="mx-auto max-w-screen-md">
+          <g-link class="button mt-8" to="https://mon.incubateur.anct.gouv.fr/processes/transformation-numerique">
             Participer à la consultation →
           </g-link>
-          
+        </div>
+
+        <ul class="mx-auto max-w-screen-md my-8 text-lg">          
           <li>
             <g-link to="https://mon.incubateur.anct.gouv.fr/processes/transformation-numerique/f/3/">Pour partager mes besoins</g-link> en création ou utilisation de services numériques pour qu'elle puisse être accompagnée et financée
           </li>

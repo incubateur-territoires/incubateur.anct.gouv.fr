@@ -178,7 +178,10 @@
     <g-link to="/recrutements/">
       <button class="button space-x-2">
         <span>Recrutements</span>
-        <div class="bg-green text-sm text-white h-6 w-6 text-center font-bold rounded-full">{{jobCount}}</div>
+        <span 
+          v-if="jobCount > 0"
+          class="bg-green text-sm text-white h-6 w-6 text-center font-bold rounded-full"
+        >{{jobCount}}</span>
       </button>
     </g-link>
   </nav>
