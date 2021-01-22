@@ -8,30 +8,20 @@
       </div>
 
       </div>
-        <p class="mx-auto max-w-screen-md my-4 px-4 py-2 bg-gray-100 border-l-4 border-navy text-lg">
-          Pour en savoir plus : participez au <g-link to="https://app.livestorm.co/incubateur-des-territoires/le-rdv-des-territoires-avec-lincubateur">RDV des Territoires</g-link>
-        </p>
-
         <div class="mx-auto max-w-screen-md">
           <g-link class="button mt-8" to="https://mon.incubateur.anct.gouv.fr/processes/transformation-numerique">
             Participer à la consultation →
           </g-link>
         </div>
 
-        <ul class="mx-auto max-w-screen-md my-8 text-lg">          
+        <!-- <ul class="mx-auto max-w-screen-md my-8 text-lg">          
           <li>
             <g-link to="https://mon.incubateur.anct.gouv.fr/processes/transformation-numerique/f/3/">Pour partager mes besoins</g-link> en création ou utilisation de services numériques pour qu'elle puisse être accompagnée et financée
           </li>
           <li>
             <g-link to="https://mon.incubateur.anct.gouv.fr/processes/transformation-numerique/f/2/">Pour partager des services numériques</g-link> existants et nécessitant un financement 
           </li>
-        </ul>
-
-        <div class="max-w-screen-md mx-auto my-4 p-4 bg-gray-100 rounded-lg">
-          <div class="leading-tight mb-2">Vous êtes en <span class="font-bold">zone rurale</span>, de <span class="font-bold">montagne</span>, <span class="font-bold">en quartier prioritaire de la politique de la ville</span>, en coeur de ville ou une <span class="font-bold">“Petite Ville de Demain”</span> ?</div>
-          <p><g-link to="https://airtable.com/shrLx1W28BkkjE9xf">Candidatez pour participer à un programme national d'investigations</g-link>. Ce programme finance un accompagnement spécifique pour ces collectivités ou groupements afin d'identifier leurs besoins via l’investigation de problématiques, la conception et le test de premières solutions.</p>
-          <p class="mt-2"><g-link to="/relance/investigations/">En savoir plus</g-link></p>
-        </div>
+        </ul> -->
       </div>
 
       <div class="px-4">
@@ -156,6 +146,18 @@
             </div>
           </div>
         </div>
+      </div>
+
+      <div class="max-w-screen-md mx-auto mt-12 p-4 bg-gray-100 rounded-lg">
+        <div class="leading-tight mb-2">Vous êtes en <span class="font-bold">zone rurale</span>, de <span class="font-bold">montagne</span>, <span class="font-bold">en quartier prioritaire de la politique de la ville</span>, en coeur de ville ou une <span class="font-bold">“Petite Ville de Demain”</span> ?</div>
+        <p><g-link to="https://airtable.com/shrLx1W28BkkjE9xf">Candidatez pour participer à un programme national d'investigations</g-link>. Ce programme finance un accompagnement spécifique pour ces collectivités ou groupements afin d'identifier leurs besoins via l’investigation de problématiques, la conception et le test de premières solutions.</p>
+        <p class="mt-2"><g-link to="/relance/investigations/">En savoir plus</g-link></p>
+      </div>
+
+      <div class="px-4 my-8">
+        <p class="mx-auto max-w-screen-md my-4 px-4 py-2 bg-gray-100 border-l-4 border-navy text-lg">
+          Pour en savoir plus sur les opportunités de financement et d’accompagnement proposées par l’Incubateur des Territoires : <g-link to="https://app.livestorm.co/incubateur-des-territoires/le-rdv-des-territoires-avec-lincubateur">participez au RDV des Territoires [ Plan de Relance ]</g-link>
+        </p>
       </div>
     </div>
   </Layout>
