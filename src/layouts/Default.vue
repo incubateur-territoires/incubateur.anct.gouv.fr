@@ -1,13 +1,15 @@
 <template>
   <div class="container">
-    <g-link v-if="relancePath" to="/relance/" class="bg-green-relance block text-white font-medium text-lg py-4 hover:underline">
+    <g-link v-if="relancePath" to="/relance/" class="bg-green-relance block text-white font-medium text-lg py-4">
       <div class="mx-auto max-w-screen-md px-4 flex flex-wrap items-center">
         <g-image
           alt="logo france relance"
           src="~/assets/images/france-relance-vert.png"
           class="h-12 w-12 mr-4"
         />
-        Tranformation numérique des collectivités territoriales →
+        <span class="border-b-2 border-transparent hover:border-white">
+          Tranformation numérique des collectivités territoriales →
+        </span>
       </div>
     </g-link>
     <Header 

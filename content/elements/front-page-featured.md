@@ -1,8 +1,8 @@
 ---
-title: Appel à manifestation d'intérêt
+title: Plan France Relance
 texte_du_lien: En savoir plus
-url_du_lien: /actualites/appel-a-manifestation-d-interet-pour-participer-a-la-construction-du-produit-commun-orientation/
+url_du_lien: /relance/
 ---
-La Startup de Territoires **Commun orientation** vise à mettre en place un service numérique ayant notamment pour mission de développer et de déployer un outil numérique permettant à l'usager de trouver rapidement la bonne administration et le bon service à contacter au regard de sa problématique ou recherche.
+- Partager des besoins en outils numériques ou en financement pour des services numériques existants sur [la plateforme Mon Incubateur des Territoires](https://mon.incubateur.anct.gouv.fr/). L’objectif de l’Incubateur est de décider avec les collectivités de l’utilisation d’une enveloppe de **30 millions d’euros** pour le développement et le déploiement d’une dizaine de services numériques à l’échelle du plus grand nombre de territoires volontaires.
 
-Vous êtes une collectivité intéressée par ce service public numérique ?
+- Candidater au [Programme National d'Investigations](/relance/investigations/) jusqu’au **15 mars 2021** pour bénéficier de l’accompagnement d’experts du numérique et de designer sur des problématiques rencontrées par vos agents au contact des usagers.

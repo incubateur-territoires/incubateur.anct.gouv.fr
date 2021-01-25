@@ -28,6 +28,16 @@ query element {
 .annonce {
   @apply mx-auto max-w-screen-md px-4;
   
+  li {
+    @apply list-disc ml-2 mb-4;
+    
+    a {
+      @apply text-green border-green border-b-2;
+    }
+  }
+
+
+
   p {
     @apply mb-4
   }

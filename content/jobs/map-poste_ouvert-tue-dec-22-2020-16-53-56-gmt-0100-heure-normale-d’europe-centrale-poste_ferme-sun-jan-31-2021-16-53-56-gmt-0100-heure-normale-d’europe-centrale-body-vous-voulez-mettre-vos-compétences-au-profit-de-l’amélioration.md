@@ -3,7 +3,7 @@ role: UX designer senior
 equipe: Incubateur des Territoires
 contact: incubateur@anct.gouv.fr
 poste_ouvert: 2020-12-22T15:53:56.153Z
-poste_ferme: 2021-01-31T15:53:56.184Z
+poste_ferme: 2021-01-24
 ---
 Vous voulez mettre vos compétences au profit de l’amélioration du service public ? Vous souhaitez travailler dans une équipe agile, et proche de ses utilisateurs ? L’Incubateur des Territoires recherche un.e UX Designer senior pour construire le "Territoires store"!
 

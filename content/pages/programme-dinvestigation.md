@@ -1,9 +1,7 @@
 ---
-title: Programme d'Investigation
+title: Investigations
 id: programme-investigation
 ---
-Le **Programme d'Investigation** encourage et accompagne une dynamique d'innovation au sein des collectivités pour faire émerger des nouveaux services numériques qui adressent les problèmes des agents et des administrés des collectivités territoriales. 
+Une **Investigation** est une méthode où un ou plusieurs agents territoriaux explore(nt) une problématique récurrente sur le terrain. L’objectif est de concevoir une première solution et de la tester au contact du public qu’elle cible. Sur une période de 9 à 12 semaines, l’équipe d’agents publics territoriaux est accompagnée par un coach et un designer. L’accompagnement est entièrement financé par l’ANCT.
 
-Sur une période de 9 à 12 semaines, chaque équipe d'agents publics territoriaux est accompagnée par un coach et un designer. L'accompagnement, appelé Investigation, est entièrement financé par l'ANCT.
-
-<a href="mailto:contactincubateur@anct.gouv.fr" class="cta">Contactez-nous au sujet du Programme d'Investigation →</a>
+<a href="/relance/investigations/" class="cta">Découvrir le programme national d'investigations →</a>

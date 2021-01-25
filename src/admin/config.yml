@@ -39,6 +39,7 @@ collections:
       - {label: "Date publié", name: "date_publie", widget: "date"}
       - {label: "Body", name: "body", widget: "markdown"}
   - name: "jobs"
+    slug: "{{year}}-{{month}}-{{day}}_{{role}}_{{equipe}}"
     label: "Job"
     folder: "content/jobs"
     create: true

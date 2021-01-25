@@ -111,7 +111,7 @@
                   </svg>
                   <div class="space-y-1">
                     <p class="text-base leading-6 font-medium text-gray-900">
-                      Programme d'Investigation
+                      Investigations
                     </p>
                     <p class="hidden md:block text-sm leading-5 text-gray-500">
                       Recherche et test de premières solutions avec les agents et au contact des usagers
