@@ -10,7 +10,7 @@
 
         <div class="action">
           <p class="my-4">
-            Deux vendredis par mois de 14h30 à 15h30, l'Incubateur des Territoires propose aux collectivités de découvrir son offre d'accompagnement pour la création et le déploiement de services publics numériques.
+            Une fois par semaine, l’Incubateur des Territoires propose aux collectivités et aux groupements de collectivités de découvrir les opportunités de financement et d’accompagnement qu’il peut proposer pour la création et le déploiement de services publics numériques.
           </p>
           <div class="action">
             <g-link to="https://app.livestorm.co/incubateur-des-territoires/le-rdv-des-territoires-avec-lincubateur" class="button">
