@@ -4,6 +4,8 @@ equipe: Aidants Connect
 contact: aidantsconnect@beta.gouv.fr
 poste_ouvert: 2020-11-03T11:06:40.248Z
 poste_ferme: 2020-11-17T11:06:40.298Z
+poste_pourvu: true
+
 ---
 Aidants Connect cherche un développeur ou une développeuse pour faire passer à l'échelle un service qui permet à un aidant professionnel de réaliser des démarches administratives en ligne à la place d'une personne ne parvenant pas à les faire seule.
 

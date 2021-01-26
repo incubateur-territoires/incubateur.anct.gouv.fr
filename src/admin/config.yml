@@ -49,6 +49,7 @@ collections:
       - {label: "Role", name: "role", widget: "string"}
       - {label: "Équipe", name: "equipe", widget: "string"}
       - {label: "Contact", name: "contact", widget: "string"}
+      - {label: "Contrat", name: "contrat", widget: "string"}
       - {label: "Poste ouvert le", name: "poste_ouvert", widget: "date"}
       - {label: "Poste ferme le", name: "poste_ferme", widget: "date"}
       - {label: "Poste pourvu", name: "poste_pourvu", widget: "boolean", required: false}
