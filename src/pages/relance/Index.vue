@@ -150,7 +150,7 @@
 
       <div class="max-w-screen-md mx-auto mt-12 p-4 bg-gray-100 rounded-lg">
         <div class="leading-tight mb-2">Vous êtes en <span class="font-bold">zone rurale</span>, de <span class="font-bold">montagne</span>, <span class="font-bold">en quartier prioritaire de la politique de la ville</span>, en coeur de ville ou une <span class="font-bold">“Petite Ville de Demain”</span> ?</div>
-        <p><g-link to="/investigations/relance/">Découvrez le programme national d’investigations</g-link>. Ce programme finance un accompagnement spécifique pour ces collectivités ou groupements afin d’identifier leurs besoins via l’investigation de problématiques, la conception et le test de premières solutions.</p>
+        <p><g-link to="/relance/investigations/">Découvrez le programme national d’investigations</g-link>. Ce programme finance un accompagnement spécifique pour ces collectivités ou groupements afin d’identifier leurs besoins via l’investigation de problématiques, la conception et le test de premières solutions.</p>
       </div>
 
       <div class="px-4 my-8">
