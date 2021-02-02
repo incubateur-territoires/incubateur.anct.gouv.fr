@@ -17,7 +17,7 @@
         </p>
 
         <g-link class="button my-4" to="https://airtable.com/shrLx1W28BkkjE9xf">
-          Candidater au programme national d'investigations →
+          Etre recontacté au sujet du programme national d’investigations →
         </g-link>
       </div>
     </div>
