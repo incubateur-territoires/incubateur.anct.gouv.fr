@@ -9,7 +9,14 @@ Les étapes suivantes vous permettront de l'exécuter en local.
 
 > Hypothèses : Vous disposez déjà d'une installation de [Git](https://git-scm.com) et de [Node.js/npm](https://nodejs.org/fr/).
 
-### 1. Installer Gridsome
+### 1. Récupérer le code source en local
+
+Télécharger le code source ainsi que sa configuration Git avec la commande suivante :
+
+```shell
+git clone git@github.com:incubateur-territoires/incubateur.anct.gouv.fr.git
+```
+### 2. Installer Gridsome
 
 Si vous ne disposez pas encore de Gridsome, exécuter la commande suivante dans un terminal :
 
@@ -22,14 +29,6 @@ Vous pouvez désormais en voir une documentation dans le terminal avec :
 
 ```shell
 gridsome --help
-```
-
-### 2. Récupérer le code source en local
-
-Télécharger le code source ainsi que sa configuration Git avec la commande suivante :
-
-```shell
-git clone git@github.com:incubateur-territoires/incubateur.anct.gouv.fr.git
 ```
 
 ### 3. Voir le site en local
