@@ -8,6 +8,7 @@ Dans le cadre du volet inclusion numérique du plan de relance, le Gouvernement 
 
 > Pour rappel, [Aidants Connect](https://aidantsconnect.beta.gouv.fr/guide_utilisation/) vise à permettre à un professionnel habilité préalablement de réaliser des démarches administratives en ligne à la place d’une personne ne parvenant pas à les faire seule via une connexion sécurisée.
 
+
 Désormais incubé au sein de l'Agence Nationale de la Cohésion des Territoires, ce service numérique s'adresse aux aidants professionnels, qu'il s'agisse de travailleurs sociaux, agents d'accueil en structures labellisées France Services, etc. 
 
 Après une [expérimentation menée en 2020](https://aidantsconnect.beta.gouv.fr/static/guides_aidants_connect/Aidants%20Connect%20_%20BilanExperimentation.pdf), le déploiement plus large du service va s'effectuer par vagues territoriales selon le calendrier suivant : 
