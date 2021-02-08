@@ -18,7 +18,7 @@ git clone git@github.com:incubateur-territoires/incubateur.anct.gouv.fr.git
 ```
 ### 2. Installer Gridsome
 
-Si vous ne disposez pas encore de Gridsome, exécuter la commande suivante dans un terminal :
+Si vous ne disposez pas encore de `Gridsome`, exécuter la commande suivante dans un terminal :
 
 ```shell
 npm install --global @gridsome/cli
@@ -43,6 +43,6 @@ gridsome develop
 
 Ces commandes doivent s'achever sans erreur.
 
-🎉 Bravo ! Retrouvez le site depuis votre navigateur l'adresse suivante : `http://localhost:8080`
+🎉 Bravo ! Retrouvez le site sur votre navigateur à l'adresse suivante : `http://localhost:8080`
 
 Bons développements 🙌
