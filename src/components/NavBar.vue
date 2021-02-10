@@ -132,21 +132,6 @@
                     </p>
                   </div>
                 </g-link>
-                <g-link to="https://territoires.store" class="-m-3 p-3 flex items-start space-x-4 rounded-lg hover:bg-gray-200 transition ease-in-out duration-150">
-                  <!-- Heroicon name: user-group -->
-                  <svg class="flex-shrink-0 h-6 w-6 text-blue" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253"></path>
-                  </svg>
-                  <div class="space-y-1">
-                    <p class="text-base leading-6 font-medium text-gray-900 flex space-x-1 items-center">
-                      <span>Territoires Store</span>
-                      <svg class="text-gray-500 h-4 w-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"></path></svg>
-                    </p>
-                    <p class="hidden md:block text-sm leading-5 text-gray-500">
-                      Le catalogue des services publics numériques
-                    </p>
-                  </div>
-                </g-link>
                 <g-link to="/actions/collaborations/" class="-m-3 p-3 flex items-start space-x-4 rounded-lg hover:bg-gray-200 transition ease-in-out duration-150">
                   <!-- Heroicon name: user-group -->
                   <svg class="flex-shrink-0 h-6 w-6 text-blue" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -161,19 +146,42 @@
                     </p>
                   </div>
                 </g-link>
+                <g-link to="https://territoires.store" class="-m-3 p-3 flex items-start space-x-4 rounded-lg hover:bg-gray-200 transition ease-in-out duration-150">
+                  <!-- Heroicon name: shopping-bag -->
+                  <svg class="flex-shrink-0 h-6 w-6 text-blue"  stroke="currentColor" fill="none" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M16 11V7a4 4 0 00-8 0v4M5 9h14l1 12H4L5 9z"></path>
+                  </svg>
+                  <div class="space-y-1">
+                    <p class="text-base leading-6 font-medium text-gray-900 flex space-x-1 items-center">
+                      <span>Territoires Store</span>
+                      <svg class="text-gray-500 h-4 w-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"></path></svg>
+                    </p>
+                    <p class="hidden md:block text-sm leading-5 text-gray-500">
+                      Le catalogue des services publics numériques
+                    </p>
+                  </div>
+                </g-link>
+                <g-link to="https://ressources.incubateur.anct.gouv.fr" class="-m-3 p-3 flex items-start space-x-4 rounded-lg hover:bg-gray-200 transition ease-in-out duration-150">
+                  <!-- Heroicon name: user-group -->
+                  <svg class="flex-shrink-0 h-6 w-6 text-blue" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253"></path>
+                  </svg>
+                  <div class="space-y-1">
+                    <p class="text-base leading-6 font-medium text-gray-900 flex space-x-1 items-center">
+                      <span>Ressources</span>
+                      <svg class="text-gray-500 h-4 w-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"></path></svg>
+                    </p>
+                    <p class="hidden md:block text-sm leading-5 text-gray-500">
+                      Hub de ressources communs numériques
+                    </p>
+                  </div>
+                </g-link>
               </div>
             </div>
           </div>
         </div>
       </transition>
     </div>
-
-    <!-- <g-link  to="https://ressources.incubateur.anct.gouv.fr">
-      <button class="button space-x-2">
-        <span>Ressources</span>
-        <svg class="text-gray-500 h-4 w-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"></path></svg>
-      </button>
-    </g-link> -->
 
     <g-link to="/recrutements/">
       <button class="button space-x-2">
