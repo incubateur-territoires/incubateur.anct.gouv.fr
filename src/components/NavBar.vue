@@ -155,6 +155,7 @@
                     <p class="text-base leading-6 font-medium text-gray-900 flex space-x-1 items-center">
                       <span>Territoires Store</span>
                       <svg class="text-gray-500 h-4 w-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"></path></svg>
+                      <span class="font-mono text-xs uppercase bg-yellow-300 p-1 rounded-md">Alpha</span>
                     </p>
                     <p class="hidden md:block text-sm leading-5 text-gray-500">
                       Le catalogue des services publics numériques
@@ -170,6 +171,7 @@
                     <p class="text-base leading-6 font-medium text-gray-900 flex space-x-1 items-center">
                       <span>Ressources</span>
                       <svg class="text-gray-500 h-4 w-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"></path></svg>
+                      <span class="font-mono text-xs uppercase bg-yellow-300 p-1 rounded-md">Alpha</span>
                     </p>
                     <p class="hidden md:block text-sm leading-5 text-gray-500">
                       Hub de ressources communs numériques
