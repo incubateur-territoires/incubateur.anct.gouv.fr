@@ -54,19 +54,44 @@ collections:
       - {label: "Poste ferme le", name: "poste_ferme", widget: "date"}
       - {label: "Poste pourvu", name: "poste_pourvu", widget: "boolean", required: false}
       - {label: "Body", name: "body", widget: "markdown"}
-  # - name: "services"
-  #   label: "Service"
-  #   folder: "content/services"
-  #   create: true
-  #   slug: "{{service}}"
-  #   fields:
-  #     - {label: "Service", name: "service", widget: "string"}
-  #     - {label: "Contact", name: "contact", widget: "string"}
-  #     - {label: "URL", name: "url", widget: "string", required: false}
-  #     - {label: "Action", name: "action", widget: "string"}
-  #     - label: "Thématique"
-  #       name: "thematique"
-  #       widget: "select"
-  #       multiple: true
-  #       options: ["Mobilité", "Déchets", "Logement", "Démarches administratives", "Aides pour collectivités", "Accessibilité", "Emploi et Entreprise", "Données", "Urbanisme", "Solidarité", "Agriculture"]
-  #       default: []
+  - name: "services"
+    label: "Service"
+    folder: "content/services"
+    create: true
+    slug: "{{id}}"
+    fields:
+      - {label: "ID", name: "id", widget: "string"}
+      - {label: "Contact", name: "contact", widget: "string", required: false}
+      - {label: "URL", name: "url", widget: "string", required: false}
+      - {label: "Startup d'État", name: "startup_etat", widget: "boolean", required: false}
+      - label: "Communes"
+        name: "communes"
+        widget: "list"
+        required: false
+        summary: '{{fields.code}}'
+        field: {label: "Code INSEE", name: "code", widget: "string"}
+      - label: "Départements"
+        name: "departements"
+        widget: "list"
+        required: false
+        summary: '{{fields.code}}'
+        field: {label: "Code INSEE", name: "code", widget: "string"}
+      - label: "Régions"
+        name: "regions"
+        widget: "list"
+        required: false
+        summary: '{{fields.code}}'
+        field: {label: "Code INSEE", name: "code", widget: "string"}
+      - label: "EPCIs"
+        name: "epcis"
+        widget: "list"
+        required: false
+        summary: '{{fields.code}}'
+        field: {label: "Code EPCI", name: "code", widget: "string"}
+
+      # - label: "Thématique"
+      #   name: "thematique"
+      #   widget: "select"
+      #   multiple: true
+      #   options: ["Mobilité", "Déchets", "Logement", "Démarches administratives", "Aides pour collectivités", "Accessibilité", "Emploi et Entreprise", "Données", "Urbanisme", "Solidarité", "Agriculture"]
+      #   default: []
