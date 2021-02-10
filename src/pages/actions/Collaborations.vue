@@ -29,6 +29,14 @@
             service_url="https://adresse.data.gouv.fr/bases-locales"
           />
 
+          <ServiceCard 
+            name="Mes Aides Locales"
+            pitch="Rendre visibles les aides et dispositifs de votre collectivité à destination des particuliers"
+            contact="accompagnement@mes-aides.org"
+            repo_url="https://github.com/mes-aides/simulateur"
+            service_url="https://mes-aides.org"
+          />
+
           <!-- <h2 class="font-marianne text-3xl mb-4 mt-6 font-semibold">
             Startups d'État
           </h2> -->
