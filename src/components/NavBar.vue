@@ -174,7 +174,7 @@
                       <span class="font-mono text-xs uppercase bg-yellow-300 p-1 rounded-md">Alpha</span>
                     </p>
                     <p class="hidden md:block text-sm leading-5 text-gray-500">
-                      Hub de ressources communs numériques
+                      Hub de ressources partagées
                     </p>
                   </div>
                 </g-link>
