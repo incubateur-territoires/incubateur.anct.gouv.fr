@@ -19,6 +19,11 @@ module.exports = {
       {
         path: '/actualites/:title',
       }
+    ],
+    Service: [
+      {
+        path: '/services/:id'
+      }
     ]
   },
   plugins: [

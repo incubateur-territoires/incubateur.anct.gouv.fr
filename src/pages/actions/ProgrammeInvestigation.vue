@@ -52,7 +52,7 @@ query {
     title
     content
   }
-  investigations: allStartups (
+  investigations: allInvestigation (
     sortBy: "status",
     order: ASC,
     filter: { status: { eq: "en investigation" }}
@@ -71,7 +71,7 @@ query {
       }
     }
   }
-  archive: allStartups (
+  archive: allInvestigation (
     sortBy: "status",
     order: ASC,
     filter: { status: { eq: "partenariat passé" }}

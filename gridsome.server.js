@@ -12,61 +12,77 @@ module.exports = function (api) {
   
   // Startup overrides
   api.loadSource(async actions => {
-    const results = await axios.get('https://beta.gouv.fr/api/v2/startups.json')
-    const startups = results.data.data
+    const results = await axios.get('https://beta.gouv.fr/api/v2.1/startups.json')
+    const fichesBeta = results.data.data
 
-    const startupOverrides = actions.getCollection('Service')
-
-    const collection = actions.addCollection({
-      typeName: 'Startups'
+    // Generate investigations from fiches Beta
+    const investigations = actions.addCollection({
+      typeName: 'Investigation'
     })
 
-    for (const startup of startups) {
-      if (startup.relationships.incubator.data.id === 'anct') {
-        const override = startupOverrides.getNodeById(startup.id) || {}
+    for (const fiche of fichesBeta) {
+      if (
+        fiche.relationships.incubator.data.id === 'anct' &&
+        (fiche.attributes.phases.slice(-1)[0].name === 'alumni' || fiche.attributes.phases.slice(-1)[0].name === 'investigation')
+      ) {
         
         const statusMap = {
           "alumni": "partenariat passé",
-          "construction": "en construction",
           "investigation": "en investigation"
         }
 
-        collection.addNode({
-          id: startup.id,
-          name: startup.attributes.name,
-          pitch: startup.attributes.pitch,
-          beta_url: `https://beta.gouv.fr/startups/${startup.id}.html`,
-          service_url: startup.attributes.link,
-          repo_url: startup.attributes.repository,
-          stats_url: startup.attributes.stats_url,
-          contact: override.contact || startup.attributes.contact,
-          status: statusMap[startup.attributes.phases.slice(-1)[0].name],
-          startup_etat: !!override.startup_etat
+        investigations.addNode({
+          id: fiche.id,
+          name: fiche.attributes.name,
+          pitch: fiche.attributes.pitch,
+          beta_url: `https://beta.gouv.fr/startups/${fiche.id}.html`,
+          service_url: fiche.attributes.link || "",
+          repo_url: fiche.attributes.repository || "",
+          stats_url: fiche.attributes.stats_url || "",
+          contact: fiche.attributes.contact,
+          status: statusMap[fiche.attributes.phases.slice(-1)[0].name],
         })
       }
     }
 
-    const startupIds = startups.map(s => s.id)
-    const overrideIds = startupOverrides.data().map(d => d.id)
 
-    overrideIds.filter(s => !startupIds.includes(s)).forEach(id => {
-      const startup = startupOverrides.getNodeById(id)
-      collection.addNode({
-        id: startup.id,
-        name: startup.name,
-        pitch: startup.pitch,
-        beta_url: `https://beta.gouv.fr/startups/${startup.id}.html`,
-        service_url: startup.service_url,
-        repo_url: startup.repo_url,
-        stats_url: startup.stats_url,
-        contact: startup.contact,
-        status: startup.status,
-        startup_etat: !!startup.startup_etat
+    // Hydrate services with fiches Beta
+    const servicesCollection = actions.getCollection('Service')
+    const services = servicesCollection.data()
+
+    console.log(services)
+    console.log(fichesBeta)
+
+    for (const service of services) {
+      // Find fiche Beta if it exists
+      const ficheBeta = fichesBeta.find((f) => f.id === service.beta_id)
+      if (!ficheBeta) { continue; }
+
+      const fiche = ficheBeta.attributes
+
+      // Undocumented method
+      // https://github.com/gridsome/gridsome/blob/master/gridsome/lib/store/Collection.js
+      servicesCollection.updateNode({
+        $uid: service.$uid,
+        id: service.id,
+        beta_id: service.beta_id,
+        service_type: service.service_type,
+        name: service.name || fiche.name,
+        contact: service.contact || fiche.contact,
+        pitch: service.pitch || fiche.pitch,
+        beta_url: `https://beta.gouv.fr/startups/${service.beta_id}.html`,
+        service_url: service.service_url || fiche.link,
+        repo_url: service.repo_url || fiche.repository,
+        stats_url: service.stats_url || fiche.stats_url,
+        communes: service.communes,
+        epcis: service.epcis,
+        departements: service.departements,
+        regions: service.regions
       })
-    });
+    }
   })
 
-  api.createPages(({ createPage }) => {
-    // Use the Pages API here: https://gridsome.org/docs/pages-api/
-  })
+  // api.createPages(({ createPage }) => {
+  //   // Use the Pages API here: https://gridsome.org/docs/pages-api/
+  // })
 }
