@@ -8,7 +8,7 @@
           class="h-12 w-12 mr-4"
         />
         <span class="border-b-2 border-transparent hover:border-white">
-          Tranformation numérique des collectivités territoriales →
+          Transformation numérique des collectivités territoriales →
         </span>
       </div>
     </g-link>
