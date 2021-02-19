@@ -1,7 +1,7 @@
 <template>
   <Layout>
     <div>
-      <PageTitle>Tranformation numérique des collectivités territoriales</PageTitle>
+      <PageTitle>Transformation numérique des collectivités territoriales</PageTitle>
 
       <div class="px-4">
         <PageContent v-html="$page.pageContent.content" />
