@@ -24,6 +24,7 @@
     "gridsome": "^0.7.23",
     "gridsome-plugin-matomo": "^0.1.0",
     "gridsome-plugin-netlify-cms": "^1.0.9",
+    "logrocket": "^1.0.14",
     "netlify-cms": "^2.10.63",
     "postcss": "^7.0.35",
     "tailwindcss": "npm:@tailwindcss/postcss7-compat@^2.0.1",
