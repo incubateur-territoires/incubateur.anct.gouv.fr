@@ -23,5 +23,5 @@ C'est un service qui a été lancé par l'Agglomération de Pau Béarn Pyrénée
 </a>
 
 <p class="mt-4">
-Contactez l'Incubateur des Territoires pour toute.s question.s : <strong><a href="mailto:contactincubateur@anct.gouv.fr">contactincubateur@anct.gouv.fr</a></strong>
+Contactez l'Incubateur des Territoires pour toute.s question.s : <strong><a href="/contact-territoires/">contact</a></strong>
 </p>

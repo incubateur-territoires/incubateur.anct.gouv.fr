@@ -15,7 +15,7 @@
       </div>
 
       <div class="incubateur-links inline-block mb-8 px-4 py-1 space-x-4 bg-gray-200 rounded-full">
-        <g-link to="mailto:contactincubateur@anct.gouv.fr">
+        <g-link to="/contact-territoires/">
             <font-awesome :icon="['fas', 'paper-plane']" transform="shrink-2"/> Contact
         </g-link>
         <g-link to="https://twitter.com/IncubateurT">
