@@ -14,6 +14,11 @@
         </div>
         
         <JobCard v-for="{ node } in jobs" :key="node.id" :job="node" />
+        
+        <g-link to="/recrutements/pourvues/" class="pourvues">
+          Consulter les offres pourvues →
+        </g-link>
+        
         <g-link to="https://beta.gouv.fr/recrutement/" class="button">
           Consulter toutes les offres de la communauté Beta.gouv.fr <font-awesome class="ml-2" :icon="['fas', 'external-link-alt']"/>
         </g-link>
@@ -69,6 +74,14 @@ export default {
   }
 
   .button {
+    @apply block px-4 py-2 mt-4 text-green font-bold rounded-full text-center transition ease-linear duration-100;
+  
+    &:hover {
+      @apply bg-green text-white;
+    }
+  }
+
+  .pourvues {
     @apply block px-4 py-2 mt-4 border-2 border-green text-green font-bold rounded-full text-center transition ease-linear duration-100;
   
     &:hover {

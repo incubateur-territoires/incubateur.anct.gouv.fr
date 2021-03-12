@@ -1,9 +1,10 @@
 ---
-role: Developpeur principal 
-contrat: indépendant
+role: Developpeur principal
 equipe: Plan de relance Inclusion Numérique
-post_ouvert: 2020-09-16
 contact: incubateur@anct.gouv.fr
+contrat: indépendant
+poste_ouvert: 2020-09-16
+poste_ferme: 2020-09-16
 status: closed
 poste_pourvu: true
 ---
