@@ -14,24 +14,24 @@ Les services numériques peuvent répondre à une multitude de problématiques r
 
 A titre d’exemple, ils concernent aujourd’hui tant la lutte contre le gaspillage alimentaire dans les cantines que la prise en charge du mal logement, ou encore le covoiturage en espace rural ou de montagne.
 
-## Contexte de la mission : Lancement du plan National d'Investigation
+## Contexte de la mission : Lancement du Programme national d'investigation
 
-Ce plan consiste à aider les collectivités territoriales à détecter des problématiques ainsi qu’à concevoir et tester rapidement des premières pistes de services qui sauraient y répondre efficacement.
+Ce programme consiste à aider à détecter des problématiques rencontrées par les collectivités territoriales, ainsi qu’à concevoir et tester rapidement des premières pistes de solutions.
 
-**Les projets, actuellement en cours de sélection, seront à mener avec une diversité d'interlocuteurs au sein de collectivités, elle même assez variées (en terme de dimension, d'environnement rural/urbain, d'implantation littorale/montagnarde...) et ceci sur l’ensemble du territoire français**.
+**Les projets, actuellement en cours de sélection, seront à mener avec une diversité d'interlocuteurs au sein de collectivités, elles-même assez variées (en terme de dimension, d'environnement rural/urbain, d'implantation littorale/montagnarde...), et ceci sur l’ensemble du territoire français**.
 
 L'ambition du plan de relance est double :
 
 1.  Mettre a disposition des collectivités des outils et des méthodes pour leur permettre de dédier du temps à l'**étude d'une ou plusieurs problématiques publiques** ;
-2.  Lorsque c'est possible, **générer des synergies entre les différentes collectivités** qui rencontrent des **problématiques similaires** et identifier des services à fort impact, permettant ainsi leur financement dans le cadre du Plan France relance.
+2.  Lorsque c'est possible, **générer des synergies entre les différentes collectivités** qui rencontrent des **problématiques similaires** et identifier des services à fort impact, permettant ainsi leur financement dans le cadre du plan France Relance.
 
 ## Pourquoi nous rejoindre
 
-En intégrant le Plan National d'Investigation, vous participez à la construction d'un **projet à impact positif**, mais aussi à un effort massif d'**amélioration du fonctionnement des collectivités** territoriales **facilitant le quotidien** d'un grand nombre d'agents publics et d'habitants. Vous rejoignez également les communautés de Beta.gouv et de l'Incubateur des Territoires, un riche écosystème d'acteurs et d'individus engagés pour l'amélioration de l'action publique.
+En intégrant le Programme Nntional d'investigation, vous participez à la construction d'un **projet à impact positif**, mais aussi à un effort massif d'**amélioration du fonctionnement des collectivités** territoriales **facilitant le quotidien** d'un grand nombre d'agents publics et d'habitants. Vous rejoignez également les communautés de Beta.gouv et de l'Incubateur des Territoires, un riche écosystème d'acteurs et d'individus engagés pour l'amélioration de l'action publique.
 
 ## Missions // Rôle
 
-Dans le cadre du prochain **Plan National d'Investigation**, l'Incubateur des Territoires recherche des **coachs** pour accompagner les collectivités dans cette phase d'identification d'une problématique publique et de recherche de solution.s.
+Dans le cadre du prochain **Programme national d'investigation**, l'Incubateur des Territoires recherche des **coachs** pour accompagner les collectivités dans cette phase d'identification d'une problématique publique et de recherche de solution.s.
 
 À partir de **mi-avril**, durant **9 à 12 semaines**, vous accompagnez, en collaboration avec des designers transverse, une équipe d'agents territoriaux sur chacune des phases de l'investigation :
 
