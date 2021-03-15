@@ -6,7 +6,7 @@ contrat: indépendent
 poste_ouvert: 2021-03-12T09:47:53.749Z
 poste_ferme: 2021-03-29T08:47:53.788Z
 ---
-## Qui sommes nous : L'Incubateur des Territoires
+## Qui sommes nous
 
 Nous sommes l'Incubateur des Territoires de l’Agence Nationale de la Cohésion des Territoires (ANCT), nous avons pour vocation de construire des **services publics numériques** en collaboration avec les collectivités territoriales et leurs partenaires.
 
@@ -25,9 +25,9 @@ L'ambition du plan de relance est double :
 1.  Mettre a disposition des collectivités des outils et des méthodes pour leur permettre de dédier du temps à l'**étude d'une ou plusieurs problématiques publiques** ;
 2.  Lorsque c'est possible, **générer des synergies entre les différentes collectivités** qui rencontrent des **problématiques similaires** et identifier des services à fort impact, permettant ainsi leur financement dans le cadre du plan France Relance.
 
-## Pourquoi nous rejoindre ?
+## Pourquoi nous rejoindre
 
-En intégrant le Programme Nntional d'investigation, vous participez à la construction d'un **projet à impact positif**, mais aussi à un effort massif d'**amélioration du fonctionnement des collectivités** territoriales **facilitant le quotidien** d'un grand nombre d'agents publics et d'habitants. Vous rejoignez également les communautés de Beta.gouv et de l'Incubateur des Territoires, un riche écosystème d'acteurs et d'individus engagés pour l'amélioration de l'action publique.
+En intégrant le Programme national d'investigation, vous participez à la construction d'un **projet à impact positif**, mais aussi à un effort massif d'**amélioration du fonctionnement des collectivités** territoriales **facilitant le quotidien** d'un grand nombre d'agents publics et d'habitants. Vous rejoignez également les communautés de Beta.gouv et de l'Incubateur des Territoires, un riche écosystème d'acteurs et d'individus engagés pour l'amélioration de l'action publique.
 
 ## Missions // Rôle
 
