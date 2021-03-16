@@ -2,9 +2,9 @@
 role: Business développeur.se
 equipe: Bases Adresses Locales
 contact: Ariane.ROSE@anct.gouv.fr
-poste_ouvert: 2021-01-26T14:03:44.574Z
-poste_ferme: 2021-02-14T14:03:44.620Z
 contrat: indépendant
+poste_ouvert: 2021-03-15T14:03:44.574Z
+poste_ferme: 2021-04-05T13:03:44.620Z
 ---
 L’équipe de la startup d’Etat Bases Adresses Locales s’agrandit pour 2021 et cherche **un•e business développeur•se**, afin d’accompagner la montée en puissance des Bases Adresses Locales sur le territoire. Il/elle aura pour mission de stimuler, encourager et appuyer la création et la diffusion des Bases Adresses Locales par les collectivités.
 
@@ -69,7 +69,7 @@ Expérience professionnelle sur une mission similaire ou première expérience s
 - Poste ouvert pour un indépendant ou une indépendante pour un premier contrat de 6 mois renouvelable à temps plein.
 - Une présence occasionnelle à Paris est demandée pour participer aux sessions stratégiques et collaboratives.
 - Le télétravail est possible.
-- Démarrage début février 2021.
+- Démarrage dés que possible.
 
 ## Participer à la communauté
 
