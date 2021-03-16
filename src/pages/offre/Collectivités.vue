@@ -14,10 +14,10 @@
             <a href="#bénéficier-de-services-publics-numériques-qui-ont-fait-leurs-preuves" class="flex-1 bg-navy p-4 rounded-lg hover:bg-blue">Bénéficier de services publics numériques qui ont fait leurs preuves</a>
           </div>
 
-          <div class="mt-8">
+          <!-- <div class="mt-8">
             Une fois par semaine, l’Incubateur des Territoires propose aux collectivités et aux groupements de collectivités de découvrir les opportunités de financement et d’accompagnement qu’il peut proposer pour la création et le déploiement de services publics numériques.
             <iframe class="mt-4" height="150" width="100%" frameborder="0" src="https://app.livestorm.co/incubateur-des-territoires/upcoming?limit=1" title="Incubateur des Territoires events | Livestorm"></iframe>
-          </div>
+          </div> -->
         </div>
 
         <div class="max-w-screen-md mx-auto my-8">

@@ -12,13 +12,13 @@
       </div>
 
       <div class="mx-auto max-w-screen-md">  
-        <p class="my-4 px-4 py-2 bg-gray-100 border-l-4 border-navy text-sm">
-          Les collectivités et leurs groupements intéressés par ce programme peuvent candidater d’ici le <strong>15 mars 2021</strong>.  L’équipe de l’Incubateur des Territoires est disponible pour échanger avec vous à ce sujet.
+        <p class="my-4 px-4 py-2 bg-gray-100 border-l-4 border-yellow text-sm">
+          La période de candidature est fermée. Une deuxième édition est en préparation pour l’automne.
         </p>
 
-        <g-link class="button my-4" to="https://airtable.com/shrLx1W28BkkjE9xf">
+        <!-- <g-link class="button my-4" to="https://airtable.com/shrLx1W28BkkjE9xf">
           Etre recontacté au sujet du programme national d’investigations →
-        </g-link>
+        </g-link> -->
       </div>
     </div>
 

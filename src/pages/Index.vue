@@ -9,14 +9,14 @@
         <h1 class="title">Vous êtes une collectivité territoriale ?</h1>
 
         <div class="action">
-          <p class="my-4">
+          <!-- <p class="my-4">
             Une fois par semaine, l’Incubateur des Territoires propose aux collectivités et aux groupements de collectivités de découvrir les opportunités de financement et d’accompagnement qu’il peut proposer pour la création et le déploiement de services publics numériques.
           </p>
           <div class="action">
             <g-link to="https://app.livestorm.co/incubateur-des-territoires/le-rdv-des-territoires-avec-lincubateur" class="button">
               Participez au rendez-vous des Territoires →
             </g-link>
-          </div>
+          </div> -->
           
           <div class="action">
             <g-link to="/offre/collectivites" class="button">
