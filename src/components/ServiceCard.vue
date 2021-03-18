@@ -2,7 +2,7 @@
   <div class="service-card-container">    
     <div class="service-card">
       <g-link
-        :to="service_url || beta_url"
+        :to="`/investigations/${id}`"
         @mouseover="hover = true"
         @mouseleave="hover = false"
         class="flex items-center space-x-2"
@@ -24,6 +24,7 @@
 <script>
 export default {
   props: {
+    id: String,
     name: String,
     pitch: String,
     contact: String,
