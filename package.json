@@ -21,6 +21,8 @@
     "axios": "^0.20.0",
     "dayjs": "^1.9.3",
     "gh-pages": "^3.0.0",
+    "graphql": "^15.5.0",
+    "graphql-request": "^3.4.0",
     "gridsome": "^0.7.23",
     "gridsome-plugin-matomo": "^0.1.0",
     "gridsome-plugin-netlify-cms": "^1.0.9",
