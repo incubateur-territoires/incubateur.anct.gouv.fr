@@ -104,7 +104,7 @@
             >
               <p class="my-4 px-4 py-2 bg-gray-100 border-l-4 border-navy text-sm"><span class="font-bold">Jusqu’au 5 mai 2021</span> : suite au premier comité de sélection, les collectivités territoriales et leurs groupements pourront manifester leur intérêt à devenir « territoire référent », c'est à dire à participer à la construction des services retenus et à bénéficier en premier de leur déploiement.</p>
               <ul class="mb-8 mt-4">
-                <li><g-link class="disabled">Manifester votre intérêt d'être territoire référent [À VENIR]</g-link></li> 
+                <li><g-link class="disabled">Manifester votre intérêt d'être territoire référent</g-link></li> 
               </ul>
               <p class="my-4 px-4 py-2 bg-gray-100 border-l-4 border-navy text-sm"><span class="font-bold">15 juin 2021</span> : le comité de sélection se réunira de nouveau pour valider les feuilles de route ainsi que le budget attribué à chaque projet lauréat.</p>
             </div>
