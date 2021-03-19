@@ -54,9 +54,8 @@
                 </li>
                 <div class="my-4 p-2 bg-gray-100 flex items-center">
                   <!-- <svg class="w-6 h-6 text-navy" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4m0 4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg> -->
-                  <div class="ml-2">
-                    Vous êtes un <span class="font-bold">partenaire des collectivités</span> ? 
-                    <p class="mt-2">Nous vous invitons également à <g-link to="https://mon.incubateur.anct.gouv.fr/processes/transformation-numerique/f/2/">partager les services numériques existants</g-link> pour les collectivités que vous souhaiteriez accélérer.</p>
+                  <div class="ml-2 italic">
+                    Fin mars, l’équipe de l’Incubateur des Territoires fusionne les propositions de besoins similaires et regroupe l'ensemble des propositions dans une liste de projets de services numériques.
                   </div>
                 </div>
               </ul>
@@ -72,16 +71,23 @@
                 <svg :class="{ 'transform rotate-90' : showEtape2 }" class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="M9 5l7 7-7 7"></path></svg>
               </div>
               <div>
-                <div class="titre">Étape 2 : Sélection des pistes prioritaires de services numériques à financer et/ou développer</div>
-                <div class="dates">le 15 mars à début avril</div>
+                <div class="titre">Étape 2 : Soutien aux projets par les collectivités territoriales</div>
+                <div class="dates">du 1er avril au 1er mai 2021</div>
               </div>
             </div>
             <div
               class="content"
               v-if="showEtape2"
             >
-              <p class="my-4 px-4 py-2 bg-gray-100 border-l-4 border-navy text-sm"><span class="font-bold">Du 15 mars à début avril</span> : l’équipe de  l’Incubateur des Territoires fusionne les propositions similaires et regroupe l'ensemble des propositions selon des axes thématiques.</p>
-              <p class="my-4 px-4 py-2 bg-gray-100 border-l-4 border-navy text-sm"><span class="font-bold">Début avril</span> : un comité de sélection, réunissant des associations de collectivités territoriales, des élus ainsi que des représentants de la DINUM, DITP et ANCT.</p>
+              <div class="my-4">
+                Les collectivités territoriales et leurs groupements sont invités à manifester leur soutien aux projets qu'ils jugent prioritaires.
+              </div>
+              <ul class="mb-8 mt-4">
+                <li><g-link to="https://mon.incubateur.anct.gouv.fr/processes/transformation-numerique">Manifestez votre soutien sur les propositions qui vous semblent prioritaires</g-link></li>
+              </ul>
+
+              <!-- <p class="my-4 px-4 py-2 bg-gray-100 border-l-4 border-navy text-sm"><span class="font-bold">Du 15 mars à début avril</span> : l’équipe de  l’Incubateur des Territoires fusionne les propositions similaires et regroupe l'ensemble des propositions selon des axes thématiques.</p> -->
+              <p class="my-4 px-4 py-2 bg-gray-100 border-l-4 border-navy text-sm"><span class="font-bold">Début mai</span> : un comité de pilotage se réunit pour sélectionner les services numériques à financer et ou à développer. Ce comité prendra spécifiquement en compte le nombre de collectivités qui ont exprimé leur intérêt concernant des besoins ou un service. Ce comité est composé des associations de collectivités territoriales, des élus ainsi que des représentants de la DINUM, DITP et ANCT.</p>
             </div>
           </div>
 
@@ -94,19 +100,22 @@
                 <svg :class="{ 'transform rotate-90' : showEtape3 }" class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="M9 5l7 7-7 7"></path></svg>
               </div>
               <div>
-                <div class="titre">Étape 3 : Expression d'intérêt à devenir "territoire référent" et lancement des groupes projets</div>
-                <div class="dates">de début avril au 15 juin 2021</div>
+                <div class="titre">Étape 3 : Lancement des groupes de travail</div>
+                <div class="dates">début mai au 30 juin 2021</div>
               </div>
             </div>
             <div 
               class="content"
               v-if="showEtape3"
             >
-              <p class="my-4 px-4 py-2 bg-gray-100 border-l-4 border-navy text-sm"><span class="font-bold">Jusqu’au 5 mai 2021</span> : suite au premier comité de sélection, les collectivités territoriales et leurs groupements pourront manifester leur intérêt à devenir « territoire référent », c'est à dire à participer à la construction des services retenus et à bénéficier en premier de leur déploiement.</p>
+              <div class="my-4">
+                Les collectivités manifestent leur intérêt pour participer à la co-construction des services numériques et bénéficier en premier de leur déploiement. Les territoires référents intègrent des groupes de travail coordonnés par l'Incubateur des Territoires. Les groupes de travail, accompagnés par des experts en conception de services, se réuniront au cours de cette étape pour participer à la construction des feuilles de route et des budgets des services numériques.
+              </div>
+              <!-- <p class="my-4 px-4 py-2 bg-gray-100 border-l-4 border-navy text-sm"><span class="font-bold">Jusqu’au 5 mai 2021</span> : suite au premier comité de sélection, les collectivités territoriales et leurs groupements pourront manifester leur intérêt à devenir « territoire référent », c'est à dire à participer à la construction des services retenus et à bénéficier en premier de leur déploiement.</p> -->
               <ul class="mb-8 mt-4">
-                <li><g-link class="disabled">Manifester votre intérêt d'être territoire référent</g-link></li> 
+                <li><g-link class="disabled">Devenir territoire référent</g-link></li> 
               </ul>
-              <p class="my-4 px-4 py-2 bg-gray-100 border-l-4 border-navy text-sm"><span class="font-bold">15 juin 2021</span> : le comité de sélection se réunira de nouveau pour valider les feuilles de route ainsi que le budget attribué à chaque projet lauréat.</p>
+              <!-- <p class="my-4 px-4 py-2 bg-gray-100 border-l-4 border-navy text-sm"><span class="font-bold">15 juin 2021</span> : le comité de sélection se réunira de nouveau pour valider les feuilles de route ainsi que le budget attribué à chaque projet lauréat.</p> -->
             </div>
           </div>
 
@@ -120,16 +129,16 @@
               </div>
               <div>
                 <div class="titre">
-                  Étape 4 : Développement et déploiement des services numériques lauréats
+                  Étape 4 : Sélection des services numériques lauréats
                 </div>
-                <div class="dates">à partir du 15 juin 2021</div>
+                <div class="dates">à partir de mi-juillet 2021</div>
               </div>
             </div>
             <div
               class="content"
               v-if="showEtape4"
             >
-              <!-- <p class="my-4 px-4 py-2 bg-gray-100 border-l-4 border-navy text-sm">Les services retenus sont déployés ou développés en lien avec les territoires référents. Les territoires référents sont consultés lors de la conception des services et bénéficient en priorité du déploiement du service.</p> -->
+              <p class="my-4 px-4 py-2 bg-gray-100 border-l-4 border-navy text-sm"><span class="font-bold">5 juillet</span> : le comité de pilotage se réunit à nouveau pour valider les feuilles de route et les budgets afférents à chaque service numérique dans le cadre du plan de relance.</p>
               <ul class="mb-8 mt-4">
                 <li><g-link class="disabled">Découvrir la liste des services numériques en cours de développement et leurs territoires référents.</g-link></li>
               </ul>
