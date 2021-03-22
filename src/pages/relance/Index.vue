@@ -82,11 +82,12 @@
               <div class="my-4">
                 Les collectivités territoriales et leurs groupements sont invités à manifester leur soutien aux projets qu'ils jugent prioritaires.
               </div>
+              <p class="my-4 px-4 py-2 bg-gray-100 border-l-4 border-navy text-sm"><span class="font-bold">2 avril</span> : Après une première étape de collecte des besoins et des solutions du 25 janvier au 15 mars, les collectivités et leurs groupements sont invités à partir du 1er avril et jusqu'au 1er mai à manifester leur soutien aux projets de services numériques qu'ils jugent prioritaires pour les territoires. <g-link to="https://app.livestorm.co/incubateur-des-territoires/le-rdv-des-territoires-avec-lincubateur?type=detailed">L'Incubateur des Territoires organise un webinaire de 45 minutes pour pouvoir repondre à toutes vos questions.</g-link> </p>
+              
               <ul class="mb-8 mt-4">
-                <li><g-link to="https://mon.incubateur.anct.gouv.fr/processes/transformation-numerique">Manifestez votre soutien sur les propositions qui vous semblent prioritaires</g-link></li>
+                <li><g-link class="disabled">Manifestez votre soutien sur les propositions qui vous semblent prioritaires</g-link></li>
               </ul>
 
-              <!-- <p class="my-4 px-4 py-2 bg-gray-100 border-l-4 border-navy text-sm"><span class="font-bold">Du 15 mars à début avril</span> : l’équipe de  l’Incubateur des Territoires fusionne les propositions similaires et regroupe l'ensemble des propositions selon des axes thématiques.</p> -->
               <p class="my-4 px-4 py-2 bg-gray-100 border-l-4 border-navy text-sm"><span class="font-bold">Début mai</span> : un comité de pilotage se réunit pour sélectionner les services numériques à financer et ou à développer. Ce comité prendra spécifiquement en compte le nombre de collectivités qui ont exprimé leur intérêt concernant des besoins ou un service. Ce comité est composé des associations de collectivités territoriales, des élus ainsi que des représentants de la DINUM, DITP et ANCT.</p>
             </div>
           </div>
