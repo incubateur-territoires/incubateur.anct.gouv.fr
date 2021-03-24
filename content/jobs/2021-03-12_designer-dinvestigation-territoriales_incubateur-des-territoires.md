@@ -4,7 +4,7 @@ equipe: Incubateur des Territoires
 contact: jonathan.pichot@anct.gouv.fr
 contrat: indépendent
 poste_ouvert: 2021-03-12T09:47:53.749Z
-poste_ferme: 2021-03-29T08:47:53.788Z
+poste_ferme: 2021-03-24
 ---
 ## Qui sommes nous
 

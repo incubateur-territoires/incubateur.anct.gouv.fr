@@ -4,7 +4,7 @@ equipe: Incubateur des Territoires
 contact: benjamin.vanderlynden@anct.gouv.fr
 contrat: indépendent
 poste_ouvert: 2021-03-12T09:40:16.601Z
-poste_ferme: 2021-03-29T08:40:16.656Z
+poste_ferme: 2021-03-24
 ---
 ## Qui sommes nous
 
