@@ -11,7 +11,7 @@ OpenFisca à l'[Incubateur des Territoires](https://incubateur.anct.gouv.fr/a-pr
 
 Venez aider des personnes à accéder à leurs prestations sociales locales et apportez vos compétences pour rendre la législation calculable en outillant des services de simulation des effets de la loi !
 
-Vous rejoindrez l'[équipe autonome](https://blog.beta.gouv.fr/general/2016/11/28/equipes-autonomes/) qui développe OpenFisca.
+Vous rejoindrez l'[équipe autonome](https://blog.beta.gouv.fr/general/2016/11/28/equipes-autonomes/) qui développe OpenFisca au sein d'une famille d'incubateurs [beta.gouv.fr](https://beta.gouv.fr/approche/).
 
 ## Qui sommes-nous ?
 
