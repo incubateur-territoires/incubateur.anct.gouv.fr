@@ -22,20 +22,22 @@ Vous rejoindrez l'[équipe autonome](https://blog.beta.gouv.fr/general/2016/11/2
 
 Nous cherchons deux personnes pour faire équipe et nous aider à atteindre les objectifs suivants :
 
-1. Au moins deux nouvelles collectivités territoriales Françaises mettent en ligne leurs prestations sociales locales.
-2. La communauté OpenFisca internationale actuelle bénéficie d’un accompagnement accéléré dans la réalisation de ses développements openfisca et de l’accès aux informations concernant le moteur et les évolutions du produit.
-3. De nouveaux contributeurs utilisent OpenFisca en production.
-4. La communauté OpenFisca France se structure autour d’une organisation pérenne (association, …) au modèle économique soutenable.
+- Au moins deux nouvelles collectivités territoriales Françaises mettent en ligne leurs prestations sociales locales.
+- La communauté OpenFisca internationale actuelle bénéficie d’un accompagnement accéléré dans la réalisation de ses développements openfisca et de l’accès aux informations concernant le moteur et les évolutions du produit.
+- De nouveaux contributeurs utilisent OpenFisca en production.
+- La communauté OpenFisca France se structure autour d’une organisation pérenne (association, …) au modèle économique soutenable.
+
 
 Il s’agit donc d’intervenir :
 
--   Sur une [base de code partagé](https://github.com/openfisca) en Python.
--   Sur une syntaxe basée sur du calcul vectoriel ([Numpy](https://numpy.org/devdocs/release/1.18.0-notes.html)).
--   Sur des sites web en [React](https://fr.reactjs.org) tels que [fr.openfisca.org](https://github.com/openfisca/fr.openfisca.org) et [l’explorateur openfisca-france](https://github.com/openfisca/legislation-explorer).
--   Sur de la [documentation](https://github.com/openfisca/openfisca-doc) en Markdown.
--   Sur la formalisation d'une gouvernance du produit en commun contributif pérenne.
--   En accompagnant des utilisateurs à l’utilisation du logiciel [via GitHub](https://github.com/openfisca/openfisca-france/issues). 
--   Ainsi que sur tout ce que nous n’avons pas vu mais que vous nous ferez découvrir et qui peut nous rapprocher de nos objectifs communs et d’usagers satisfaits !
+
+- Sur une [base de code partagé](https://github.com/openfisca) en Python.
+- Sur une syntaxe basée sur du calcul vectoriel ([Numpy](https://numpy.org/devdocs/release/1.18.0-notes.html)).
+- Sur des sites web en [React](https://fr.reactjs.org) tels que [fr.openfisca.org](https://github.com/openfisca/fr.openfisca.org) et [l’explorateur openfisca-france](https://github.com/openfisca/legislation-explorer).
+- Sur de la [documentation](https://github.com/openfisca/openfisca-doc) en Markdown.
+- Sur la formalisation d'une gouvernance du produit en commun contributif pérenne.
+- En accompagnant des utilisateurs à l’utilisation du logiciel [via GitHub](https://github.com/openfisca/openfisca-france/issues). 
+- Ainsi que sur tout ce que nous n’avons pas vu mais que vous nous ferez découvrir et qui peut nous rapprocher de nos objectifs communs et d’usagers satisfaits !
 
 
 Nous cherchons à créer une équipe multidisciplinaire : pas besoin d’être expert·e de tous ces sujets, nous nous répartirons la charge selon les intérêts et les compétences de chaque membre.
