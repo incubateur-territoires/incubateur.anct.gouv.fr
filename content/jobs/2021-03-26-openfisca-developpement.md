@@ -1,9 +1,10 @@
 ---
-role: Développeur·se 
+role: Deux développeur·se·s Python / JS
 contrat: Indépendant
 equipe: OpenFisca
 contact: contact@openfisca.org
-post_ouvert: 2020-03-26
+poste_ouvert: 2021-03-29
+poste_ferme: 2021-05-01
 poste_pourvu: false
 ---
 
