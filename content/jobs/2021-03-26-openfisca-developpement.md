@@ -1,5 +1,5 @@
 ---
-role: Deux développeur·se·s Python / JS
+role: Développeur·se·s Python / JS
 contrat: Indépendant
 equipe: OpenFisca
 contact: contact@openfisca.org
@@ -16,7 +16,7 @@ Vous rejoindrez l'[équipe autonome](https://blog.beta.gouv.fr/general/2016/11/2
 
 ## Qui sommes-nous ?
 
-[OpenFisca](https://openfisca.org/fr/) est une communauté qui transcrit du code législatif en code logiciel. Nous construisons un moteur de calcul libre et ouvert qui permet de modéliser le système socio-fiscal de manière collaborative et transparente. Ce logiciel est utilisé par des chercheurs en économie, des services publics comme les simulateurs [Mes droits sociaux](http://mesdroitssociaux.gouv.fr) ou [leximpact](/startups/leximpact.html) et quelques services privés.
+[OpenFisca](https://openfisca.org/fr/) est une communauté qui transcrit du code législatif en code logiciel. Nous construisons un moteur de calcul libre et ouvert qui permet de modéliser le système socio-fiscal de manière collaborative et transparente. Ce logiciel est utilisé par des chercheurs en économie, des services publics comme les simulateurs [Mes droits sociaux](http://mesdroitssociaux.gouv.fr) ou [LexImpact](/startups/leximpact.html) et quelques services privés.
 
 ## Missions
 
