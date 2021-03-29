@@ -60,7 +60,7 @@ Les plus :
 ## Modalités
 
 -   Poste ouvert pour un·e indépendant·e (en portage) de 3 mois minimum.
--   Télétravail partiel bienvenu, avec 2 jours toutes les deux semaines [à Paris](https://github.com/betagouv/beta.gouv.fr/wiki/Locaux) pour participer aux sessions communes de démonstration, rétrospective et planification… et pour avoir le sentiment de construire une équipe !
+-   Télétravail bienvenu, avec déplacements à prévoir [à Paris](https://goo.gl/maps/d9nzETo842qEcNxw9) pour participer aux sessions communes et pour avoir le sentiment de construire une équipe lorsque les conditions sanitaires le permettront !
 -   Temps partiel accepté (40 % minimum).
 -   Démarrage dès que possible.
 
