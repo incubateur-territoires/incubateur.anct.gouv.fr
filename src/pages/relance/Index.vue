@@ -132,14 +132,14 @@
                 <div class="titre">
                   Étape 4 : Sélection des services numériques lauréats
                 </div>
-                <div class="dates">à partir de mi-juillet 2021</div>
+                <div class="dates">à partir de début juillet 2021</div>
               </div>
             </div>
             <div
               class="content"
               v-if="showEtape4"
             >
-              <p class="my-4 px-4 py-2 bg-gray-100 border-l-4 border-navy text-sm"><span class="font-bold">5 juillet</span> : le comité de pilotage se réunit à nouveau pour valider les feuilles de route et les budgets afférents à chaque service numérique dans le cadre du plan de relance.</p>
+              <p class="my-4 px-4 py-2 bg-gray-100 border-l-4 border-navy text-sm"><span class="font-bold">5 juillet</span> : le comité de pilotage se réunit à nouveau pour sélectionner les services numériques lauréats et valider leur feuille de route ainsi que les budgets afférents à chaque service dans le cadre du plan de relance.</p>
               <ul class="mb-8 mt-4">
                 <li><g-link class="disabled">Découvrir la liste des services numériques en cours de développement et leurs territoires référents.</g-link></li>
               </ul>
