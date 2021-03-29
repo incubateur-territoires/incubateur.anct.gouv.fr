@@ -7,17 +7,21 @@ post_ouvert: 2020-03-26
 poste_pourvu: false
 ---
 
-OpenFisca cherche deux développeurs·ses intéressé·es par la collaboration et l’entraide.
+OpenFisca à l'Incubateur des Territoires cherche deux développeurs·ses intéressé·es par la collaboration et l’entraide.
 
-Venez aider les personnes à accéder à leurs prestations sociales locales et apportez vos compétences pour rendre la législation calculable en outillant d’autres devs !
+Venez aider des personnes à accéder à leurs prestations sociales locales et apportez vos compétences pour rendre la législation calculable en outillant des services de simulation des effets de la loi !
 
 Vous rejoindrez l'[équipe autonome](https://blog.beta.gouv.fr/general/2016/11/28/equipes-autonomes/) qui développe OpenFisca.
 
-[OpenFisca](https://openfisca.org/fr/) est une transcription du code législatif en code logiciel. Il s’agit d’un moteur de calcul libre et ouvert qui permet de modéliser le système socio-fiscal de manière collaborative et transparente. Ce logiciel est utilisé par des chercheurs en économie, des services publics comme les simulateurs [Mes droits sociaux](http://mesdroitssociaux.gouv.fr) ou [leximpact](/startups/leximpact.html) et quelques services privés.
+## Qui sommes-nous ?
 
-Nous cherchons une personne pour rejoindre notre équipe et nous aider à atteindre les objectifs suivants :
+[OpenFisca](https://openfisca.org/fr/) est une communauté qui transcrit du code législatif en code logiciel. Nous construisons un moteur de calcul libre et ouvert qui permet de modéliser le système socio-fiscal de manière collaborative et transparente. Ce logiciel est utilisé par des chercheurs en économie, des services publics comme les simulateurs [Mes droits sociaux](http://mesdroitssociaux.gouv.fr) ou [leximpact](/startups/leximpact.html) et quelques services privés.
 
-1. Au moins deux nouvelles collectivités territoriales mettent en ligne leurs prestations sociales locales.
+## Missions
+
+Nous cherchons deux personnes pour faire équipe et nous aider à atteindre les objectifs suivants :
+
+1. Au moins deux nouvelles collectivités territoriales Françaises mettent en ligne leurs prestations sociales locales.
 2. La communauté OpenFisca internationale actuelle bénéficie d’un accompagnement accéléré dans la réalisation de ses développements openfisca et de l’accès aux informations concernant le moteur.
 3. De nouveaux contributeurs utilisent OpenFisca en production.
 4. La communauté OpenFisca France se structure autour d’une organisation pérenne (association, …) au modèle économique soutenable.
