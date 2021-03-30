@@ -53,6 +53,7 @@ collections:
       - {label: "Poste ouvert le", name: "poste_ouvert", widget: "date"}
       - {label: "Poste ferme le", name: "poste_ferme", widget: "date"}
       - {label: "Poste pourvu", name: "poste_pourvu", widget: "boolean", required: false}
+      - {label: "Airtable formulaire", name: "airtable_formulaire", widget: "boolean", required: false}
       - {label: "Body", name: "body", widget: "markdown"}
   - name: "services"
     label: "Service"
