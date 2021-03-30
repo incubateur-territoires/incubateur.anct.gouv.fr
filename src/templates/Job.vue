@@ -43,6 +43,7 @@ query ($id: ID!) {
     contact
     poste_ferme
     poste_pourvu
+    airtable_formulaire
   }
 }
 </page-query>
@@ -82,6 +83,7 @@ export default {
     showCandidaterForm () {
       if (this.pourvu) { return false; }
       if (this.ferme) { return false; }
+      if (this.$page.job.airtable_formulaire === false) { return false; }
       return true;
     }
   }
