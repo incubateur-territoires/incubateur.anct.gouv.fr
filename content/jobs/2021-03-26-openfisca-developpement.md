@@ -6,6 +6,7 @@ contact: contact@openfisca.org
 poste_ouvert: 2021-03-29
 poste_ferme: 2021-05-01
 poste_pourvu: false
+airtable_formulaire: false
 ---
 
 OpenFisca à l'[Incubateur des Territoires](https://incubateur.anct.gouv.fr/a-propos/) cherche deux développeurs·ses intéressé·es par la collaboration et l’entraide.
@@ -66,6 +67,6 @@ Les plus :
 
 ## Candidater
 
-Racontez-nous pourquoi vous avez envie de nous rejoindre et envoyez-nous votre LinkedIn / CV et GitHub, le tout à `contact@openfisca.org`.
+Racontez-nous pourquoi vous avez envie de nous rejoindre et envoyez-nous votre LinkedIn / CV et GitHub, le tout à [`contact@openfisca.org`](mailto:contact@openfisca.org).
 
 À bientôt ! 😀
