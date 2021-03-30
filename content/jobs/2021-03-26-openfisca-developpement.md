@@ -10,20 +10,20 @@ poste_pourvu: false
 
 OpenFisca à l'[Incubateur des Territoires](https://incubateur.anct.gouv.fr/a-propos/) cherche deux développeurs·ses intéressé·es par la collaboration et l’entraide.
 
-Venez aider des personnes à accéder à leurs prestations sociales locales et apportez vos compétences pour rendre la législation calculable en outillant des services de simulation des effets de la loi !
+Venez aider des personnes à accéder à leurs prestations sociales locales et apportez vos compétences pour rendre la législation calculable en outillant des services de simulations des effets de la loi !
 
 Vous rejoindrez l'[équipe autonome](https://blog.beta.gouv.fr/general/2016/11/28/equipes-autonomes/) qui développe OpenFisca au sein d'une famille d'incubateurs [beta.gouv.fr](https://beta.gouv.fr/approche/).
 
 ## Qui sommes-nous ?
 
-[OpenFisca](https://openfisca.org/fr/) est une communauté qui transcrit du code législatif en code logiciel. Nous construisons un moteur de calcul libre et ouvert qui permet de modéliser le système socio-fiscal de manière collaborative et transparente. Ce logiciel est utilisé par des chercheurs en économie, des services publics comme les simulateurs [Mes droits sociaux](http://mesdroitssociaux.gouv.fr) ou [LexImpact](/startups/leximpact.html) et quelques services privés.
+[OpenFisca](https://openfisca.org/fr/) est une communauté qui transcrit du code législatif en code logiciel. Nous construisons un moteur de calcul libre et ouvert qui permet de modéliser des systèmes socio-fiscaux de manière collaborative et transparente. En France, ce logiciel est utilisé par des chercheurs en économie, des services publics comme les simulateurs [Mes droits sociaux](http://mesdroitssociaux.gouv.fr) ou [LexImpact](/startups/leximpact.html) et quelques services privés. À l'étranger, il y a des expérimentations dans [plusieurs pays](https://openfisca.org/en/countries/).
 
 ## Missions
 
 Nous cherchons deux personnes pour faire équipe et nous aider à atteindre les objectifs suivants :
 
 - Au moins deux nouvelles collectivités territoriales Françaises mettent en ligne leurs prestations sociales locales.
-- La communauté OpenFisca internationale actuelle bénéficie d’un accompagnement accéléré dans la réalisation de ses développements openfisca et de l’accès aux informations concernant le moteur et les évolutions du produit.
+- La communauté OpenFisca internationale actuelle bénéficie d’un accompagnement accéléré dans la réalisation de ses développements OpenFisca et de l’accès aux informations concernant le moteur et les évolutions du produit.
 - De nouveaux contributeurs utilisent OpenFisca en production.
 - La communauté OpenFisca France se structure autour d’une organisation pérenne (association, …) au modèle économique soutenable.
 
@@ -36,7 +36,7 @@ Il s’agit donc d’intervenir :
 - Sur des sites web en [React](https://fr.reactjs.org) tels que [fr.openfisca.org](https://github.com/openfisca/fr.openfisca.org) et [l’explorateur openfisca-france](https://github.com/openfisca/legislation-explorer).
 - Sur de la [documentation](https://github.com/openfisca/openfisca-doc) en Markdown.
 - Sur la formalisation d'une gouvernance du produit en commun contributif pérenne.
-- En accompagnant des utilisateurs à l’utilisation du logiciel [via GitHub](https://github.com/openfisca/openfisca-france/issues). 
+- En accompagnant des utilisateurs à l’utilisation du logiciel [via GitHub](https://github.com/openfisca/openfisca-france/issues) et Slack.
 - Ainsi que sur tout ce que nous n’avons pas vu mais que vous nous ferez découvrir et qui peut nous rapprocher de nos objectifs communs et d’usagers satisfaits !
 
 
@@ -60,7 +60,7 @@ Les plus :
 ## Modalités
 
 -   Poste ouvert pour un·e indépendant·e (en portage) de 3 mois minimum.
--   Télétravail bienvenu, avec déplacements à prévoir [à Paris](https://goo.gl/maps/d9nzETo842qEcNxw9) pour participer aux sessions communes lorsque les conditions sanitaires le permettront !
+-   Télétravail bienvenu, avec déplacements à prévoir [à Paris](https://www.openstreetmap.org/node/2353712460#map=19/48.85050/2.30844) pour participer aux sessions communes lorsque les conditions sanitaires le permettront !
 -   Temps partiel accepté (40 % minimum).
 -   Démarrage dès que possible.
 
