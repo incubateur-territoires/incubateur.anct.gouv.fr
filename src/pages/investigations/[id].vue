@@ -16,7 +16,7 @@
 import PageTitle from '~/components/PageTitle.vue'
 import PageContent from '~/components/PageContent.vue'
 
-import { GraphQLClient, gql } from 'graphql-request';
+import { gql } from 'graphql-request';
 
 export default {
   metaInfo: {
@@ -32,12 +32,6 @@ export default {
     }
   },
   async mounted () {
-    const client = new GraphQLClient('http://localhost:8055/graphql', {
-      headers: {
-        authorization: 'Bearer e1466b8e7b8bb789d1ea55dc4c78f1c46670fc0d4b6b2443a3e40a231221fc1d',
-      },
-    });
-
     const { id } = this.$route.params
 
     const query = gql`
@@ -55,7 +49,7 @@ export default {
       }
     }`
 
-    const response = await client.request(query);
+    const response = await this.$graphql.request(query);
     this.investigation = response.items.investigations[0];
   }
 }
