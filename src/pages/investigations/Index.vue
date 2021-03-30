@@ -9,12 +9,15 @@
         <!-- <PageContent v-html="$page.pageContent.content" /> -->
 
         <div class="mx-auto max-w-screen-md">
-          <h2 class="font-marianne text-3xl mb-4 mt-6 font-semibold">
-            Investigations ...
-          </h2>
+          <FiltresEtCarto
+            :enCoursCount=enCoursCount
+            :termineCount=termineCount
+            :statusFilter=statusFilter
+            @clicked="onStatusFilterClick"
+          />
 
           <ServiceCard
-            v-for="node in investigations"
+            v-for="node in filteredInvestigations"
             :id="node.id"
             :status="node.status"
             :key="node.id"
@@ -40,8 +43,9 @@
 import PageTitle from '~/components/PageTitle.vue'
 import PageContent from '~/components/PageContent.vue'
 import ServiceCard from '~/components/ServiceCard.vue'
+import FiltresEtCarto from '~/components/investigations/FiltresEtCarto.vue'
 
-import { GraphQLClient, gql } from 'graphql-request';
+import { gql } from 'graphql-request';
 
 export default {
   metaInfo: {
@@ -50,24 +54,43 @@ export default {
   components: {
     PageTitle,
     PageContent,
-    ServiceCard
+    ServiceCard,
+    FiltresEtCarto
+  },
+  methods: {
+    onStatusFilterClick(value) {
+      this.statusFilter = value;
+    }
+  },
+  computed: {
+    enCoursCount: function () {
+      return this.investigations.en_cours.length;
+    },
+    termineCount: function () {
+      return this.investigations.termine.length;
+    },
+    filteredInvestigations: function () {
+      if (this.statusFilter === "en_cours") {
+        return this.investigations.en_cours;
+      } else if (this.statusFilter === "termine") {
+        return this.investigations.termine;
+      }
+    }
   },
   data() {
     return {
-      investigations: []
+      statusFilter: "en_cours",
+      investigations: {
+        en_cours: [],
+        termine: []
+      }
     }
   },
   async mounted () {
-    const client = new GraphQLClient('http://localhost:8055/graphql', {
-      headers: {
-        authorization: 'Bearer e1466b8e7b8bb789d1ea55dc4c78f1c46670fc0d4b6b2443a3e40a231221fc1d',
-      },
-    });
-
     const query = gql`
     query {
       items {
-        investigations {
+        en_cours: investigations(filter: { status: { _eq: "en cours" } }) {
           id
           nom
           status
@@ -76,36 +99,47 @@ export default {
           repo_url
           stats_url
           service_url
-          communes {
-            communes_id {
-              id
-              nom
-            }
-          }
-          epcis {
-            epcis_id {
-              id
-              nom
-            }
-          }
-          departements {
-            departements_id {
-              id
-              nom
-            }
-          }
-          regions {
-            regions_id {
-              id
-              nom
-            }
-          }
+        }
+        termine: investigations(filter: { status: { _eq: "termine" } }) {
+          id
+          nom
+          status
+          mission
+          beta_url
+          repo_url
+          stats_url
+          service_url
         }
       }
     }`
 
-    const response = await client.request(query);
-    this.investigations = response.items.investigations;
+    // communes {
+    //         communes_id {
+    //           id
+    //           nom
+    //         }
+    //       }
+    //       epcis {
+    //         epcis_id {
+    //           id
+    //           nom
+    //         }
+    //       }
+    //       departements {
+    //         departements_id {
+    //           id
+    //           nom
+    //         }
+    //       }
+    //       regions {
+    //         regions_id {
+    //           id
+    //           nom
+    //         }
+    //       }
+
+    const response = await this.$graphql.request(query);
+    this.investigations = response.items;
   }
 }
 </script>
