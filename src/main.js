@@ -44,6 +44,8 @@ library.add(
 
 //Plugins
 import '@/plugins/Dayjs'
+import '@/plugins/graphql'
+
 import LogRocket from 'logrocket';
 LogRocket.init('xz8jmz/incubateuranctgouvfr');
 
