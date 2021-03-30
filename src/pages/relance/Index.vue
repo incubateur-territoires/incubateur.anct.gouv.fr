@@ -80,9 +80,9 @@
               v-if="showEtape2"
             >
               <div class="my-4">
-                Les collectivités territoriales et leurs groupements sont invités à manifester leur soutien aux projets qu'ils jugent prioritaires.
+                Les collectivités territoriales sont invitées à manifester leur soutien aux projets qu'elles jugent prioritaires.
               </div>
-              <p class="my-4 px-4 py-2 bg-gray-100 border-l-4 border-navy text-sm"><span class="font-bold">2 avril</span> : Après une première étape de collecte des besoins et des solutions du 25 janvier au 15 mars, les collectivités et leurs groupements sont invités à partir du 1er avril et jusqu'au 1er mai à manifester leur soutien aux projets de services numériques qu'ils jugent prioritaires pour les territoires. <g-link to="https://app.livestorm.co/incubateur-des-territoires/le-rdv-des-territoires-avec-lincubateur?type=detailed">L'Incubateur des Territoires organise un webinaire de 45 minutes pour pouvoir repondre à toutes vos questions.</g-link> </p>
+              <p class="my-4 px-4 py-2 bg-gray-100 border-l-4 border-navy text-sm"><span class="font-bold">2 avril</span> : Après une première étape de collecte des besoins et des solutions du 25 janvier au 15 mars, les collectivités sont invitées à partir du 1er avril et jusqu'au 1er mai à manifester leur soutien aux projets de services numériques qu'elles jugent prioritaires pour les territoires. <g-link to="https://app.livestorm.co/incubateur-des-territoires/le-rdv-des-territoires-avec-lincubateur?type=detailed">L'Incubateur des Territoires organise un webinaire de 45 minutes pour pouvoir repondre à toutes vos questions.</g-link> </p>
               
               <ul class="mb-8 mt-4">
                 <li><g-link class="disabled">Manifestez votre soutien sur les propositions qui vous semblent prioritaires</g-link></li>
