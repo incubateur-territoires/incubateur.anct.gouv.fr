@@ -66,6 +66,6 @@ Les plus :
 
 ## Candidater
 
-Racontez-nous pourquoi vous avez envie de nous rejoindre et envoyez-nous votre LinkedIn / CV et GitHub, le tout à `contact@openfisca.org`.
+Racontez-nous pourquoi vous avez envie de nous rejoindre et envoyez-nous votre LinkedIn / CV et GitHub, le tout à [contact@openfisca.org](mailto:contact@openfisca.org?subject=Recrutement).
 
 À bientôt ! 😀
