@@ -9,11 +9,18 @@
       :class="{ selected: statusFilter === 'termine' }"
       @click="$emit('clicked', 'termine')"
     >Investigations passés <span class="ml-2">{{ termineCount }}</span></a>
+
+    <!-- <Carto /> -->
   </div>
 </template>
 
 <script>
+import Carto from '~/components/investigations/Carto.vue'
+
 export default {
+  components: {
+    Carto
+  },
   props: {
     enCoursCount: Number,
     termineCount: Number,
