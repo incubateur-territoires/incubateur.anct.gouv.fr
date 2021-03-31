@@ -3,32 +3,12 @@
     <div>
       <PageTitle>Transformation numérique des collectivités territoriales</PageTitle>
 
-      <div class="px-4">
-        <PageContent v-html="$page.pageContent.content" />
-      </div>
-
-      </div>
-        <div class="mx-auto max-w-screen-md">
-          <g-link class="button mt-8" to="https://mon.incubateur.anct.gouv.fr/processes/transformation-numerique">
-            Découvrez la consulation →
-          </g-link>
-        </div>
-
-        <!-- <ul class="mx-auto max-w-screen-md my-8 text-lg">          
-          <li>
-            <g-link to="https://mon.incubateur.anct.gouv.fr/processes/transformation-numerique/f/3/">Pour partager mes besoins</g-link> en création ou utilisation de services numériques pour qu'elle puisse être accompagnée et financée
-          </li>
-          <li>
-            <g-link to="https://mon.incubateur.anct.gouv.fr/processes/transformation-numerique/f/2/">Pour partager des services numériques</g-link> existants et nécessitant un financement 
-          </li>
-        </ul> -->
-      </div>
 
       <div class="px-4">
         <div class="mx-auto max-w-screen-md calendrier">
-          <h1 class="font-marianne font-black text-3xl">
+          <!-- <h1 class="font-marianne font-black text-3xl">
             Calendrier
-          </h1>
+          </h1> -->
 
           <div class="phase">
             <div
@@ -146,6 +126,27 @@
             </div>
           </div>
         </div>
+      </div>
+
+      <div class="px-4">
+        <PageContent v-html="$page.pageContent.content" />
+      </div>
+
+      </div>
+        <div class="mx-auto max-w-screen-md">
+          <g-link class="button mt-8" to="https://mon.incubateur.anct.gouv.fr/processes/transformation-numerique">
+            Découvrez la consulation →
+          </g-link>
+        </div>
+
+        <!-- <ul class="mx-auto max-w-screen-md my-8 text-lg">          
+          <li>
+            <g-link to="https://mon.incubateur.anct.gouv.fr/processes/transformation-numerique/f/3/">Pour partager mes besoins</g-link> en création ou utilisation de services numériques pour qu'elle puisse être accompagnée et financée
+          </li>
+          <li>
+            <g-link to="https://mon.incubateur.anct.gouv.fr/processes/transformation-numerique/f/2/">Pour partager des services numériques</g-link> existants et nécessitant un financement 
+          </li>
+        </ul> -->
       </div>
 
       <div class="max-w-screen-md mx-auto mt-12 p-4 bg-gray-100 rounded-lg">
