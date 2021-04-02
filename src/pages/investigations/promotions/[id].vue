@@ -9,7 +9,7 @@
         <!-- <PageContent v-html="$page.pageContent.content" /> -->
 
         <InvestigationsList 
-          :allInvestigations=true
+          :promotionId="this.$route.params.id"
         />
       </div>
     </div>  
