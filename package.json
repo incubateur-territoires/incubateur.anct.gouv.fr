@@ -17,6 +17,7 @@
     "@fortawesome/vue-fontawesome": "^0.1.10",
     "@gridsome/source-filesystem": "^0.6.2",
     "@gridsome/transformer-remark": "^0.6.0",
+    "@tailwindcss/forms": "^0.3.2",
     "autoprefixer": "^9.8.6",
     "axios": "^0.20.0",
     "dayjs": "^1.9.3",
