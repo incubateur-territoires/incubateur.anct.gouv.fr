@@ -239,7 +239,7 @@
         </div>
         <div
           class="content"
-          v-if="faq8"
+          v-if="faq9"
         >
         <p class="mb-4">Non, nous ne comptabiliserons que les soutiens émanant de collectivités territoriales.</p>
          </div>
@@ -289,7 +289,6 @@
          </div>
       </div>
 
-
      </div>
 
 
@@ -301,29 +300,172 @@
      <div class="phase">
         <div
           class="rounded-lg hover:bg-gray-100 cursor-pointer pt-2 pb-2 pr-2 -m-2 flex"
-          @click="faq3 = !faq3"
+          @click="faq12 = !faq12"
         >
           <div class="text-gray-500 mt-1 mr-2">
             <svg :class="{ 'transform rotate-90' : faq3 }" class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="M9 5l7 7-7 7"></path></svg>
           </div>
           <div>
             <div class="titre">
-              Quand est le prochain webinaire ?
+              Soutenir un regroupement implique-t-il une fusion des différents projets ?
             </div>
           </div>
         </div>
         <div
           class="content"
-          v-if="faq3"
+          v-if="faq12"
         >
           <p class="mb-4">
-            Vous pouvez consulter les dates et horaires de l'ensemble de nos webinaires<g-link to="https://app.livestorm.co/incubateur-des-territoires/le-rdv-des-territoires-avec-lincubateur?type=detailed">via ce lien</g-link>
+            Non, l'objectif de ces regroupements est de faciliter la prise de décision par le 1er comité de sélection. Le second comité de sélection réalisera une sélection à la maille des contributions initiales.
+          </p>
+         </div>
+      </div>
+
+      <div class="phase">
+        <div
+          class="rounded-lg hover:bg-gray-100 cursor-pointer pt-2 pb-2 pr-2 -m-2 flex"
+          @click="faq13 = !faq13"
+        >
+          <div class="text-gray-500 mt-1 mr-2">
+            <svg :class="{ 'transform rotate-90' : faq3 }" class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="M9 5l7 7-7 7"></path></svg>
+          </div>
+          <div>
+            <div class="titre">
+              Il faut donc comprendre qu'il ne reste maintenant que des projets fusionnés ?
+            </div>
+          </div>
+        </div>
+        <div
+          class="content"
+          v-if="faq13"
+        >
+          <p class="mb-4">
+            Non, l'objectif de ces regroupements est seulement de faciliter la prise de décision par le 1er comité de sélection qui va prioriser des propositions à approfondir tant du côté des besoins que des services. Le second comité de sélection réalisera une sélection à la maille des contributions initiales.
+          </p>
+         </div>
+      </div>
+
+      <div class="phase">
+        <div
+          class="rounded-lg hover:bg-gray-100 cursor-pointer pt-2 pb-2 pr-2 -m-2 flex"
+          @click="faq14 = !faq14"
+        >
+          <div class="text-gray-500 mt-1 mr-2">
+            <svg :class="{ 'transform rotate-90' : faq3 }" class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="M9 5l7 7-7 7"></path></svg>
+          </div>
+          <div>
+            <div class="titre">
+              Comment savoir dans quelle catégorie notre proposition a été orientée ?
+            </div>
+          </div>
+        </div>
+        <div
+          class="content"
+          v-if="faq14"
+        >
+          <p class="mb-4">Vous pouvez effectuer une recherche sur la barre de recherche du site en utilisant le nom du créateur de la proposition en ligne ou encore le nom de la proposition. </p>
+          <p class="mb-4">Vous avez dû par ailleurs recevoir un email vous informant de la proposition intégrant votre contribution. </p>
+          <p class="mb-4">De plus, en réponse à votre proposition initiale, vous trouverez sur la plateforme mon.incubateur le lien vers la nouvelle proposition.</p>
+         </div>
+      </div>
+
+      <div class="phase">
+        <div
+          class="rounded-lg hover:bg-gray-100 cursor-pointer pt-2 pb-2 pr-2 -m-2 flex"
+          @click="faq15 = !faq15"
+        >
+          <div class="text-gray-500 mt-1 mr-2">
+            <svg :class="{ 'transform rotate-90' : faq3 }" class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="M9 5l7 7-7 7"></path></svg>
+          </div>
+          <div>
+            <div class="titre">
+              Doit-on soutenir un projet déposé ou un regroupement (fusion) ?
+            </div>
+          </div>
+        </div>
+        <div
+          class="content"
+          v-if="faq15"
+        >
+          <p class="mb-4">
+          Dans le cadre de l'étape 2, jusqu'au 30 avril, les collectivités sont invitées à soutenir les propositions qui leur semblent stratégiques pour leur territoire. L'étape 3, du 3 mai au 30 juin, sera l'occasion d'approfondir séparemment l'étude des besoins et des services existants qui ont été précedemment regroupés.
+          </p>
+         </div>
+      </div>
+
+      <div class="phase">
+        <div
+          class="rounded-lg hover:bg-gray-100 cursor-pointer pt-2 pb-2 pr-2 -m-2 flex"
+          @click="faq16 = !faq16"
+        >
+          <div class="text-gray-500 mt-1 mr-2">
+            <svg :class="{ 'transform rotate-90' : faq3 }" class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="M9 5l7 7-7 7"></path></svg>
+          </div>
+          <div>
+            <div class="titre">
+              Avez vous des exemples de besoins pour l'orientation des propositions classées comme "matériel" ?
+            </div>
+          </div>
+        </div>
+        <div
+          class="content"
+          v-if="faq16"
+        >
+          <p class="mb-4">
+            Nous avons redirigé certaines propositions de matériel vers le programme Société numérique de l'ANCT puisqu'il pilote une axe du plan de relance dédié à l'outillage des acteurs de l'inclusion numérique. Par exemple, nous avons reçu un certain nombre de propositions qui concernaient le financement de tablettes numériques, notamment pour des ateliers de médiation numérique, ou encore de matériel informatique pour les sessions d'accompagnement et de médiation numérique auprès de public.
+           </p>
+         </div>
+      </div>
+
+      <div class="phase">
+        <div
+          class="rounded-lg hover:bg-gray-100 cursor-pointer pt-2 pb-2 pr-2 -m-2 flex"
+          @click="faq17 = !faq17"
+        >
+          <div class="text-gray-500 mt-1 mr-2">
+            <svg :class="{ 'transform rotate-90' : faq3 }" class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="M9 5l7 7-7 7"></path></svg>
+          </div>
+          <div>
+            <div class="titre">
+              Dans le regroupement pour mon projet, il y a plusieurs autres projets très différents, comment faire la jonction ?
+            </div>
+          </div>
+        </div>
+        <div
+          class="content"
+          v-if="faq17"
+        >
+          <p class="mb-4">
+           Non, l'objectif de ces regroupements est seulement de faciliter la prise de décision par le 1er comité de sélection qui va prioriser des propositions à approfondir tant du côté des besoins que des services. Le second comité de sélection réalisera une sélection à la maille des contributions initiales. Il n'est pas toujours pertinent de faire la jonction entre les contributions initiales. S'il s'agit de besoins émanant de collectivités territoriales, ces derniers pourront être étudiés collectivement lors des groupes de travail de la phase 3.
+          </p>
+         </div>
+      </div>
+
+      <div class="phase">
+        <div
+          class="rounded-lg hover:bg-gray-100 cursor-pointer pt-2 pb-2 pr-2 -m-2 flex"
+          @click="faq18 = !faq18"
+        >
+          <div class="text-gray-500 mt-1 mr-2">
+            <svg :class="{ 'transform rotate-90' : faq3 }" class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="M9 5l7 7-7 7"></path></svg>
+          </div>
+          <div>
+            <div class="titre">
+              Quelle communication est faite auprès des collectivités pour qu'elles votent ?
+            </div>
+          </div>
+        </div>
+        <div
+          class="content"
+          v-if="faq18"
+        >
+          <p class="mb-4">
+          Nous avons communiqué auprès de l'ensemble des contributeurs ayant participé sur la plateforme, aux collectivités partenaires de l'ANCT ainsi qu'au réseau des services déconcentrés de l'Etat.
           </p>
          </div>
       </div>
 
      </div>
-
 
 
     <div class="mx-auto max-w-screen-md faq mt-8">
@@ -367,29 +509,76 @@
      <div class="phase">
         <div
           class="rounded-lg hover:bg-gray-100 cursor-pointer pt-2 pb-2 pr-2 -m-2 flex"
-          @click="faq3 = !faq3"
+          @click="faq27 = !faq27"
         >
           <div class="text-gray-500 mt-1 mr-2">
             <svg :class="{ 'transform rotate-90' : faq3 }" class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="M9 5l7 7-7 7"></path></svg>
           </div>
           <div>
             <div class="titre">
-              Quand est le prochain webinaire ?
+              Combien de services seront sélectionnés in fine?
             </div>
           </div>
         </div>
         <div
           class="content"
-          v-if="faq3"
+          v-if="faq27"
         >
           <p class="mb-4">
-            Vous pouvez consulter les dates et horaires de l'ensemble de nos webinaires<g-link to="https://app.livestorm.co/incubateur-des-territoires/le-rdv-des-territoires-avec-lincubateur?type=detailed">via ce lien</g-link>
+          Ce n'est pas encore décidé, le comité de sélection définira le nombre de services financés et le montant de leur financement le 5 juillet 2021.
+          </p>
+         </div>
+      </div>
+
+      <div class="phase">
+        <div
+          class="rounded-lg hover:bg-gray-100 cursor-pointer pt-2 pb-2 pr-2 -m-2 flex"
+          @click="faq28 = !faq28"
+        >
+          <div class="text-gray-500 mt-1 mr-2">
+            <svg :class="{ 'transform rotate-90' : faq3 }" class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="M9 5l7 7-7 7"></path></svg>
+          </div>
+          <div>
+            <div class="titre">
+              N'y a t-il pas conflit d'intérêt quand un membre du comité propose des projets ?
+            </div>
+          </div>
+        </div>
+        <div
+          class="content"
+          v-if="faq28"
+        >
+          <p class="mb-4">
+          Le comité de sélection suivra son règlement et exigera un déport des personnes conflictées lorsque les services qui les concernent seront évoqués.
+          </p>
+         </div>
+      </div>
+
+      <div class="phase">
+        <div
+          class="rounded-lg hover:bg-gray-100 cursor-pointer pt-2 pb-2 pr-2 -m-2 flex"
+          @click="faq29 = !faq29"
+        >
+          <div class="text-gray-500 mt-1 mr-2">
+            <svg :class="{ 'transform rotate-90' : faq3 }" class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="M9 5l7 7-7 7"></path></svg>
+          </div>
+          <div>
+            <div class="titre">
+              Qui sont les membres du comité de sélection ?
+            </div>
+          </div>
+        </div>
+        <div
+          class="content"
+          v-if="faq29"
+        >
+          <p class="mb-4">
+          Le comité sera composé d'associations de collectivités territoriales (AMRF, AMF, ADF, France Urbaine, Interconnectés, FNCCR, DECLIC), d'élus ainsi que des représentants de la DINUM, DITP et ANCT.
           </p>
          </div>
       </div>
 
      </div>
-
 
 
     <div class="mx-auto max-w-screen-md faq mt-8">
@@ -400,26 +589,51 @@
      <div class="phase">
         <div
           class="rounded-lg hover:bg-gray-100 cursor-pointer pt-2 pb-2 pr-2 -m-2 flex"
-          @click="faq3 = !faq3"
+          @click="faq30 = !faq30"
         >
           <div class="text-gray-500 mt-1 mr-2">
             <svg :class="{ 'transform rotate-90' : faq3 }" class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="M9 5l7 7-7 7"></path></svg>
           </div>
           <div>
             <div class="titre">
-              Quand est le prochain webinaire ?
+              Quels sont les prérequis pour qu'une collectivité puisse se déclarer comme territoire référent ?
             </div>
           </div>
         </div>
         <div
           class="content"
-          v-if="faq3"
+          v-if="faq30"
         >
           <p class="mb-4">
-            Vous pouvez consulter les dates et horaires de l'ensemble de nos webinaires<g-link to="https://app.livestorm.co/incubateur-des-territoires/le-rdv-des-territoires-avec-lincubateur?type=detailed">via ce lien</g-link>
+          Le seul prérequis est d'être une collectivité. Toutes les collectivités intéressées par une proposition sélectionnée par le comité de sélection du 3 mai pourront s'inscrire à des ateliers d'expression et deviendront de fait territoire référent. Une collectivité pourra se positionner sur plusieurs propositions.
           </p>
          </div>
       </div>
+
+      <div class="phase">
+        <div
+          class="rounded-lg hover:bg-gray-100 cursor-pointer pt-2 pb-2 pr-2 -m-2 flex"
+          @click="faq31 = !faq31"
+        >
+          <div class="text-gray-500 mt-1 mr-2">
+            <svg :class="{ 'transform rotate-90' : faq3 }" class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="M9 5l7 7-7 7"></path></svg>
+          </div>
+          <div>
+            <div class="titre">
+              Est-ce qu'il y aura une sélection parmi les collectivités qui se déclareront comme "territoire référent" ?
+            </div>
+          </div>
+        </div>
+        <div
+          class="content"
+          v-if="faq31"
+        >
+          <p class="mb-4">
+          Il n'y aura pas de sélection entre les collectivités qui se manifesteront comme "territoire référent".
+          </p>
+         </div>
+      </div>
+
 
      </div>
 
@@ -461,7 +675,30 @@ export default {
       faq8: false,
       faq9: false,
       faq10: false,
-      faq11 : false
+      faq11 : false,
+      faq12: false,
+      faq13: false,
+      faq14: false,
+      faq15: false,
+      faq16: false,
+      faq17: false,
+      faq18: false,
+      faq19: false,
+      faq20: false,
+      faq21: false,
+      faq22: false,
+      faq23: false,
+      faq24: false,
+      faq25: false,
+      faq26: false,
+      faq27: false,
+      faq28: false,
+      faq29 : false,
+      faq30: false,
+      faq31: false,
+      faq32: false,
+      faq33: false,
+      faq34: false
     }
   }
 };
