@@ -52,7 +52,7 @@
           v-if="faq2"
         >
           <p class="mb-4">
-            Vous retrouverez le support de présentation : <g-link to="https://incubateur.anct.gouv.fr/pdf/Presentation%20rdv%20des%20terrtioires%20etape%202.pdf"> ici.</g-link>
+            Vous retrouverez le support de présentation : <g-link to="/static/pdf/Presentation rdv des terrtioires etape 2.pdf"> ici.</g-link>
           </p>
          </div>
       </div>
@@ -195,7 +195,7 @@
           <p class="mb-4"> Les règles de soutien sont les suivantes :
             <ul>
                 <li> 1 seul soutien par collectivité territoriale sera comptabilisé par proposition ;</li>
-                <li> chaque participant (agents et élus) peut soutenir des propositions selon ses convictions ; ; </li>
+                <li> chaque participant (agents et élus) peut soutenir des propositions selon ses convictions ; </li>
                 <li> les soutiens émanant d'acteurs qui ne sont pas des collectivités seront écartés.</li>
             </ul></p>
          </div>
@@ -476,26 +476,197 @@
      <div class="phase">
         <div
           class="rounded-lg hover:bg-gray-100 cursor-pointer pt-2 pb-2 pr-2 -m-2 flex"
-          @click="faq3 = !faq3"
+          @click="faq19 = !faq19"
         >
           <div class="text-gray-500 mt-1 mr-2">
             <svg :class="{ 'transform rotate-90' : faq3 }" class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="M9 5l7 7-7 7"></path></svg>
           </div>
           <div>
             <div class="titre">
-              Quand est le prochain webinaire ?
+            Est-ce que les collectivités pourront installer les services financés au sein de leur structure sans frais d'acquisition ?
             </div>
           </div>
         </div>
         <div
           class="content"
-          v-if="faq3"
+          v-if="faq19"
         >
           <p class="mb-4">
-            Vous pouvez consulter les dates et horaires de l'ensemble de nos webinaires<g-link to="https://app.livestorm.co/incubateur-des-territoires/le-rdv-des-territoires-avec-lincubateur?type=detailed">via ce lien</g-link>
+          Ces services seront développés en code ouvert (open source), donc les collectivités pourront les installer librement sur leurs serveurs. Par ailleurs, dans la mesure du possible, nous allons également financer le déploiement de ces services au sein de nouvelles collectivités.
           </p>
          </div>
       </div>
+
+      <div class="phase">
+        <div
+          class="rounded-lg hover:bg-gray-100 cursor-pointer pt-2 pb-2 pr-2 -m-2 flex"
+          @click="faq20 = !faq20"
+        >
+          <div class="text-gray-500 mt-1 mr-2">
+            <svg :class="{ 'transform rotate-90' : faq3 }" class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="M9 5l7 7-7 7"></path></svg>
+          </div>
+          <div>
+            <div class="titre">
+            Qui va concevoir et développer les nouveaux services ou mises à jour des services existants ? Est-ce que l'incubateur fera appel à des prestataires tiers ?
+            </div>
+          </div>
+        </div>
+        <div
+          class="content"
+          v-if="faq20"
+        >
+          <p class="mb-4"> Plusieurs scénarios sont possibles pour le développement et le déploiement de services numériques : </p>
+          <p class="mb-4"><ul>
+            <li>un financement du porteur de service et d'eventuels partenaires ; </li>
+            <li>un portage au sein de l'Incubateur des Territoires en utilisant les marchés publics dont dispose l'ANCT.</li>
+          </ul></p>
+         </div>
+      </div>
+
+     <div class="phase">
+        <div
+          class="rounded-lg hover:bg-gray-100 cursor-pointer pt-2 pb-2 pr-2 -m-2 flex"
+          @click="faq21 = !faq21"
+        >
+          <div class="text-gray-500 mt-1 mr-2">
+            <svg :class="{ 'transform rotate-90' : faq3 }" class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="M9 5l7 7-7 7"></path></svg>
+          </div>
+          <div>
+            <div class="titre">
+            Les services construits et financés seront-ils adaptés à ma collectivité ?
+            </div>
+          </div>
+        </div>
+        <div
+          class="content"
+          v-if="faq21"
+        >
+          <p class="mb-4">
+          Dans la mesure du possible, ces services seront construits pour être personnalisables en marque blanche (logo, visuels, etc.), par ailleurs, les groupes de travail permettront de concerter les collectivités sur leurs besoins prioritaires.
+          </p>
+         </div>
+      </div>
+
+      <div class="phase">
+        <div
+          class="rounded-lg hover:bg-gray-100 cursor-pointer pt-2 pb-2 pr-2 -m-2 flex"
+          @click="faq22 = !faq22"
+        >
+          <div class="text-gray-500 mt-1 mr-2">
+            <svg :class="{ 'transform rotate-90' : faq3 }" class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="M9 5l7 7-7 7"></path></svg>
+          </div>
+          <div>
+            <div class="titre">
+            Doit-on fournir un argumentaire complémentaire pour valoriser notre projet ?
+            </div>
+          </div>
+        </div>
+        <div
+          class="content"
+          v-if="faq22"
+        >
+          <p class="mb-4">
+          Non, ce n'est pas nécessaire.
+          </p>
+         </div>
+      </div>
+
+     <div class="phase">
+        <div
+          class="rounded-lg hover:bg-gray-100 cursor-pointer pt-2 pb-2 pr-2 -m-2 flex"
+          @click="faq23 = !faq23"
+        >
+          <div class="text-gray-500 mt-1 mr-2">
+            <svg :class="{ 'transform rotate-90' : faq3 }" class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="M9 5l7 7-7 7"></path></svg>
+          </div>
+          <div>
+            <div class="titre">
+            Si le projet est retenu, serons-nous associés à la création de l'outil ?
+            </div>
+          </div>
+        </div>
+        <div
+          class="content"
+          v-if="faq23"
+        >
+          <p class="mb-4">
+          Si la proposition de valeur est retenue, vous pourrez vous manifester pour devenir "territoire référent" et donc être partie prenante de la construction de la solution.
+          </p>
+         </div>
+      </div>
+
+      <div class="phase">
+        <div
+          class="rounded-lg hover:bg-gray-100 cursor-pointer pt-2 pb-2 pr-2 -m-2 flex"
+          @click="faq24 = !faq24"
+        >
+          <div class="text-gray-500 mt-1 mr-2">
+            <svg :class="{ 'transform rotate-90' : faq3 }" class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="M9 5l7 7-7 7"></path></svg>
+          </div>
+          <div>
+            <div class="titre">
+            Est-ce que les financements iront aux territoires référents ou seront-ils fléchés au cas par cas par l'incubateur aux acteurs qui vont développer le service ?
+            </div>
+          </div>
+        </div>
+        <div
+          class="content"
+          v-if="faq24"
+        >
+          <p class="mb-4">
+            Les financements seront fléchés dans la majorité des cas aux porteurs de services.
+          </p>
+         </div>
+      </div>
+
+     <div class="phase">
+        <div
+          class="rounded-lg hover:bg-gray-100 cursor-pointer pt-2 pb-2 pr-2 -m-2 flex"
+          @click="faq25 = !faq25"
+        >
+          <div class="text-gray-500 mt-1 mr-2">
+            <svg :class="{ 'transform rotate-90' : faq3 }" class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="M9 5l7 7-7 7"></path></svg>
+          </div>
+          <div>
+            <div class="titre">
+            Quand peut-on vraiment s'attendre à ce que les fonds soient versés pour démarrer les projets ?
+            </div>
+          </div>
+        </div>
+        <div
+          class="content"
+          v-if="faq25"
+        >
+          <p class="mb-4">
+           La phase de contractualisation avec les porteurs de projets débutera à partir de début juillet. C'est donc à partir de cette date que les premiers fonds pourront être versés.
+          </p>
+         </div>
+      </div>
+
+     <div class="phase">
+        <div
+          class="rounded-lg hover:bg-gray-100 cursor-pointer pt-2 pb-2 pr-2 -m-2 flex"
+          @click="faq26 = !faq26"
+        >
+          <div class="text-gray-500 mt-1 mr-2">
+            <svg :class="{ 'transform rotate-90' : faq3 }" class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="M9 5l7 7-7 7"></path></svg>
+          </div>
+          <div>
+            <div class="titre">
+            Comment seront départagés les services fusionnés au sein d'une même proposition retenue ?
+            </div>
+          </div>
+        </div>
+        <div
+          class="content"
+          v-if="faq26"
+        >
+          <p class="mb-4">
+            Sur les propositions retenues suite au comité de sélection n°1, un travail de chiffrage et d'exploration des services initialement proposés va s'effectuer. L'Incubateur des Territoires organisera pour cela des auditions des porteurs de services sur un ensemble de critères (financement souhaité, objet du financement : fonctionnalités supplémentaires, déploiement sur d'autres territoires, etc.) afin d'éclairer les décisions prises lors du comité de sélection n°2  du 5 juillet (qui sélectionnera les services numériques lauréats).
+          </p>
+         </div>
+      </div>
+
 
      </div>
 
@@ -633,6 +804,83 @@
           </p>
          </div>
       </div>
+
+      <div class="phase">
+        <div
+          class="rounded-lg hover:bg-gray-100 cursor-pointer pt-2 pb-2 pr-2 -m-2 flex"
+          @click="faq32 = !faq32"
+        >
+          <div class="text-gray-500 mt-1 mr-2">
+            <svg :class="{ 'transform rotate-90' : faq3 }" class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="M9 5l7 7-7 7"></path></svg>
+          </div>
+          <div>
+            <div class="titre">
+              Pourra-t-on participer à n'importe quel groupe de travail ?
+            </div>
+          </div>
+        </div>
+        <div
+          class="content"
+          v-if="faq32"
+        >
+          <p class="mb-4">
+            Oui, si vous êtes une collectivité territoriale ou un groupement de collectivités, vous pourrez tout à fait participer à ces groupes de travail. Tout comme vous pouvez soutenir des propositions qui ne concernent pas le projet déposé initialement.
+          </p>
+         </div>
+      </div>
+
+      <div class="phase">
+        <div
+          class="rounded-lg hover:bg-gray-100 cursor-pointer pt-2 pb-2 pr-2 -m-2 flex"
+          @click="faq33 = !faq33"
+        >
+          <div class="text-gray-500 mt-1 mr-2">
+            <svg :class="{ 'transform rotate-90' : faq3 }" class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="M9 5l7 7-7 7"></path></svg>
+          </div>
+          <div>
+            <div class="titre">
+              Lorsque l'enveloppe du budget est atteinte, financerez-vous d'autres projets dans la liste priorisée ?
+            </div>
+          </div>
+        </div>
+        <div
+          class="content"
+          v-if="faq33"
+        >
+          <p class="mb-4">
+            L'objectif de cette première phase de sélection est bien de prioriser les besoins/services existants lors du comité de sélection n°1. En effet, en fonction de la consommation de l'enveloppe globale avec le financement de ces besoins/services "priorisés", nous pourrons financer d'autres besoins/services ou non. L'ensemble de cette priorisation est validée lors des 2 comités de sélection.
+          </p>
+         </div>
+      </div>
+
+      <div class="phase">
+        <div
+          class="rounded-lg hover:bg-gray-100 cursor-pointer pt-2 pb-2 pr-2 -m-2 flex"
+          @click="faq34 = !faq34"
+        >
+          <div class="text-gray-500 mt-1 mr-2">
+            <svg :class="{ 'transform rotate-90' : faq3 }" class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="M9 5l7 7-7 7"></path></svg>
+          </div>
+          <div>
+            <div class="titre">
+            Après regroupement des contributions, quelle action est attendue de la part des porteurs de services et des collectivités lors de l'étape 2?
+            </div>
+          </div>
+        </div>
+        <div
+          class="content"
+          v-if="faq34"
+        >
+          <p class="mb-4"> Si vous êtes porteur de service, vous avez reçu un formulaire à remplir pour compléter les informations à partager au comité de sélection du 3 mai concernant votre service. </p>
+          <p class="mb-4"> Après le comité de sélection du 3 mai, les propositions sélectionnées feront l'objet de : </p>
+          <p class="mb-4"> <ul>
+                <li> groupes de travail facilitant l'expression de besoins des collectivités ;</li>
+                <li> audition avec chacun des porteurs de services existants pour mieux connaitre leur proposition de valeur;</li>
+             </ul></p>
+          <p class="mb-4"> Sur la base de ces travaux, l'équipe de l'Incubateur des Territoires partagera une analyse technique au comité de sélection pour qu'il décide le 5 juillet des services à financer et à construire pour le plus grand nombre de collectivités territoriales. </p>
+         </div>
+      </div>
+
 
 
      </div>
