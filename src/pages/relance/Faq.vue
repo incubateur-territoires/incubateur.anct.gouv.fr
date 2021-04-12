@@ -18,7 +18,7 @@
           </div>
           <div>
             <div class="titre">
-              Question ? 
+              Quand est le prochain webinaire ?
             </div>
           </div>
         </div>
@@ -26,7 +26,7 @@
           class="content"
           v-if="faq3"
         >
-          <p class="mb-4">Réponse </p>
+          <p class="mb-4">Vous pouvez consulter les dates et horaires de l'ensemble de nos webinaires via ce lien : https://app.livestorm.co/incubateur-des-territoires/le-rdv-des-territoires-avec-lincubateur?type=detailed </p>
           </div>
       </div>
       
