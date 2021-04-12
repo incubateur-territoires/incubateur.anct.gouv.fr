@@ -15,7 +15,7 @@
           @click="faq1 = !faq1"
         >
           <div class="text-gray-500 mt-1 mr-2">
-            <svg :class="{ 'transform rotate-90' : faq3 }" class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="M9 5l7 7-7 7"></path></svg>
+            <svg :class="{ 'transform rotate-90' : faq1 }" class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="M9 5l7 7-7 7"></path></svg>
           </div>
           <div>
             <div class="titre">
@@ -39,7 +39,7 @@
           @click="faq2 = !faq2"
         >
           <div class="text-gray-500 mt-1 mr-2">
-            <svg :class="{ 'transform rotate-90' : faq3 }" class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="M9 5l7 7-7 7"></path></svg>
+            <svg :class="{ 'transform rotate-90' : faq2 }" class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="M9 5l7 7-7 7"></path></svg>
           </div>
           <div>
             <div class="titre">
@@ -95,7 +95,7 @@
           @click="faq4 = !faq4"
         >
           <div class="text-gray-500 mt-1 mr-2">
-            <svg :class="{ 'transform rotate-90' : faq3 }" class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="M9 5l7 7-7 7"></path></svg>
+            <svg :class="{ 'transform rotate-90' : faq4 }" class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="M9 5l7 7-7 7"></path></svg>
           </div>
           <div>
             <div class="titre">
@@ -117,7 +117,7 @@
           @click="faq5 = !faq5"
         >
           <div class="text-gray-500 mt-1 mr-2">
-            <svg :class="{ 'transform rotate-90' : faq3 }" class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="M9 5l7 7-7 7"></path></svg>
+            <svg :class="{ 'transform rotate-90' : faq5 }" class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="M9 5l7 7-7 7"></path></svg>
           </div>
           <div>
             <div class="titre">
@@ -139,7 +139,7 @@
           @click="faq6 = !faq6"
         >
           <div class="text-gray-500 mt-1 mr-2">
-            <svg :class="{ 'transform rotate-90' : faq3 }" class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="M9 5l7 7-7 7"></path></svg>
+            <svg :class="{ 'transform rotate-90' : faq6 }" class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="M9 5l7 7-7 7"></path></svg>
           </div>
           <div>
             <div class="titre">
@@ -151,12 +151,12 @@
           class="content"
           v-if="faq6"
         >
-          <p class="mb-4">La consultation a permis de collecter, entre le 25 janvier et le 15 mars, 476 propositions : </p> :
-            <ul>
+          <p class="mb-4">La consultation a permis de collecter, entre le 25 janvier et le 15 mars, 476 propositions : </p>
+            <p class="mb-4"><ul>
                 <li> de besoins et de services existants;</li>
                 <li> partagées par des acteurs des territoires;</li>
                 <li> élus, agents et partenaires des collectivités territoriales.</li>
-             </ul>
+             </ul></p>
           <p class="mb-4"> Parmi ces propositions : 81 ont été réorientées, 4 rejetées car inéligibles et 391 ont été regroupées au sein de 67 nouvelles propositions.</p>
           <p class="mb-4"> Du 1er avril au 1er mai, les collectivités territoriales peuvent manifester leur soutien aux nouvelles propositions qu’elles jugent prioritaires pour les territoires.</p>
           <p class="mb-4"> L'objectif est de soutenir des propositions parmi les 67 regroupements et non pas de soutenir directement un service numérique déposé sur la plateforme.</p>
@@ -169,7 +169,7 @@
           @click="faq7 = !faq7"
         >
           <div class="text-gray-500 mt-1 mr-2">
-            <svg :class="{ 'transform rotate-90' : faq3 }" class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="M9 5l7 7-7 7"></path></svg>
+            <svg :class="{ 'transform rotate-90' : faq7 }" class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="M9 5l7 7-7 7"></path></svg>
           </div>
           <div>
             <div class="titre">
@@ -181,23 +181,23 @@
           class="content"
           v-if="faq7"
         >
-          <p class="mb-4">Peuvent soutenir : </p> :
+          <p class="mb-4">Peuvent soutenir :
             <ul>
                 <li> les agents de collectivités territoriales ;</li>
                 <li> les élus représentant des collectivités.</li>
-            </ul>
-          <p class="mb-4">Ne peuvent pas soutenir : </p> :
+            </ul> </p>
+          <p class="mb-4">Ne peuvent pas soutenir :
             <ul>
                 <li> une association ;</li>
                 <li> une entreprise ; </li>
                 <li> un groupement de collectivités.</li>
-            </ul>
-          <p class="mb-4"> Les règles de soutien sont les suivantes : </p>
+            </ul></p>
+          <p class="mb-4"> Les règles de soutien sont les suivantes :
             <ul>
                 <li> 1 seul soutien par collectivité territoriale sera comptabilisé par proposition ;</li>
                 <li> chaque participant (agents et élus) peut soutenir des propositions selon ses convictions ; ; </li>
                 <li> les soutiens émanant d'acteurs qui ne sont pas des collectivités seront écartés.</li>
-            </ul>
+            </ul></p>
          </div>
       </div>
 
@@ -207,7 +207,7 @@
           @click="faq8 = !faq8"
         >
           <div class="text-gray-500 mt-1 mr-2">
-            <svg :class="{ 'transform rotate-90' : faq3 }" class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="M9 5l7 7-7 7"></path></svg>
+            <svg :class="{ 'transform rotate-90' : faq8 }" class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="M9 5l7 7-7 7"></path></svg>
           </div>
           <div>
             <div class="titre">
@@ -229,7 +229,7 @@
           @click="faq9 = !faq9"
         >
           <div class="text-gray-500 mt-1 mr-2">
-            <svg :class="{ 'transform rotate-90' : faq3 }" class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="M9 5l7 7-7 7"></path></svg>
+            <svg :class="{ 'transform rotate-90' : faq9 }" class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="M9 5l7 7-7 7"></path></svg>
           </div>
           <div>
             <div class="titre">
@@ -251,7 +251,7 @@
           @click="faq10 = !faq10"
         >
           <div class="text-gray-500 mt-1 mr-2">
-            <svg :class="{ 'transform rotate-90' : faq3 }" class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="M9 5l7 7-7 7"></path></svg>
+            <svg :class="{ 'transform rotate-90' : faq10 }" class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="M9 5l7 7-7 7"></path></svg>
           </div>
           <div>
             <div class="titre">
@@ -273,7 +273,7 @@
           @click="faq11 = !faq11"
         >
           <div class="text-gray-500 mt-1 mr-2">
-            <svg :class="{ 'transform rotate-90' : faq3 }" class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="M9 5l7 7-7 7"></path></svg>
+            <svg :class="{ 'transform rotate-90' : faq11 }" class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="M9 5l7 7-7 7"></path></svg>
           </div>
           <div>
             <div class="titre">
@@ -455,7 +455,13 @@ export default {
       faq2: false,
       faq3: false,
       faq4: false,
-      faq5: false
+      faq5: false,
+      faq6: false,
+      faq7: false,
+      faq8: false,
+      faq9: false,
+      faq10: false,
+      faq11 : false
     }
   }
 };
