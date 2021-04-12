@@ -905,7 +905,7 @@ import PageContent from "~/components/PageContent.vue";
 
 export default {
   metaInfo: {
-    title: "France Relance : Programme national d'investigations",
+    title: "France Relance : Foire aux Questions",
   },
   components: {
     PageTitle,
