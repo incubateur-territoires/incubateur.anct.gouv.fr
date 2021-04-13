@@ -52,7 +52,7 @@
           v-if="faq2"
         >
           <p class="mb-4">
-            Vous retrouverez le support de présentation : <g-link to="https://incubateur.anct.gouv.fr/pdf/Presentation%20rdv%20des%20terrtioires%20etape%202.pdf"> ici.</g-link>
+            Vous retrouverez le support de présentation : <a href="https://incubateur.anct.gouv.fr/pdf/Presentation%20rdv%20des%20terrtioires%20etape%202.pdf"> ici.</a>
           </p>
          </div>
       </div>
