@@ -995,7 +995,7 @@ li {
   }
 
   .titre {
-    @apply text-2xl font-semibold font-marianne text-navy;
+    @apply text-lg font-semibold font-marianne text-navy;
   }
 
   .dates {
