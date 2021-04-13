@@ -28,7 +28,7 @@
           v-if="faq1"
         >
           <p class="mb-4">
-            Vous pouvez consulter les dates et horaires de l'ensemble de nos webinaires <g-link to="https://app.livestorm.co/incubateur-des-territoires/le-rdv-des-territoires-avec-lincubateur?type=detailed"> via ce lien.</g-link>
+            Vous pouvez consulter les dates et horaires de l'ensemble de nos webinaires : <g-link to="https://app.livestorm.co/incubateur-des-territoires/le-rdv-des-territoires-avec-lincubateur?type=detailed"> ici.</g-link>
           </p>
          </div>
       </div>
@@ -43,7 +43,7 @@
           </div>
           <div>
             <div class="titre">
-              Où retrouve-t-on le support de ces webinaires ?
+              Où peut-on retrouver le support de présentation de ces webinaires ?
             </div>
           </div>
         </div>
@@ -52,7 +52,7 @@
           v-if="faq2"
         >
           <p class="mb-4">
-            Vous retrouverez le support de présentation : <g-link to="/static/pdf/Presentation rdv des terrtioires etape 2.pdf"> ici.</g-link>
+            Vous retrouverez le support de présentation : <g-link to="https://incubateur.anct.gouv.fr/pdf/Presentation%20rdv%20des%20terrtioires%20etape%202.pdf"> ici.</g-link>
           </p>
          </div>
       </div>
@@ -76,7 +76,7 @@
           v-if="faq3"
         >
           <p class="mb-4">
-            Oui, vous pouvez retrouver nos webinaires en replay sur notre chaîne youtube : <g-link to="https://youtu.be/88TTkrL0g2g"> ici.</g-link>
+            Oui, vous pouvez retrouver nos webinaires en replay : <g-link to="https://youtu.be/88TTkrL0g2g"> ici.</g-link>
           </p>
          </div>
       </div>
@@ -107,7 +107,7 @@
           class="content"
           v-if="faq4"
         >
-          <p class="mb-4">Pour soutenir une proposition parmi les 67, oui, il faut se créer un compte.</p>
+          <p class="mb-4">Oui, pour soutenir une proposition parmi les 67, il faut se créer un compte sur : <g-link to="https://mon.incubateur.anct.gouv.fr"> la plateforme de consultation.</g-link></p>
          </div>
       </div>
 
@@ -129,7 +129,7 @@
           class="content"
           v-if="faq5"
         >
-          <p class="mb-4">Les soutiens des collectivités sont tous au même niveau quelque soit la taille des collectivités. Par ailleurs, si techniquement l'ensemble des acteurs peuvent soutenir sur la plateforme les propositions qui les intéressent, l'équipe de l'Incubateur des Territoires ne comptabilisera par nouvelle proposition qu'un unique soutien par collectivité. Le nombre de propositions qu'il est possible de soutenir par collectivité n'est pas limité. </p>
+          <p class="mb-4">Les soutiens des collectivités sont tous au même niveau quelle que soit la taille des collectivités. Par ailleurs, si techniquement l'ensemble des acteurs peuvent soutenir sur la plateforme les propositions qui les intéressent, l'équipe de l'Incubateur des Territoires ne comptabilisera qu'un unique soutien par collectivité par nouvelle proposition. Le nombre de propositions qu'il est possible de soutenir par collectivité n'est pas limité. </p>
          </div>
       </div>
 
@@ -153,13 +153,12 @@
         >
           <p class="mb-4">La consultation a permis de collecter, entre le 25 janvier et le 15 mars, 476 propositions : </p>
             <p class="mb-4"><ul>
-                <li> de besoins et de services existants;</li>
-                <li> partagées par des acteurs des territoires;</li>
-                <li> élus, agents et partenaires des collectivités territoriales.</li>
+                <li> de besoins et de services existants ;</li>
+                <li> partagées par des acteurs des territoires, des élus, agents et partenaires des collectivités territoriales.</li>
              </ul></p>
           <p class="mb-4"> Parmi ces propositions : 81 ont été réorientées, 4 rejetées car inéligibles et 391 ont été regroupées au sein de 67 nouvelles propositions.</p>
           <p class="mb-4"> Du 1er avril au 1er mai, les collectivités territoriales peuvent manifester leur soutien aux nouvelles propositions qu’elles jugent prioritaires pour les territoires.</p>
-          <p class="mb-4"> L'objectif est de soutenir des propositions parmi les 67 regroupements et non pas de soutenir directement un service numérique déposé sur la plateforme.</p>
+          <p class="mb-4"> L'objectif est de soutenir des propositions parmi les 67 regroupements et non pas de soutenir directement un service numérique initialement déposé sur la plateforme.</p>
          </div>
       </div>
 
@@ -219,7 +218,7 @@
           class="content"
           v-if="faq8"
         >
-          <p class="mb-4">Si la proposition dans laquelle vous êtes cités est selectionnée par le comité : des groupes de travail seront organisés pour approfondir les besoins des territoires et des rendez-vous se tiendront en bilatéral avec les porteurs de services pour bien cerner les opportunités existantes. Vous n'avez pas d'actions particulières à mener auprès des autres contributions réunies au sein de cette proposition. </p>
+          <p class="mb-4">Si la proposition dans laquelle vous êtes cités est selectionnée par le comité : des groupes de travail seront organisés pour approfondir les besoins des territoires et des auditions auront lieu avec les porteurs de services pour bien cerner les opportunités existantes. Vous n'avez pas d'actions particulières à mener auprès des autres contributions réunies au sein de cette proposition. </p>
          </div>
       </div>
 
@@ -255,7 +254,7 @@
           </div>
           <div>
             <div class="titre">
-              Comment allez vous "vérifier" les soutiens en terme de représentation d'une collectivité ?
+              Comment allez vous "vérifier" qu'un soutien émanen bien d'une collectivité ?
             </div>
           </div>
         </div>
@@ -263,7 +262,7 @@
           class="content"
           v-if="faq10"
         >
-        <p class="mb-4">La plateforme de consultation sur laquelle sont collectées les soutiens, nous permet d'extraire ces données et de vérifier les soutiens notamment grâce aux noms de domaine des adresses mails utilisées. </p>
+        <p class="mb-4">La plateforme de consultation sur laquelle sont collectées les soutiens, nous permet d'extraire ces données et de vérifier les soutiens notamment grâce aux noms de domaine des adresses e-mail utilisées. </p>
          </div>
       </div>
 
@@ -364,8 +363,8 @@
           v-if="faq14"
         >
           <p class="mb-4">Vous pouvez effectuer une recherche sur la barre de recherche du site en utilisant le nom du créateur de la proposition en ligne ou encore le nom de la proposition. </p>
-          <p class="mb-4">Vous avez dû par ailleurs recevoir un email vous informant de la proposition intégrant votre contribution. </p>
-          <p class="mb-4">De plus, en réponse à votre proposition initiale, vous trouverez sur la plateforme mon.incubateur le lien vers la nouvelle proposition.</p>
+          <p class="mb-4">Vous avez dû par ailleurs recevoir un e-mail vous informant de la proposition intégrant votre contribution. </p>
+          <p class="mb-4">De plus, vous trouverez sur la plateforme <g-link to="https://mon.incubateur.anct.gouv.fr"> mon.incubateur.anct.gouv.fr.</g-link> le lien vers la nouvelle proposition en réponse à votre proposition initiale.</p>
          </div>
       </div>
 
@@ -388,7 +387,7 @@
           v-if="faq15"
         >
           <p class="mb-4">
-          Dans le cadre de l'étape 2, jusqu'au 30 avril, les collectivités sont invitées à soutenir les propositions qui leur semblent stratégiques pour leur territoire. L'étape 3, du 3 mai au 30 juin, sera l'occasion d'approfondir séparemment l'étude des besoins et des services existants qui ont été précedemment regroupés.
+          Dans le cadre de l'étape 2, jusqu'au 1er mai, les collectivités sont invitées à soutenir les propositions qui leur semblent stratégiques pour leur territoire. L'étape 3, du 3 mai au 30 juin, sera l'occasion d'approfondir séparemment l'étude des besoins et des services existants qui ont été précedemment regroupés.
           </p>
          </div>
       </div>
@@ -412,7 +411,7 @@
           v-if="faq16"
         >
           <p class="mb-4">
-            Nous avons redirigé certaines propositions de matériel vers le programme Société numérique de l'ANCT puisqu'il pilote une axe du plan de relance dédié à l'outillage des acteurs de l'inclusion numérique. Par exemple, nous avons reçu un certain nombre de propositions qui concernaient le financement de tablettes numériques, notamment pour des ateliers de médiation numérique, ou encore de matériel informatique pour les sessions d'accompagnement et de médiation numérique auprès de public.
+            Nous avons redirigé certaines propositions de matériel vers le programme Société numérique de l'ANCT puisqu'il pilote un axe du plan de relance dédié à l'outillage des acteurs de l'inclusion numérique. Par exemple, nous avons reçu un certain nombre de propositions qui concernaient le financement de tablettes numériques, notamment pour des ateliers de médiation numérique, ou encore de matériel informatique pour les sessions d'accompagnement et de médiation numérique auprès de public.
            </p>
          </div>
       </div>
@@ -436,7 +435,7 @@
           v-if="faq17"
         >
           <p class="mb-4">
-           Non, l'objectif de ces regroupements est seulement de faciliter la prise de décision par le 1er comité de sélection qui va prioriser des propositions à approfondir tant du côté des besoins que des services. Le second comité de sélection réalisera une sélection à la maille des contributions initiales. Il n'est pas toujours pertinent de faire la jonction entre les contributions initiales. S'il s'agit de besoins émanant de collectivités territoriales, ces derniers pourront être étudiés collectivement lors des groupes de travail de la phase 3.
+           A ce stade, il n'y a pas de "jonction" ou de fusion à effectuer. l'objectif de ces regroupements est seulement de faciliter la prise de décision par le 1er comité de sélection qui va prioriser des propositions à approfondir tant du côté des besoins que des services. Le second comité de sélection réalisera une sélection à la maille des contributions initiales. Il n'est pas toujours pertinent de faire la jonction entre les contributions initiales. S'il s'agit de besoins émanant de collectivités territoriales, ces derniers pourront être étudiés collectivement lors des groupes de travail de l'étape 3.
           </p>
          </div>
       </div>
@@ -492,7 +491,7 @@
           v-if="faq19"
         >
           <p class="mb-4">
-          Ces services seront développés en code ouvert (open source), donc les collectivités pourront les installer librement sur leurs serveurs. Par ailleurs, dans la mesure du possible, nous allons également financer le déploiement de ces services au sein de nouvelles collectivités.
+          Ces services sont développés en code ouvert (open source), donc les collectivités pourront les installer librement sur leurs serveurs. Par ailleurs, dans la mesure du possible, nous allons également financer le déploiement de ces services au sein de nouvelles collectivités.
           </p>
          </div>
       </div>
@@ -515,9 +514,9 @@
           class="content"
           v-if="faq20"
         >
-          <p class="mb-4"> Plusieurs scénarios sont possibles pour le développement et le déploiement de services numériques : </p>
+          <p class="mb-4"> Plusieurs scénarios sont possibles pour le développement et le déploiement de ces services numériques : </p>
           <p class="mb-4"><ul>
-            <li>un financement du porteur de service et d'eventuels partenaires ; </li>
+            <li>un financement du porteur de service et d'éventuels partenaires ; </li>
             <li>un portage au sein de l'Incubateur des Territoires en utilisant les marchés publics dont dispose l'ANCT.</li>
           </ul></p>
          </div>
@@ -542,7 +541,7 @@
           v-if="faq21"
         >
           <p class="mb-4">
-          Dans la mesure du possible, ces services seront construits pour être personnalisables en marque blanche (logo, visuels, etc.), par ailleurs, les groupes de travail permettront de concerter les collectivités sur leurs besoins prioritaires.
+          Dans la mesure du possible, ces services seront construits pour être personnalisables en marque blanche (logo, visuels, etc.). Par ailleurs, les groupes de travail permettront de concerter les collectivités sur leurs besoins prioritaires.
           </p>
          </div>
       </div>
@@ -614,7 +613,7 @@
           v-if="faq24"
         >
           <p class="mb-4">
-            Les financements seront fléchés dans la majorité des cas aux porteurs de services.
+            Les financements seront fléchés dans la majorité des cas aux porteurs de ces services.
           </p>
          </div>
       </div>
@@ -720,7 +719,7 @@
           v-if="faq28"
         >
           <p class="mb-4">
-          Le comité de sélection suivra son règlement et exigera un déport des personnes conflictées lorsque les services qui les concernent seront évoqués.
+          Le comité de sélection va disposer d'un règlement et sera organisé un déport des personnes conflictées lorsque les services qui les concernent seront évoqués.
           </p>
          </div>
       </div>
@@ -744,7 +743,7 @@
           v-if="faq29"
         >
           <p class="mb-4">
-          Le comité sera composé d'associations de collectivités territoriales (AMRF, AMF, ADF, France Urbaine, Interconnectés, FNCCR, DECLIC), d'élus ainsi que des représentants de la DINUM, DITP et ANCT.
+          Le comité est composé d'associations de collectivités territoriales (AMRF, AMF, ADF, France Urbaine, Interconnectés, FNCCR, DECLIC), d'élus ainsi que des représentants de la DINUM, DITP et ANCT.
           </p>
          </div>
       </div>
@@ -875,7 +874,7 @@
           <p class="mb-4"> Après le comité de sélection du 3 mai, les propositions sélectionnées feront l'objet de : </p>
           <p class="mb-4"> <ul>
                 <li> groupes de travail facilitant l'expression de besoins des collectivités ;</li>
-                <li> audition avec chacun des porteurs de services existants pour mieux connaitre leur proposition de valeur;</li>
+                <li> audition avec chacun des porteurs de services existants pour mieux connaitre leur proposition de valeur.</li>
              </ul></p>
           <p class="mb-4"> Sur la base de ces travaux, l'équipe de l'Incubateur des Territoires partagera une analyse technique au comité de sélection pour qu'il décide le 5 juillet des services à financer et à construire pour le plus grand nombre de collectivités territoriales. </p>
          </div>
