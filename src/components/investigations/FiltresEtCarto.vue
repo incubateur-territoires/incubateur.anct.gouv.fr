@@ -1,14 +1,18 @@
 <template>
   <div class="font-marianne text-xl flex gap-x-8 mb-8">
-    <!-- <li class="inline-flex">Investigations à venir <span></span></li> -->
+    <!-- <li class="inline-flex">En preparation <span></span></li> -->
     <a
-      :class="{ selected: statusFilter === 'en_cours' }"
+      :class="{ selected: statusFilters.includes('en_preparation') }"
+      @click="$emit('clicked', 'en_preparation')"
+    >En préparation <span class="ml-2">{{ enPreparationCount }}</span></a>
+    <a
+      :class="{ selected: statusFilters.includes('en_cours') }"
       @click="$emit('clicked', 'en_cours')"
-    >Investigations en cours <span class="ml-2">{{ enCoursCount }}</span></a>
+    >En cours <span class="ml-2">{{ enCoursCount }}</span></a>
     <a
-      :class="{ selected: statusFilter === 'termine' }"
+      :class="{ selected: statusFilters.includes('termine') }"
       @click="$emit('clicked', 'termine')"
-    >Investigations passés <span class="ml-2">{{ termineCount }}</span></a>
+    >Passés <span class="ml-2">{{ termineCount }}</span></a>
 
     <!-- <Carto /> -->
   </div>
@@ -22,9 +26,10 @@ export default {
     Carto
   },
   props: {
+    enPreparationCount: Number,
     enCoursCount: Number,
     termineCount: Number,
-    statusFilter: String
+    statusFilters: Array
   }
 }
 </script>

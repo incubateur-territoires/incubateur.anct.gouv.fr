@@ -21,32 +21,25 @@
     <FiltresEtCarto
       :enCoursCount=enCoursCount
       :termineCount=termineCount
-      :statusFilter=statusFilter
+      :enPreparationCount=enPreparationCount
+      :statusFilters=statusFilters
       @clicked="onStatusFilterClick"
     />
 
-    <ServiceCard
+    <InvestigationCard
       v-for="node in filteredInvestigations"
       :id="node.id"
       :status="node.status"
       :key="node.id"
       :name="node.nom"
       :pitch="node.mission"
-      :contact="node.contact"
-      :beta_url="node.beta_url"
-      :repo_url="node.repo_url"
-      :stats_url="node.stats_url"
-      :service_url="node.service_url"
-      :communes="node.communes"
-      :departements="node.departements"
-      :regions="node.regions"
-      :epcis="node.epcis"
+      :collectivites="node.collectivites"
     />
   </div>
 </template>
 
 <script>
-import ServiceCard from '~/components/ServiceCard.vue'
+import InvestigationCard from '~/components/investigations/InvestigationCard.vue'
 import FiltresEtCarto from '~/components/investigations/FiltresEtCarto.vue'
 
 import { gql } from 'graphql-request';
@@ -57,12 +50,16 @@ export default {
     allInvestigations: Boolean
   },
   components: {
-    ServiceCard,
+    InvestigationCard,
     FiltresEtCarto
   },
   methods: {
     onStatusFilterClick(value) {
-      this.statusFilter = value;
+      if (this.statusFilters.includes(value)) {
+        this.statusFilters = this.statusFilters.filter(filter => filter !== value)
+      } else {
+        this.statusFilters.push(value)
+      }
     },
     onPromotionsChange(event) {
       const value = event.target.value;
@@ -80,29 +77,31 @@ export default {
         query = gql`
           query {
             items {
-              en_cours: investigations(filter: { 
-                status: { _eq: "en cours" }
-              }) {
+              investigations {
                 id
                 nom
                 status
                 mission
-                beta_url
-                repo_url
-                stats_url
-                service_url
-              }
-              termine: investigations(filter: { 
-                status: { _eq: "termine" }
-              }) {
-                id
-                nom
-                status
-                mission
-                beta_url
-                repo_url
-                stats_url
-                service_url
+                communes {
+                  commune: communes_id {
+                    nom
+                  }
+                }
+                departements {
+                  departement: departements_id {
+                    nom
+                  }
+                }
+                regions {
+                  region: regions_id {
+                    nom
+                  }
+                }
+                epcis {
+                  epci: epcis_id {
+                    nom
+                  }
+                }
               }
               promotions {
                 id
@@ -114,31 +113,33 @@ export default {
         query = gql`
           query {
             items {
-              en_cours: investigations(filter: { 
-                status: { _eq: "en cours" },
+              investigations(filter: { 
                 promotion: { id: { _eq: ${this.promotionId} } }
               }) {
                 id
                 nom
                 status
                 mission
-                beta_url
-                repo_url
-                stats_url
-                service_url
-              }
-              termine: investigations(filter: { 
-                status: { _eq: "termine" },
-                promotion: { id: { _eq: ${this.promotionId} } }
-              }) {
-                id
-                nom
-                status
-                mission
-                beta_url
-                repo_url
-                stats_url
-                service_url
+                communes {
+                  commune: communes_id {
+                    nom
+                  }
+                }
+                departements {
+                  departement: departements_id {
+                    nom
+                  }
+                }
+                regions {
+                  region: regions_id {
+                    nom
+                  }
+                }
+                epcis {
+                  epci: epcis_id {
+                    nom
+                  }
+                }
               }
               promotions {
                 id
@@ -158,27 +159,45 @@ export default {
     }
   },
   computed: {
+    enPreparationCount: function () {
+      return this.investigationsEnPreparation.length;
+    },
     enCoursCount: function () {
-      return this.items.en_cours.length;
+      return this.investigationsEnCours.length;
     },
     termineCount: function () {
-      return this.items.termine.length;
+      return this.investigationsTermine.length;
+    },
+    investigationsEnPreparation: function () {
+      return this.items.investigations.filter(item => item.status === "en_preparation")
+    },
+    investigationsEnCours: function () {
+      return this.items.investigations.filter(item => item.status === "en_cours")
+    },
+    investigationsTermine: function () {
+      return this.items.investigations.filter(item => item.status === "termine")
     },
     filteredInvestigations: function () {
-      if (this.statusFilter === "en_cours") {
-        return this.items.en_cours;
-      } else if (this.statusFilter === "termine") {
-        return this.items.termine;
-      }
+      const filtered = this.items.investigations.filter(item => this.statusFilters.includes(item.status))
+      return filtered.map(item => {
+        const collectivites = [];
+
+        item.communes.forEach(c => collectivites.push(c.commune.nom))
+        item.departements.forEach(d => collectivites.push(d.departement.nom))
+        item.regions.forEach(r => collectivites.push(r.region.nom))
+        item.epcis.forEach(e => collectivites.push(e.epci.nom))
+
+        item.collectivites = collectivites
+        return item;
+      })
     }
   },
   data() {
     return {
-      statusFilter: "en_cours",
+      statusFilters: ["en_cours", "termine", "en_preparation"],
       selectedPromotionsPath: this.promotionId ? this.promotionId : 'all',
       items: {
-        en_cours: [],
-        termine: [],
+        investigations: [],
         promotions: []
       }
     }
