@@ -49,12 +49,17 @@ import '@/plugins/graphql'
 import LogRocket from 'logrocket';
 LogRocket.init('xz8jmz/incubateuranctgouvfr');
 
+// Lodash
+import VueLodash from 'vue-lodash'
+import startCase from 'lodash/startCase'
+
 export default function (Vue, { router, head, isClient }) {
   // Set default layout as a global component
   Vue.component('Layout', DefaultLayout)
   Vue.component('font-awesome', FontAwesomeIcon)
 
   Vue.use(vClickOutside)
+  Vue.use(VueLodash, { name: 'custom', lodash: { startCase } })
 
   let ROOT_PATH = 'https://incubateur.anct.gouv.fr'
 
