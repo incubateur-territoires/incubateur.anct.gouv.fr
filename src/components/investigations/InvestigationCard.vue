@@ -5,10 +5,10 @@
       >
         <div class="investigation-card">
           <div>
-            <div :class=status class="status">{{ this.lodash.startCase(status) }}</div>
+            <div :class=status class="status">{{ humanizedStatus }}</div>
             <div class="pitch" v-html="pitch" />
           </div>
-          <div class="flex flex-row-reverse flex-1 justify-between mt-4">
+          <div class="flex flex-row flex-1 justify-between mt-4">
             <ul class="collectivites">
               <li v-for="nom, idx in collectivites" :key=idx>{{nom}}</li>
             </ul>
@@ -29,14 +29,22 @@ export default {
     collectivites: Array,
   },
   computed: {
-    mailto: function () {
-      return `mailto:${this.contact}`
+    humanizedStatus: function () {
+      if (this.status === "en_cours") {
+        return "En cours"
+      } else
+      if (this.status === "termine") {
+        return "Passé"
+      } else  
+      if (this.status === "en_preparation") {
+        return "En préparation"
+      }
     }
   }
 }
 </script>
 
-<style lang="scss">
+<style lang="scss" scoped>
 .investigation-card-container {
   @apply max-w-screen-md mx-auto mb-8;
 }
@@ -64,16 +72,16 @@ export default {
     }
 
     &.termine {
-      @apply bg-yellow-400;
+      @apply bg-yellow-600;
     }
   }
 
   .title {
-    @apply font-marianne text-xl font-bold text-navy leading-none;
+    @apply font-marianne text-lg text-navy leading-none;
   }
 
   .collectivites {
-   @apply float-right;
+    @apply font-marianne text-lg font-bold text-gray-800;
   }
 }
 </style>

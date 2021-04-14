@@ -19,7 +19,7 @@ Les collectivités et les groupements de collectivités intéressés par ce prog
 
 
 <!-- <a href="https://airtable.com/shrLx1W28BkkjE9xf" class="cta">Etre recontacté au sujet du programme national d’investigations →</a><br> -->
-<a href="/actions/programme-investigation/" class="cta">Voir des investigations en cours →</a>
+<a href="/investigations/" class="cta">Voir des investigations en cours →</a>
 
 # Développer un service public numérique
 
