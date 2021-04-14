@@ -6,15 +6,25 @@
       </PageTitle>
 
       <div class="px-4">
-        <!-- <PageContent v-html="$page.pageContent.content" /> -->
+        <PageContent v-html="$page.pageContent.content" />
 
-        <InvestigationsList 
+        <InvestigationsList
+          class="mt-8"
           :allInvestigations=true
         />
       </div>
     </div>  
   </Layout>
 </template>
+
+<page-query>
+query {
+  pageContent(id: "programme-investigation") {
+    title
+    content
+  }
+}
+</page-query>
 
 <script>
 import PageTitle from '~/components/PageTitle.vue'
