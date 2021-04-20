@@ -2,6 +2,7 @@
   "name": "incubateur.anct.gouv.fr",
   "private": true,
   "scripts": {
+    "start": "",
     "build": "gridsome build",
     "develop": "gridsome develop",
     "explore": "gridsome explore",
