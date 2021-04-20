@@ -24,7 +24,7 @@ Vous rejoindrez l'[équipe autonome](https://blog.beta.gouv.fr/general/2016/11/2
 Nous cherchons deux personnes pour faire équipe et nous aider à atteindre les objectifs suivants :
 
 - La communauté OpenFisca France se structure autour d’une organisation pérenne (association, …) au modèle économique soutenable.
-- La contribution sur OpenFica, en France en particulier, est facilitée.
+- La contribution sur OpenFisca, en France en particulier, est facilitée.
 - La communauté OpenFisca internationale actuelle bénéficie d’un accompagnement accéléré dans la réalisation de ses développements OpenFisca et de l’accès aux informations concernant le moteur et les évolutions du produit.
 - De nouvelles collectivités territoriales Françaises mettent en ligne leurs prestations sociales locales.
 
