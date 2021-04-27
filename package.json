@@ -2,6 +2,7 @@
   "name": "incubateur.anct.gouv.fr",
   "private": true,
   "scripts": {
+    "start": "",
     "build": "gridsome build",
     "develop": "gridsome develop",
     "explore": "gridsome explore",
@@ -17,18 +18,24 @@
     "@fortawesome/vue-fontawesome": "^0.1.10",
     "@gridsome/source-filesystem": "^0.6.2",
     "@gridsome/transformer-remark": "^0.6.0",
+    "@tailwindcss/forms": "^0.3.2",
     "autoprefixer": "^9.8.6",
     "axios": "^0.20.0",
     "dayjs": "^1.9.3",
     "gh-pages": "^3.0.0",
+    "graphql": "^15.5.0",
+    "graphql-request": "^3.4.0",
     "gridsome": "^0.7.23",
     "gridsome-plugin-matomo": "^0.1.0",
     "gridsome-plugin-netlify-cms": "^1.0.9",
+    "lodash": "^4.17.21",
     "logrocket": "^1.0.14",
+    "maplibre-gl": "^1.14.0",
     "netlify-cms": "^2.10.63",
     "postcss": "^7.0.35",
     "tailwindcss": "npm:@tailwindcss/postcss7-compat@^2.0.1",
-    "v-click-outside": "^3.1.2"
+    "v-click-outside": "^3.1.2",
+    "vue-lodash": "^2.1.2"
   },
   "devDependencies": {
     "gridsome-plugin-tailwindcss": "^4.1.0",
