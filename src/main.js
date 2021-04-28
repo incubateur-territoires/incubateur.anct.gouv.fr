@@ -46,6 +46,9 @@ library.add(
 import '@/plugins/Dayjs'
 import '@/plugins/graphql'
 
+// Helpers
+import stringHelpers from '@/helpers/string-helpers'
+
 import LogRocket from 'logrocket';
 LogRocket.init('xz8jmz/incubateuranctgouvfr');
 
@@ -57,6 +60,9 @@ export default function (Vue, { router, head, isClient }) {
   // Set default layout as a global component
   Vue.component('Layout', DefaultLayout)
   Vue.component('font-awesome', FontAwesomeIcon)
+
+  Vue.prototype.stringHelpers = stringHelpers
+  Vue.stringHelpers = stringHelpers
 
   Vue.use(vClickOutside)
   Vue.use(VueLodash, { name: 'custom', lodash: { startCase } })

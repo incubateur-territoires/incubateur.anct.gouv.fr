@@ -5,7 +5,7 @@
       >
         <div class="investigation-card">
           <div>
-            <div :class=status class="status">{{ humanizedStatus }}</div>
+            <div :class=status class="status">{{ this.stringHelpers.humanizedInvestigationStatus(this.status) }}</div>
             <div class="pitch" v-html="pitch" />
           </div>
           <div class="flex flex-row flex-1 justify-between mt-4">
@@ -27,19 +27,6 @@ export default {
     pitch: String,
     status: String,
     collectivites: Array,
-  },
-  computed: {
-    humanizedStatus: function () {
-      if (this.status === "en_cours") {
-        return "En cours"
-      } else
-      if (this.status === "termine") {
-        return "Passé"
-      } else  
-      if (this.status === "en_preparation") {
-        return "En préparation"
-      }
-    }
   }
 }
 </script>

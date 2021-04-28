@@ -22,9 +22,19 @@
       :enCoursCount=enCoursCount
       :termineCount=termineCount
       :enPreparationCount=enPreparationCount
+      :communesCount=communesCount
+      :epcisCount=epcisCount
+      :departementsCount=departementsCount
+      :regionsCount=regionsCount
       :statusFilters=statusFilters
-      @clicked="onStatusFilterClick"
+      :collectivitesFilters=collectivitesFilters
+      @statusFilterClicked="statusFilterClicked"
+      @collectiviteFilterClicked="collectivitesFilterClicked"
     />
+
+    <div class="mb-4 text-lg">
+      {{ filteredInvestigations.length }} investigations
+    </div>
 
     <InvestigationCard
       v-for="node in filteredInvestigations"
@@ -54,11 +64,18 @@ export default {
     FiltresEtCarto
   },
   methods: {
-    onStatusFilterClick(value) {
+    statusFilterClicked(value) {
       if (this.statusFilters.includes(value)) {
         this.statusFilters = this.statusFilters.filter(filter => filter !== value)
       } else {
         this.statusFilters.push(value)
+      }
+    },
+    collectivitesFilterClicked(value) {
+      if (this.collectivitesFilters.includes(value)) {
+        this.collectivitesFilters = this.collectivitesFilters.filter(filter => filter !== value)
+      } else {
+        this.collectivitesFilters.push(value)
       }
     },
     onPromotionsChange(event) {
@@ -168,6 +185,18 @@ export default {
     termineCount: function () {
       return this.investigationsTermine.length;
     },
+    communesCount: function () {
+      return this.items.investigations.filter(item => item.communes.length > 0).length
+    },
+    epcisCount: function () {
+      return this.items.investigations.filter(item => item.epcis.length > 0).length
+    },
+    departementsCount: function () {
+      return this.items.investigations.filter(item => item.departements.length > 0).length
+    },
+    regionsCount: function () {
+      return this.items.investigations.filter(item => item.regions.length > 0).length
+    },
     investigationsEnPreparation: function () {
       return this.items.investigations.filter(item => item.status === "en_preparation")
     },
@@ -177,24 +206,35 @@ export default {
     investigationsTermine: function () {
       return this.items.investigations.filter(item => item.status === "termine")
     },
-    filteredInvestigations: function () {
-      const filtered = this.items.investigations.filter(item => this.statusFilters.includes(item.status))
-      return filtered.map(item => {
+    investigations: function() {
+      return this.items.investigations.map(item => {
         const collectivites = [];
-
         item.communes.forEach(c => collectivites.push(c.commune.nom))
         item.departements.forEach(d => collectivites.push(d.departement.nom))
         item.regions.forEach(r => collectivites.push(r.region.nom))
         item.epcis.forEach(e => collectivites.push(e.epci.nom))
-
         item.collectivites = collectivites
+
+        const collectivitesTypes = [];
+        if (item.communes.length > 0) { collectivitesTypes.push('communes') }
+        if (item.departements.length > 0) { collectivitesTypes.push('departements') }
+        if (item.regions.length > 0) { collectivitesTypes.push('regions') }
+        if (item.epcis.length > 0) { collectivitesTypes.push('epcis') }
+        item.collectivitesTypes = collectivitesTypes
+        
         return item;
       })
+    },
+    filteredInvestigations: function () {
+      return this.investigations
+        .filter(item => this.statusFilters.includes(item.status))
+        .filter(item => this.collectivitesFilters.some(c => item.collectivitesTypes.includes(c)))
     }
   },
   data() {
     return {
       statusFilters: ["en_cours", "termine", "en_preparation"],
+      collectivitesFilters: ["communes", "departements", "epcis", "regions"],
       selectedPromotionsPath: this.promotionId ? this.promotionId : 'all',
       items: {
         investigations: [],
