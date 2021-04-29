@@ -30,6 +30,17 @@ module.exports = {
       }
     },
     {
+      use: '@gridsome/source-graphql',
+      options: {
+        url: process.env.GRAPHQL_URL,
+        fieldName: 'directus',
+        typeName: 'directusTypes',
+        headers: {
+          Authorization: `Bearer ${process.env.GRAPHQL_TOKEN}`,
+        },
+      },
+    },
+    {
       use: `gridsome-plugin-netlify-cms`,
       options: {
         publicPath: `/admin`
