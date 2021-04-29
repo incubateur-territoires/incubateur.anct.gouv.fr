@@ -73,47 +73,45 @@ export default {
 
     const query = gql`
     query {
-      items {
-        investigations(filter: { id: { _eq: ${id} } }) {
+      investigations(filter: { id: { _eq: ${id} } }) {
+        id
+        nom
+        mission
+        status
+        fiche_de_probleme
+        promotion {
           id
           nom
-          mission
-          status
-          fiche_de_probleme
-          promotion {
-            id
+        }
+        beta_url
+        repo_url
+        stats_url
+        service_url
+        communes {
+          commune: communes_id {
             nom
           }
-          beta_url
-          repo_url
-          stats_url
-          service_url
-          communes {
-            commune: communes_id {
-              nom
-            }
+        }
+        departements {
+          departement: departements_id {
+            nom
           }
-          departements {
-            departement: departements_id {
-              nom
-            }
+        }
+        regions {
+          region: regions_id {
+            nom
           }
-          regions {
-            region: regions_id {
-              nom
-            }
-          }
-          epcis {
-            epci: epcis_id {
-              nom
-            }
+        }
+        epcis {
+          epci: epcis_id {
+            nom
           }
         }
       }
     }`
 
     const response = await this.$graphql.request(query);
-    const investigation = response.items.investigations[0];
+    const investigation = response.investigations[0];
 
     // Loop over all collectivités typologies, pushing them all into a flat array
     const collectivites = [];
