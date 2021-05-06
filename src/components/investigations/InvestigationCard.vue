@@ -1,7 +1,7 @@
 <template>
   <div class="investigation-card-container">    
       <g-link
-        :to="`/investigations/${id}`"
+        :to="`/investigation/${id}`"
       >
         <div class="investigation-card">
           <div>
@@ -22,7 +22,7 @@
 <script>
 export default {
   props: {
-    id: String,
+    id: Number,
     name: String,
     pitch: String,
     status: String,

@@ -3,7 +3,7 @@
 </template>
 
 <script>
-import { Map, GeolocateControl } from 'maplibre-gl'
+// import { Map, GeolocateControl } from 'maplibre-gl'
 
 const mapTilerKey = "get_your_own_OpIi9ZULNHzrESv6T2vL"
 // at https://cloud.maptiler.com/account/keys/

@@ -10,7 +10,7 @@
           <div v-if="investigation.promotion.id">
             &nbsp;/
             <g-link  
-              :to="`/investigations/promotions/${investigation.promotion.id}`"
+              :to="`/investigations/?promo=${investigation.promotion.id}`"
             >
               {{ investigation.promotion.nom }}
             </g-link>
@@ -45,11 +45,52 @@
   </Layout>
 </template>
 
+<page-query>
+query ($id: ID!) {
+  directus {
+    investigation: investigations_by_id(id: $id) {
+      id
+      nom
+      mission
+      status
+      fiche_de_probleme
+      promotion {
+        id
+        nom
+      }
+      beta_url
+      repo_url
+      stats_url
+      service_url
+      communes {
+        commune: communes_id {
+          nom
+        }
+      }
+      departements {
+        departement: departements_id {
+          nom
+        }
+      }
+      regions {
+        region: regions_id {
+          nom
+        }
+      }
+      epcis {
+        epci: epcis_id {
+          nom
+        }
+      }
+    }
+  }
+}
+</page-query>
+
 <script>
 import PageTitle from '~/components/PageTitle.vue'
 import PageContent from '~/components/PageContent.vue'
-
-import { gql } from 'graphql-request';
+import { collectivitesArray, collectivitesTypesArray } from '~/helpers/model-helpers.js'
 
 export default {
   metaInfo: {
@@ -59,70 +100,16 @@ export default {
     PageTitle,
     PageContent
   },
-  data() {
-    return {
-      investigation: {
-        status: null,
-        collectivites: [],
-        promotion: {}
+  computed: {
+    investigation: function() {
+      const investigation = this.$page.directus.investigation;
+
+      return {
+        ...investigation,
+        collectivites: collectivitesArray(investigation),
+        collectivitesTypes: collectivitesTypesArray(investigation)
       }
     }
-  },
-  async mounted () {
-    const { id } = this.$route.params
-
-    const query = gql`
-    query {
-      investigations(filter: { id: { _eq: ${id} } }) {
-        id
-        nom
-        mission
-        status
-        fiche_de_probleme
-        promotion {
-          id
-          nom
-        }
-        beta_url
-        repo_url
-        stats_url
-        service_url
-        communes {
-          commune: communes_id {
-            nom
-          }
-        }
-        departements {
-          departement: departements_id {
-            nom
-          }
-        }
-        regions {
-          region: regions_id {
-            nom
-          }
-        }
-        epcis {
-          epci: epcis_id {
-            nom
-          }
-        }
-      }
-    }`
-
-    const response = await this.$graphql.request(query);
-    const investigation = response.investigations[0];
-
-    // Loop over all collectivités typologies, pushing them all into a flat array
-    const collectivites = [];
-    investigation.communes.forEach(c => collectivites.push(c.commune.nom))
-    investigation.departements.forEach(d => collectivites.push(d.departement.nom))
-    investigation.regions.forEach(r => collectivites.push(r.region.nom))
-    investigation.epcis.forEach(e => collectivites.push(e.epci.nom))
-
-    investigation.collectivites = collectivites;
-
-    this.investigation = investigation;
   }
 }
 </script>

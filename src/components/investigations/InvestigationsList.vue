@@ -52,12 +52,24 @@
 import InvestigationCard from '~/components/investigations/InvestigationCard.vue'
 import FiltresEtCarto from '~/components/investigations/FiltresEtCarto.vue'
 
-import { gql } from 'graphql-request';
-
 export default {
   props: {
     promotionId: String,
-    allInvestigations: Boolean
+    investigations: {
+      type: Array,
+      default: []
+    },
+    promotions: {
+      type: Array,
+      default: []
+    }
+  },
+  data() {
+    return {
+      statusFilters: ["en_cours", "termine", "en_preparation"],
+      collectivitesFilters: ["communes", "departements", "epcis", "regions"],
+      selectedPromotionsPath: this.promotionId
+    }
   },
   components: {
     InvestigationCard,
@@ -82,95 +94,11 @@ export default {
       const value = event.target.value;
       
       if (value === 'all') {
-        this.$router.push('/investigations')
+        this.$router.push('/investigations/')
       } else {
-        this.$router.push(`/investigations/promotions/${value}`)
+        this.$router.push({ path: '/investigations/', query: { promo: value }})
       }
     },
-    async fetchInvestigations() {
-      let query;
-        
-      if (this.allInvestigations) {
-        query = gql`
-          query {
-            investigations {
-              id
-              nom
-              status
-              mission
-              communes {
-                commune: communes_id {
-                  nom
-                }
-              }
-              departements {
-                departement: departements_id {
-                  nom
-                }
-              }
-              regions {
-                region: regions_id {
-                  nom
-                }
-              }
-              epcis {
-                epci: epcis_id {
-                  nom
-                }
-              }
-            }
-            promotions {
-              id
-              nom
-            }
-          }`
-      } else {
-        query = gql`
-          query {
-            investigations(filter: { 
-              promotion: { id: { _eq: ${this.promotionId} } }
-            }) {
-              id
-              nom
-              status
-              mission
-              communes {
-                commune: communes_id {
-                  nom
-                }
-              }
-              departements {
-                departement: departements_id {
-                  nom
-                }
-              }
-              regions {
-                region: regions_id {
-                  nom
-                }
-              }
-              epcis {
-                epci: epcis_id {
-                  nom
-                }
-              }
-            }
-            promotions {
-              id
-              nom
-            }
-          }`
-      }
-
-      const response = await this.$graphql.request(query);
-      this.investigations = response.investigations;
-      this.promotions = response.promotions;
-    }
-  },
-  watch: {
-    promotionId: async function () {
-      this.fetchInvestigations()
-    }
   },
   computed: {
     enPreparationCount: function () {
@@ -203,41 +131,11 @@ export default {
     investigationsTermine: function () {
       return this.investigations.filter(item => item.status === "termine")
     },
-    filteredInvestigations: function () {
-      const investigations = this.investigations.map(item => {
-        const collectivites = [];
-        item.communes.forEach(c => collectivites.push(c.commune.nom))
-        item.departements.forEach(d => collectivites.push(d.departement.nom))
-        item.regions.forEach(r => collectivites.push(r.region.nom))
-        item.epcis.forEach(e => collectivites.push(e.epci.nom))
-        item.collectivites = collectivites
-
-        const collectivitesTypes = [];
-        if (item.communes.length > 0) { collectivitesTypes.push('communes') }
-        if (item.departements.length > 0) { collectivitesTypes.push('departements') }
-        if (item.regions.length > 0) { collectivitesTypes.push('regions') }
-        if (item.epcis.length > 0) { collectivitesTypes.push('epcis') }
-        item.collectivitesTypes = collectivitesTypes
-        
-        return item;
-      })
-      
-      return investigations
+    filteredInvestigations: function () {      
+      return this.investigations
         .filter(item => this.statusFilters.includes(item.status))
         .filter(item => this.collectivitesFilters.some(c => item.collectivitesTypes.includes(c)))
     }
-  },
-  data() {
-    return {
-      statusFilters: ["en_cours", "termine", "en_preparation"],
-      collectivitesFilters: ["communes", "departements", "epcis", "regions"],
-      selectedPromotionsPath: this.promotionId ? this.promotionId : 'all',
-      investigations: [],
-      promotions: []
-    }
-  },
-  async mounted () {
-    this.fetchInvestigations()
   }
 }
 </script>

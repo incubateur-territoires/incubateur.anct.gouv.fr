@@ -10,8 +10,8 @@ const axios = require('axios')
 module.exports = function (api) {  
   // Use the Data Store API here: https://gridsome.org/docs/data-store-api/
   
-  // Startup overrides
-  api.loadSource(async actions => {
+  // Startups from Beta.gouv API
+  api.loadSource(async actions => {    
     const results = await axios.get('https://beta.gouv.fr/api/v2/startups.json')
     const startups = results.data.data
 
@@ -68,5 +68,26 @@ module.exports = function (api) {
 
   api.createPages(({ createPage }) => {
     // Use the Pages API here: https://gridsome.org/docs/pages-api/
+
+    // Investigations from Directus
+    api.createPages(async ({ graphql, createPage }) => {
+      const { data } = await graphql(`{
+        directus {
+          investigations {
+            id
+          }
+        }
+      }`)
+  
+      data.directus.investigations.forEach((node) => {
+        createPage({
+          path: `/investigation/${node.id}`,
+          component: './src/templates/Investigation.vue',
+          context: {
+            id: node.id
+          }
+        })
+      })
+    })
   })
 }

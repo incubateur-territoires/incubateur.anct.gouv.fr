@@ -44,7 +44,6 @@ library.add(
 
 //Plugins
 import '@/plugins/Dayjs'
-import '@/plugins/graphql'
 
 // Helpers
 import stringHelpers from '@/helpers/string-helpers'
