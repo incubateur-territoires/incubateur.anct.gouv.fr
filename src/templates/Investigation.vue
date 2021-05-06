@@ -7,7 +7,7 @@
 
         <div class="max-w-screen-md pt-4 pb-6 mx-auto backlinks">
           <g-link to="/investigations/">Toutes les investigations</g-link>
-          <div v-if="investigation.promotion.id">
+          <div v-if="investigation.promotion">
             &nbsp;/
             <g-link  
               :to="`/investigations/?promo=${investigation.promotion.id}`"
