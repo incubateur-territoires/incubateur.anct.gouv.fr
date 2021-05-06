@@ -14,12 +14,12 @@
           </g-link>
         </div>
 
-        <!-- <ul class="mx-auto max-w-screen-md my-8 text-lg">          
+        <!-- <ul class="mx-auto max-w-screen-md my-8 text-lg">
           <li>
             <g-link to="https://mon.incubateur.anct.gouv.fr/processes/transformation-numerique/f/3/">Pour partager mes besoins</g-link> en création ou utilisation de services numériques pour qu'elle puisse être accompagnée et financée
           </li>
           <li>
-            <g-link to="https://mon.incubateur.anct.gouv.fr/processes/transformation-numerique/f/2/">Pour partager des services numériques</g-link> existants et nécessitant un financement 
+            <g-link to="https://mon.incubateur.anct.gouv.fr/processes/transformation-numerique/f/2/">Pour partager des services numériques</g-link> existants et nécessitant un financement
           </li>
         </ul> -->
       </div>
@@ -48,9 +48,9 @@
               v-if="showEtape1"
             >
               <ul class="mb-8 mt-4">
-                <li><g-link to="https://mon.incubateur.anct.gouv.fr/processes/transformation-numerique/f/5/">Partagez vos besoins</g-link> en création ou utilisation de services numériques pour qu'elle puisse être accompagnée et financée</li>
+                <li><g-link class="disabled" to="https://mon.incubateur.anct.gouv.fr/processes/transformation-numerique/f/5/">Partagez vos besoins</g-link> en création ou utilisation de services numériques pour qu'elle puisse être accompagnée et financée</li>
                 <li>
-                  <g-link to="https://mon.incubateur.anct.gouv.fr/processes/transformation-numerique/f/2/">Partagez des services numériques</g-link> qui ont déjà fait leurs preuves pour accompagner et financer leur développement en code ouvert et leur passage à l’échelle du plus grand nombre de collectivités intéressées.
+                  <g-link class="disabled" to="https://mon.incubateur.anct.gouv.fr/processes/transformation-numerique/f/2/">Partagez des services numériques</g-link> qui ont déjà fait leurs preuves pour accompagner et financer leur développement en code ouvert et leur passage à l’échelle du plus grand nombre de collectivités intéressées.
                 </li>
                 <div class="my-4 p-2 bg-gray-100 flex items-center">
                   <!-- <svg class="w-6 h-6 text-navy" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4m0 4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg> -->
@@ -71,7 +71,7 @@
                 <svg :class="{ 'transform rotate-90' : showEtape2 }" class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="M9 5l7 7-7 7"></path></svg>
               </div>
               <div>
-                <div class="titre">Étape 2 : Soutien aux projets par les collectivités territoriales</div>
+                <div class="titre line-through">Étape 2 : Soutien aux projets par les collectivités territoriales</div>
                 <div class="dates">du 1er avril au 1er mai 2021</div>
               </div>
             </div>
@@ -82,10 +82,10 @@
               <div class="my-4">
                 Les collectivités territoriales sont invitées à manifester leur soutien aux projets qu'elles jugent prioritaires.
               </div>
-              <p class="my-4 px-4 py-2 bg-gray-100 border-l-4 border-navy text-sm"><span class="font-bold">2 avril</span> : Après une première étape de collecte des besoins et des solutions du 25 janvier au 15 mars, les collectivités sont invitées à partir du 1er avril et jusqu'au 1er mai à manifester leur soutien aux projets de services numériques qu'elles jugent prioritaires pour les territoires. <g-link to="https://app.livestorm.co/incubateur-des-territoires/le-rdv-des-territoires-avec-lincubateur?type=detailed">L'Incubateur des Territoires organise un webinaire de 45 minutes pour pouvoir repondre à toutes vos questions.</g-link> </p>
-              
+              <p class="my-4 px-4 py-2 bg-gray-100 border-l-4 border-navy text-sm"><span class="font-bold">2 avril</span> : Après une première étape de collecte des besoins et des solutions du 25 janvier au 15 mars, les collectivités sont invitées à partir du 1er avril et jusqu'au 1er mai à manifester leur soutien aux projets de services numériques qu'elles jugent prioritaires pour les territoires.</p>
+
               <ul class="mb-8 mt-4">
-                <li><g-link class="disabled">Manifestez votre soutien sur les propositions qui vous semblent prioritaires</g-link></li>
+                <li><g-link class="disabled" to="https://mon.incubateur.anct.gouv.fr/processes/transformation-numerique/f/10/">Manifestez votre soutien sur les propositions qui vous semblent prioritaires</g-link></li>
               </ul>
 
               <p class="my-4 px-4 py-2 bg-gray-100 border-l-4 border-navy text-sm"><span class="font-bold">Début mai</span> : un comité de pilotage se réunit pour sélectionner les services numériques à financer et ou à développer. Ce comité prendra spécifiquement en compte le nombre de collectivités qui ont exprimé leur intérêt concernant des besoins ou un service. Ce comité est composé des associations de collectivités territoriales, des élus ainsi que des représentants de la DINUM, DITP et ANCT.</p>
@@ -105,16 +105,17 @@
                 <div class="dates">début mai au 30 juin 2021</div>
               </div>
             </div>
-            <div 
+            <div
               class="content"
               v-if="showEtape3"
             >
               <div class="my-4">
-                Les collectivités manifestent leur intérêt pour participer à la co-construction des services numériques et bénéficier en premier de leur déploiement. Les territoires référents intègrent des groupes de travail coordonnés par l'Incubateur des Territoires. Les groupes de travail, accompagnés par des experts en conception de services, se réuniront au cours de cette étape pour participer à la construction des feuilles de route et des budgets des services numériques.
+                Les collectivités manifestent leur intérêt pour participer à la co-construction des services numériques et bénéficier en premier de leur déploiement. Les territoires référents intègrent des groupes de travail coordonnés par l'Incubateur des Territoires. Les groupes de travail, accompagnés par des experts en conception de services, se réuniront au cours de cette étape pour participer à la construction des feuilles de route et des budgets des services numériques. En parallèle, auront lieu des auditions des porteurs de services numériques.
               </div>
               <!-- <p class="my-4 px-4 py-2 bg-gray-100 border-l-4 border-navy text-sm"><span class="font-bold">Jusqu’au 5 mai 2021</span> : suite au premier comité de sélection, les collectivités territoriales et leurs groupements pourront manifester leur intérêt à devenir « territoire référent », c'est à dire à participer à la construction des services retenus et à bénéficier en premier de leur déploiement.</p> -->
               <ul class="mb-8 mt-4">
-                <li><g-link class="disabled">Devenir territoire référent</g-link></li> 
+                <li><g-link to="https://mon.incubateur.anct.gouv.fr/processes/transformation-numerique">Découvrir les propositions sélectionnées par le comité</g-link></li>
+                <li><g-link class="disabled">Participer aux groupes de travail</g-link></li>
               </ul>
               <!-- <p class="my-4 px-4 py-2 bg-gray-100 border-l-4 border-navy text-sm"><span class="font-bold">15 juin 2021</span> : le comité de sélection se réunira de nouveau pour valider les feuilles de route ainsi que le budget attribué à chaque projet lauréat.</p> -->
             </div>
@@ -248,7 +249,7 @@ h2 {
   .block {
     @apply my-8;
   }
-  
+
   .phase {
     @apply my-8;
     // p-4 -mx-4 rounded-lg bg-gray-100;
