@@ -37,9 +37,19 @@
         </div>
       </div>
 
+
+
       <div class="px-4">
-        <h2 class="max-w-screen-md mx-auto text-3xl">Fiche de Probléme</h2>
-        <PageContent v-html="investigation.fiche_de_probleme" />
+        <div v-if="this.investigation.status === 'en_preparation'">
+          <div class="max-w-screen-md mx-auto text-lg rounded-md bg-yellow-200 py-2 px-4">
+            🏗 Cette investigation est en cours de préparation. Sa Fiche de Problème sera publiée prochainement.
+          </div>
+        </div>
+
+        <div v-if="this.investigation.status !== 'en_preparation'">
+          <h2 class="max-w-screen-md mx-auto text-3xl">Fiche de Probléme</h2>
+          <PageContent v-html="investigation.fiche_de_probleme" />
+        </div>
       </div>
     </div>  
   </Layout>
