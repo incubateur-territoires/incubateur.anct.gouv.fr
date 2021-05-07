@@ -1,0 +1,17 @@
+name: Deploy from Directus
+
+on:
+  # publish blog using webhook
+  repository_dispatch:
+    types: [dokku_rebuild]
+
+jobs:
+  rebuild:
+    runs-on: ubuntu-latest
+    steps:
+    - name: dokku:ps rebuild
+      uses: appleboy/ssh-action@master
+      with:
+        host: ${{ secrets.SSH_HOST }}
+        key: ${{ secrets.SSH_PRIVATE_KEY }}
+        script: dokku ps:rebuild web

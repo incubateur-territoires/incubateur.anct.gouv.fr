@@ -1,4 +1,4 @@
-name: Deploy to Dokku
+name: Deploy on Push
 
 on:
   push:
