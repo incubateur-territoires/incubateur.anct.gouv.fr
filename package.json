@@ -20,7 +20,7 @@
     "@gridsome/transformer-remark": "^0.6.0",
     "@tailwindcss/forms": "^0.3.2",
     "autoprefixer": "^9.8.6",
-    "axios": "^0.20.0",
+    "axios": "^0.21.1",
     "dayjs": "^1.9.3",
     "gh-pages": "^3.0.0",
     "gridsome": "^0.7.23",
