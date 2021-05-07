@@ -249,10 +249,7 @@ p, h2, ul {
     &.disabled {
       @apply text-gray-400 border-gray-400 cursor-not-allowed;
     }
-    &.disabled::after {
-      content: " [À VENIR]"
-    }
-  }
+     }
 }
 
 h2 {
