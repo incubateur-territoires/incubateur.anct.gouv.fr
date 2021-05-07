@@ -1,5 +1,5 @@
 ---
-title: Consultation FranceRelance : liste des propositions sélectionnées
+title: "Consultation FranceRelance : liste des propositions sélectionnées"
 date_publie: 2021-05-07
 ---
 # Retour sur les premières étapes de la consultation FranceRelance "Transformation Numérique des collectivités territoriales"
