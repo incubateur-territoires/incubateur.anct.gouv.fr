@@ -18,5 +18,5 @@ jobs:
         uses: dokku/github-action@master
         with:
           git_push_flags: '--force'
-          git_remote_url: 'ssh://dokku@incubateur.anct.gouv.fr:22/web'
+          git_remote_url: ${{ secrets.GIT_REMOTE_URL }}
           ssh_private_key: ${{ secrets.SSH_PRIVATE_KEY }}
