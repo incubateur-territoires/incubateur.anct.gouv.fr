@@ -9,10 +9,10 @@ jobs:
   rebuild:
     runs-on: ubuntu-latest
     steps:
-    - name: dokku:ps rebuild
+    - name: dokku ps:rebuild
       uses: appleboy/ssh-action@master
       with:
         host: ${{ secrets.SSH_HOST }}
         username: ${{ secrets.SSH_USER }}
         key: ${{ secrets.SSH_PRIVATE_KEY }}
-        script: dokku ps:rebuild web
+        script: ps:rebuild web
