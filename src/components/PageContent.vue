@@ -56,5 +56,6 @@
 
   ul { @apply list-disc mb-4 }
   li { @apply ml-6 }
+  hr { @apply my-4 }
 }
 </style>

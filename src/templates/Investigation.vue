@@ -44,6 +44,24 @@
           </div>
         </div>
 
+        <div v-if="investigation.membres.length > 0">
+          <div class="max-w-screen-md mx-auto my-6 flex flex-row gap-x-6">
+            <div class="flex items-center" v-for="m, idx in investigation.membres" :key=idx>
+              <g-image
+                v-if="m.membre.photo"
+                class="rounded-full mr-2"
+                width="48px"
+                height="48px"
+                :src="`${assetsUrl}/${m.membre.photo.id}?width=48&height=48&quality=95`"
+              />
+              <div class="flex flex-col">
+                <div>{{ `${m.membre.prenom} ${m.membre.nom}` }}</div>
+                <div class="uppercase text-gray-600 text-sm">{{ m.membre.role }}</div>
+              </div>
+            </div>
+          </div>
+        </div>
+
         <!-- Fiche de problème -->
         <div v-if="investigation.status !== 'en_preparation'">
           <div class="max-w-screen-md mx-auto my-6">
@@ -159,6 +177,9 @@ export default {
     PageContent
   },
   computed: {
+    assetsUrl: function() {
+      return process.env.GRIDSOME_ASSETS_URL
+    },
     investigation: function() {
       const investigation = this.$page.directus.investigation;
 
