@@ -37,8 +37,6 @@
         </div>
       </div>
 
-
-
       <div class="px-4">
         <div v-if="this.investigation.status === 'en_preparation'">
           <div class="max-w-screen-md mx-auto text-lg rounded-md bg-yellow-200 py-2 px-4">
@@ -46,9 +44,34 @@
           </div>
         </div>
 
-        <div v-if="this.investigation.status !== 'en_preparation'">
-          <h2 class="max-w-screen-md mx-auto text-3xl">Fiche de Probléme</h2>
-          <PageContent v-html="investigation.fiche_de_probleme" />
+        <!-- Fiche de problème -->
+        <div v-if="investigation.status !== 'en_preparation'">
+          <div class="max-w-screen-md mx-auto my-6">
+            <div v-if="investigation.start_date" class="text-gray-400 text-lg">{{ investigation.start_date }}</div>
+            <h2 class="text-3xl mb-4">Fiche de Probléme</h2>
+            <PageContent v-html="investigation.fiche_de_probleme" />
+          </div>
+        </div>
+
+        <!-- Blogs -->
+        <div v-if="investigation.blogs.length > 0">
+          <div class="max-w-screen-md mx-auto my-6" v-for="blog, idx in investigation.blogs" :key=idx>
+            <div class="text-gray-400 text-lg">{{ blog.publish_date }}</div>
+            <div class="text-3xl mb-4">{{ blog.titre }}</div>
+            <div v-if="blog.auteurs.length > 0" class="my-4 italic text-gray-800">
+              par {{ blog.auteurs.map(a => `${a.membre.prenom} ${a.membre.nom}`).join(", ") }}
+            </div>
+            <PageContent v-html="blog.body" />
+          </div>
+        </div>
+
+        <!-- Conclusion -->
+        <div v-if="investigation.conclusion">
+          <div class="max-w-screen-md mx-auto my-6">
+            <div v-if="investigation.end_date" class="text-gray-400 text-lg">{{ investigation.end_date }}</div>
+            <h2 class="text-3xl mb-4">Conclusion</h2>
+            <PageContent v-html="investigation.conclusion" />
+          </div>
         </div>
       </div>
     </div>  
@@ -58,15 +81,40 @@
 <page-query>
 query ($id: ID!) {
   directus {
-    investigation: investigations_by_id(id: $id) {
+		investigation: investigations_by_id(id: $id) {
       id
       nom
       mission
       status
+      start_date
       fiche_de_probleme
+			blogs(filter: { status: { _eq: "published"} }) {
+        body
+        publish_date
+        titre
+        auteurs {
+          membre: membres_id {
+						prenom
+            nom
+          }
+        }
+      }
+      end_date
+      conclusion
       promotion {
         id
         nom
+      }
+      membres {
+				membre: membres_id {
+          prenom
+          nom
+          email
+          photo {
+            id
+          }
+          role
+        }
       }
       beta_url
       repo_url
@@ -92,7 +140,7 @@ query ($id: ID!) {
           nom
         }
       }
-    }
+  	}
   }
 }
 </page-query>
