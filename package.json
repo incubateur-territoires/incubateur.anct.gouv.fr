@@ -27,7 +27,7 @@
     "gridsome-plugin-matomo": "^0.1.0",
     "lodash": "^4.17.21",
     "logrocket": "^1.0.14",
-    "postcss": "^7.0.35",
+    "postcss": "^7.0.36",
     "tailwindcss": "npm:@tailwindcss/postcss7-compat@^2.0.1",
     "v-click-outside": "^3.1.2",
     "vue-lodash": "^2.1.2"
