@@ -66,7 +66,7 @@
         <div v-if="investigation.status !== 'en_preparation'">
           <div class="max-w-screen-md mx-auto my-6">
             <div v-if="investigation.start_date" class="text-gray-400 text-lg">{{ investigation.start_date }}</div>
-            <h2 class="text-3xl mb-4">Fiche de Probléme</h2>
+            <h2 class="text-3xl mb-4">Fiche de Problème</h2>
             <PageContent v-html="investigation.fiche_de_probleme" />
           </div>
         </div>
