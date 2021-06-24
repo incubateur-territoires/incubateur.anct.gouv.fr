@@ -12,10 +12,10 @@
           <h2 class="font-marianne text-3xl mb-4 mt-6 font-semibold">
             Startups de Territoires
           </h2>
-          
-          <ServiceCard 
+
+          <ServiceCard
             v-for="{ node } in $page.startupsTerritoires.edges"
-            :key="node.id"
+            :id="node.id"
             :name="node.name"
             :pitch="node.pitch"
             :contact="node.contact"
@@ -30,10 +30,10 @@
           <h2 class="font-marianne text-3xl mb-4 mt-6 font-semibold">
             Startups d'État
           </h2>
-          
-          <ServiceCard 
+
+          <ServiceCard
             v-for="{ node } in $page.startupsEtats.edges"
-            :key="node.id"
+            :id="node.id"
             :name="node.name"
             :pitch="node.pitch"
             :contact="node.contact"
