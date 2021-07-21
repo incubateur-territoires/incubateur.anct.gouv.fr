@@ -40,7 +40,7 @@
       <div class="px-4">
         <div v-if="this.investigation.status === 'en_preparation'">
           <div class="max-w-screen-md mx-auto text-lg rounded-md bg-yellow-200 py-2 px-4">
-            🏗 Cette investigation est en cours de préparation. Sa Fiche de Problème sera publiée prochainement.
+            🏗 Cette investigation est en cours de préparation. Sa Fiche Problème sera publiée prochainement.
           </div>
         </div>
 
@@ -66,7 +66,7 @@
         <div v-if="investigation.status !== 'en_preparation'">
           <div class="max-w-screen-md mx-auto my-6">
             <div v-if="investigation.start_date" class="text-gray-400 text-lg">{{ investigation.start_date }}</div>
-            <h2 class="text-3xl mb-4">Fiche de Problème</h2>
+            <h2 class="text-3xl mb-4">Fiche Problème</h2>
             <PageContent v-html="investigation.fiche_de_probleme" />
           </div>
         </div>
