@@ -9,7 +9,9 @@
     "predeploy": "yarn build",
     "deploy": "gh-pages -d dist"
   },
-  "engines" : { "node" : ">=0.12" },
+  "engines" : {
+    "node" : "^14.17.0"
+  },
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^1.2.29",
     "@fortawesome/free-brands-svg-icons": "^5.13.0",
