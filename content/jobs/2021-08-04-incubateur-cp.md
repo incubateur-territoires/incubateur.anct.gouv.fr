@@ -4,8 +4,9 @@ contrat: contractuel (CDD 3 ans)
 equipe: Incubateur des Territoires
 post_ouvert: 2021-08-04
 contact: berengere.aujard@anct.gouv.fr
-status: open
-poste_pourvu: false
+poste_ouvert: 2021-08-04T11:05:00.515Z
+poste_ferme: 2021-09-30T15:57:53.574Z
+airtable_formulaire: true
 ---
 L’incubateur des Territoires de l’Agence Nationale de la Cohésion des Territoires recrute un ou une chargé.e de projets pour participer au développement de cet incubateur ministériel. La personne recrutée évoluera sous la responsabilité de la cheffe de projets de l'incubateur.
 
