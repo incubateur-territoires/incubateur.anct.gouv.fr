@@ -86,6 +86,7 @@
         <svg class="text-gray-500 h-5 w-5 group-hover:text-gray-600 group-focus:text-gray-600 transition ease-in-out duration-150" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
           <path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd" />
         </svg>
+        <Tag class="md:absolute md:-top-5 md:-right-5">Nouveau</Tag>
       </button>
 
       <transition
@@ -204,10 +205,7 @@
     <g-link to="/recrutements/">
       <button class="button space-x-2">
         <span>Recrutements</span>
-        <span
-          v-if="jobCount > 0"
-          class="bg-green text-sm text-white h-6 w-6 text-center font-bold rounded-full"
-        >{{jobCount}}</span>
+        <Tag v-if="jobCount > 0" class="h-6 w-6">{{jobCount}}</Tag>
       </button>
     </g-link>
   </nav>
