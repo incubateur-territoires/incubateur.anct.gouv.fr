@@ -37,11 +37,19 @@
         </p>
       </div>
 
-      <div class="recrutements my-4">
-        <g-link to="/recrutements/">
-          <span class="mr-2">🚀</span> Nous recrutons ! Voir nos offres d'emploi →
-        </g-link>
-      </div>
+      <section class="recrutements my-4">
+        <div>
+          <g-link to="/recrutements/">
+            <span class="mr-2">🚀</span> Nous recrutons ! Voir nos offres d'emploi →
+          </g-link>
+        </div>
+        <div>
+          <a href="https://forum.incubateur.anct.gouv.fr">
+            <span class="mr-2">📣</span> Rejoingnez la communauté de l'ANCT →
+            <Tag class="ml-4">Nouveau</Tag>
+          </a>
+        </div>
+      </section>
 
       <div class="incubateur-links flex flex-wrap my-2 space-x-4">
         <g-link to="https://github.com/incubateur-territoires">
@@ -93,12 +101,14 @@
 import LogoRF from "~/assets/images/logoRF.svg"
 import LogoANCT from "~/assets/images/logoANCT.svg"
 import Logo from '~/components/Logo.vue'
+import Tag from '~/components/Tag.vue'
 
 export default {
   components: {
     LogoRF,
     LogoANCT,
-    Logo
+    Logo,
+    Tag
   }
 }
 </script>
@@ -122,7 +132,7 @@ footer {
     .description {
       @apply max-w-screen-md;
     }
-    
+
     .websites {
       @apply text-sm border-t-2 border-gray-200 flex flex-wrap pt-6;
 

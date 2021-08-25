@@ -17,7 +17,13 @@
               Participez au rendez-vous des Territoires →
             </g-link>
           </div> -->
-          
+
+          <div class="action">
+            <a href="https://forum.incubateur.anct.gouv.fr" target="_blank" class="button">
+              Rejoignez la communauté →
+            </a>
+          </div>
+
           <div class="action">
             <g-link to="/offre/collectivites" class="button">
               Découvrez notre offre de service →
@@ -30,15 +36,22 @@
             </a>
           </div>
         </div>
-      </div> 
+      </div>
 
       <div class="public">
         <h1 class="title">Vous êtes un acteur public ou un partenaire des collectivités ?</h1>
-        
+
         <p class="mb-4">L'Incubateur des Territoires peut fournir un appui opérationnel aux acteurs publics et autres partenaires des collectivités qui souhaitent développer un service public numérique avec les territoires.</p>
-        <g-link to="/offre/partenaires" class="button">
-          Découvrez nos prérequis →
-        </g-link>
+        <div class="action">
+          <a href="https://forum.incubateur.anct.gouv.fr" target="_blank" class="button">
+            Discutez avec les collectivités territoriales →
+          </a>
+        </div>
+        <div class="action">
+          <g-link to="/offre/partenaires" class="button">
+            Découvrez nos prérequis →
+          </g-link>
+        </div>
       </div>
     </section>
   </Layout>
@@ -66,7 +79,7 @@ export default {
       ]
     }
   },
-  
+
   components: {
     FrontSplash,
     Annonce
@@ -103,7 +116,7 @@ export default {
 
     .button {
       @apply block px-4 py-2 my-4 border-2 border-navy text-navy font-bold rounded-full shadow-yellow text-center transition ease-linear duration-100;
-    
+
       @screen sm {
         @apply inline-block my-2;
       }
