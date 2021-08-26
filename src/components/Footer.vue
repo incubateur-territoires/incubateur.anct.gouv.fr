@@ -45,7 +45,7 @@
         </div>
         <div>
           <a href="https://forum.incubateur.anct.gouv.fr">
-            <span class="mr-2">📣</span> Rejoingnez la communauté de l'ANCT →
+            <span class="mr-2">📣</span> Rejoignez la communauté de l'ANCT →
             <Tag class="ml-4">Nouveau</Tag>
           </a>
         </div>
