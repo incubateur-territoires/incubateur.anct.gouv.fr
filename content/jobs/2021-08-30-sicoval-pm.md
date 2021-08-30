@@ -9,8 +9,6 @@ poste_ferme: 2021-09-30T15:57:53.574Z
 airtable_formulaire: true
 ---
 
-# Chef·fe de Projet - Sosie Virtuel Projectif
-
 L'Incubateur des Territoires accompagne une collectivité territoriale porteuse d'un projet de Sosie Virtuel Projectif (SVP) dédié à l'étude des mobilités. L'enjeu de ce SVP est d'analyser les données de mobilité tout en tenant compte du comportement humain. In fine, il s'agit d'informer, de manière objective et pertinente, les décisions et les actions de politiques publiques.
 
 Ce projet ambitieux nécessite une phase de préfiguration, estimée à 4 mois. Vous serez chargé de réunir les éléments (options techniques, intérêt de politique publique, benchmark, contexte réglementaire, possibilité de mutualiser et répliquer le projet dans plusieurs territoires, etc.). Votre mission permettra à l'Agence Nationale de la Cohésion des Territoires d'arbitrer sur l'opportunité de soutenir le développement de cette instance 'mobilités'.
