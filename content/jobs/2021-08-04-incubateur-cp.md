@@ -16,9 +16,9 @@ L’Agence Nationale de la Cohésion des Territoires (ANCT) a pour mission de co
 En lien étroit avec l’incubateur de la DINUM, les objectifs de cet incubateur sont de développer un portefeuille de startups d’Etat et de territoires répondant à des problématiques territoriales ainsi qu’un accélérateur de projets numériques territoriaux publics ou relevant de l’économie sociale et solidaire.
 
 La [Mission Incubateur des Territoires](https://incubateur.anct.gouv.fr) accompagne les collectivités et leurs partenaires dans la création et le passage à l’échelle de services publics numériques de grande qualité et à fort impact pour les usagers à travers : 
-- Le programme d’investigations ;
+- Le programme national d’investigations ;
 - L’incubation de services publics numériques ; 
-- La construction du Territoires Store.
+- La construction du [Territoires Store](https://territoires.store) et le [Forum des Territoires](https://forum.incubateur.anct.gouv.fr).
 
 Plus largement, il facilite la mise en place de communs au service de la transformation numérique des territoires.
 
