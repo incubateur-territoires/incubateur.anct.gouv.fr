@@ -9,7 +9,7 @@
           <g-link to="/investigations/">Toutes les investigations</g-link>
           <div v-if="investigation.promotion">
             &nbsp;/
-            <g-link  
+            <g-link
               :to="`/investigations/?promo=${investigation.promotion.id}`"
             >
               {{ investigation.promotion.nom }}
@@ -92,7 +92,7 @@
           </div>
         </div>
       </div>
-    </div>  
+    </div>
   </Layout>
 </template>
 
@@ -106,7 +106,7 @@ query ($id: ID!) {
       status
       start_date
       fiche_de_probleme
-			blogs(filter: { status: { _eq: "published"} }) {
+			blogs(filter: { status: { _eq: "published"} }, sort: "-publish_date") {
         body
         publish_date
         titre
