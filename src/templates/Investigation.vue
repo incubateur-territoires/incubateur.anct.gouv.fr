@@ -106,7 +106,7 @@ query ($id: ID!) {
       status
       start_date
       fiche_de_probleme
-			blogs(filter: { status: { _eq: "published"} }, sort: "-publish_date") {
+			blogs(filter: { status: { _eq: "published"} }, sort: "publish_date") {
         body
         publish_date
         titre
