@@ -1,5 +1,12 @@
 <template>
   <div class="container">
+    <Header
+      :showMobileNav="showMobileNav"
+      @toggle-mobile-nav="toggleMobileNav"
+    />
+    <NavBar
+      :hideMobileNav="!showMobileNav"
+    />
     <g-link v-if="relancePath" to="/relance/" class="bg-green-relance block text-white font-medium text-lg py-4">
       <div class="mx-auto max-w-screen-md px-4 flex flex-wrap items-center">
         <g-image
@@ -12,13 +19,6 @@
         </span>
       </div>
     </g-link>
-    <Header 
-      :showMobileNav="showMobileNav"
-      @toggle-mobile-nav="toggleMobileNav"
-    />
-    <NavBar
-      :hideMobileNav="!showMobileNav"
-    />
     <slot />
     <Footer />
   </div>
