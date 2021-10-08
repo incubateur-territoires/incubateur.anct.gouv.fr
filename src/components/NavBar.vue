@@ -10,78 +10,13 @@
         Actualités
       </button>
     </g-link>
-
-    <div class="relative inline-block">
-      <button
-        type="button"
-        class="space-x-2"
-        @click="offresIsOpen = !offresIsOpen"
-      >
-        <span>Offres</span>
-
-        <svg class="text-gray-500 h-5 w-5 group-hover:text-gray-600 group-focus:text-gray-600 transition ease-in-out duration-150" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
-          <path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd" />
-        </svg>
-      </button>
-
-      <transition
-        enter-active-class="transition ease-out duration-200"
-        enter-class="opacity-0 md:translate-y-1"
-        enter-to-class="opacity-100 md:translate-y-0"
-        leave-active-class="transition ease-in duration-150"
-        leave-class="opacity-100 md:translate-y-0"
-        leave-to-class="opacity-0 md:translate-y-1"
-      >
-        <div
-          v-if="offresIsOpen"
-          v-click-outside="onClickOutsideOffres"
-          class="relative md:absolute -ml-4 md:mt-3 transform px-2 md:w-screen md:max-w-md md:ml-0 md:left-1/2 md:-translate-x-1/2"
-        >
-          <div class="md:rounded-lg md:shadow-lg">
-            <div class="md:rounded-lg md:shadow-xs overflow-hidden">
-              <div class="z-20 relative grid gap-4 bg-white px-5 py-6 md:gap-8 md:p-8">
-                <g-link to="/offre/collectivites/" class="-m-3 p-3 flex items-start space-x-4 rounded-lg hover:bg-gray-200 transition ease-in-out duration-150">
-                  <!-- Heroicon name: library -->
-                  <svg class="flex-shrink-0 h-6 w-6 text-blue" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 14v3m4-3v3m4-3v3M3 21h18M3 10h18M3 7l9-4 9 4M4 10h16v11H4V10z"></path>
-                  </svg>
-                  <div class="space-y-1">
-                    <p class="text-base leading-6 font-medium text-gray-900">
-                      Aux collectivités territoriales
-                    </p>
-                    <p class="hidden md:block text-sm leading-5 text-gray-500">
-                      Ingénierie, financements et réseau
-                    </p>
-                  </div>
-                </g-link>
-                <g-link to="/offre/partenaires/" class="-m-3 p-3 flex items-start space-x-4 rounded-lg hover:bg-gray-200 transition ease-in-out duration-150">
-                  <!-- Heroicon name: user-group -->
-                  <svg class="flex-shrink-0 h-6 w-6 text-blue" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z"></path>
-                  </svg>
-                  <div class="space-y-1">
-                    <p class="text-base leading-6 font-medium text-gray-900">
-                      Aux acteurs publics et partenaires des collectivités
-                    </p>
-                    <p class="hidden md:block text-sm leading-5 text-gray-500">
-                      Accompagnement de projets sur mesure
-                    </p>
-                  </div>
-                </g-link>
-              </div>
-            </div>
-          </div>
-        </div>
-      </transition>
-    </div>
-
     <div class="relative inline-block">
       <button
         type="button"
         class="space-x-2"
         @click="actionsIsOpen = !actionsIsOpen"
       >
-        <span>Réalisations</span>
+        <span>Services</span>
 
         <svg class="text-gray-500 h-5 w-5 group-hover:text-gray-600 group-focus:text-gray-600 transition ease-in-out duration-150" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
           <path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd" />
@@ -186,12 +121,12 @@
       </transition>
     </div>
 
-    <g-link to="https://forum.incubateur.anct.gouv.fr">
+    <a href to="https://forum.incubateur.anct.gouv.fr">
       <button class="button space-x-2">
         <span>Forum</span>
         <Tag v-if="jobCount > 0" class="h-6 w-6">{{jobCount}}</Tag>
       </button>
-    </g-link>
+    </a>
   </nav>
 </template>
 
