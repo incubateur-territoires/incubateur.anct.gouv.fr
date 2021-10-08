@@ -121,10 +121,8 @@
       </transition>
     </div>
 
-    <button class="button space-x-2">
-       <a href to="https://forum.incubateur.anct.gouv.fr"><span>Forum</span></a>
-      </button>
-    </nav>
+       <a href to="https://forum.incubateur.anct.gouv.fr"class=""><button class="button space-x-2"><span>Forum</span></button></a>
+        </nav>
 </template>
 
 <static-query>
