@@ -121,13 +121,10 @@
       </transition>
     </div>
 
-    <a href to="https://forum.incubateur.anct.gouv.fr">
-      <button class="button space-x-2">
-        <span>Forum</span>
-        <Tag v-if="jobCount > 0" class="h-6 w-6">{{jobCount}}</Tag>
+    <button class="button space-x-2">
+       <a href to="https://forum.incubateur.anct.gouv.fr"><span>Forum</span></a>
       </button>
-    </a>
-  </nav>
+    </nav>
 </template>
 
 <static-query>
