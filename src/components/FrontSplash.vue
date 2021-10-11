@@ -7,9 +7,9 @@
     </div>
     <div class="buttons">
       <div>
-        <g-link to="/offre/collectivites">
-          Nos offres aux collectivités
-        </g-link>
+        <a href="https://forum.incubateur.anct.gouv.fr">
+          Rejoignez notre communauté
+        </a>
       </div>
     </div>
   </section>
