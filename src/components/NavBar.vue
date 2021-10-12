@@ -13,7 +13,10 @@
     <div class="relative inline-block">
       <button
         type="button"
-        class="space-x-2"
+        :class="[
+          space-x-2,
+          isActive('service') ? 'active' : ''
+        ]"
         @click="actionsIsOpen = !actionsIsOpen"
       >
         <span>Services</span>
@@ -161,6 +164,9 @@ export default {
     },
     onClickOutsideActions() {
       this.actionsIsOpen = false
+    },
+    isActive(item) {
+      return ['investigations', 'actions'].includes(this.$route.path.split('/')[1])
     }
   },
   props: {
@@ -192,6 +198,11 @@ nav {
     &:focus {
       @apply outline-none;
     }
+  }
+  .active button,
+  button.active,
+  a.active {
+    @apply bg-gray-200;
   }
 }
 </style>
