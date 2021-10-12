@@ -16,6 +16,11 @@ Télécharger le code source ainsi que sa configuration Git avec la commande sui
 ```shell
 git clone git@github.com:incubateur-territoires/incubateur.anct.gouv.fr.git
 ```
+
+> Ce projet est basé sur Node 14.
+> Si vous avez nvm installé, lancez simplement `nvm use` pour détecter automatiquement la version appropriée.
+
+
 ### 2. Installer Gridsome
 
 Si vous ne disposez pas encore de `Gridsome`, exécuter la commande suivante dans un terminal :
