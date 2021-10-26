@@ -1,4 +1,5 @@
 {
+<<<<<<< HEAD
   "name": "incubateur.anct.gouv.fr",
   "private": true,
   "scripts": {
@@ -41,5 +42,20 @@
     "sass-loader": "^8.0.2",
     "vue-svg-loader": "^0.16.0",
     "vue-template-compiler": "^2.6.11"
+=======
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "nuxt dev",
+    "build": "nuxt build",
+    "start": "node .output/server/index.mjs"
+  },
+  "devDependencies": {
+    "nuxt3": "latest"
+  },
+  "dependencies": {
+    "@gouvfr/dsfr": "^1.1.0",
+    "@laruiss/vue-dsfr": "^1.0.0-beta.26"
+>>>>>>> local/master
   }
 }

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 *.log
 .cache
 .cache-directus
@@ -8,3 +9,10 @@ dist
 .env
 .env.*
 .idea
+=======
+node_modules
+*.log
+.nuxt
+nuxt.d.ts
+.output
+>>>>>>> local/master

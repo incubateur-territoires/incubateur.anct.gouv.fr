@@ -1,7 +1,0 @@
----
-title: programme national d’investigations
-id: investigations-national
----
-L'Incubateur des Territoires de l’Agence Nationale de la Cohésion des Territoires (ANCT) construit, avec les collectivités territoriales et leurs partenaires, des services publics numériques. Un service public numérique est développé en open source, son impact est mesuré en permanence pour ajuster sa proposition de valeur en fonction des besoins réellement exprimés par ses utilisateurs (agents publics, élus locaux, habitants, entreprises, associations...). Les services numériques peuvent répondre à une multitude de problématiques rencontrées par les collectivités territoriales. A titre d’exemple, ils concernent aujourd’hui tant la lutte contre le gaspillage alimentaire dans les cantines que la prise en charge d u mal logement, ou encore le covoiturage en espace rural ou de montagne.
-
-Dans ce cadre, **l'Incubateur des Territoires finance et accompagne des programmes d’investigations**. Ils consistent à détecter des problématiques rencontrées par les collectivités territoriales ainsi qu’à concevoir et tester rapidement des premières pistes de service qui sauraient y répondre efficacement. Afin de générer des synergies entre les différentes collectivités qui rencontrent des problématiques similaires et d’identifier des services à financer dans le cadre du Plan de relance, l’Incubateur des Territoires lance un programme national d’investigations.
