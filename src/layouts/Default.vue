@@ -21,6 +21,8 @@
     </g-link>
     <slot />
     <Footer />
+    <!-- Uncomment the line below to activate the feedback widget -->
+    <!-- <feedback-widget></feedback-widget> -->
   </div>
 </template>
 
@@ -49,6 +51,11 @@ export default {
     toggleMobileNav() {
       this.showMobileNav = !this.showMobileNav
     }
+  },
+  mounted() {
+    const script = document.createElement('script')
+    script.setAttribute('src', 'https://incubateur-territoires.github.io/feedback-widget/widget.js')
+    document.head.appendChild(script)
   }
 }
 </script>
