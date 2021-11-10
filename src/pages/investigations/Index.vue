@@ -15,7 +15,7 @@
           :promotionId=promotionId
         />
       </div>
-    </div>  
+    </div>
   </Layout>
 </template>
 
@@ -31,22 +31,22 @@ query {
         id
       }
       communes {
-        commune: communes_id {
+        communes_id {
           nom
         }
       }
       departements {
-        departement: departements_id {
+        departements_id {
           nom
         }
       }
       regions {
-        region: regions_id {
+        regions_id {
           nom
         }
       }
       epcis {
-        epci: epcis_id {
+        epcis_id {
           nom
         }
       }
