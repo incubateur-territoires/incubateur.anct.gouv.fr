@@ -21,8 +21,7 @@
     </g-link>
     <slot />
     <Footer />
-    <!-- Uncomment the line below to activate the feedback widget -->
-    <!-- <feedback-widget></feedback-widget> -->
+    <feedback-widget></feedback-widget>
   </div>
 </template>
 
