@@ -48,15 +48,15 @@
           <div class="max-w-screen-md mx-auto my-6 flex flex-row gap-x-6">
             <div class="flex items-center" v-for="m, idx in investigation.membres" :key=idx>
               <g-image
-                v-if="m.membre.membres_id.photo"
+                v-if="m.membres_id.photo"
                 class="rounded-full mr-2"
                 width="48px"
                 height="48px"
-                :src="`${assetsUrl}/${m.membre.membres_id.photo.id}?width=48&height=48&quality=95`"
+                :src="`${assetsUrl}/${m.membres_id.photo.id}?width=48&height=48&quality=95`"
               />
               <div class="flex flex-col">
-                <div>{{ `${m.membre.membres_id.prenom} ${m.membre.membres_id.nom}` }}</div>
-                <div class="uppercase text-gray-600 text-sm">{{ m.membre.membres_id.role }}</div>
+                <div>{{ `${m.membres_id.prenom} ${m.membres_id.nom}` }}</div>
+                <div class="uppercase text-gray-600 text-sm">{{ m.membres_id.role }}</div>
               </div>
             </div>
           </div>
