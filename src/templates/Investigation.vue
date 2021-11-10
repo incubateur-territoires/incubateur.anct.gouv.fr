@@ -48,15 +48,15 @@
           <div class="max-w-screen-md mx-auto my-6 flex flex-row gap-x-6">
             <div class="flex items-center" v-for="m, idx in investigation.membres" :key=idx>
               <g-image
-                v-if="m.membre.photo"
+                v-if="m.membre.membres_id.photo"
                 class="rounded-full mr-2"
                 width="48px"
                 height="48px"
-                :src="`${assetsUrl}/${m.membre.photo.id}?width=48&height=48&quality=95`"
+                :src="`${assetsUrl}/${m.membre.membres_id.photo.id}?width=48&height=48&quality=95`"
               />
               <div class="flex flex-col">
-                <div>{{ `${m.membre.prenom} ${m.membre.nom}` }}</div>
-                <div class="uppercase text-gray-600 text-sm">{{ m.membre.role }}</div>
+                <div>{{ `${m.membre.membres_id.prenom} ${m.membre.membres_id.nom}` }}</div>
+                <div class="uppercase text-gray-600 text-sm">{{ m.membre.membres_id.role }}</div>
               </div>
             </div>
           </div>
@@ -77,7 +77,7 @@
             <div class="text-gray-400 text-lg">{{ blog.publish_date }}</div>
             <div class="text-3xl mb-4">{{ blog.titre }}</div>
             <div v-if="blog.auteurs.length > 0" class="my-4 italic text-gray-800">
-              par {{ blog.auteurs.map(a => `${a.membre.prenom} ${a.membre.nom}`).join(", ") }}
+              par {{ blog.auteurs.map(a => `${a.membre.membres_id.prenom} ${a.membre.membres_id.nom}`).join(", ") }}
             </div>
             <PageContent v-html="blog.body" />
           </div>
@@ -111,8 +111,8 @@ query ($id: ID!) {
         publish_date
         titre
         auteurs {
-          membre: membres_id {
-						prenom
+          membres_id {
+            prenom
             nom
           }
         }
@@ -124,7 +124,7 @@ query ($id: ID!) {
         nom
       }
       membres {
-				membre: membres_id {
+        membres_id {
           prenom
           nom
           email
@@ -139,22 +139,22 @@ query ($id: ID!) {
       stats_url
       service_url
       communes {
-        commune: communes_id {
+        communes_id {
           nom
         }
       }
       departements {
-        departement: departements_id {
+        departements_id {
           nom
         }
       }
       regions {
-        region: regions_id {
+        regions_id {
           nom
         }
       }
       epcis {
-        epci: epcis_id {
+        epcis_id {
           nom
         }
       }
