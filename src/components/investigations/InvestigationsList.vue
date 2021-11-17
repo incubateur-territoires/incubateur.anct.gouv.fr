@@ -92,7 +92,7 @@ export default {
     },
     onPromotionsChange(event) {
       const value = event.target.value;
-      
+
       if (value === 'all') {
         this.$router.push('/investigations/')
       } else {
@@ -131,10 +131,11 @@ export default {
     investigationsTermine: function () {
       return this.investigations.filter(item => item.status === "termine")
     },
-    filteredInvestigations: function () {      
-      return this.investigations
-        .filter(item => this.statusFilters.includes(item.status))
-        .filter(item => this.collectivitesFilters.some(c => item.collectivitesTypes.includes(c)))
+    filteredInvestigations: function () {
+      let investigations = this.investigations
+      if (this.statusFilters.length) investigations = investigations.filter(item => this.statusFilters.includes(item.status))
+      if (this.collectivitesFilters.length) investigations = investigations.filter(item => this.collectivitesFilters.some(c => item.collectivitesTypes.includes(c)))
+      return investigations
     }
   }
 }
