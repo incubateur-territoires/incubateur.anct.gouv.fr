@@ -43,7 +43,7 @@
 
     <div class="flex flex-col">
       <div>
-        <input 
+        <input
           type="checkbox"
           id="communes"
           value="communes"
@@ -65,7 +65,7 @@
       </div>
 
       <div>
-        <input 
+        <input
           type="checkbox"
           id="departements"
           value="departements"
@@ -76,7 +76,7 @@
       </div>
 
       <div>
-        <input 
+        <input
           type="checkbox"
           id="regions"
           value="regions"
@@ -106,7 +106,6 @@ export default {
     epcisCount: Number,
     departementsCount: Number,
     regionsCount: Number,
-
     collectivitesFilters: Array,
     statusFilters: Array
   }
