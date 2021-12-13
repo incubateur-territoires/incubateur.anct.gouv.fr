@@ -2,11 +2,11 @@
 contact: incubateur@anct.gouv.fr
 poste_ouvert: 2021-11-05
 poste_ferme: 2021-12-22T23:00:00.000Z
-status: open
+status: closed
 contrat: stagiaire
 role: Stage chargé.e de projets
 equipe: Incubateur des Territoires
-poste_pourvu: false
+poste_pourvu: true
 airtable_formulaire: true
 
 ---
