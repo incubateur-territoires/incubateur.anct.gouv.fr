@@ -9,17 +9,17 @@
           <div class="fr-grid-row fr-grid-row--gutters fr-py-6w">
             <div class="fr-col">
               <h4>Type de collectivité</h4>
-              <Checkbox @onchange="filter" label="Région" value="region" />
-              <Checkbox @onchange="filter" label="Département" value="departement" />
-              <Checkbox @onchange="filter" label="EPCI" value="epci" />
-              <Checkbox @onchange="filter" label="Commune" value="commune" />
+              <Checkbox @change="filter('types', 'region', $event)" label="Région" />
+              <Checkbox @change="filter('types', 'departement', $event)" label="Département" />
+              <Checkbox @change="filter('types', 'epci', $event)" label="EPCI" />
+              <Checkbox @change="filter('types', 'commune', $event)" label="Commune" />
             </div>
 
             <div class="fr-col">
               <h4>Taille de collectivité</h4>
-              <Checkbox label="< 3500 habitants" value="3500" />
-              <Checkbox label="< 10.000 habitants" value="10000" />
-              <Checkbox label="< 100.000 habitants" value="100.000" />
+              <Checkbox @change="filter('populations', '3500', $event)" label="< 3500 habitants" />
+              <Checkbox @change="filter('populations', '10000', $event)" label="< 10.000 habitants" />
+              <Checkbox @change="filter('populations', '100000', $event)" label="< 100.000 habitants" />
             </div>
           </div>
 
@@ -92,8 +92,23 @@
 
 <script>
   export default {
-    filter() {
-      debugger
+
+    data() {
+      return {
+        filters: {
+          types: [],
+          populations: [],
+        }
+      }
+    },
+
+    methods: {
+      filter(name, value, active) {
+        active
+          ? this.filters[name].push(value)
+          : this.filters[name] = this.filters[name].filter(k => k !== value)
+        console.debug("current filters applied", this.filters)
+      }
     }
   }
 </script>
