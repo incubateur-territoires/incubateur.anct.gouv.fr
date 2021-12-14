@@ -23,63 +23,12 @@
             </div>
           </div>
 
-          <div class="fr-grid-row fr-grid-row--gutters fr-py-6w">
-            <div class="fr-col">
-              <DsfrCard
-              title="Aides Territoires"
-              description="Trouver des aides correspondant à votre territoire"
-              />
-            </div>
-            <div class="fr-col">
-              <DsfrCard
-              title="Aides Territoires"
-              description="Trouver des aides correspondant à votre territoire"
-              />
-            </div>
-            <div class="fr-col">
-              <DsfrCard
-              title="Aides Territoires"
-              description="Trouver des aides correspondant à votre territoire"
-              />
-            </div>
-          </div>
-          <div class="fr-grid-row fr-grid-row--gutters fr-py-6w">
-            <div class="fr-col">
-              <DsfrCard
-              title="Aides Territoires"
-              description="Trouver des aides correspondant à votre territoire"
-              />
-            </div>
-            <div class="fr-col">
-              <DsfrCard
-              title="Aides Territoires"
-              description="Trouver des aides correspondant à votre territoire"
-              />
-            </div>
-            <div class="fr-col">
-              <DsfrCard
-              title="Aides Territoires"
-              description="Trouver des aides correspondant à votre territoire"
-              />
-            </div>
-          </div>
+          <h3>{{ services.length }} services sont susceptibles de vous intéresser</h3>
           <div class="fr-grid-row fr-grid-row--gutters">
-            <div class="fr-col">
+            <div class="fr-col-lg-3 fr-col-md-4 fr-col-sm-12" v-for="service in this.services">
               <DsfrCard
-              title="Aides Territoires"
-              description="Trouver des aides correspondant à votre territoire"
-              />
-            </div>
-            <div class="fr-col">
-              <DsfrCard
-              title="Aides Territoires"
-              description="Trouver des aides correspondant à votre territoire"
-              />
-            </div>
-            <div class="fr-col">
-              <DsfrCard
-              title="Aides Territoires"
-              description="Trouver des aides correspondant à votre territoire"
+              :title="service.name"
+              :description="service.description"
               />
             </div>
           </div>
@@ -98,7 +47,26 @@
         filters: {
           types: [],
           populations: [],
-        }
+        },
+
+        services: [
+          { name: "Aides Territoires", description: "aide aux collectivités" },
+          { name: "Comobi", description: "Covoiturez localement" },
+          { name: "Aides Territoires", description: "aide aux collectivités" },
+          { name: "Comobi", description: "Covoiturez localement" },
+          { name: "Aides Territoires", description: "aide aux collectivités" },
+          { name: "Comobi", description: "Covoiturez localement" },
+          { name: "Aides Territoires", description: "aide aux collectivités" },
+          { name: "Comobi", description: "Covoiturez localement" },
+          { name: "Aides Territoires", description: "aide aux collectivités" },
+          { name: "Comobi", description: "Covoiturez localement" },
+          { name: "Aides Territoires", description: "aide aux collectivités" },
+          { name: "Comobi", description: "Covoiturez localement" },
+          { name: "Aides Territoires", description: "aide aux collectivités" },
+          { name: "Comobi", description: "Covoiturez localement" },
+          { name: "Aides Territoires", description: "aide aux collectivités" },
+          { name: "Comobi", description: "Covoiturez localement" },
+        ],
       }
     },
 
