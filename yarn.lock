@@ -262,10 +262,20 @@
   dependencies:
     mime "^3.0.0"
 
-"@gouvfr/dsfr@":
+"@gouvfr/dsfr@^1.2.1":
   version "1.2.1"
   resolved "https://registry.yarnpkg.com/@gouvfr/dsfr/-/dsfr-1.2.1.tgz#68383192c24d521cf247992b11d891fb78d8f2f3"
   integrity sha512-vnpeX+fZnW2KLl2PrcjHpUhOuO7twT9h3gwZvJLgVl+IosM4/Jesx5QMZAhsLl85Cq57mKhSjTnw8EZglLanUg==
+
+"@laruiss/vue-dsfr@^1.0.0-beta.34":
+  version "1.0.0-beta.34"
+  resolved "https://registry.yarnpkg.com/@laruiss/vue-dsfr/-/vue-dsfr-1.0.0-beta.34.tgz#b720ac7f23f417084154c4e5088d767f121fdc8b"
+  integrity sha512-751+oxmb6f1uiWr3Em4LDwKJx9YkAO/Sp/6WYD9pNT9w2j9E/QzMwzrX7SIa7hopujuC3uhFuDnbfPOFl9QljQ==
+  dependencies:
+    focus-trap "^6.7.1"
+    focus-trap-vue "^3.2.1"
+    oh-vue-icons "^0.4.7"
+    vue "^3.2.0"
 
 "@mapbox/node-pre-gyp@^1.0.5":
   version "1.0.7"
@@ -2504,6 +2514,18 @@ flat@^5.0.0:
   resolved "https://registry.yarnpkg.com/flat/-/flat-5.0.2.tgz#8ca6fe332069ffa9d324c327198c598259ceb241"
   integrity sha512-b6suED+5/3rTpUBdG1gupIl8MPFCAMA0QXwmljLhvCUKcUvdE4gWky9zpuGCcXHOsz4J9wPGNWq6OKpmIzz3hQ==
 
+focus-trap-vue@^3.2.1:
+  version "3.2.1"
+  resolved "https://registry.yarnpkg.com/focus-trap-vue/-/focus-trap-vue-3.2.1.tgz#630023bb96bfe45ebcf2e817eee6eb28d4edf52b"
+  integrity sha512-nThbiBo4F9ilwEc3kOYTW63RDbOsWNdz7jWFk9CmA9/LmZ7EJgEszV2MBXaQQMceEsB7h0WuIkkfzQznU5yj+A==
+
+focus-trap@^6.7.1:
+  version "6.7.1"
+  resolved "https://registry.yarnpkg.com/focus-trap/-/focus-trap-6.7.1.tgz#d474f86dbaf3c7fbf0d53cf0b12295f4f4068d10"
+  integrity sha512-a6czHbT9twVpy2RpkWQA9vIgwQgB9Nx1PIxNNUxQT4nugG/3QibwxO+tWTh9i+zSY2SFiX4pnYhTaFaQF/6ZAg==
+  dependencies:
+    tabbable "^5.2.1"
+
 follow-redirects@^1.0.0:
   version "1.14.6"
   resolved "https://registry.yarnpkg.com/follow-redirects/-/follow-redirects-1.14.6.tgz#8cfb281bbc035b3c067d6cd975b0f6ade6e855cd"
@@ -3812,6 +3834,11 @@ object.assign@^4.1.2:
     has-symbols "^1.0.1"
     object-keys "^1.1.1"
 
+oh-vue-icons@^0.4.7:
+  version "0.4.7"
+  resolved "https://registry.yarnpkg.com/oh-vue-icons/-/oh-vue-icons-0.4.7.tgz#ead3f6527db084e30cc9acfebbcf3c7bb31ad69e"
+  integrity sha512-gNyXi/ztl6wYykPbdcBfvVCyE6yU9nkafzXmt1DAsEhE2C7CupxSr/BIFZOIcjml9yUwG6OQjkcjfQASZH1sKg==
+
 ohmyfetch@^0.4.5, ohmyfetch@^0.4.8:
   version "0.4.8"
   resolved "https://registry.yarnpkg.com/ohmyfetch/-/ohmyfetch-0.4.8.tgz#fee48c1d3f480c63871f80e7a9de1de48fa4c927"
@@ -4969,6 +4996,11 @@ svgo@^2.7.0:
     picocolors "^1.0.0"
     stable "^0.1.8"
 
+tabbable@^5.2.1:
+  version "5.2.1"
+  resolved "https://registry.yarnpkg.com/tabbable/-/tabbable-5.2.1.tgz#e3fda7367ddbb172dcda9f871c0fdb36d1c4cd9c"
+  integrity sha512-40pEZ2mhjaZzK0BnI+QGNjJO8UYx9pP5v7BGe17SORTO0OEuuaAwQTkAp8whcZvqon44wKFOikD+Al11K3JICQ==
+
 table@^6.7.5:
   version "6.7.5"
   resolved "https://registry.yarnpkg.com/table/-/table-6.7.5.tgz#f04478c351ef3d8c7904f0e8be90a1b62417d238"
@@ -5276,7 +5308,7 @@ vue-style-loader@^4.1.3:
     hash-sum "^1.0.2"
     loader-utils "^1.0.2"
 
-vue@^3.2.23:
+vue@^3.2.0, vue@^3.2.23:
   version "3.2.24"
   resolved "https://registry.yarnpkg.com/vue/-/vue-3.2.24.tgz#6de7b01e55740dc37c0a5dbd45e70eed49f95189"
   integrity sha512-PvCklXNfcUMyeP/a9nME27C32IipwUDoS45rDyKn5+RQrWyjL+0JAJtf98HL6y9bfqQRTlYjSowWEB1nXxvG5Q==
