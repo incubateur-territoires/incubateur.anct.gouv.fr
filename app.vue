@@ -25,10 +25,11 @@
 
           <h3>{{ services.length }} services sont susceptibles de vous intéresser</h3>
           <div class="fr-grid-row fr-grid-row--gutters">
-            <div class="fr-col-lg-3 fr-col-md-4 fr-col-sm-12" v-for="service in this.services">
+            <div class="fr-col-lg-3 fr-col-md-4 fr-col-sm-12" v-for="service in services">
               <DsfrCard
-              :title="service.name"
+              :title="service.nom"
               :description="service.description"
+              imgSrc="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.WXUbigVrd4W8p067r5e6ggAAAA%26pid%3DApi&f=1"
               />
             </div>
           </div>
@@ -48,26 +49,13 @@
           types: [],
           populations: [],
         },
-
-        services: [
-          { name: "Aides Territoires", description: "aide aux collectivités" },
-          { name: "Comobi", description: "Covoiturez localement" },
-          { name: "Aides Territoires", description: "aide aux collectivités" },
-          { name: "Comobi", description: "Covoiturez localement" },
-          { name: "Aides Territoires", description: "aide aux collectivités" },
-          { name: "Comobi", description: "Covoiturez localement" },
-          { name: "Aides Territoires", description: "aide aux collectivités" },
-          { name: "Comobi", description: "Covoiturez localement" },
-          { name: "Aides Territoires", description: "aide aux collectivités" },
-          { name: "Comobi", description: "Covoiturez localement" },
-          { name: "Aides Territoires", description: "aide aux collectivités" },
-          { name: "Comobi", description: "Covoiturez localement" },
-          { name: "Aides Territoires", description: "aide aux collectivités" },
-          { name: "Comobi", description: "Covoiturez localement" },
-          { name: "Aides Territoires", description: "aide aux collectivités" },
-          { name: "Comobi", description: "Covoiturez localement" },
-        ],
+        services: [],
       }
+    },
+
+    async created() {
+      const response = await $fetch('https://directus.incubateur.anct.gouv.fr/items/services/?access_token=confidant-ample-slapping-vitamins-freewill-unlivable')
+      this.services = response.data
     },
 
     methods: {
