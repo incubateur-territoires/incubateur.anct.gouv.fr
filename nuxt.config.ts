@@ -2,14 +2,14 @@ import { defineNuxtConfig } from 'nuxt3'
 
 export default defineNuxtConfig({
   css: [
-    '@gouvfr/dsfr/dist/css/dsfr.min.css'
+    '@laruiss/vue-dsfr/dist/vue-dsfr-fonts.css',
+    '@laruiss/vue-dsfr/dist/vue-dsfr.css',
+    '@gouvfr/dsfr/dist/dsfr/dsfr.min.css',
   ],
-  meta: {
-    script: [
-      {
-        src: '/node_modules/@gouvfr/dsfr/dist/js/dsfr.module.js',
-        type: 'module'
-      }
-    ]
-  }
+  build: {
+    transpile: [
+      'oh-vue-icons/dist/v3/icon.es',
+      'oh-vue-icons/icons/ri/index.js',
+    ],
+  },
 })
