@@ -54,8 +54,15 @@
     },
 
     async created() {
-      const response = await $fetch('https://directus.incubateur.anct.gouv.fr/items/services/?access_token=confidant-ample-slapping-vitamins-freewill-unlivable')
-      this.services = response.data
+      const response = await $fetch('https://directus.incubateur.anct.gouv.fr/graphql?access_token=confidant-ample-slapping-vitamins-freewill-unlivable', {
+        method: 'POST',
+        body: { query: `query {
+          services {
+            nom
+          }
+        }`}
+      })
+      this.services = response.data.services
     },
 
     methods: {
