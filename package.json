@@ -1,17 +1,25 @@
 {
-  "private": false,
-  "type": "module",
+  "name": "incubateur-territoires",
+  "version": "1.0.0",
+  "private": true,
   "scripts": {
-    "dev": "nuxt dev",
+    "dev": "nuxt",
     "build": "nuxt build",
-    "start": "node .output/server/index.mjs",
-    "deploy": "gh-pages -d dist"
-  },
-  "devDependencies": {
-    "nuxt3": "latest"
+    "start": "nuxt start",
+    "generate": "nuxt generate"
   },
   "dependencies": {
     "@gouvfr/dsfr": "^1.2.1",
-    "@laruiss/vue-dsfr": "^1.0.0-beta.34"
+    "@nuxt/http": "^0.6.4",
+    "core-js": "^3.19.3",
+    "nuxt": "^2.15.8",
+    "vue": "^2.6.14",
+    "vue-server-renderer": "^2.6.14",
+    "vue-template-compiler": "^2.6.14",
+    "webpack": "^4.46.0"
+  },
+  "devDependencies": {
+    "@nuxt/types": "^2.15.8",
+    "@nuxt/typescript-build": "^2.1.0"
   }
 }
