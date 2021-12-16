@@ -27,9 +27,9 @@
           <div class="fr-grid-row fr-grid-row--gutters">
             <div class="fr-col-lg-3 fr-col-md-4 fr-col-sm-12" v-for="service in services">
               <Card
-              :title="service.nom"
-              :description="service.description"
-              image="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.WXUbigVrd4W8p067r5e6ggAAAA%26pid%3DApi&f=1"
+                :title="service.nom"
+                :description="service.description"
+                image="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.WXUbigVrd4W8p067r5e6ggAAAA%26pid%3DApi&f=1"
               />
             </div>
           </div>
@@ -42,17 +42,6 @@
 
 <script>
   export default {
-
-    data() {
-      return {
-        filters: {
-          types: [],
-          populations: [],
-        },
-        services: [],
-      }
-    },
-
     async fetch() {
       const response = await this.$http.$post('https://directus.incubateur.anct.gouv.fr/graphql?access_token=confidant-ample-slapping-vitamins-freewill-unlivable', {
         query: `
@@ -63,16 +52,18 @@
           }`
         }
       )
-      console.debug(response)
-      this.services = response.data.services
+      this.$store.commit('services/init', response.data.services)
+    },
+
+    computed: {
+      services() {
+        return this.$store.state.services.list
+      }
     },
 
     methods: {
       filter(name, value, active) {
-        active
-          ? this.filters[name].push(value)
-          : this.filters[name] = this.filters[name].filter(k => k !== value)
-        console.debug("current filters applied", this.filters)
+        this.$store.commit('services/filter', name, value, active)
       }
     }
   }
