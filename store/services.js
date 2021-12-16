@@ -15,6 +15,5 @@ export const mutations = {
     active
       ? state.filters[name].push(value)
       : state.filters[name] = state.filters[name].filter(k => k !== value)
-    console.debug("current filters applied", state.filters)
   },
 }

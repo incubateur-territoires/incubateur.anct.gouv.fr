@@ -28,7 +28,7 @@
             <div class="fr-col-lg-3 fr-col-md-4 fr-col-sm-12" v-for="service in services">
               <Card
                 :title="service.nom"
-                :description="service.description"
+                :description="service.type"
                 image="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.WXUbigVrd4W8p067r5e6ggAAAA%26pid%3DApi&f=1"
               />
             </div>
@@ -42,18 +42,6 @@
 
 <script>
   export default {
-    async fetch() {
-      const response = await this.$http.$post('https://directus.incubateur.anct.gouv.fr/graphql?access_token=confidant-ample-slapping-vitamins-freewill-unlivable', {
-        query: `
-          query {
-            services {
-              nom
-            }
-          }`
-        }
-      )
-      this.$store.commit('services/init', response.data.services)
-    },
 
     computed: {
       services() {
