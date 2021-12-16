@@ -1,7 +1,9 @@
 <template>
-  <div class="fr-checkbox-group">
-    <input type="checkbox" :id="uid" :value="value" :checked="checked" @change="$emit('change', $event.target.checked)">
-    <label class="fr-label" :for="uid">{{ label }}</label>
+  <div>
+    <div class="fr-checkbox-group">
+      <input type="checkbox" :id="`checkbox-${uid}`" :checked="checked" :value="value" @change="$emit('change', $event.target.checked)">
+      <label class="fr-label" :for="`checkbox-${uid}`">{{ label }}</label>
+    </div>
   </div>
 </template>
 
@@ -15,13 +17,18 @@
         default: false,
       },
     },
-    emits: ['change'],
 
     data() {
       return {
-        uid: Math.round(Math.random() * 99999)
+        uid: 0
       }
     },
+
+    mounted () {
+      this.uid = this._uid
+    },
+
+    emits: ['change'],
 
   }
 </script>
