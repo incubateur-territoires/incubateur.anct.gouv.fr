@@ -18,6 +18,12 @@ export const actions = {
             catalogue {
               nom
               description
+              decoupages_administratifs {
+                decoupage_administratif_id {
+                  id
+                  nom
+                }
+              }
               thematique {
                 id
                 thematique
@@ -46,6 +52,9 @@ export const actions = {
     if(state.facets.thematiques.length) {
       filters.push(`thematique: { id: { _in: ${JSON.stringify(state.facets.thematiques.map(v => Number(v)))}}}`)
     }
+    if(state.facets.decoupages_administratifs.length) {
+      filters.push(`decoupages_administratifs: { decoupage_administratif_id: { id: { _in: ${JSON.stringify(state.facets.decoupages_administratifs.map(v => Number(v)))} }}}`)
+    }
 
     const response = await this.$http.$post('https://directus.incubateur.anct.gouv.fr/graphql?access_token=confidant-ample-slapping-vitamins-freewill-unlivable', {
       query: `
@@ -53,6 +62,9 @@ export const actions = {
           catalogue(filter: { ${filters.join(', ')} }) {
             nom
             description
+            decoupages_administratifs {
+              id
+            }
             thematique {
               id
               thematique
