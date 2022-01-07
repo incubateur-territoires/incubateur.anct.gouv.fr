@@ -50,7 +50,7 @@ Dans cette optique, l'Incubateur a un [site internet](https://incubateur.anct.go
 - Démarrage dès que possible
 - Environnement et communauté beta.gouv : [https://beta.gouv.fr/](https://beta.gouv.fr/) (plus de détails ici également : [https://github.com/betagouv/beta.gouv.fr/wiki/Bienvenue](https://github.com/betagouv/beta.gouv.fr/wiki/Bienvenue)) En travaillant pour l'Incubateur des Territoire, vous devenez membre de l'Agence Nationale de la Cohésion des Territoires ainsi que de la [communauté beta.gouv](https://doc.incubateur.net/communaute/travailler-a-beta-gouv/bienvenue).
 
-## Candidater ****
+## Candidater :
 
 Envoyez nous votre candidature en remplissant le formulaire ci-dessous. 
 
