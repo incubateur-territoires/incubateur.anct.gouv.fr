@@ -4,7 +4,7 @@ poste_ouvert: 2022-01-07
 poste_ferme: 2022-02-22T23:00:00.000Z
 status: open
 contrat: indépendant/freelance
-role: Chargé.e de déploiement
+role: Ingénieur DevOps
 equipe: Incubateur des Territoires
 poste_pourvu: false
 airtable_formulaire: true
