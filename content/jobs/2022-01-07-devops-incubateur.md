@@ -1,7 +1,7 @@
 ---
 contact: incubateur@anct.gouv.fr
-poste_ouvert: 2021-11-05
-poste_ferme: 2021-12-22T23:00:00.000Z
+poste_ouvert: 2022-01-07
+poste_ferme: 2022-02-22T23:00:00.000Z
 status: open
 contrat: indépendant/freelance
 role: Chargé.e de déploiement
