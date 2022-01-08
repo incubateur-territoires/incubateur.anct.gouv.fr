@@ -77,6 +77,9 @@
             <li class="fr-nav__item">
               <nuxt-link class="fr-nav__link" to="/catalogue">Catalogue des services</nuxt-link>
             </li>
+            <li class="fr-nav__item">
+              <nuxt-link class="fr-nav__link" to="/recrutement">Recrutement</nuxt-link>
+            </li>
           </ul>
         </nav>
       </div>
