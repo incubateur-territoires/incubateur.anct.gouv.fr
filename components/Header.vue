@@ -72,16 +72,10 @@
         <nav class="fr-nav" id="navigation-869" role="navigation" aria-label="Menu principal">
           <ul class="fr-nav__list">
             <li class="fr-nav__item">
-              <a class="fr-nav__link" href="#" target="_self">accès direct</a>
+              <nuxt-link class="fr-nav__link" to="/">Accueil</nuxt-link>
             </li>
             <li class="fr-nav__item">
-              <a class="fr-nav__link" href="#" target="_self">accès direct</a>
-            </li>
-            <li class="fr-nav__item">
-              <a class="fr-nav__link" href="#" target="_self">accès direct</a>
-            </li>
-            <li class="fr-nav__item">
-              <a class="fr-nav__link" href="#" target="_self">accès direct</a>
+              <nuxt-link class="fr-nav__link" to="/catalogue">Catalogue des services</nuxt-link>
             </li>
           </ul>
         </nav>
