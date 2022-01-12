@@ -12,7 +12,7 @@
                 </p>
               </div>
               <div class="fr-header__operator">
-                <img src="@/assets/logo.svg" class="fr-responsive-img" style="max-height:4.0625rem;"
+                <img src="@/assets/logo.svg" class="fr-responsive-img" style="max-height:3rem;"
                   alt="Incubateur des Territoires" />
               </div>
               <div class="fr-header__navbar">
@@ -72,10 +72,16 @@
         <nav class="fr-nav" id="navigation-869" role="navigation" aria-label="Menu principal">
           <ul class="fr-nav__list">
             <li class="fr-nav__item">
-              <nuxt-link class="fr-nav__link" to="/">Accueil</nuxt-link>
+              <nuxt-link class="fr-nav__link" to="/actualites">Actualités</nuxt-link>
             </li>
             <li class="fr-nav__item">
-              <nuxt-link class="fr-nav__link" to="/catalogue">Catalogue des services</nuxt-link>
+              <nuxt-link class="fr-nav__link" to="/services">Offres de services</nuxt-link>
+            </li>
+            <li class="fr-nav__item">
+              <nuxt-link class="fr-nav__link" to="/catalogue">Outil pour les collectivités</nuxt-link>
+            </li>
+            <li class="fr-nav__item">
+              <a class="fr-nav__link" href="https://forum.incubateur.anct.gouv.fr" title="Consulter le Forum des Territoires">Forum</a>
             </li>
             <li class="fr-nav__item">
               <nuxt-link class="fr-nav__link" to="/recrutement">Recrutement</nuxt-link>

@@ -11,7 +11,9 @@
                 </a>
             </div>
             <div class="fr-footer__content">
-                <p class="fr-footer__content-desc">Lorem [...] elit ut.</p>
+                <p class="fr-footer__content-desc">L'Incubateur des Territoires est une mission de l'<a href="https://anct.gouv.fr" title="Visiter le site de l'ANCT">Agence Nationale de la Cohésion des Territoires</a>.
+                    Le code source de ce site web est disponible en licence libre.
+                    Le design de ce site est conçu avec le <a href="https://gouvfr.atlassian.net/wiki/spaces/DB/overview?homepageId=145359476" title="Consulter la documentation du Système de Design de l'État" target="_blank">système de design de l’État</a>.</p>
                 <ul class="fr-footer__content-list">
                     <li class="fr-footer__content-item">
                         <a class="fr-footer__content-link" href="https://legifrance.gouv.fr">legifrance.gouv.fr</a>
@@ -34,7 +36,7 @@
                     <a class="fr-footer__bottom-link" href="#">Plan du site</a>
                 </li>
                 <li class="fr-footer__bottom-item">
-                    <a class="fr-footer__bottom-link" href="#">Accessibilité: non/partiellement/totalement conforme</a>
+                    <a class="fr-footer__bottom-link" href="#">Accessibilité: non conforme</a>
                 </li>
                 <li class="fr-footer__bottom-item">
                     <a class="fr-footer__bottom-link" href="#">Mentions légales</a>
