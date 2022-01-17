@@ -48,6 +48,12 @@
   </div>
 </template>
 
+<script>
+  export default {
+    layout: 'raw'
+  }
+</script>
+
 <style>
   section:nth-of-type(even) {
     background-color: var(--background-alt-blue-france);
