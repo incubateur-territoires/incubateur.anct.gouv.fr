@@ -75,13 +75,13 @@
               <nuxt-link class="fr-nav__link" to="/actualites">Actualités</nuxt-link>
             </li>
             <li class="fr-nav__item">
-              <nuxt-link class="fr-nav__link" to="/catalogue">Offres de services</nuxt-link>
+              <nuxt-link class="fr-nav__link" to="/services">Offres de services</nuxt-link>
             </li>
             <li class="fr-nav__item">
               <nuxt-link class="fr-nav__link" to="/catalogue">Outil pour les collectivités</nuxt-link>
             </li>
             <li class="fr-nav__item">
-              <a class="fr-nav__link" href="https://forum.incubateur.anct.gouv.fr" title="Consulter le Forum des Territoires">Forum</a>
+              <a class="fr-nav__link" href="https://forum.incubateur.anct.gouv.fr" title="Consulter le Forum des Territoires" target="_blank" rel="noopener">Forum</a>
             </li>
             <li class="fr-nav__item">
               <nuxt-link class="fr-nav__link" to="/recrutement">Recrutement</nuxt-link>

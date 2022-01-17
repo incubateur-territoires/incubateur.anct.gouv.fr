@@ -31,18 +31,23 @@
 
     <section>
       <div class="fr-container fr-py-6w">
-        <h2>Besoin d'aide ?</h2>
-        <p>
-          <a href="https://forum.incubateur.anct.gouv.fr" title="consulter le Forum des Territoires">
-            Besoin de solliciter de l’aide ou un retour d’expérience auprès d’autres collectivités ?
-          </a>
-        </p>
-        <p>
-          Le forum est un outil de communication et d’échanges entre agents et élus des collectivités territoriales.</a>
-        </p>
-        <a class="fr-btn fr-mt-4w" href="https://forum.incubateur.anct.gouv.fr" title="consulter le Forum des Territoires">
-          Poser une question
-        </a>
+        <div class="fr-grid-row">
+          <div class="fr-col fr-col-md-8 fr-col-10">
+            <h2>Besoin d'aide ?</h2>
+            <p>
+              <a href="https://forum.incubateur.anct.gouv.fr" title="consulter le Forum des Territoires" target="_blank" rel="noopener">
+                Besoin de solliciter de l’aide ou un retour d’expérience auprès d’autres collectivités ?
+              </a>
+            </p>
+            <p>
+              Le forum est un outil de communication et d’échanges entre agents et élus des collectivités territoriales.</a>
+            </p>
+            <a class="fr-btn fr-mt-4w" href="https://forum.incubateur.anct.gouv.fr" title="consulter le Forum des Territoires">
+              Poser une question
+            </a>
+          </div>
+          <img class="fr-col fr-col-md-4 fr-col-2" style="max-height: 20rem" src="https://incubateur-discourse.s3.fr-par.scw.cloud/original/1X/d019efaad39757c6a23c764ddf5e3ef4036c892a.svg" title="Aide entre les collectivités">
+        </div>
       </div>
     </section>
   </div>
