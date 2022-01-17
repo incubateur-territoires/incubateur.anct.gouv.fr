@@ -1,5 +1,13 @@
 # incubateur-territoires
 
+
+## Deploy to Prod
+
+`yarn generate` will generate static files to _/docs_ dir.
+That directory is served by Github and should be pushed for
+deploying an update.
+
+
 ## Build Setup
 
 ```bash

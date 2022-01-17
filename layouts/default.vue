@@ -1,7 +1,7 @@
 <template>
   <div>
     <Header />
-    <main class="fr-container fr-py-6w">
+    <main>
       <div class="fr-grid-row">
         <div class="fr-col-12">
           <nuxt />

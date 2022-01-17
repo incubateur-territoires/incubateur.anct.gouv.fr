@@ -75,7 +75,7 @@
               <nuxt-link class="fr-nav__link" to="/actualites">Actualités</nuxt-link>
             </li>
             <li class="fr-nav__item">
-              <nuxt-link class="fr-nav__link" to="/services">Offres de services</nuxt-link>
+              <nuxt-link class="fr-nav__link" to="/catalogue">Offres de services</nuxt-link>
             </li>
             <li class="fr-nav__item">
               <nuxt-link class="fr-nav__link" to="/catalogue">Outil pour les collectivités</nuxt-link>
