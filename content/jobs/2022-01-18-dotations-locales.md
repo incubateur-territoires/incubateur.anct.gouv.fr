@@ -11,7 +11,7 @@ airtable_formulaire: false
 
 Nous recherchons un ou une designer UX/UI pour la startup `Dotations locales` de l'[Incubateur des Territoires](https://incubateur.anct.gouv.fr/a-propos/).
 
-Venez aider des territoires à estimer les dotations de l'état et apportez vos compétences pour rendre la législation calculable !
+Venez aider des territoires à estimer les dotations de l'État et apportez vos compétences pour rendre la législation calculable !
 
 Vous contribuerez à construire un produit au sein d'une [équipe autonome](https://blog.beta.gouv.fr/general/2016/11/28/equipes-autonomes/) et d'une famille d'incubateurs [beta.gouv.fr](https://beta.gouv.fr/approche/).
 
@@ -40,7 +40,7 @@ Conception et ergonomie :
 
 ## Compétences et expérience
 
--   Vous avez à cœur de rendre un service de qualité qui offre des opportunités de transformation des services publics, y compris en outillant des réutilisateurs potentiellement peu à l'aise avec le développement logiciel.
+-   Vous avez à cœur de rendre un service de qualité qui offre des opportunités de transformation des services publics, y compris en outillant des réutilisateurs potentiellement peu à l'aise avec le numérique.
 -   Vous avez des compétences en design d’expérience.
 -   Vous avez des connaissances en ergonomie et accessibilité.
 -   Vous faites preuve d'autonomie et d'une capacité à délivrer des résultats concrets sur la base de métriques d’impact.
@@ -56,4 +56,4 @@ Conception et ergonomie :
 
 ## Candidater
 
-Racontez-nous pourquoi vous avez envie de nous rejoindre et envoyez-nous votre LinkedIn / CV et portfolio, le tout à [sandra.chakroun@beta.gouv.fr](mailto:sandra.chakroun@beta.gouv.fr?subject=Candidature).
+Racontez-nous pourquoi vous avez envie de nous rejoindre et envoyez-nous votre LinkedIn / CV et portfolio, à [sandra.chakroun@beta.gouv.fr](mailto:sandra.chakroun@beta.gouv.fr?subject=Candidature).
