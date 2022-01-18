@@ -40,9 +40,11 @@ Conception et ergonomie :
 ## Compétences et expérience
 
 -   Vous avez à cœur de rendre un service de qualité qui offre des opportunités de transformation des services publics, y compris en outillant des réutilisateurs potentiellement peu à l'aise avec le développement logiciel.
-
--   Vous suivez les résultats obtenus sur la base de métriques d’impact.
--   Vous êtes intéressé·e par la collaboration avec des personnes métier et des équipes techniques ainsi que par les pratiques de contribution aux logiciels libres (ouverture par défaut, …).
+-   Vous avez des compétences en design d’expérience.
+-   Vous avez des connaissances en ergonomie et accessibilité.
+-   Vous faites preuve d'autonomie et d'une capacité à délivrer des résultats concrets sur la base de métriques d’impact.
+-   Vous avez des notions de développement web.
+-   Vous êtes intéressé·e par la collaboration avec des personnes métier et des équipes techniques ainsi que par les pratiques de contribution aux environnements libres (ouverture des travaux par défaut, logiciels libres, …).
 
 ## Modalités
 
