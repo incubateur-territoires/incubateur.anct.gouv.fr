@@ -23,15 +23,24 @@ Sélectionnée à au cours de la consultation France relance, elle est née du c
 
 ## Missions
 
-La mission comprend de la recherche utilisateur ainsi que de la conception/ergonomie :
+La mission comprend aussi bien de la recherche utilisateur que de la conception :
 
-* Investiguer les besoins des personnes en charge du budget et de sa planification dans les territoires (communes, métropoles, départements...) et identifier avec elles les besoins concrets d'estimation budgétaire et d'évolution des dotations en particulier.
+Recherche UX :
+
+* Comprendre les problématiques métier et les besoins usagers en investiguant les besoins des personnes en charge du budget et de sa planification dans les territoires (communes, métropoles, départements...).
+* Identifier avec les usagers les besoins concrets d'estimation budgétaire et d'évolution des dotations en particulier.
 * Formaliser les profils des usagers et leurs parcours.
-* Co-construire l'interface de l'outil répondant aux besoins identifiés et l'améliorer en continu.
+
+Conception et ergonomie :
+
+* Concevoir l'expérience produit (UX), les parcours utilisateurs et les maquettes qui répondent aux besoins des usagers.
+* Participer à l’amélioration continue des fonctionnalités de l’outil (ateliers utilisateurs, recueil de besoins, contribution à la feuille de route).
+* Travailler de concert avec l’équipe de développement pour la réalisation (recette).
 
 ## Compétences et expérience
 
 -   Vous avez à cœur de rendre un service de qualité qui offre des opportunités de transformation des services publics, y compris en outillant des réutilisateurs potentiellement peu à l'aise avec le développement logiciel.
+
 -   Vous suivez les résultats obtenus sur la base de métriques d’impact.
 -   Vous êtes intéressé·e par la collaboration avec des personnes métier et des équipes techniques ainsi que par les pratiques de contribution aux logiciels libres (ouverture par défaut, …).
 
