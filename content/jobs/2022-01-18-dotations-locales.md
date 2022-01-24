@@ -24,9 +24,9 @@ Sélectionnée au cours de la [Consultation du Plan de Relance](https://mon.incu
 
 ## Missions
 
-La mission comprend aussi bien de la recherche utilisateur que de la conception :
+La mission comprend aussi bien de la recherche utilisateur que de la conception et de l'interface utilisateur :
 
-Recherche UX :
+Expérience utilisateur (UX) :
 
 * Comprendre les problématiques métier et les besoins usagers en investiguant auprès des personnes en charge du budget et de sa planification dans les territoires (communes, métropoles, départements...).
 * Identifier avec les usagers les besoins concrets d'estimation budgétaire et d'évolution des dotations en particulier.
@@ -34,8 +34,12 @@ Recherche UX :
 
 Conception et ergonomie :
 
-* Concevoir l'expérience produit (UX), les parcours utilisateurs et les maquettes qui répondent aux besoins des usagers.
+* Concevoir l'expérience produit (UX) et les parcours usagers.
 * Participer à l’amélioration continue des fonctionnalités de l’outil (ateliers utilisateurs, recueil de besoins, contribution à la feuille de route).
+
+Interface utilisateur (UI) :
+
+* Produire et livrer des maquettes qui répondent aux besoins des usagers.
 * Travailler de concert avec l’équipe de développement pour la réalisation (recette).
 
 ## Compétences et expérience
