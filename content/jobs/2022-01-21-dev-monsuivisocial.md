@@ -5,7 +5,7 @@ poste_ferme: 2022-03-22T23:00:00.000Z
 status: open
 contrat: indépendant/freelance
 role: Développeur.se fullstack symfony
-equipe:Mon Suivi social
+equipe: Mon Suivi social
 poste_pourvu: false
 airtable_formulaire: true
 ---
