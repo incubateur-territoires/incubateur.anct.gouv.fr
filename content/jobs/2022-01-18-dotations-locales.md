@@ -20,7 +20,7 @@ Vous contribuerez à construire un produit au sein d'une [équipe autonome](http
 `Dotations locales` est une Startup d'État en construction incubée par l'[Incubateur des Territoires](https://incubateur.anct.gouv.fr/a-propos/) de l’Agence Nationale de la Cohésion des Territoires (ANCT).  
 L'incubateur a pour vocation de construire des services publics numériques en open source en collaboration avec les collectivités territoriales et leurs partenaires. Nous nous positionnons en tant que "fabrique à projets".
 
-Sélectionnée à au cours de la [Consultation du Plan de Relance](https://mon.incubateur.anct.gouv.fr/processes/transformation-numerique), `Dotations locales` est née du constat d'une évolution des concours financiers aux budgets des territoires ([ici, en 2022](https://www.courrierdesmaires.fr/article/finances-locales-de-la-taxe-d-habitation-aux-dotations-ce-qui-a-change-au-1er-janvier-2022.28127)) et de l'absence d'outils partagés permettant d'en anticiper les effets. Or, les [données ouvertes sur les territoires](http://www.dotations-dgcl.interieur.gouv.fr/consultation/accueil.php) ainsi que la naissance d'un [modèle open source des règles de calcul des dotations](https://git.leximpact.dev/openfisca/openfisca-france-dotations-locales) rendent cela possible.
+Sélectionnée au cours de la [Consultation du Plan de Relance](https://mon.incubateur.anct.gouv.fr/processes/transformation-numerique), `Dotations locales` est née du constat d'une évolution des concours financiers aux budgets des territoires ([ici, en 2022](https://www.courrierdesmaires.fr/article/finances-locales-de-la-taxe-d-habitation-aux-dotations-ce-qui-a-change-au-1er-janvier-2022.28127)) et de l'absence d'outils partagés permettant d'en anticiper les effets. Or, les [données ouvertes sur les territoires](http://www.dotations-dgcl.interieur.gouv.fr/consultation/accueil.php) ainsi que la naissance d'un [modèle open source des règles de calcul des dotations](https://git.leximpact.dev/openfisca/openfisca-france-dotations-locales) rendent cela possible.
 
 ## Missions
 
@@ -28,7 +28,7 @@ La mission comprend aussi bien de la recherche utilisateur que de la conception 
 
 Recherche UX :
 
-* Comprendre les problématiques métier et les besoins usagers en investiguant les besoins des personnes en charge du budget et de sa planification dans les territoires (communes, métropoles, départements...).
+* Comprendre les problématiques métier et les besoins usagers en investiguant auprès des personnes en charge du budget et de sa planification dans les territoires (communes, métropoles, départements...).
 * Identifier avec les usagers les besoins concrets d'estimation budgétaire et d'évolution des dotations en particulier.
 * Formaliser les profils des usagers et leurs parcours.
 
