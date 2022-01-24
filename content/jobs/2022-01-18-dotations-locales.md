@@ -31,6 +31,7 @@ Expérience utilisateur (UX) :
 * Comprendre les problématiques métier et les besoins usagers en investiguant auprès des personnes en charge du budget et de sa planification dans les territoires (communes, métropoles, départements...).
 * Identifier avec les usagers les besoins concrets d'estimation budgétaire et d'évolution des dotations en particulier.
 * Formaliser les profils des usagers et leurs parcours.
+* Mesurer l’impact des solutions mises en place (via outils de suivi type matomo)
 
 Conception et ergonomie :
 
@@ -40,7 +41,7 @@ Conception et ergonomie :
 Interface utilisateur (UI) :
 
 * Produire et livrer des maquettes qui répondent aux besoins des usagers.
-* Travailler de concert avec l’équipe de développement pour la réalisation (recette).
+* Travailler de concert avec l’équipe de développement pour la réalisation (adaptation aux contraintes techniques).
 
 ## Compétences et expérience
 
