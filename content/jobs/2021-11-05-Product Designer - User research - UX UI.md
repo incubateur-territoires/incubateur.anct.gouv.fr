@@ -13,7 +13,7 @@ airtable_formulaire: true
 
 ## Fiche de poste - Product Designer - UX UI designer
 
-L'Incubateur des Territoires recherche **un.e Product Designer ou UX UI** pour rejoindre l'équipe design !
+L'Incubateur des Territoires recherche **un.e Product Designer ou UX UI** pour rejoindre l'équipe !
 
 Vous aurez pour mission première de contribuer à l'accompagnement et à la structuration des services numériques proposés par l'Incubateur des Territoires et ses partenaires à destination des collectivités territoriales.
 
