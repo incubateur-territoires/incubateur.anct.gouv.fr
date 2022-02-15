@@ -11,9 +11,9 @@ airtable_formulaire: true
 
 ---
 
-## Fiche de poste - Product Designer - User research - UX UI
+## Fiche de poste - Product Designer - UX UI designer
 
-L'Incubateur des Territoires recherche **un.e Product Designer ou User researcher ou UX UI** pour rejoindre l'équipe design en cours de formation !
+L'Incubateur des Territoires recherche **un.e Product Designer ou UX UI** pour rejoindre l'équipe design !
 
 Vous aurez pour mission première de contribuer à l'accompagnement et à la structuration des services numériques proposés par l'Incubateur des Territoires et ses partenaires à destination des collectivités territoriales.
 
@@ -27,10 +27,10 @@ Le but final est d'obtenir des services utiles et pertinents pour un grand nombr
 
 ## **Modalités de travail**
 
-* Démarrage de la mission à partir de **décembre**
-* Possibilité de télétravail partiel
+* Démarrage de la mission ASAP
+* Possibilité de télétravail total ou partiel
 * Poste ouvert pour des indépendant·e·s sur une **durée de 6 mois renouvelable**
-* Nombres de jours : 3 à minima par semaine, idéal 5
+* Nombres de jours : 3 à minima par semaine
 
 ## Pourquoi nous rejoindre ?
 
@@ -48,7 +48,7 @@ Le but final est d'obtenir des services utiles et pertinents pour un grand nombr
 * Si vous aimez être autonome et libre
 * Si vous avez eu des expériences structurantes et formatrices sur la stratégie de conception de produits numériques
 * Si vous êtes exigeants.es et aimez être force de proposition
-* Si vous appréciez travailler dans une petite équipe de designers
+* Si vous appréciez travailler avec une équipe de designers
 
 ## Vos missions
 
