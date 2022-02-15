@@ -1,11 +1,11 @@
 ---
 contact: contactincubateur@anct.gouv.fr
-poste_ouvert: 2022-02-14
+poste_ouvert: 2022-02-15
 poste_ferme: 2022-04-T15:00:00.000Z
 status: open
 contrat: indépendant/freelance
 role: Développeur.se fullstack JS
-equipe: Infrastructures numériques
+equipe: Incubateur des Territoires
 poste_pourvu: false
 airtable_formulaire: true
 ---
