@@ -2,11 +2,11 @@
 contact: incubateur@anct.gouv.fr
 poste_ouvert: 2022-01-21
 poste_ferme: 2022-03-22T23:00:00.000Z
-status: open
+status: closed
 contrat: indépendant/freelance
 role: Développeur.se fullstack symfony
 equipe: Mon Suivi social
-poste_pourvu: false
+poste_pourvu: true
 airtable_formulaire: true
 ---
 L'Incubateur des Territoires recherche un ou une développeur.se symfony pour l'équipe Mon Suivi Social.
@@ -17,13 +17,13 @@ Dans le cadre du Programme national d'investigations mené par l'Incubateur des 
 
 Au niveau de l’accompagnement social, il gère : domiciliation, aide sociale (instruction des demandes pour établissements personnes âgées, handicapées ou pour aides à domicile), Aides financières d’urgence, Accompagnement social, Visites de convivialité, Aide au permis, Logement d’urgence.
 
-Au sein de la structure, 8 agents travaillent à l’accompagnement des usagers et ont chacun en charge des dossiers en particulier. Les dossiers des bénéficiaires sont suivis et archivés par chaque agent (tableaux excel et/ou dossier papier). Les agents au guichet qui reçoivent les appels, accueillent les usagers et parfois donnent des RDV n’ont pas l’accès aux dossiers et ne peuvent souvent pas renseigner de manière optimale (besoin de questionner les collègues ou rechercher dans les dossiers des collègues). 
+Au sein de la structure, 8 agents travaillent à l’accompagnement des usagers et ont chacun en charge des dossiers en particulier. Les dossiers des bénéficiaires sont suivis et archivés par chaque agent (tableaux excel et/ou dossier papier). Les agents au guichet qui reçoivent les appels, accueillent les usagers et parfois donnent des RDV n’ont pas l’accès aux dossiers et ne peuvent souvent pas renseigner de manière optimale (besoin de questionner les collègues ou rechercher dans les dossiers des collègues).
 
 Aucune centralisation des informations bénéficiaires n’existe actuellement. Le problème est donc un défaut d’outillage de la part des agents.Le problème est identifié principalement au niveau des agents du CIAS (8 agents). Les usagers peuvent être indirectement impactés par les délais de réponse et délai pour obtenir un RDV.
 
-Le manque d’un outil informatique centralisé fait perdre aux agents un temps précieux : 
+Le manque d’un outil informatique centralisé fait perdre aux agents un temps précieux :
 
-* au moment d’établir des statistiques (très grosse charge de travail)au moment de renseigner les usagers lorsqu’ils appellent ou qu’ils se présentent à l’accueil 
+* au moment d’établir des statistiques (très grosse charge de travail)au moment de renseigner les usagers lorsqu’ils appellent ou qu’ils se présentent à l’accueil
 * aux travailleurs sociaux, qui doivent recevoir les bénéficiaires alors que l’information si elle était accessible à tous les agents pourrait leur être donnée immédiatement par les agents d’accueil.
 
 Le temps passé à gérer administrativement et manuellement les dossiers des bénéficiaires, n’est pas du temps passé à l’accompagnement humain et au développement de projets sociaux. La situation a tendance à s'aggraver en raison de l’élargissement du périmètre du CIAS (de 10 communes à 55 communes en seulement 10 ans). Le nombre de bénéficiaire est en constante progression sur tous les volets de l’action sociale (ex domiciliation +55% en 3 ans à effectif constant).
@@ -32,7 +32,7 @@ Le temps passé à gérer administrativement et manuellement les dossiers des b�
 
 Suite au benchmark de plusieurs solutions existantes, les coûts se révèlent comme un frein majeur à l’équipement des petites ou moyennes structures n’utilisant que quelques fonctionnalités des solutions. Par ailleurs, il représente, de façon cumulée, un épanchement budgétaire national énorme (15 000 CCAS/CIAS au niveau national).
 
-Toutefois, un logiciel open-source existant a été identifié : https://www.chill.social/ et semble pouvoir correspondre aux besoins des CCAS. Cependant, un certain nombre de fonctionnalités doivent être intégrées pour pouvoir répondre le mieux aux besoins des agents travailleurs sociaux. 
+Toutefois, un logiciel open-source existant a été identifié : https://www.chill.social/ et semble pouvoir correspondre aux besoins des CCAS. Cependant, un certain nombre de fonctionnalités doivent être intégrées pour pouvoir répondre le mieux aux besoins des agents travailleurs sociaux.
 
 En lien avec l'équipe de développement existante, il s'agit donc de contribuer à un commun numérique destiné à l'accompagnement social dans les petites communes.
 
@@ -64,7 +64,7 @@ Vous êtes familier avec :
 * Le fait de travailler avec des équipes Design et Produit ;
 * Le fait de participer à la recherche utilisateurs ;
 * L’écosystème open-source et ses bonnes pratiques, Git, Github / Gitlab, Markdown… ;
-* Le fait de contribuer à un commun numérique ; 
+* Le fait de contribuer à un commun numérique ;
 * Une préférence pour des solutions simples et pragmatiques ;
 * Une connaissance des méthodes de développement agile.
 
@@ -76,7 +76,7 @@ Vous êtes familier avec :
 
 ### Candidater **:**
 
-Envoyez nous votre CV via le formulaire ci-dessous. 
+Envoyez nous votre CV via le formulaire ci-dessous.
 
 Merci de préciser vos références (GitHub, GitLab ou autres sources disponibles).
 
